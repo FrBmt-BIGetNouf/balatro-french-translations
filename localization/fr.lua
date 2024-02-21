@@ -3631,7 +3631,7 @@ return {
             ["b_booster_packs"] = "Paquets Booster",
             ["ph_choose_blind_1"] = "Choisissez votre",
             ["k_card_stats"] = "Stats des cartes",
-            ["k_nope_ex"] = "Non !",
+            ["k_nope_ex"] = "Nope !",
             ["k_unknown"] = "?????",
             ["k_seeded_run"] = "Partie avec seed",
             ["k_hud_discards"] = "Défausses",
