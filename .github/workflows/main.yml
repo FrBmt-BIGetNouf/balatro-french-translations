@@ -9,3 +9,5 @@ jobs:
       uses: johnnyhuy/actions-discord-git-webhook@main 
       with:
         webhook_url: ${{ secrets.DISCORD_WEBHOOK }}
+        repo_name: balatro-french-translation
+        censor_username: false
