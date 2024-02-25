@@ -3,18 +3,18 @@ return {
     ["descriptions"] = {
         ["Back"] = {
             ["b_challenge"] = {
-                ["name"] = "Jeu du défi",
+                ["name"] = "Jeu du Défi",
                 ["text"] = {
                     [1] = ""
                 }
             },
             ["b_plasma"] = {
-                ["name"] = "Jeu plasmique",
+                ["name"] = "Jeu Plasma",
                 ["text"] = {
-                    [1] = "Équilibrez les {C:blue}Jetons{} et le",
-                    [2] = "{C:red}Multi.{} lors du calcul du",
+                    [1] = "Moyenne {C:blue}Jetons{} et {C:red}Multi{}",
+                    [2] = " lors du comptage du",
                     [3] = "score de la main jouée",
-                    [4] = "Taille de la Blinde de base {C:attention}x#1#{}"
+                    [4] = "Taille des Blindes {C:attention}x#1#{}"
                 }
             },
             ["b_nebula"] = {
