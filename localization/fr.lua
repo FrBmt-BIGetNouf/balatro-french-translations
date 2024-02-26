@@ -4,13 +4,13 @@ return {
             j_joker = {
                 name = "Joker",
                 text = {
-                    "Multi. {C:red,s:1.1}+#1#{}"
+                    "{C:red,s:1.1}+#1#{} Multi"
                 }
             },
             j_jolly = {
                 name = "Joker joyeux",
                 text = {
-                    "Multi. {C:red}+#1#{} si",
+                    "{C:red}+#1#{} Multi si",
                     "la main jouée contient",
                     "une {C:attention}#2#"
                 }
@@ -18,7 +18,7 @@ return {
             j_zany = {
                 name = "Joker blagueur",
                 text = {
-                    "Multi. {C:red}+#1#{} si",
+                    "{C:red}+#1#{} Multi si",
                     "la main jouée contient",
                     "un {C:attention}#2#"
                 }
@@ -26,7 +26,7 @@ return {
             j_mad = {
                 name = "Joker fêlé",
                 text = {
-                    "Multi. {C:red}+#1#{} si",
+                    "{C:red}+#1#{} Multi si",
                     "la main jouée contient",
                     "un {C:attention}#2#"
                 }
@@ -34,7 +34,7 @@ return {
             j_crazy = {
                 name = "Joker déjanté",
                 text = {
-                    "Multi. {C:red}+#1#{} si",
+                    "{C:red}+#1#{} Multi si",
                     "la main jouée contient",
                     "une {C:attention}#2#"
                 }
@@ -42,7 +42,7 @@ return {
             j_droll = {
                 name = "Joker plaisantin",
                 text = {
-                    "Multi. {C:red}+#1#{} si",
+                    "{C:red}+#1#{} Multi si",
                     "la main jouée contient",
                     "une {C:attention}#2#"
                 }
@@ -50,17 +50,17 @@ return {
             j_half = {
                 name = "Demi-joker",
                 text = {
-                    "Multi. {C:red}+#1#{} si",
+                    "{C:red}+#1#{} Multi si",
                     "la main jouée contient",
-                    "{C:attention}#2#{} ou moins de cartes"
+                    "{C:attention}#2#{} cartes ou moins"
                 }
             },
             j_fortune_teller = {
                 name = "Voyant",
                 text = {
-                    "Multi. {C:red}+#1#{} par",
+                    "{C:red}+#1#{} Multi par",
                     "carte de {C:purple}Tarot{} utilisée",
-                    "{C:inactive}(Actuellement {C:red}+#2#{C:inactive})"
+                    "{C:inactive}(Actuellement {C:red}+#2#{C:inactive} Multi)"
                 }
             },
             j_juggler = {
@@ -72,38 +72,37 @@ return {
             j_drunkard = {
                 name = "Ivrogne",
                 text = {
-                    "{C:red}+#1#{} défausse"
+                    "{C:red}+#1#{} défausse par manche"
                 }
             },
             j_stone = {
                 name = "Joker de pierre",
                 text = {
-                    "Ce Joker gagne {C:chips}+#1#{} Jetons",
-                    "pour chaque {C:attention}carte Pierre",
-                    "dans votre jeu complet",
+                    "{C:chips}+#1#{} Jetons par {C:attention}carte Pierre",
+                    "dans votre Jeu complet",
                     "{C:inactive}(Actuellement {C:chips}+#2#{C:inactive} Jetons)"
                 }
             },
             j_golden = {
                 name = "Joker d'or",
                 text = {
-                    "Gagnez {C:money}#1# ${} à",
+                    "Octroie {C:money}#1# ${} à",
                     "la fin de la manche"
                 }
             },
             j_stencil = {
-                name = "Pochoir de joker",
+                name = "Pochoir de Joker",
                 text = {
-                    "Multi. {X:red,C:white}x#1#{} pour chaque",
-                    "emplacement {C:attention}Joker{} vide",
+                    "{X:red,C:white}x#1#{} Multi par",
+                    "emplacement de {C:attention}Joker{} vide",
                     "{s:0.8}Pochoir de Joker inclus",
-                    "{C:inactive}(Actuellement {X:red,C:white} x#1# {C:inactive})"
+                    "{C:inactive}(Actuellement {X:red,C:white}x#1#{C:inactive}) Multi"
                 }
             },
             j_four_fingers = {
                 name = "Quatre doigts",
                 text = {
-                    "Toutes les {C:attention}Couleurs{} et les",
+                    "Toutes les {C:attention}Couleurs{} et",
                     "{C:attention}Quintes{} peuvent être",
                     "effectuées avec {C:attention}4{} cartes"
                 }
@@ -128,7 +127,7 @@ return {
                 text = {
                     "Les cartes jouées avec",
                     "une couleur {C:diamonds}#2#{} octroient",
-                    "{C:mult}+#1#{} au Multi. lorsqu'elles marquent des points"
+                    "{C:mult}+#1#{} Multi lorsqu'elles sont comptées"
                 }
             },
             j_lusty_joker = {
@@ -136,7 +135,7 @@ return {
                 text = {
                     "Les cartes jouées avec",
                     "une couleur {C:hearts}#2#{} octroient",
-                    "{C:mult}+#1#{} au Multi. lorsqu'elles marquent des points"
+                    "{C:mult}+#1#{} Multi lorsqu'elles sont comptées"
                 }
             },
             j_wrathful_joker = {
@@ -144,7 +143,7 @@ return {
                 text = {
                     "Les cartes jouées avec",
                     "une couleur {C:spades}#2#{} octroient",
-                    "{C:mult}+#1#{} au Multi. lorsqu'elles marquent des points"
+                    "{C:mult}+#1#{} Multi lorsqu'elles sont comptées"
                 }
             },
             j_gluttenous_joker = {
@@ -152,57 +151,55 @@ return {
                 text = {
                     "Les cartes jouées avec",
                     "une couleur {C:clubs}#2#{} octroient",
-                    "{C:mult}+#1#{} au Multi. lorsqu'elles marquent des points"
+                    "{C:mult}+#1#{} Multi lorsqu'elles sont comptées"
                 }
             },
             j_ceremonial = {
                 name = "Dague de cérémonie",
                 text = {
                     "Lorsque la {C:attention}Blinde{} est sélectionnée,",
-                    "détruisez le Joker situé à droite",
-                    "et ajoutent de manière permanente le {C:attention}double",
-                    "de sa valeur de vente à ce {C:attention}Multi.",
-                    "{C:inactive}(Actuellement Multi. {C:mult}+#1#{C:inactive})"
+                    "détruit le Joker situé à sa droite",
+                    "et ajoute de manière permanente le {C:attention}double",
+                    "de sa valeur de vente à ce {C:attention}Multi",
+                    "{C:inactive}(Actuellement {C:mult}+#1#{C:inactive} Multi)"
                 }
             },
             j_banner = {
                 name = "Bannière",
                 text = {
-                    "{C:chips}+#1#{} Jetons pour",
-                    "chaque {C:attention}défausse",
-                    "restante"
+                    "{C:chips}+#1#{} Jetons par",
+                    "{C:attention}défausse{} restante"
                 }
             },
             j_mystic_summit = {
                 name = "Sommet mystique",
                 text = {
-                    "Multi. {C:mult}+#1#{} lorsqu'il y a",
-                    "{C:attention}#2#{} défausse",
-                    "restante"
+                    "{C:mult}+#1#{} Multi s'il y a",
+                    "{C:attention}#2#{} défausse restante"
                 }
             },
             j_marble = {
                 name = "Joker de marbre",
                 text = {
                     "Ajoute une carte {C:attention}Pierre{}",
-                    "au jeu lorsque la",
+                    "au Jeu lorsque la",
                     "{C:attention}Blinde{} est sélectionnée"
                 }
             },
             j_loyalty_card = {
                 name = "Carte de fidélité",
                 text = {
-                    "Multi. {X:red,C:white}x#1#{} toutes les",
+                    "{X:red,C:white}x#1#{} Multi toutes les",
                     "{C:attention}#2#{} mains jouées",
-                    "{C:inactive}#3#e"
+                    "{C:inactive}#3#"
                 }
             },
             j_8_ball = {
                 name = "N° 8",
                 text = {
-                    "Créez une carte {C:planet}Planète{}",
+                    "Crée une carte {C:planet}Planète{}",
                     "si la main jouée contient",
-                    "{C:attenetion}#1#{} {C:attention}8{} ou plus",
+                    "au moins {C:attention}#1#{} cartes {C:attention}8{}",
                     "{C:inactive}(Selon la place disponible)"
                 }
             },
@@ -215,9 +212,9 @@ return {
             j_dusk = {
                 name = "Crépuscule",
                 text = {
-                    "Déclenchez à nouveau toutes les",
-                    "cartes marquantes dans la main",
-                    "{C:attention}finale{C:attention}{} de la manche"
+                    "Déclenche à nouveau toutes les",
+                    "cartes comptées dans la main",
+                    "{C:attention}finale{} de la manche"
                 }
             },
             j_raised_fist = {
@@ -225,31 +222,31 @@ return {
                 text = {
                     "Ajoute le {C:attention}double{} de la valeur",
                     "de la carte {C:attention}la plus faible{}",
-                    "en main au Multi."
+                    "en main au Multi"
                 }
             },
             j_chaos = {
                 name = "Chaos le clown",
                 text = {
-                    "{C:attention}#1#{} {C:green}Nouveau lancer gratuit",
-                    "par boutique"
+                    "{C:attention}#1#{} {C:green}Réapprovisionnement",
+                    "gratuit par boutique"
                 }
             },
             j_fibonacci = {
                 name = "Fibonacci",
                 text = {
-                    "Chaque {C:attention}As{},",
-                    "{C:attention}2{}, {C:attention}3{}, {C:attention}5{}, ou {C:attention}8{} joué octroie",
-                    "{C:mult}+#1#{} au Multi. lorsque ces cartes marquent des points"
+                    "Chaque carte {C:attention}As{},",
+                    "{C:attention}2{}, {C:attention}3{}, {C:attention}5{}, ou {C:attention}8{} jouée octroie",
+                    "{C:mult}+#1#{} Multi lorsqu'elle est comptée"
                 }
             },
             j_steel_joker = {
                 name = "Joker d'acier",
                 text = {
-                    "Ce Joker gagne {X:mult,C:white} x#1# {} au Multi.",
+                    "Ce Joker gagne {X:mult,C:white}x#1#{} Multi",
                     "pour chaque carte {C:attention}Acier",
                     "dans votre jeu complet",
-                    "{C:inactive}(Actuellement Multi. {X:mult,C:white} x#2# {C:inactive})"
+                    "{C:inactive}(Actuellement {X:mult,C:white} x#2# {C:inactive} Multi)"
                 }
             },
             j_scary_face = {
@@ -257,31 +254,31 @@ return {
                 text = {
                     "Les cartes {C:attention}Figure{} jouées",
                     "octroient {C:chips}+#1#{} Jetons",
-                    "en marquant des points"
+                    "lorsqu'elles sont comptées"
                 }
             },
             j_abstract = {
                 name = "Joker abstrait",
                 text = {
-                    "Multi. {C:mult}+#1#{} pour",
-                    "chaque carte {C:attention}Joker{}",
-                    "{C:inactive}(Actuellement Multi. {C:red}+#2#{C:inactive})"
+                    "{C:mult}+#1#{} Multi par",
+                    "carte {C:attention}Joker{}",
+                    "{C:inactive}(Actuellement {C:red}+#2#{C:inactive} Multi)"
                 }
             },
             j_delayed_grat = {
                 name = "Récompense différée",
                 text = {
-                    "Gagnez {C:money}#1# ${} par {C:attention}défausse{} si",
+                    "Octroie {C:money}#1# ${} par {C:attention}défausse{} si",
                     "aucune défausse n'est utilisée",
-                    "avant la fin de la manche"
+                    "pendant la manche"
                 }
             },
             j_hack = {
                 name = "Imposteur",
                 text = {
-                    "Déclenchez à nouveau",
-                    "chaque",
-                    "{C:attention}2{}, {C:attention}3{}, {C:attention}4{} ou {C:attention}5{} joué"
+                    "Déclenche à nouveau",
+                    "chaque carte",
+                    "{C:attention}2{}, {C:attention}3{}, {C:attention}4{} ou {C:attention}5{} jouée"
                 }
             },
             j_pareidolia = {
@@ -295,7 +292,7 @@ return {
             j_gros_michel = {
                 name = "Gros Michel",
                 text = {
-                    "Multi. {C:mult}+#1#{}",
+                    "{C:mult}+#1#{} Multi",
                     "{C:green}#2# chance(s) sur #3#{} que cette",
                     "carte soit détruite",
                     "à la fin de la manche"
@@ -306,7 +303,7 @@ return {
                 text = {
                     "Les cartes jouées",
                     "de valeur {C:attention}paire{} octroient",
-                    "{C:mult}+#1#{} au Multi. lorsque ces cartes marquent des points",
+                    "{C:mult}+#1#{} Multi lorsqu'elles sont comptées",
                     "{C:inactive}(10, 8, 6, 4, 2)"
                 }
             },
@@ -315,17 +312,17 @@ return {
                 text = {
                     "Les cartes jouées",
                     "de valeur {C:attention}impaire{} octroient",
-                    "{C:chips}+#1#{} Jetons lorsque ces cartes marquent des points",
+                    "{C:chips}+#1#{} Jetons lorsqu'elles sont comptées",
                     "{C:inactive}(A, 9, 7, 5, 3)"
                 }
             },
             j_scholar = {
                 name = "Érudit",
                 text = {
-                    "Les {C:attention}As{} joués",
+                    "Les cartes {C:attention}As{} jouées",
                     "octroient {C:chips}+#2#{} Jetons",
-                    "et {C:mult}+#1#{} au Multi.",
-                    "en marquant des points"
+                    "et {C:mult}+#1#{} Multi",
+                    "lorsqu'elles sont comptées"
                 }
             },
             j_business = {
@@ -333,40 +330,39 @@ return {
                 text = {
                     "Les cartes {C:attention}Figure{} jouées ont",
                     "{C:green}#1# chance(s) sur #2#{}",
-                    "d'octroyer {C:money}2 ${} en marquant des points"
+                    "d'octroyer {C:money}2 ${} lorsqu'elles sont comptées"
                 }
             },
             j_supernova = {
                 name = "Supernova",
                 text = {
                     "Ajoute le nombre de",
-                    "fois qu'une {C:attention}main de poker{} a",
-                    "été jouée au Multi."
+                    "fois que la {C:attention}main de poker{} a",
+                    "été jouée au Multi"
                 }
             },
             j_ride_the_bus = {
                 name = "Tour en bus",
                 text = {
-                    "Multi. {C:mult}+#1#{} par",
+                    "{C:mult}+#1#{} Multi par",
                     "main consécutive",
                     "jouée sans",
-                    "carte {C:attention}Figure{} marquante",
-                    "{C:inactive}(Actuellement Multi. {C:mult}+#2#{C:inactive})"
+                    "carte {C:attention}Figure{} comptée",
+                    "{C:inactive}(Actuellement {C:mult}+#2#{C:inactive} Multi)"
                 }
             },
             j_space = {
                 name = "Joker de l'espace",
                 text = {
                     "{C:green}#1# chance(s) sur #2#{}",
-                    "d'augmenter le niveau",
-                    "de la {C:attention}main de poker{} jouée"
+                    "d'améliorer la {C:attention}main de poker{} jouée"
                 }
             },
             j_egg = {
                 name = "Œuf",
                 text = {
-                    "Gagnez {C:money}#1# ${} de",
-                    "la {C:attention}valeur de vente{} à",
+                    "Augmente de {C:money}#1# ${}",
+                    "sa {C:attention}valeur de vente{} à",
                     "la fin de la manche"
                 }
             },
@@ -381,15 +377,15 @@ return {
             j_blackboard = {
                 name = "Tableau noir",
                 text = {
-                    "Multi. {X:red,C:white}x#1#{} si toutes",
+                    "{X:red,C:white}x#1#{} Multi si toutes",
                     "les cartes en main",
-                    "sont de type {C:spades}#2#{} ou {C:clubs}#3#{}"
+                    "sont des cartes {C:spades}#2#{} ou {C:clubs}#3#{}"
                 }
             },
             j_runner = {
                 name = "Coureur",
                 text = {
-                    "Octroie {C:chips}+#2#{} Jetons",
+                    "Augmente de {C:chips}+#2#{} Jetons",
                     "si la main jouée",
                     "contient une {C:attention}Quinte{}",
                     "{C:inactive}(Actuellement {C:chips}+#1#{C:inactive} Jetons)"
@@ -407,23 +403,22 @@ return {
                 name = "ADN",
                 text = {
                     "Si la {C:attention}première main{} de la manche",
-                    "ne contient qu'{C:attention}une{} carte, ajoutez-en une",
-                    "copie permanente au jeu",
-                    "et placez-la dans la {C:attention}main"
+                    "ne contient qu'{C:attention}une{} carte, créez-en une",
+                    "copie permanente et placez-la dans la {C:attention}main"
                 }
             },
             j_splash = {
                 name = "Plouf",
                 text = {
                     "Chaque {C:attention}carte jouée",
-                    "compte dans l'attribution des points"
+                    "est comptée"
                 }
             },
             j_blue_joker = {
                 name = "Joker bleu",
                 text = {
-                    "{C:chips}+#1#{} Jetons pour chaque",
-                    "carte restante dans le {C:attention}jeu",
+                    "{C:chips}+#1#{} Jetons par",
+                    "carte restante dans le {C:attention}Jeu",
                     "{C:inactive}(Actuellement {C:chips}+#2#{C:inactive} Jetons)"
                 }
             },
@@ -431,17 +426,17 @@ return {
                 name = "Sixième sens",
                 text = {
                     "Si la {C:attention}première main{} de la manche est",
-                    "un {C:attention}6{} simple, détruisez-la et",
-                    "créez une carte {C:spectral}Spectrale{}",
+                    "une carte {C:attention}6{} seule, la détruit et",
+                    "crée une carte {C:spectral}Spectrale{}",
                     "{C:inactive}(Selon la place disponible)"
                 }
             },
             j_constellation = {
                 name = "Constellation",
                 text = {
-                    "Gagnez {X:mult,C:white} x#1# {} au Multi.",
+                    "Gagnez {X:mult,C:white} x#1# {} Multi",
                     "par carte {C:planet}Planète{} utilisée",
-                    "{C:inactive}(Actuellement Multi. {X:mult,C:white}x#2#{C:inactive})"
+                    "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
                 }
             },
             j_hiker = {
@@ -449,13 +444,13 @@ return {
                 text = {
                     "Chaque {C:attention}carte{} jouée",
                     "gagne de façon permanente",
-                    "{C:chips}+#1#{} Jetons en marquant des points"
+                    "{C:chips}+#1#{} Jetons lorsqu'elle est comptée"
                 }
             },
             j_faceless = {
                 name = "Joker sans visage",
                 text = {
-                    "Gagnez {C:money}#1# ${} si {C:attention}#2#{}",
+                    "Octroie {C:money}#1# ${} si {C:attention}#2#{}",
                     "{C:attention}cartes Figure{} ou plus",
                     "sont défaussées",
                     "en même temps"
@@ -464,25 +459,25 @@ return {
             j_green_joker = {
                 name = "Joker vert",
                 text = {
-                    "Multi. {C:mult}+#1#{} par main jouée",
-                    "Multi. {C:mult}-#2#{} par défausse",
-                    "{C:inactive}(Actuellement Multi. {C:mult}+#3#{C:inactive})"
+                    "{C:mult}+#1#{} Multi par main jouée",
+                    "{C:mult}-#2#{} Multi par défausse",
+                    "{C:inactive}(Actuellement {C:mult}+#3#{C:inactive} Multi)"
                 }
             },
             j_superposition = {
                 name = "Superposition",
                 text = {
-                    "Créez une carte {C:tarot}Tarot{} si",
-                    "la main de poker contient un",
-                    "{C:attention}As{} et une {C:attention}Quinte{}",
+                    "Crée une carte de {C:tarot}Tarot{} si",
+                    "la main jouée contient une",
+                    "carte {C:attention}As{} et une {C:attention}Quinte{}",
                     "{C:inactive}(Selon la place disponible)"
                 }
             },
             j_todo_list = {
                 name = "Liste des tâches",
                 text = {
-                    "Gagnez {C:money}#1# ${} si la {C:attention}main de poker{}",
-                    "est de type {C:attention}#2#{},",
+                    "Octroie {C:money}#1# ${} si la {C:attention}main de poker{} jouée",
+                    "est un(e) {C:attention}#2#{},",
                     "cette main change",
                     "à chaque gain"
                 }
@@ -491,10 +486,10 @@ return {
                 name = "Ticket d'or",
                 text = {
                     "Les cartes {C:attention}Or{} jouées",
-                    "octroient {C:money}#1# ${} en marquant des points"
+                    "octroient {C:money}#1# ${} lorsqu'elles sont comptées"
                 },
                 unlock = {
-                    "Jouez une main à 5 cartes",
+                    "Jouer une main de 5 cartes",
                     "qui ne contient que des",
                     "cartes {C:attention,E:1}Or{}"
                 }
@@ -509,29 +504,29 @@ return {
                     "{S:1.1,C:red,E:2}S'autodétruit{}"
                 },
                 unlock = {
-                    "Perdez {C:attention,E:1}#1#{} parties",
+                    "Perdre {C:attention,E:1}#1#{} parties",
                     "{C:inactive}(#2#)"
                 }
             },
             j_acrobat = {
                 name = "Acrobate",
                 text = {
-                    "Multi. {X:red,C:white}x#1#{} sur la main",
-                    "{C:attention}finale{C:attention}{} de la manche"
+                    "{X:red,C:white}x#1#{} Multi sur la main",
+                    "{C:attention}finale{} de la manche"
                 },
                 unlock = {
-                    "Jouez {C:attention,E:1}#1#{} mains",
+                    "Jouer {C:attention,E:1}#1#{} mains",
                     "{C:inactive}(#2#)"
                 }
             },
             j_sock_and_buskin = {
                 name = "Tragicomédie",
                 text = {
-                    "Déclenchez à nouveau toutes les",
+                    "Déclenche à nouveau toutes les",
                     "cartes {C:attention}Figure{} jouées"
                 },
                 unlock = {
-                    "Jouez un total de",
+                    "Jouer un total de",
                     "{C:attention,E:1}#1#{} cartes Figure",
                     "{C:inactive}(#2#)"
                 }
@@ -541,12 +536,12 @@ return {
                 text = {
                     "Ajoute la valeur de vente de",
                     "tous les {C:attention}Jokers{} possédés à gauche",
-                    "de cette carte au Multi.",
-                    "{C:inactive}(Actuellement Multi. {C:mult}+#1#{C:inactive})"
+                    "de cette carte au Multi",
+                    "{C:inactive}(Actuellement {C:mult}+#1#{C:inactive} Multi)"
                 },
                 unlock = {
-                    "Vendez un total de",
-                    "{C:attention,E:1}#1#{} Cartes Joker",
+                    "Vendre un total de",
+                    "{C:attention,E:1}#1#{} cartes Joker",
                     "{C:inactive}(#2#)"
                 }
             },
@@ -557,7 +552,7 @@ return {
                     "{C:red}-#2#{} main par manche"
                 },
                 unlock = {
-                    "Gagnez {C:attention,E:1}#1#{} manches",
+                    "Gagner {C:attention,E:1}#1#{} manches",
                     "consécutives en ne jouant",
                     "qu'une seule main"
                 }
@@ -566,26 +561,25 @@ return {
                 name = "Certificat",
                 text = {
                     "Au début de la manche,",
-                    "ajoutez une {C:attention}carte{} à {C:attention}jouer",
+                    "crée une {C:attention}carte à jouer",
                     "aléatoire avec un",
                     "{C:attention}sceau{} aléatoire dans votre main"
                 },
                 unlock = {
-                    "Vous devez avoir une carte",
-                    "à jouer Or",
+                    "Avoir une carte Or",
                     "sur laquelle figure un {C:attention,E:1}Sceau d'or"
                 }
             },
             j_smeared = {
                 name = "Joker barbouillé",
                 text = {
-                    "Les {C:hearts}Cœurs{} et les {C:diamonds}Carreaux",
+                    "Les cartes {C:hearts}Cœur{} et {C:diamonds}Carreau",
                     "comptent comme des cartes de même couleur,",
-                    "et les {C:spades}Piques{} et {C:spades}Trèfles",
+                    "les cartes {C:spades}Pique{} et {C:spades}Trèfle",
                     "comptent comme des cartes de même couleur"
                 },
                 unlock = {
-                    "Vous devez avoir au moins {C:attention}#1#",
+                    "Avoir au moins {C:attention}#1#",
                     "{E:1,C:attention}#2#{} au minimum dans",
                     "votre jeu"
                 }
@@ -593,24 +587,24 @@ return {
             j_throwback = {
                 name = "Rappel",
                 text = {
-                    "{X:mult,C:white} x#1# {} au Multi. pour chaque",
+                    "{X:mult,C:white} x#1# {} Multi par",
                     "{C:attention}Blinde{} passée dans cette partie",
-                    "{C:inactive}(Actuellement Multi. {X:mult,C:white}x#2#{C:inactive})"
+                    "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
                 },
                 unlock = {
-                    "Reprenez une partie sauvegardée",
+                    "Continuer une partie sauvegardée",
                     "depuis le menu principal"
                 }
             },
             j_hanging_chad = {
                 name = "Carte de vote",
                 text = {
-                    "Déclenchez à nouveau la {C:attention}première{}",
-                    "carte utilisée pour marquer des points"
+                    "Déclenche à nouveau la {C:attention}première{}",
+                    "carte comptée chaque main jouée"
                 },
                 unlock = {
-                    "Battez une Boss Blinde",
-                    "avec un {E:1,C:attention}#1#"
+                    "Battre une Boss Blinde",
+                    "avec une {E:1,C:attention}#1#"
                 }
             },
             j_rough_gem = {
@@ -618,11 +612,11 @@ return {
                 text = {
                     "Les cartes jouées avec",
                     "Une couleur {C:diamonds}Carreau{} octroient",
-                    "{C:money}#1# ${} en marquant des points"
+                    "{C:money}#1# ${} lorsqu'elles sont comptées"
                 },
                 unlock = {
-                    "Vous devez avoir au moins {E:1,C:attention}#1#",
-                    "cartes de couleur {E:1,C:attention}#2#",
+                    "Avoir au moins {E:1,C:attention}#1#",
+                    "cartes {E:1,C:attention}#2#",
                     "dans votre jeu"
                 }
             },
@@ -632,11 +626,11 @@ return {
                     "{C:green}#1# chance(s) sur #2#{} pour que",
                     "les cartes jouées avec",
                     "une couleur {C:hearts}Cœur{} octroient",
-                    "{X:mult,C:white} x#3# {} au Multi. lorsqu'elles marquent des points"
+                    "{X:mult,C:white} x#3# {} Multi lorsqu'elles sont comptées"
                 },
                 unlock = {
-                    "Vous devez avoir au moins {E:1,C:attention}#1#",
-                    "cartes de couleur {E:1,C:attention}#2#",
+                    "Avoir au moins {E:1,C:attention}#1#",
+                    "cartes {E:1,C:attention}#2#",
                     "dans votre jeu"
                 }
             },
@@ -645,11 +639,11 @@ return {
                 text = {
                     "Les cartes jouées avec",
                     "une couleur {C:spades}Pique{} octroient",
-                    "{C:chips}+#1#{} Jetons en marquant des points"
+                    "{C:chips}+#1#{} Jetons lorsqu'elles sont comptées"
                 },
                 unlock = {
-                    "Vous devez avoir au moins {E:1,C:attention}#1#",
-                    "cartes de couleur {E:1,C:attention}#2#",
+                    "Avoir au moins {E:1,C:attention}#1#",
+                    "cartes {E:1,C:attention}#2#",
                     "dans votre jeu"
                 }
             },
@@ -658,24 +652,24 @@ return {
                 text = {
                     "Les cartes jouées avec",
                     "une couleur {C:clubs}Trèfle{} octroient",
-                    "{C:mult}+#1#{} au Multi. en marquant des points"
+                    "{C:mult}+#1#{} Multi lorsqu'elles sont comptées"
                 },
                 unlock = {
-                    "Vous devez avoir au moins {E:1,C:attention}#1#",
-                    "cartes de couleur {E:1,C:attention}#2#",
+                    "Avoir au moins {E:1,C:attention}#1#",
+                    "cartes {E:1,C:attention}#2#",
                     "dans votre jeu"
                 }
             },
             j_glass = {
                 name = "Joker de verre",
                 text = {
-                    "Gagnez {X:mult,C:white} x#1# {} au Multi.",
+                    "Agmente de {X:mult,C:white} x#1# {} Multi",
                     "pour chaque {C:attention}carte Verre",
                     "détruite",
-                    "{C:inactive}(Actuellement Multi. {X:mult,C:white}x#2#{C:inactive})"
+                    "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
                 },
                 unlock = {
-                    "Vous devez avoir au moins {E:1,C:attention}#1#",
+                    "Avoir au moins {E:1,C:attention}#1#",
                     "{E:1,C:attention}#2#{} au minimum dans",
                     "votre jeu"
                 }
@@ -688,20 +682,20 @@ return {
                     "apparaître plusieurs fois"
                 },
                 unlock = {
-                    "Atteignez la mise initiale",
+                    "Atteindre la Mise initiale",
                     "niveau {E:1,C:attention}#1#"
                 }
             },
             j_flower_pot = {
                 name = "Pot de fleurs",
                 text = {
-                    "Multi. {X:mult,C:white}x#1#{} si",
-                    "la main jouée",
-                    "contient une carte {C:diamonds}Carreau{}, une carte {C:clubs}Trèfle{},",
-                    "carte {C:hearts}Cœur{} et carte {C:spades}Pic{}"
+                    "{X:mult,C:white}x#1#{} Multi si la main jouée contient",
+                    "une carte {C:spades}Pique{}, une carte {C:hearts}Cœur{},",
+                    "une carte {C:clubs}Trèfle{} et une",
+                    "carte {C:diamonds}Carreau{} comptées"
                 },
                 unlock = {
-                    "Atteignez la mise initiale",
+                    "Atteindre la Mise initiale",
                     "niveau {E:1,C:attention}#1#"
                 }
             },
@@ -712,19 +706,18 @@ return {
                     "{C:attention}Joker{} sur la droite"
                 },
                 unlock = {
-                    "Gagnez une partie"
+                    "Gagner une partie"
                 }
             },
             j_wee = {
                 name = "P'tit joker",
                 text = {
-                    "Ce Joker octroie",
-                    "{C:chips}+#2#{} Jetons lorsque chaque",
-                    "{C:attention}2{} joué marque des points",
+                    "Augmente de {C:chips}+#2#{} Jetons lorsque chaque",
+                    "{C:attention}2{} joué est compté",
                     "{C:inactive}(Actuellement {C:chips}+#1#{C:inactive} Jetons)"
                 },
                 unlock = {
-                    "Gagnez une partie en {E:1,C:attention}#1#",
+                    "Gagner une partie en {E:1,C:attention}#1#",
                     "manches ou moins"
                 }
             },
@@ -735,7 +728,7 @@ return {
                     "{C:red}#2#{} à la taille de la main"
                 },
                 unlock = {
-                    "Gagnez une partie en {E:1,C:attention}#1#",
+                    "Gagner une partie en {E:1,C:attention}#1#",
                     "manches ou moins"
                 }
             },
@@ -748,34 +741,34 @@ return {
                 },
                 unlock = {
                     "Dans une main,",
-                    "gagnez au moins",
+                    "gagner au moins",
                     "{E:1,C:attention}#1#{} Jetons"
                 }
             },
             j_idol = {
                 name = "L'idole",
                 text = {
-                    "Chaque {C:attention}#2#",
-                    "de {V:1}#3#{} joué octroie",
-                    "{X:mult,C:white} x#1# {} au Multi. en marquant des points",
+                    "Chaque {C:attention}#2#{} de {V:1}#3#{}",
+                    "joué octroie",
+                    "{X:mult,C:white} x#1# {} Multi lorsqu'elle est comptée",
                     "{s:0.8}La carte change à chaque manche"
                 },
                 unlock = {
                     "Dans une main,",
-                    "gagnez au moins",
+                    "gagner au moins",
                     "{E:1,C:attention}#1#{} Jetons"
                 }
             },
             j_seeing_double = {
                 name = "Vision double",
                 text = {
-                    "{X:mult,C:white} x#1# {} au Multi. si",
+                    "{X:mult,C:white} x#1# {} Multi si",
                     "la main jouée contient",
-                    "une carte {C:clubs}Trèfle{} et une carte marquante",
-                    "de n'importe quelle {C:attention}couleur"
+                    "une carte {C:clubs}Trèfle{} et une carte de",
+                    "n'importe quelle autre {C:attention}couleur{} comptées"
                 },
                 unlock = {
-                    "Jouez une main",
+                    "Jouer une main",
                     "contenant",
                     "{E:1,C:attention}#1#"
                 }
@@ -783,12 +776,12 @@ return {
             j_matador = {
                 name = "Matador",
                 text = {
-                    "Gagnez {C:money}#1# ${} si la main jouée",
-                    "déclenche la capacité",
-                    "{C:attention}Boss Blinde{}"
+                    "Octroie {C:money}#1# ${} si la main jouée",
+                    "déclenche la capacité de la",
+                    "{C:attention}Blinde de Boss{}"
                 },
                 unlock = {
-                    "Battez une Boss Blinde",
+                    "Battre une Boss Blinde",
                     "en {E:1,C:attention}une main{} sans",
                     "utiliser aucune défausse"
                 }
@@ -796,13 +789,12 @@ return {
             j_hit_the_road = {
                 name = "Prendre la route",
                 text = {
-                    "Octroie {X:mult,C:white} x#1# {} au Multi.",
-                    "par",
+                    "Agmente de {X:mult,C:white} x#1# {} Multi par",
                     "{C:attention}Valet{} défaussé pendant cette manche",
-                    "{C:inactive}(Actuellement Multi. {X:mult,C:white}x#2#{C:inactive})"
+                    "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
                 },
                 unlock = {
-                    "Défaussez {E:1,C:attention}5",
+                    "Défausser {E:1,C:attention}5",
                     "{E:1,C:attention}Valets{} en",
                     "même temps"
                 }
@@ -810,12 +802,12 @@ return {
             j_duo = {
                 name = "Le duo",
                 text = {
-                    "Multi. {X:mult,C:white}x#1#{} si",
+                    "{X:mult,C:white}x#1#{} Multi si",
                     "la main jouée contient",
                     "une {C:attention}#2#"
                 },
                 unlock = {
-                    "Gagnez une partie",
+                    "Gagner une partie",
                     "sans jouer",
                     "de {E:1,C:attention}#1#"
                 }
@@ -823,12 +815,12 @@ return {
             j_trio = {
                 name = "Le trio",
                 text = {
-                    "Multi. {X:mult,C:white}x#1#{} si",
+                    "{X:mult,C:white}x#1#{} Multi si",
                     "la main jouée contient",
                     "un {C:attention}#2#"
                 },
                 unlock = {
-                    "Gagnez une partie",
+                    "Gagner une partie",
                     "sans jouer",
                     "de {E:1,C:attention}#1#"
                 }
@@ -836,12 +828,12 @@ return {
             j_family = {
                 name = "La famille",
                 text = {
-                    "Multi. {X:mult,C:white}x#1#{} si",
+                    "{X:mult,C:white}x#1#{} Multi si",
                     "la main jouée contient",
                     "un {C:attention}#2#"
                 },
                 unlock = {
-                    "Gagnez une partie",
+                    "Gagner une partie",
                     "sans jouer",
                     "de {E:1,C:attention}#1#"
                 }
@@ -849,12 +841,12 @@ return {
             j_order = {
                 name = "L'Ordre",
                 text = {
-                    "Multi. {X:mult,C:white}x#1#{} si",
+                    "{X:mult,C:white}x#1#{} Multi si",
                     "la main jouée contient",
                     "une {C:attention}#2#"
                 },
                 unlock = {
-                    "Gagnez une partie",
+                    "Gagner une partie",
                     "sans jouer",
                     "de {E:1,C:attention}#1#"
                 }
@@ -862,12 +854,12 @@ return {
             j_tribe = {
                 name = "La tribu",
                 text = {
-                    "Multi. {X:mult,C:white}x#1#{} si",
+                    "{X:mult,C:white}x#1#{} Multi si",
                     "la main jouée contient",
                     "une {C:attention}#2#"
                 },
                 unlock = {
-                    "Gagnez une partie",
+                    "Gagner une partie",
                     "sans jouer",
                     "de {E:1,C:attention}#1#"
                 }
@@ -875,7 +867,7 @@ return {
             j_cavendish = {
                 name = "Cavendish",
                 text = {
-                    "Multi. {X:mult,C:white}x#1#{}",
+                    "{X:mult,C:white}x#1#{} Multi",
                     "{C:green}#2# chance(s) sur #3#{} que cette",
                     "carte soit détruite",
                     "à la fin de la manche"
@@ -884,7 +876,7 @@ return {
             j_card_sharp = {
                 name = "Maître des cartes",
                 text = {
-                    "Multi. {X:mult,C:white}x#1#{} si",
+                    "{X:mult,C:white}x#1#{} Multi si",
                     "la {C:attention}main de poker{} jouée a déjà",
                     "été jouée dans cette manche"
                 }
@@ -892,24 +884,24 @@ return {
             j_red_card = {
                 name = "Carton rouge",
                 text = {
-                    "Ajoute {C:red}+#1#{} au Multi. lorsque n'importe quel",
-                    "{C:attention}Paquet Booster{} est passé",
-                    "{C:inactive}(Actuellement Multi. {C:red}+#2#{C:inactive})"
+                    "Augmente de {C:red}+#1#{} Multi lorsque n'importe quel",
+                    "{C:attention}Paquet additionnel{} est passé",
+                    "{C:inactive}(Actuellement {C:red}+#2#{C:inactive} Multi)"
                 }
             },
             j_madness = {
                 name = "Folie",
                 text = {
                     "Lorsque la {C:attention}Blinde{} est sélectionnée,",
-                    "gagnez {X:mult,C:white} x#1# {} au Multi. et",
-                    "{C:attention}détruisez{} un Joker au hasard",
-                    "{C:inactive}(Actuellement Multi. {X:mult,C:white}x#2#{})"
+                    "agmente de {X:mult,C:white} x#1# {} Multi et",
+                    "{C:attention}détruit{} un Joker au hasard",
+                    "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
                 }
             },
             j_square = {
                 name = "Joker carré",
                 text = {
-                    "Octroie {C:chips}+#2#{} Jetons si",
+                    "Agmente de {C:chips}+#2#{} Jetons si",
                     "la main jouée contient",
                     "exactement {C:attention}4{} cartes",
                     "{C:inactive}(Actuellement {C:chips}#1#{} Jetons)"
@@ -918,8 +910,8 @@ return {
             j_seance = {
                 name = "Séance",
                 text = {
-                    "Si la {C:attention}main de poker{} est de type",
-                    "{C:attention}#1#{}, créez",
+                    "Si la {C:attention}main de poker{} est une",
+                    "{C:attention}#1#{}, crée",
                     "une carte {C:spectral}Spectrale{} aléatoire",
                     "{C:inactive}(Selon la place disponible)"
                 }
@@ -928,7 +920,7 @@ return {
                 name = "Racaille",
                 text = {
                     "Lorsque la {C:attention}Blinde{} est sélectionnée,",
-                    "créez {C:money}#1# {C:blue}Joker Commun{C:attention}",
+                    "crée {C:money}#1# {C:blue}Jokers Communs{C:attention}",
                     "{C:inactive}(Selon la place disponible)"
                 }
             },
@@ -940,7 +932,7 @@ return {
                 },
                 unlock = {
                     "Dans une main,",
-                    "gagnez au moins",
+                    "gagner au moins",
                     "{E:1,C:attention}#1#{} Jetons"
                 }
             },
@@ -948,12 +940,12 @@ return {
                 name = "Joker invisible",
                 text = {
                     "Après {C:attention}#1#{} manches,",
-                    "vendez cette carte pour",
-                    "{C:attention}Dupliquer{} un Joker aléatoire",
+                    "vendre cette carte",
+                    "{C:attention}duplique{} un Joker aléatoire",
                     "{C:inactive}(Actuellement {C:attention}#2#{C:inactive}/#1#)"
                 },
                 unlock = {
-                    "Gagnez une partie sans",
+                    "Gagner une partie sans",
                     "jamais avoir plus",
                     "de {E:1,C:attention}4 Jokers{}"
                 }
@@ -965,82 +957,81 @@ return {
                     "{C:attention}Joker{} le plus à gauche"
                 },
                 unlock = {
-                    "Défaussez une",
+                    "Défausser une",
                     "{E:1,C:attention}Quinte flush royale"
                 }
             },
             j_satellite = {
                 name = "Satellite",
                 text = {
-                    "Gagnez {C:money}#1# ${} à la fin de la manche",
-                    "pour chaque chaque carte {C:planet}Planète unique",
+                    "Octroie {C:money}#1# ${} à la fin de la manche",
+                    "par carte de {C:planet}Planète unique",
                     "utilisée dans cette partie",
                     "{C:inactive}(Actuellement {C:money}#2# ${C:inactive})"
                 },
                 unlock = {
-                    "Vous devez posséder {E:1,C:money}#1# $",
+                    "Posséder {E:1,C:money}#1# $",
                     "ou plus"
                 }
             },
             j_shoot_the_moon = {
                 name = "Objectif lune",
                 text = {
-                    "Multi. {C:mult}+#1#{} pour chaque",
+                    "{C:mult}+#1#{} Multi pour chaque",
                     "{C:attention}Reine{}",
                     "dans votre main"
                 },
                 unlock = {
-                    "Jouez tous les {E:1,C:attention}Cœurs",
-                    "de votre jeu en",
+                    "Jouer toutes les cartes {E:1,C:attention}Cœur",
+                    "de votre Jeu en",
                     "une seule manche"
                 }
             },
             j_drivers_license = {
                 name = "Permis de conduire",
                 text = {
-                    "Multi. {X:mult,C:white}x#1#{} si vous",
-                    "possédez au moins {C:attention}16",
+                    "{X:mult,C:white}x#1#{} Multi si",
+                    "le Jeu complet contient au moins {C:attention}16",
                     "cartes améliorées",
                     "{C:inactive}(Actuellement {C:attention}#2#{C:inactive})"
                 },
                 unlock = {
-                    "Améliorez {E:1,C:attention}#1#{} cartes",
+                    "Améliorer {E:1,C:attention}#1#{} cartes",
                     "dans votre jeu"
                 }
             },
             j_cartomancer = {
                 name = "Cartomancien",
                 text = {
-                    "Créez une carte {C:tarot}Tarot{}",
+                    "Crée une carte de {C:tarot}Tarot{}",
                     "lorsque la {C:attention}Blinde{} est sélectionnée",
                     "{C:inactive}(Selon la place disponible)"
                 },
                 unlock = {
-                    "Découvrez chaque",
-                    "carte {E:1,C:tarot}Tarot{}"
+                    "Découvrir toutes les",
+                    "cartes de {E:1,C:tarot}Tarot{}"
                 }
             },
             j_astronomer = {
                 name = "Astronome",
                 text = {
-                    "Toutes les cartes {C:planet}Planète{} et les",
-                    "{C:planet}Paquets Céleste{} dans",
+                    "Toutes les cartes de {C:planet}Planète{} et",
+                    "{C:planet}Paquets Célestes{} dans",
                     "la boutique sont {C:attention}gratuits"
                 },
                 unlock = {
-                    "Découvrez toutes les",
-                    "cartes {E:1,C:planet}Planète{}"
+                    "Découvrir toutes les",
+                    "cartes de {E:1,C:planet}Planète{}"
                 }
             },
             j_burnt = {
                 name = "Joker calciné",
                 text = {
-                    "Augmentez le niveau de",
-                    "la première main de poker {C:attention}défaussée",
-                    "à chaque manche"
+                    "Améliore la première main de",
+                    "poker {C:attention}défaussée à chaque manche"
                 },
                 unlock = {
-                    "Vendez un total",
+                    "Vendre un total",
                     "de {E:1,C:attention}#1#{} cartes",
                     "{C:inactive}(#2#)"
                 }
@@ -1048,21 +1039,21 @@ return {
             j_bootstraps = {
                 name = "Débrouillardise",
                 text = {
-                    "Multi. {C:mult}+#1#{} pour chaque",
-                    "{C:money}#2# ${} possédé"
+                    "{C:mult}+#1#{} Multi pour chaque",
+                    "{C:money}#2# ${} possédés"
                 },
                 unlock = {
-                    "Vous devez avoir au moins {E:1,C:attention}#1#",
+                    "Avoir au moins {E:1,C:attention}#1#",
                     "Jokers {C:dark_edition}Polychromes{}"
                 }
             },
             j_caino = {
                 name = "Caino",
                 text = {
-                    "Gagnez {X:mult,C:white} x#1# {} au Multi.",
+                    "Augmente de {X:mult,C:white} x#1# {} Multi",
                     "lorsqu'une carte {C:attention}Figure{}",
                     "est détruite",
-                    "{C:inactive}(Actuellement Multi. {X:mult,C:white}x#2#{C:inactive})"
+                    "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
                 },
                 unlock = {
                     "{E:1,s:1.3}?????"
@@ -1071,9 +1062,9 @@ return {
             j_triboulet = {
                 name = "Triboulet",
                 text = {
-                    "Les {C:attention}Rois{} et les",
-                    "{C:attention}Reines{} joués octroient chacun",
-                    "{X:mult,C:white} x#1# {} au Multi. lorsqu'ils marquent des points"
+                    "Les cartes {C:attention}Roi{} et",
+                    "{C:attention}Reine{} jouées octroient chacune",
+                    "{X:mult,C:white} x#1# {} Multi lorsqu'elles sont comptées"
                 },
                 unlock = {
                     "{E:1,s:1.3}?????"
@@ -1082,7 +1073,7 @@ return {
             j_yorick = {
                 name = "Yorick",
                 text = {
-                    "Multi. {X:mult,C:white}x#1#{} seulement après",
+                    "{X:mult,C:white}x#1#{} Multi seulement après",
                     "avoir utilisé {C:attention}#2#{} défausses",
                     "{C:inactive}(Défausses restantes : {C:attention}#3#{C:inactive})"
                 },
@@ -1094,7 +1085,7 @@ return {
                 name = "Chicot",
                 text = {
                     "Annule l'effet de",
-                    "chaque {C:attention}Boss Blinde"
+                    "chaque {C:attention}Blinde de Boss"
                 },
                 unlock = {
                     "{E:1,s:1.3}?????"
@@ -1104,7 +1095,7 @@ return {
                 name = "Perkeo",
                 text = {
                     "Crée une copie {C:dark_edition}Négative{}",
-                    "d'{C:attention}1{} carte {C:attention}consommable{} aléatoire",
+                    "d'{C:attention}1{} carte de {C:attention}Consommable{} aléatoire",
                     "en votre possession",
                     "à la fin de la {C:attention}boutique"
                 },
@@ -1155,10 +1146,10 @@ return {
             j_vampire = {
                 name = "Vampire",
                 text = {
-                    "Ajoute {X:mult,C:white} x#1# {} au Multi. par",
+                    "Augmente de {X:mult,C:white} x#1# {} Multi par",
                     "{C:attention}Carte améliorée{} jouée,",
                     "supprime l'{C:attention}Amélioration{} de la carte",
-                    "{C:inactive}(Actuellement Multi. {X:mult,C:white} x#2# {C:inactive})"
+                    "{C:inactive}(Actuellement {X:mult,C:white} x#2# {C:inactive} Multi)"
                 }
             },
             j_shortcut = {
@@ -1172,10 +1163,10 @@ return {
             j_hologram = {
                 name = "Hologramme",
                 text = {
-                    "Ajoute {X:mult,C:white} x#1# {} au Multi.",
+                    "Augmente de {X:mult,C:white} x#1# {} Multi",
                     "par {C:attention}carte à jouer{} ajoutée",
-                    "à votre jeu",
-                    "{C:inactive}(Actuellement Multi. {X:mult,C:white} x#2# {C:inactive})"
+                    "à votre Jeu",
+                    "{C:inactive}(Actuellement {X:mult,C:white} x#2# {C:inactive} Multi)"
                 }
             },
             j_vagabond = {
@@ -1189,16 +1180,16 @@ return {
             j_baron = {
                 name = "Baron",
                 text = {
-                    "Chaque {C:attention}Roi{}",
+                    "Chaque carte {C:attention}Roi{}",
                     "que vous avez en main",
-                    "ajoute {X:mult,C:white} x#1# {} au Multi."
+                    "ajoute {X:mult,C:white} x#1# {} Multi"
                 }
             },
             j_cloud_9 = {
                 name = "Neuvième ciel",
                 text = {
-                    "Gagnez {C:money}#1# ${} pour chaque",
-                    "{C:attention}9{} dans votre {C:attention}jeu complet",
+                    "Octroie {C:money}#1# ${} par carte {C:attention}9{}",
+                    "dans votre {C:attention}Jeu complet",
                     "à la fin de la manche",
                     "{C:inactive}(Actuellement {C:money}#2# ${}{C:inactive})"
                 }
@@ -1206,19 +1197,19 @@ return {
             j_rocket = {
                 name = "Fusée",
                 text = {
-                    "Gagnez {C:money}#1# ${} à la fin de la",
-                    "de la manche. Octroie {C:money}#2# ${} lorsque",
-                    "la {C:attention}Boss Blinde{} est vaincue"
+                    "Octroie {C:money}#1# ${} à la fin de la",
+                    "de la manche. Augmente de {C:money}#2# ${} lorsque",
+                    "la {C:attention}Blinde de Boss{} est battue"
                 }
             },
             j_obelisk = {
                 name = "Obélisque",
                 text = {
-                    "Ajoute {X:mult,C:white} x#1# {} au Multi. par",
+                    "Augmente de {X:mult,C:white} x#1# {} Multi par",
                     "main consécutive jouée",
                     "sans jouer votre",
                     "{C:attention}main de poker{} la plus jouée",
-                    "{C:inactive}(Actuellement Multi. {X:mult,C:white} x#2# {C:inactive})"
+                    "{C:inactive}(Actuellement {X:mult,C:white} x#2# {C:inactive} Multi)"
                 }
             },
             j_midas_mask = {
@@ -1232,58 +1223,56 @@ return {
             j_luchador = {
                 name = "Luchador",
                 text = {
-                    "Vendez cette carte pour",
-                    "désactiver la",
-                    "{C:attention}Boss Blinde{} actuelle"
+                    "Vendre cette carte",
+                    "désactive la",
+                    "{C:attention}Blinde de Boss{} actuelle"
                 }
             },
             j_photograph = {
-                name = "Photographe",
+                name = "Photographie",
                 text = {
-                    "La première carte {C:attention}Figure",
-                    "octroie {X:mult,C:white} x#1# {} au Multi.",
-                    "en marquant des points"
+                    "La première carte {C:attention}Figure comptée",
+                    "chaque main jouée octroie {X:mult,C:white} x#1# {} Multi"
                 }
             },
             j_gift = {
                 name = "Carte cadeau",
                 text = {
-                    "Ajoutez {C:money}#1# ${} à la {C:attention}valeur de vente",
+                    "Augmente de {C:money}#1# ${} la {C:attention}valeur de vente",
                     "de chaque carte {C:attention}Joker{} et",
-                    "chaque carte {C:attention}Consommable{} à",
-                    "la fin de la manche"
+                    "chaque carte de {C:attention}Consommable{}",
+                    "à la fin de la manche"
                 }
             },
             j_turtle_bean = {
                 name = "Haricot noir",
                 text = {
                     "{C:attention}+#1#{} à la taille de la main,",
-                    "mais ce nombre est réduit de",
-                    "{C:red}#2#{} à chaque manche"
+                    "{C:red}-#2#{} à la fin de chaque manche"
                 }
             },
             j_erosion = {
                 name = "Érosion",
                 text = {
-                    "Multi. {C:red}+#1#{} pour chaque",
+                    "{C:red}+#1#{} Multi par",
                     "carte en dessous de {C:attention}#3#{}",
-                    "dans votre jeu complet",
-                    "{C:inactive}(Actuellement Multi. {C:red}+#2#{C:inactive})"
+                    "dans votre Jeu complet",
+                    "{C:inactive}(Actuellement {C:red}+#2#{C:inactive} Multi)"
                 }
             },
             j_reserved_parking = {
                 name = "Place réservée",
                 text = {
                     "Chaque carte {C:attention}Figure{}",
-                    "en main a",
+                    "gardée en main a",
                     "{C:green}#2# chance(s) sur #3#{}",
-                    "pour octroyer {C:money}#1# ${}"
+                    "d'octroyer {C:money}#1# ${}"
                 }
             },
             j_mail = {
                 name = "Remise par courrier",
                 text = {
-                    "Gagnez {C:money}#1# ${} pour chaque",
+                    "Octroie {C:money}#1# ${} par",
                     "carte {C:attention}#2#{} défaussée, la valeur",
                     "change à chaque manche"
                 }
@@ -1291,40 +1280,40 @@ return {
             j_to_the_moon = {
                 name = "Vers les étoiles",
                 text = {
-                    "Gagnez {C:money}#1# ${} d'{C:attention}intérêt{}",
+                    "Octroie {C:money}#1# ${} d'{C:attention}intérêt{}",
                     "supplémentaire par tranche de {C:money}5 ${}",
-                    "possédée à la fin de la manche"
+                    "possédés à la fin de la manche"
                 }
             },
             j_hallucination = {
                 name = "Hallucination",
                 text = {
                     "{C:green}#1# chance sur #2#{} de créer",
-                    "une carte de {C:tarot}Tarot{} lors de l'ouverture",
-                    "de n'importe quel {C:attention}Paquet Booster{}",
+                    "une carte de {C:tarot}Tarot{} lorsque n'importe quel",
+                    "{C:attention}Paquet additionnel{} est ouvert",
                     "{C:inactive}(Selon la place disponible)"
                 }
             },
             j_lucky_cat = {
                 name = "Porte-bonheur",
                 text = {
-                    "Ajoute {X:mult,C:white} x#1# {} au Multi. chaque",
+                    "Augmente de {X:mult,C:white} x#1# {} Multi chaque",
                     "fois qu'une carte {C:attention}Chance{}",
                     "est déclenchée {C:green}avec succès{}",
-                    "{C:inactive}(Actuellement Multi. {X:mult,C:white} x#2# {C:inactive})"
+                    "{C:inactive}(Actuellement {X:mult,C:white} x#2# {C:inactive} Multi)"
                 }
             },
             j_baseball = {
                 name = "Carte de baseball",
                 text = {
-                    "Les Jokers {C:green}peu communs{}",
-                    "ajoutent chacun {X:mult,C:white} x#1# {} au Multi."
+                    "Les Jokers {C:green}Peu communs{}",
+                    "ajoutent chacun {X:mult,C:white} x#1# {} Multi"
                 }
             },
             j_bull = {
                 name = "Bull run",
                 text = {
-                    "{C:chips}+#1#{} Jetons pour chaque",
+                    "{C:chips}+#1#{} Jetons par",
                     "{C:money}dollar{} possédé",
                     "{C:inactive}(Actuellement {C:chips}+#2#{C:inactive} Jetons)"
                 }
@@ -1332,42 +1321,41 @@ return {
             j_diet_cola = {
                 name = "Cola zéro",
                 text = {
-                    "Vendez cette carte pour",
-                    "créer une",
-                    "carte {C:attention}#1# gratuite"
+                    "Vendre cette carte crée",
+                    "un {C:attention}#1# gratuit"
                 }
             },
             j_trading = {
                 name = "Carte à collectionner",
                 text = {
                     "Si la {C:attention}première défausse{} de la manche",
-                    "ne contient qu'{C:attention}une{} carte, détruisez-la",
-                    "et gagnez {C:money}#1# $"
+                    "ne contient qu'{C:attention}une{} carte, la détruit",
+                    "et octroie {C:money}#1# $"
                 }
             },
             j_flash = {
                 name = "Carte mémoire",
                 text = {
-                    "Ajoute {C:mult}+#1#{} au Multi. par",
-                    "{C:attention}nouveau lancer{} dans la boutique",
-                    "{C:inactive}(Actuellement Multi. {C:mult}+#2#{C:inactive})"
+                    "Augmente de {C:mult}+#1#{} Multi par",
+                    "{C:attention}réapprovisionnement{} dans la boutique",
+                    "{C:inactive}(Actuellement {C:mult}+#2#{C:inactive} Multi)"
                 }
             },
             j_popcorn = {
                 name = "Popcorn",
                 text = {
-                    "{C:mult}+#1#{} au Multi.",
-                    "{C:mult}-#2#{} au Multi. par",
+                    "{C:mult}+#1#{} Multi",
+                    "{C:mult}-#2#{} Multi par",
                     "manche jouée"
                 }
             },
             j_trousers = {
                 name = "Pantalon de rechange",
                 text = {
-                    "Ajoute {C:mult}+#1#{} au Multi. si",
+                    "Augmente de {C:mult}+#1#{} Multi si",
                     "la main jouée contient",
-                    "{C:attention}#2#",
-                    "{C:inactive}(Actuellement Multi. {C:red}+#3#{C:inactive})"
+                    "une {C:attention}#2#",
+                    "{C:inactive}(Actuellement {C:red}+#3#{C:inactive} Multi)"
                 }
             },
             j_ancient = {
@@ -1375,30 +1363,30 @@ return {
                 text = {
                     "Chaque carte jouée avec",
                     "une couleur de {V:1}#2#{} octroie",
-                    "{X:mult,C:white} x#1# {} au Multi. lorsqu'elle marque des points,",
+                    "{X:mult,C:white} x#1# {} Multi lorsqu'elle est comptée,",
                     "{s:0.8}la couleur change à la fin de la manche"
                 }
             },
             j_ramen = {
                 name = "Ramen",
                 text = {
-                    "Ajoute {X:mult,C:white} x#1# {} au Multi.",
-                    "mais retire {X:mult,C:white} x#2# {} au Multi.",
+                    "{X:mult,C:white} x#1# {} Multi",
+                    "diminue de {X:mult,C:white} x#2# {} Multi",
                     "par {C:attention}carte{} défaussée"
                 }
             },
             j_walkie_talkie = {
                 name = "Talkie-walkie",
                 text = {
-                    "Chaque {C:attention}10{} ou {C:attention}4 joué",
+                    "Chaque carte {C:attention}10{} ou {C:attention}4 jouée",
                     "octroie {C:chips}+#1#{} Jetons et",
-                    "{C:mult}+#2#{} au Multi. lorsqu'il marque des points"
+                    "{C:mult}+#2#{} Multi lorsqu'elle est comptée"
                 }
             },
             j_selzer = {
                 name = "Seltz",
                 text = {
-                    "Déclenchez à nouveau toutes les",
+                    "Déclenche à nouveau toutes les",
                     "cartes jouées pour",
                     "les {C:attention}#1#{} prochaines mains"
                 }
@@ -1406,7 +1394,7 @@ return {
             j_castle = {
                 name = "Château",
                 text = {
-                    "Ce Joker octroie {C:chips}+#1#{} Jetons",
+                    "Augmente de {C:chips}+#1#{} Jetons",
                     "par carte {V:1}#2#{} défaussée,",
                     "la couleur change à chaque manche",
                     "{C:inactive}(Actuellement {C:chips}+#3#{C:inactive} Jetons)"
@@ -1416,17 +1404,17 @@ return {
                 name = "Figures souriantes",
                 text = {
                     "Les cartes {C:attention}Figure{} jouées",
-                    "octroient {C:mult}+#1#{} au Multi.",
-                    "lorsqu'elles marquent des points"
+                    "octroient {C:mult}+#1#{} Multi",
+                    "lorsqu'elles sont comptées"
                 }
             },
             j_campfire = {
                 name = "Feu de camp",
                 text = {
-                    "Ce Joker ajoute {X:mult,C:white}x#1#{} au Multi.",
-                    "pour chaque carte {C:attention}vendue{}, mais ce multi. est réinitialisé",
-                    "lorsque la {C:attention}Boss Blinde{} est vaincue",
-                    "{C:inactive}(Actuellement Multi. {X:mult,C:white} x#2# {C:inactive})"
+                    "Augmente de {X:mult,C:white}x#1#{} Multi",
+                    "par carte {C:attention}vendue{}, est réinitialisé",
+                    "lorsque la {C:attention}Blinde de Boss{} est battue",
+                    "{C:inactive}(Actuellement {X:mult,C:white} x#2# {C:inactive} Multi)"
                 }
             }
         },
@@ -1787,40 +1775,40 @@ return {
         },
         Tarot = {
             c_fool = {
-                name = "Le mat",
+                name = "le Mat",
                 text = {
-                    "Crée la",
-                    "carte de {C:tarot}Tarot{} ou {C:planet}Planète{} utilisée en dernier",
-                    "pendant cette partie,",
-                    "En excluant {s:0.8,C:tarot}Le mat{s:0.8}"
+                    "Crée la carte de {C:tarot}Tarot{}",
+                    "ou de {C:planet}Planète{} utilisée en dernier",
+                    "pendant cette partie",
+                    "{s:0.8,C:inactive}(sauf {s:0.8,C:tarot}Le mat{s:0.8}{s:0.8,C:inactive})"
                 }
             },
             c_magician = {
-                name = "Le magicien",
+                name = "le Magicien",
                 text = {
-                    "Améliore {C:attention}#1#{} carte",
+                    "Transforme {C:attention}#1#{} carte",
                     "sélectionnée en",
                     "{C:attention}#2#"
                 }
             },
             c_high_priestess = {
-                name = "La papesse",
+                name = "la Papesse",
                 text = {
                     "Crée jusqu'à {C:attention}#1#",
-                    "cartes {C:planet}Planète{} aléatoires",
+                    "cartes de {C:planet}Planète{} aléatoires",
                     "{C:inactive}(Selon la place disponible)"
                 }
             },
             c_empress = {
-                name = "L'impératrice",
+                name = "l'Impératrice",
                 text = {
-                    "Améliore {C:attention}#1#",
+                    "Transforme jusqu'à {C:attention}#1#",
                     "cartes sélectionnées en",
                     "{C:attention}#2#"
                 }
             },
             c_emperor = {
-                name = "L'empereur",
+                name = "l'Empereur",
                 text = {
                     "Crée jusqu'à {C:attention}#1#",
                     "cartes de {C:tarot}Tarot{} aléatoires",
@@ -1828,70 +1816,70 @@ return {
                 }
             },
             c_heirophant = {
-                name = "Le hiérophante",
+                name = "le Pape",
                 text = {
-                    "Améliore {C:attention}#1#",
+                    "Transforme jusqu'à {C:attention}#1#",
                     "cartes sélectionnées en",
                     "{C:attention}#2#"
                 }
             },
             c_lovers = {
-                name = "Les amoureux",
+                name = "l'Amoureux",
                 text = {
-                    "Améliore {C:attention}#1#{} carte",
+                    "Transforme {C:attention}#1#{} carte",
                     "sélectionnée en",
                     "{C:attention}#2#"
                 }
             },
             c_chariot = {
-                name = "Le chariot",
+                name = "le Chariot",
                 text = {
-                    "Améliore {C:attention}#1#{} carte",
+                    "Transforme {C:attention}#1#{} carte",
                     "sélectionnée en",
                     "{C:attention}#2#"
                 }
             },
             c_justice = {
-                name = "Justice",
+                name = "la Justice",
                 text = {
-                    "Améliore {C:attention}#1#{} carte",
+                    "Transforme {C:attention}#1#{} carte",
                     "sélectionnée en",
                     "{C:attention}#2#"
                 }
             },
             c_hermit = {
-                name = "L'ermite",
+                name = "l'Ermite",
                 text = {
                     "Double l'argent",
-                    "{C:inactive}({C:money}#1# ${C:inactive} au maximum)"
+                    "{C:inactive}({C:money}+#1# ${C:inactive} maximum)"
                 }
             },
             c_wheel_of_fortune = {
-                name = "La roue de la fortune",
+                name = "la Roue de Fortune",
                 text = {
-                    "{C:green}#1# chance(s) sur #2#{} d'ajouter une édition",
-                    "{C:dark_edition}Aluminium{}, {C:dark_edition}Holographique{} ou",
-                    "{C:dark_edition}Polychrome{}",
-                    "à un {C:attention}Joker au hasard"
+                    "{C:green}#1# chance(s) sur #2#{} qu'un Joker",
+                    "aléatoire devienne {C:dark_edition}Brillant{},",
+                    " {C:dark_edition}Holographique{}",
+                    "ou {C:dark_edition}Polychrome{}"
                 }
             },
             c_strength = {
-                name = "La force",
+                name = "la Force",
                 text = {
-                    "Augmente la valeur",
-                    "d'un maximum de {C:attention}#1#{} cartes",
-                    "sélectionnées de {C:attention}1"
+                    "Augmente de {C:attention}1 la valeur",
+                    "de jusqu'à {C:attention}#1#{}",
+                    "cartes sélectionnées"
                 }
             },
             c_hanged_man = {
-                name = "Le pendu",
+                name = "le Pendu",
                 text = {
-                    "Détruit un maximum de",
-                    "{C:attention}#1#{} cartes sélectionnées"
+                    "Détruit jusqu'à {C:attention}#1#{}",
+                    "cartes sélectionnées"
                 }
             },
             c_death = {
-                name = "La mort",
+                name = "la Mort",
                 text = {
                     "Sélectionnez {C:attention}#1#{} cartes,",
                     "la carte de {C:attention}gauche{}",
@@ -1900,68 +1888,68 @@ return {
                 }
             },
             c_temperance = {
-                name = "La tempérance",
+                name = "Tempérance",
                 text = {
                     "Octroie la valeur de vente",
                     "totale de tous les",
-                    "Jokers actuels {C:inactive}({C:money}#1# ${C:inactive} au maximum)",
-                    "{C:inactive}(Actuellement {C:money}#2# ${C:inactive})"
+                    "Jokers actuels {C:inactive}({C:money}+#1# ${C:inactive} maximum)",
+                    "{C:inactive}(Actuellement {C:money}+#2# ${C:inactive})"
                 }
             },
             c_devil = {
-                name = "Le diable",
+                name = "le Diable",
                 text = {
-                    "Améliore {C:attention}#1#{} carte",
+                    "Transforme {C:attention}#1#{} carte",
                     "sélectionnée en",
                     "{C:attention}#2#"
                 }
             },
             c_tower = {
-                name = "La maison Dieu",
+                name = "la Maison Dieu",
                 text = {
-                    "Améliore {C:attention}#1#{} carte",
+                    "Transforme {C:attention}#1#{} carte",
                     "sélectionnée en",
                     "{C:attention}#2#"
                 }
             },
             c_star = {
-                name = "L'étoile",
+                name = "l'Étoile",
                 text = {
-                    "Convertit jusqu'à",
-                    "{C:attention}#1#{} cartes sélectionnées",
-                    "pour les changer en {V:1}#2#{}"
+                    "Transforme jusqu'à {C:attention}#1#{}",
+                    "cartes sélectionnées",
+                    "en {V:1}#2#{}"
                 }
             },
             c_moon = {
-                name = "La lune",
+                name = "la Lune",
                 text = {
-                    "Convertit jusqu'à",
-                    "{C:attention}#1#{} cartes sélectionnées",
-                    "pour les changer en {V:1}#2#{}"
+                    "Transforme jusqu'à {C:attention}#1#{}",
+                    "cartes sélectionnées",
+                    "en {V:1}#2#{}"
                 }
             },
             c_sun = {
-                name = "Le soleil",
+                name = "le Soleil",
                 text = {
-                    "Convertit jusqu'à",
-                    "{C:attention}#1#{} cartes sélectionnées",
-                    "pour les changer en {V:1}#2#{}"
+                    "Transforme jusqu'à {C:attention}#1#{}",
+                    "cartes sélectionnées",
+                    "en {V:1}#2#{}"
                 }
             },
             c_judgement = {
-                name = "Le jugement",
+                name = "le Jugement",
                 text = {
-                    "Crée une carte",
+                    "Crée une carte de",
                     "{C:attention}Joker{} aléatoire",
                     "{C:inactive}(Selon la place disponible)"
                 }
             },
             c_world = {
-                name = "Le monde",
+                name = "le Monde",
                 text = {
-                    "Convertit jusqu'à",
-                    "{C:attention}#1#{} cartes sélectionnées",
-                    "pour les changer en {V:1}#2#{}"
+                    "Transforme jusqu'à {C:attention}#1#{}",
+                    "cartes sélectionnées",
+                    "en {V:1}#2#{}"
                 }
             }
         },
