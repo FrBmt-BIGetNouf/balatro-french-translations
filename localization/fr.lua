@@ -322,10 +322,10 @@ return {
                 ["text"] = {}
             },
             ["bl_arm"] = {
-                ["name"] = "Le bras",
+                ["name"] = "Le Bras",
                 ["text"] = {
-                    [1] = "Diminuez le niveau de",
-                    [2] = "la main de poker jouée"
+                    [1] = "La main de poker jouée",
+                    [2] = "perd un niveau"
                 }
             },
             ["bl_plant"] = {
