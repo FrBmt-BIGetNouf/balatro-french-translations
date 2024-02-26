@@ -681,8 +681,7 @@ return {
                     "apparaître plusieurs fois"
                 },
                 unlock = {
-                    "Atteindre la Mise initiale",
-                    "niveau {E:1,C:attention}#1#"
+                    "Atteindre l'Ante {E:1,C:attention}#1#"
                 }
             },
             j_flower_pot = {
@@ -694,8 +693,7 @@ return {
                     "carte {C:diamonds}Carreau{} comptées"
                 },
                 unlock = {
-                    "Atteindre la Mise initiale",
-                    "niveau {E:1,C:attention}#1#"
+                    "Atteindre l'Ante {E:1,C:attention}#1#"
                 }
             },
             j_blueprint = {
@@ -2315,7 +2313,7 @@ return {
                 name = "Mise verte",
                 text = {
                     "Le score requis augmente",
-                    "plus rapidement pour chaque {C:attention}Mise initiale",
+                    "plus rapidement pour chaque {C:attention}Ante",
                     "{s:0.8}Applique toutes les mises précédentes"
                 }
             },
@@ -2337,8 +2335,8 @@ return {
             stake_purple = {
                 name = "Mise violette",
                 text = {
-                    "Le score requis augmente",
-                    "plus rapidement pour chaque {C:attention}mise initiale",
+                    "Le score requis augmente (encore)",
+                    "plus rapidement pour chaque {C:attention}Ante",
                     "{s:0.8}Applique toutes les mises précédentes"
                 }
             },
@@ -2346,7 +2344,7 @@ return {
                 name = "Mise orange",
                 text = {
                     "Les {C:attention}Paquets additionnels{} coûtent",
-                    "{C:money}1 ${} de plus par Mise initiale",
+                    "{C:money}1 ${} de plus par Ante",
                     "{s:0.8}Applique toutes les mises précédentes"
                 }
             },
@@ -2694,7 +2692,7 @@ return {
                 name = "Le Pilier",
                 text = {
                     "Les cartes jouées durant",
-                    "cette Mise initiale sont affaiblies"
+                    "cette Ante sont affaiblies"
                 }
             },
             bl_flint = {
@@ -3315,7 +3313,7 @@ return {
         high_scores = {
             hand = "Meilleure main",
             furthest_round = "Plus haute manche",
-            furthest_ante = "Plus haute Mise initiale",
+            furthest_ante = "Plus haute Ante",
             most_money = "Le plus d'argent",
             boss_streak = "Le plus de Boss d'affilée",
             collection = "Collection",
@@ -3331,7 +3329,7 @@ return {
             ['Four of a Kind'] = "Carré",
             ['Full House'] = "Full",
             ['Flush'] = "Couleur",
-            ['Straight'] = "Suite",
+            ['Straight'] = "Quinte",
             ['Three of a Kind'] = "Brelan",
             ['Two Pair'] = "Double paire",
             ['Pair'] = "Paire",
@@ -3503,7 +3501,7 @@ return {
             k_compatible = "compatible",
             k_incompatible = "incompatible",
             k_round = "Score de",
-            k_ante = "Mise initiale",
+            k_ante = "Ante",
             k_seed = "La seed",
             k_reroll = "Réapprovisionner",
             k_mult = "Multi",
@@ -3545,7 +3543,7 @@ return {
             k_numbered_cards = "Cartes numérotées",
             k_cap_consumables = "CONSOMMABLES",
             k_page = "Page",
-            k_ante_cap = "MISE INITIALE",
+            k_ante_cap = "ANTE",
             k_base_cap = "BASE",
             k_jokers_cap = "JOKERS",
             k_vouchers_cap = "COUPONS",
@@ -3582,7 +3580,7 @@ return {
             ph_deck_preview_effective = "Total effectif grâce aux Jokers, Blindes et Améliorations de cartes",
             ph_blind_score_at_least = "Atteindre un score d'au moins",
             ph_blind_reward = "Récompense : ",
-            ph_up_ante_1 = "Atteindre la Mise initiale",
+            ph_up_ante_1 = "Atteindre l'Ante",
             ph_up_ante_2 = "Augmenter toutes les Blindes",
             ph_up_ante_3 = "Actualiser les Blindes",
             ph_stat_joker = "Nombre total de manches effectuées avec cette carte",
@@ -3709,7 +3707,7 @@ return {
             ph_you_win = "VOUS AVEZ GAGNÉ !",
             ph_you_win_demo = "VOUS AVEZ TERMINÉ LA DÉMO !",
             ph_defeat_the_boss = "Battre la Blinde de Boss",
-            ph_score_furthest_ante = "Mise initiale",
+            ph_score_furthest_ante = "Ante",
             ph_score_furthest_round = "Manche",
             ph_score_hand = "Meilleure main",
             ph_score_poker_hand = "Main la plus jouée",
@@ -3751,7 +3749,7 @@ return {
             a_hands = "+#1# mains",
             a_sold_tally = "#1#/#2# vendu",
             a_remaining = "#1# restant",
-            ante_x_voucher = "COUPON DE MISE INITIALE #1#",
+            ante_x_voucher = "COUPON DE L'ANTE #1#",
             loyalty_active = "Active !",
             loyalty_inactive = "#1# restant",
             deck_preview_wheel_singular = "Les nombres peuvent être inférieurs en raison de la carte #1# piochée face cachée",
@@ -3857,11 +3855,11 @@ return {
                 "Toutes les cartes {C:attention}jouées{} deviennent {C:attention}affaiblies{} après le comptage"
             },
             ch_c_set_eternal_ante = {
-                "Lorsque le Boss de la Mise initiale {C:attention}#1#{} est battu,",
+                "Lorsque le Boss de l'Ante {C:attention}#1#{} est battu,",
                 "tous les Jokers deviennent {C:attention}Éternels"
             },
             ch_c_set_joker_slots_ante = {
-                "Lorsque le Boss de la Mise initiale {C:attention}#1#{} est battu,",
+                "Lorsque le Boss de l'Ante {C:attention}#1#{} est battu,",
                 "les emplacements de Joker passent à {C:attention}0"
             }
         },
@@ -3901,12 +3899,12 @@ return {
                 "vous faudra tenir compte."
             },
             bb_4 = {
-                "Si vous la battez, la",
-                "{C:attention}Mise initiale{} augmente et toutes les",
-                "{C:attention}Blindes{} deviennent plus difficiles"
+                "Si vous la battez, l'{C:attention}Ante{}",
+                "augmente et toutes les {C:attention}Blindes{}",
+                "deviennent plus difficiles."
             },
             bb_5 = {
-                "Battez la {C:attention}Mise initiale{} #1# pour gagner.",
+                "Battez l'{C:attention}Ante{} #1# pour gagner.",
                 "Choisissez votre voie !"
             },
             fh_1 = {
@@ -4030,8 +4028,8 @@ return {
             }
         },
         achievement_names = {
-            ante_up = "Mise initiale augmentée !",
-            ante_upper = "Mise initiale encore augmentée !",
+            ante_up = "Ante augmentée !",
+            ante_upper = "Ante encore augmentée !",
             heads_up = "Tête-à-tête",
             low_stakes = "Mises faibles",
             mid_stakes = "Mises moyennes",
@@ -4063,8 +4061,8 @@ return {
             completionist_plus_plus = "Jusqu'au-boutiste++"
         },
         achievement_descriptions = {
-            ante_up = "Atteindre la Mise initiale 4",
-            ante_upper = "Atteindre la Mise initiale 8",
+            ante_up = "Atteindre l'Ante 4",
+            ante_upper = "Atteindre l'Ante 8",
             heads_up = "Gagner une partie",
             low_stakes = "Gagner une partie en difficulté Mise rouge au minimum",
             mid_stakes = "Gagner une partie en difficulté Mise noire au minimum",
@@ -4074,7 +4072,7 @@ return {
             nest_egg = "Accumuler 400 $ ou plus en une seule partie",
             flushed = "Jouer une couleur avec 5 cartes Libres",
             speedrunner = "Gagner une partie en 12 manches ou moins",
-            roi = "Échanger 5 Coupons avant la Mise initiale 4",
+            roi = "Échanger 5 Coupons avant l'Ante 4",
             shattered = "Casser 2 cartes Verre en une seule main",
             royale = "Jouer une Quinte flush royale",
             retrograde = "Faire passer une main de poker au niveau 10",
