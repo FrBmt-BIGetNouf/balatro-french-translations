@@ -399,10 +399,10 @@ return {
                 }
             },
             ["bl_ox"] = {
-                ["name"] = "Le bœuf",
+                ["name"] = "Le Bœuf",
                 ["text"] = {
                     [1] = "Jouer #1#",
-                    [2] = "fixe l'argent à 0 $"
+                    [2] = "ramène l'argent à {C:money}0 $"
                 }
             },
             ["bl_mark"] = {
