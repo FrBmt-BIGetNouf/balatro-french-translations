@@ -151,10 +151,10 @@ return {
                 }
             },
             ["tag_negative"] = {
-                ["name"] = "Étiquette négative",
+                ["name"] = "Badge Négatif",
                 ["text"] = {
-                    [1] = "Le magasin possède un",
-                    [2] = "{C:dark_edition}Joker négatif"
+                    [1] = "Le prochain Joker sans Édition",
+                    [2] = "dans la boutique devient {C:dark_edition}Négatif"
                 }
             },
             ["tag_investment"] = {
