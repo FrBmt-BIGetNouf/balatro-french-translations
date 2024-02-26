@@ -231,11 +231,11 @@ return {
                 }
             },
             ["tag_coupon"] = {
-                ["name"] = "Étiquette de coupon",
+                ["name"] = "Badge bon d'achat",
                 ["text"] = {
-                    [1] = "Les cartes initiales et",
-                    [2] = "les Paquets Booster du",
-                    [3] = "prochain magasin sont gratuits"
+                    [1] = "Les cartes et Paquets",
+                    [2] = "initiaux de la prochaine",
+                    [3] = "boutique sont gratuits"
                 }
             },
             ["tag_boss"] = {
