@@ -118,9 +118,9 @@ return {
                 }
             },
             ["b_zodiac"] = {
-                ["name"] = "Jeu Zodiac",
+                ["name"] = "Jeu Zodiaque",
                 ["text"] = {
-                    [1] = "Commencez la partie avec",
+                    [1] = "Commence la partie avec",
                     [2] = "{C:tarot,T:v_tarot_merchant}#1#{},",
                     [3] = "{C:planet,T:v_planet_merchant}#2#{},",
                     [4] = "et {C:attention,T:v_overstock_norm}#3#"
