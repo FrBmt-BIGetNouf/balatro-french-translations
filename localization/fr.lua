@@ -114,7 +114,7 @@ return {
                 ["name"] = "Jeu Jaune",
                 ["text"] = {
                     [1] = "Commence la partie avec",
-                    [2] = "{C:money}#1# $ supplémentaires"
+                    [2] = "{C:money}#1# ${} supplémentaires"
                 }
             },
             ["b_zodiac"] = {
@@ -296,10 +296,10 @@ return {
                 }
             },
             ["tag_voucher"] = {
-                ["name"] = "Étiquette de bon d'achat",
+                ["name"] = "Badge Coupon",
                 ["text"] = {
-                    [1] = "Ajoute un {C:voucher}Bon d'achat",
-                    [2] = "au prochain magasin"
+                    [1] = "La prochaine boutique a un",
+                    [2] = "{C:voucher}Coupon{} supplémentaire"
                 }
             }
         },
