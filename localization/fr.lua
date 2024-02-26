@@ -253,10 +253,10 @@ return {
                 }
             },
             ["tag_polychrome"] = {
-                ["name"] = "Étiquette polychrome",
+                ["name"] = "Badge Polychrome",
                 ["text"] = {
-                    [1] = "Le magasin possède un",
-                    [2] = "{C:dark_edition}Joker polychrome"
+                    [1] = "Le prochain Joker sans Édition",
+                    [2] = "dans la boutique devient {C:dark_edition}Polychrome"
                 }
             },
             ["tag_meteor"] = {
