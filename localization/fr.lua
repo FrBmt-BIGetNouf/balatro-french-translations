@@ -364,31 +364,31 @@ return {
                 }
             },
             ["bl_house"] = {
-                ["name"] = "La maison",
+                ["name"] = "La Maison",
                 ["text"] = {
                     [1] = "La première main est",
-                    [2] = "tirée face cachée"
+                    [2] = "piochée face cachée"
                 }
             },
             ["bl_hook"] = {
-                ["name"] = "L'hameçon",
+                ["name"] = "Le Crochet",
                 ["text"] = {
-                    [1] = "Défaussez 2 cartes aléatoires",
-                    [2] = "par main jouée"
+                    [1] = "Défausse 2 cartes aléatoires",
+                    [2] = "chaque main jouée"
                 }
             },
             ["bl_head"] = {
-                ["name"] = "La tête",
+                ["name"] = "La Tête",
                 ["text"] = {
-                    [1] = "Toutes les cartes Cœur",
-                    [2] = "voient leurs bonus disparaître"
+                    [1] = "Toutes les cartes {C:hearts}Cœur",
+                    [2] = "sont affaiblies"
                 }
             },
             ["bl_goad"] = {
-                ["name"] = "L'aiguillon",
+                ["name"] = "L'Aiguillon",
                 ["text"] = {
-                    [1] = "Toutes les cartes Pique",
-                    [2] = "voient leurs bonus disparaître"
+                    [1] = "Toutes les cartes {C:spades}Pique",
+                    [2] = "sont affaiblies"
                 }
             },
             ["bl_final_leaf"] = {
