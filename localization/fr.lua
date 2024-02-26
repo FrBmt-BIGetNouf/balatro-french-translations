@@ -232,7 +232,7 @@ return {
                 name = "Chaos le clown",
                 text = {
                     "{C:attention}#1#{} {C:green}Nouveau lancer gratuit",
-                    "par magasin"
+                    "par boutique"
                 }
             },
             j_fibonacci = {
@@ -1025,7 +1025,7 @@ return {
                 text = {
                     "Toutes les cartes {C:planet}Planète{} et les",
                     "{C:planet}Paquets Céleste{} dans",
-                    "le magasin sont {C:attention}gratuits"
+                    "la boutique sont {C:attention}gratuits"
                 },
                 unlock = {
                     "Découvrez toutes les",
@@ -1106,7 +1106,7 @@ return {
                     "Crée une copie {C:dark_edition}Négative{}",
                     "d'{C:attention}1{} carte {C:attention}consommable{} aléatoire",
                     "en votre possession",
-                    "à la fin du {C:attention}magasin"
+                    "à la fin de la {C:attention}boutique"
                 },
                 unlock = {
                     "{E:1,s:1.3}?????"
@@ -1349,7 +1349,7 @@ return {
                 name = "Carte mémoire",
                 text = {
                     "Ajoute {C:mult}+#1#{} au Multi. par",
-                    "{C:attention}nouveau lancer{} dans le magasin",
+                    "{C:attention}nouveau lancer{} dans la boutique",
                     "{C:inactive}(Actuellement Multi. {C:mult}+#2#{C:inactive})"
                 }
             },
@@ -1435,14 +1435,14 @@ return {
                 name = "Excédent",
                 text = {
                     "{C:attention}+1{} emplacement de carte",
-                    "disponible dans le magasin"
+                    "disponible dans la boutique"
                 }
             },
             v_clearance_sale = {
                 name = "Déstockage",
                 text = {
-                    "Toutes les cartes et tous les paquets du",
-                    "magasin sont vendus avec un rabais de {C:attention}#1# %{}"
+                    "Toutes les cartes et tous les paquets de la",
+                    "boutique sont vendus avec un rabais de {C:attention}#1# %{}"
                 }
             },
             v_tarot_merchant = {
@@ -1450,7 +1450,7 @@ return {
                 text = {
                     "Les cartes de {C:tarot}Tarot{} apparaissent",
                     "{C:attention}#1#X{} plus fréquemment",
-                    "dans le magasin"
+                    "dans la boutique"
                 }
             },
             v_planet_merchant = {
@@ -1458,7 +1458,7 @@ return {
                 text = {
                     "Les cartes {C:planet}Planète{} apparaissent",
                     "{C:attention}#1#X{} plus fréquemment",
-                    "dans le magasin"
+                    "dans la boutique"
                 }
             },
             v_hone = {
@@ -1526,7 +1526,7 @@ return {
                 text = {
                     "Les {C:attention}Cartes à jouer{} peuvent",
                     "être achetées",
-                    "dans le {C:attention}magasin"
+                    "dans la {C:attention}boutique"
                 }
             },
             v_hieroglyph = {
@@ -1559,19 +1559,19 @@ return {
                 name = "Excédent plus",
                 text = {
                     "{C:attention}+1{} emplacement de carte",
-                    "disponible dans le magasin"
+                    "disponible dans la boutique"
                 },
                 unlock = {
                     "Dépensez un total de",
-                    "{C:money}#1# ${} dans le magasin",
+                    "{C:money}#1# ${} dans la boutique",
                     "{C:inactive}(#2# $)"
                 }
             },
             v_liquidation = {
                 name = "Liquidation",
                 text = {
-                    "Toutes les cartes et tous les paquets du",
-                    "magasin sont vendus avec un rabais de {C:attention}#1# %{}"
+                    "Toutes les cartes et tous les paquets de la",
+                    "boutique sont vendus avec un rabais de {C:attention}#1# %{}"
                 },
                 unlock = {
                     "Utilisez au moins",
@@ -1584,12 +1584,12 @@ return {
                 text = {
                     "Les cartes de {C:tarot}Tarot{} apparaissent",
                     "{C:attention}#1#X{} plus fréquemment",
-                    "dans le magasin"
+                    "dans la boutique"
                 },
                 unlock = {
                     "Achetez un total de",
                     "{C:attention}#1# cartes de {C:tarot}Tarot{}",
-                    "dans le magasin",
+                    "dans la boutique",
                     "{C:inactive}(#2#)"
                 }
             },
@@ -1598,12 +1598,12 @@ return {
                 text = {
                     "Les cartes {C:planet}Planète{} apparaissent",
                     "{C:attention}#1#X{} plus fréquemment",
-                    "dans le magasin"
+                    "dans la boutique"
                 },
                 unlock = {
                     "Achetez un total de",
                     "{C:attention}#1# cartes {C:planet}Planète{}",
-                    "dans le magasin",
+                    "dans la boutique",
                     "{C:inactive}(#2#)"
                 }
             },
@@ -1629,7 +1629,7 @@ return {
                 },
                 unlock = {
                     "Effectuez un total de",
-                    "{C:attention}#1#{} nouveaux lancers dans le magasin",
+                    "{C:attention}#1#{} nouveaux lancers dans la boutique",
                     "{C:inactive}(#2#)"
                 }
             },
@@ -1716,14 +1716,14 @@ return {
             v_illusion = {
                 name = "Illusion",
                 text = {
-                    "Les {C:attention}Cartes à jouer{} du magasin",
+                    "Les {C:attention}Cartes à jouer{} de la boutique",
                     "peuvent être {C:enhanced}Améliorées{},",
                     "{C:dark_edition}Édition{} et/ou {C:dark_edition}Sceau{}"
                 },
                 unlock = {
                     "Achetez un total de",
                     "{C:attention}#1#{} cartes à jouer",
-                    "dans le magasin",
+                    "dans la boutique",
                     "{C:inactive}(#2#)"
                 }
             },
@@ -1763,7 +1763,7 @@ return {
                     "Achetez l'édition {C:dark_edition}Polychrome",
                     "de votre",
                     "carte {C:attention}Joker la plus utilisée",
-                    "dans le magasin"
+                    "dans la boutique"
                 }
             },
             v_palette = {
@@ -2355,7 +2355,7 @@ return {
             stake_black = {
                 name = "Mise noire",
                 text = {
-                    "Les magasins peuvent posséder des Jokers {C:attention}Éternels{}",
+                    "Les boutique peuvent posséder des Jokers {C:attention}Éternels{}",
                     "{C:inactive,s:0.8}(Ne peut pas être vendu ou détruit)",
                     "{s:0.8}Applique toutes les mises précédentes"
                 }
@@ -2388,42 +2388,42 @@ return {
             tag_uncommon = {
                 name = "Étiquette peu commune",
                 text = {
-                    "Le magasin possède un",
+                    "La boutique possède un",
                     "{C:green}Joker peu commun"
                 }
             },
             tag_rare = {
                 name = "Étiquette rare",
                 text = {
-                    "Le magasin possède un",
+                    "La boutique possède un",
                     "{C:red}Joker rare"
                 }
             },
             tag_negative = {
                 name = "Étiquette négative",
                 text = {
-                    "Le magasin possède un",
+                    "La boutique possède un",
                     "{C:dark_edition}Joker négatif"
                 }
             },
             tag_foil = {
                 name = "Étiquette d'aluminium",
                 text = {
-                    "Le magasin possède un",
+                    "La boutique possède un",
                     "{C:dark_edition}Joker d'aluminium"
                 }
             },
             tag_holo = {
                 name = "Étiquette holographique",
                 text = {
-                    "Le magasin possède un",
+                    "La boutique possède un",
                     "{C:dark_edition}Joker holographique"
                 }
             },
             tag_polychrome = {
                 name = "Étiquette polychrome",
                 text = {
-                    "Le magasin possède un",
+                    "La boutique possède un",
                     "{C:dark_edition}Joker polychrome"
                 }
             },
@@ -2439,7 +2439,7 @@ return {
                 name = "Étiquette de bon d'achat",
                 text = {
                     "Ajoute un {C:voucher}Bon d'achat",
-                    "au prochain magasin"
+                    "à la prochaine boutique"
                 }
             },
             tag_boss = {
@@ -2497,8 +2497,8 @@ return {
                 name = "Étiquette de coupon",
                 text = {
                     "Les cartes initiales et",
-                    "les Paquets Booster du",
-                    "prochain magasin sont gratuits"
+                    "les Paquets Booster de la",
+                    "prochaine boutique sont gratuits"
                 }
             },
             tag_double = {
@@ -2519,7 +2519,7 @@ return {
             tag_d_six = {
                 name = "Étiquette D6",
                 text = {
-                    "Les nouveaux lancers du prochain magasin",
+                    "Les nouveaux lancers de la prochaine boutique",
                     "commencent à {C:money}0 $"
                 }
             },
@@ -2893,7 +2893,7 @@ return {
                 name = "Jeu fantôme",
                 text = {
                     "Les cartes {C:spectral}Spectrales{} peuvent",
-                    "apparaître dans le magasin,",
+                    "apparaître dans la boutique,",
                     "et commencez avec une carte {C:spectral,T:c_hex}Maléfice{}"
                 }
             },
@@ -3878,7 +3878,7 @@ return {
                 "Chaque défausse coûte {C:money}#1# ${}"
             },
             ch_c_all_eternal = {
-                "Tous les Jokers du magasin sont {C:eternal}Éternels{}"
+                "Tous les Jokers de la boutique sont {C:eternal}Éternels{}"
             },
             ch_c_flipped_cards = {
                 "{C:green}1 carte sur #1#{} est tirée face cachée"
@@ -3887,7 +3887,7 @@ return {
                 "Vous pouvez tenir {C:red}-1{} cartes en main par tranche de {C:money}#1# ${} en votre possession"
             },
             ch_c_no_shop_jokers = {
-                "Les Jokers n'apparaissent plus dans le {C:attention}magasin"
+                "Les Jokers n'apparaissent plus dans la {C:attention}boutique"
             },
             ch_c_debuff_played_cards = {
                 "Toutes les cartes {C:attention}jouées{} deviennent {C:attention}Affaiblies{} après avoir marqué des points"
@@ -4005,7 +4005,7 @@ return {
                 "Beau travail ! Maintenant",
                 "que vous {E:1}nagez{} dans l'{C:money}or{},",
                 "vous pouvez acheter de nouvelles",
-                "cartes dans le {C:attention}Magasin"
+                "cartes dans la {C:attention}boutique"
             },
             s_2 = {
                 "Essayez d'acheter cette",
@@ -4028,7 +4028,7 @@ return {
             },
             s_6 = {
                 "À présent, achetez cette autre",
-                "carte dans le {C:attention}Magasin"
+                "carte dans la {C:attention}boutique"
             },
             s_7 = {
                 "Cette carte de {C:tarot}Tarot{} est un",
@@ -4055,7 +4055,7 @@ return {
             s_11 = {
                 "Pensez à regarder les deux",
                 "{C:booster}Paquets Booster{} dans",
-                "chaque magasin. Ils",
+                "chaque boutique. Ils",
                 "renferment de belles surprises !"
             },
             s_12 = {
@@ -4117,7 +4117,7 @@ return {
             _100000k = "Gagnez 100 000 000 de Jetons en une seule main",
             tiny_hands = "Réduisez votre jeu à 20 cartes ou moins",
             big_hands = "Vous devez avoir 80 cartes ou plus dans votre jeu",
-            you_get_what_you_get = "Gagnez une partie sans effectuer aucun nouveau lancer dans le magasin",
+            you_get_what_you_get = "Gagnez une partie sans effectuer aucun nouveau lancer dans la boutique",
             rule_bender = "Terminez n'importe quelle partie de Défi",
             rule_breaker = "Terminez toutes les parties de Défi",
             legendary = "Découvrez un Joker Légendaire",
