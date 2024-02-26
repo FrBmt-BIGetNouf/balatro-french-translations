@@ -413,9 +413,9 @@ return {
                 }
             },
             ["bl_final_vessel"] = {
-                ["name"] = "Vase violet",
+                ["name"] = "Calice Mauve",
                 ["text"] = {
-                    [1] = "Très grosse Blinde"
+                    [1] = "Très TRÈS grosse Blinde"
                 }
             },
             ["bl_tooth"] = {
