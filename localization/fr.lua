@@ -350,10 +350,10 @@ return {
                 }
             },
             ["bl_eye"] = {
-                ["name"] = "L'œil",
+                ["name"] = "L'Œil",
                 ["text"] = {
-                    [1] = "Pas de types de main",
-                    [2] = "répétés cette manche-ci"
+                    [1] = "Une seule main de chaque type",
+                    [2] = "sera comptée cette manche"
                 }
             },
             ["bl_pillar"] = {
