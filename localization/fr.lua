@@ -97,8 +97,8 @@ return {
                 ["name"] = "Jeu en Damier",
                 ["text"] = {
                     [1] = "Commence la partie avec",
-                    [2] = "{C:attention}26 cartes {C:spades} Pique{} et",
-                    [3] = "{C:attention}26 cartes {C:hearts} Cœur{}"
+                    [2] = "{C:attention}26 cartes {C:spades}Pique{} et",
+                    [3] = "{C:attention}26 cartes {C:hearts}Cœur{}"
                 }
             },
             ["b_green"] = {
@@ -305,10 +305,10 @@ return {
         },
         ["Blind"] = {
             ["bl_club"] = {
-                ["name"] = "Le club",
+                ["name"] = "Le Bâton",
                 ["text"] = {
-                    [1] = "Toutes les cartes Trèfle",
-                    [2] = "voient leurs bonus disparaître"
+                    [1] = "Toutes les cartes {C:clubs}Trèfle",
+                    [2] = "sont affaiblies"
                 }
             },
             ["bl_needle"] = {
