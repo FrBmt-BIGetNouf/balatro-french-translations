@@ -463,10 +463,10 @@ return {
                 }
             },
             ["bl_serpent"] = {
-                ["name"] = "Le serpent",
+                ["name"] = "Le Serpent",
                 ["text"] = {
                     [1] = "Après avoir joué ou défaussé,",
-                    [2] = "tirez toujours 3 cartes"
+                    [2] = "3 cartes sont toujours piochées"
                 }
             },
             ["bl_water"] = {
