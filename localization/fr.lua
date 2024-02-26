@@ -224,9 +224,9 @@ return {
                 }
             },
             ["tag_orbital"] = {
-                ["name"] = "Étiquette orbitale",
+                ["name"] = "Badge orbital",
                 ["text"] = {
-                    [1] = "Augmentez {C:attention}#1#",
+                    [1] = "Améliore {C:attention}#1#",
                     [2] = "de {C:attention}#2# niveaux"
                 }
             },
