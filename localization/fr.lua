@@ -425,9 +425,9 @@ return {
                 }
             },
             ["bl_fish"] = {
-                ["name"] = "Le poisson",
+                ["name"] = "Le Poisson",
                 ["text"] = {
-                    [1] = "Les cartes sont tirées face cachée",
+                    [1] = "Les cartes sont piochées face cachée",
                     [2] = "après chaque main jouée"
                 }
             },
