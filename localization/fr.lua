@@ -2227,13 +2227,13 @@ return {
         },
         Edition = {
             e_base = {
-                name = "Base",
+                name = "de Base",
                 text = {
                     "Aucun effet supplémentaire"
                 }
             },
             e_foil = {
-                name = "Aluminium",
+                name = "Brillant",
                 text = {
                     "{C:chips}+#1#{} Jetons"
                 }
@@ -2241,25 +2241,25 @@ return {
             e_holo = {
                 name = "Holographique",
                 text = {
-                    "{C:mult}+#1#{} au Multi."
+                    "{C:mult}+#1#{} Multi"
                 }
             },
             e_polychrome = {
                 name = "Polychrome",
                 text = {
-                    "Ajoute {X:mult,C:white} x#1# {} au Multi."
+                    "{X:mult,C:white} x#1# {} Multi"
                 }
             },
             e_negative = {
                 name = "Négatif",
                 text = {
-                    "{C:dark_edition}+#1#{} emplacement Joker"
+                    "{C:dark_edition}+#1#{} Joker max"
                 }
             },
             e_negative_consumable = {
                 name = "Négatif",
                 text = {
-                    "{C:dark_edition}+#1#{} emplacement de consommable"
+                    "{C:dark_edition}+#1#{} emplacement de Consommable"
                 }
             }
         },
@@ -2386,145 +2386,144 @@ return {
         },
         Tag = {
             tag_uncommon = {
-                name = "Étiquette peu commune",
+                name = "Badge Peu commun",
                 text = {
-                    "La boutique possède un",
-                    "{C:green}Joker peu commun"
+                    "La boutique a un",
+                    "{C:green}Joker Peu commun"
                 }
             },
             tag_rare = {
-                name = "Étiquette rare",
+                name = "Badge Rare",
                 text = {
-                    "La boutique possède un",
-                    "{C:red}Joker rare"
+                    "La boutique a un",
+                    "{C:red}Joker Rare"
                 }
             },
             tag_negative = {
-                name = "Étiquette négative",
+                name = "Badge Négatif",
                 text = {
-                    "La boutique possède un",
-                    "{C:dark_edition}Joker négatif"
+                    "Le prochain Joker sans Édition",
+                    "dans la boutique devient {C:dark_edition}Négatif"
                 }
             },
             tag_foil = {
-                name = "Étiquette d'aluminium",
+                name = "Badge Brillant",
                 text = {
-                    "La boutique possède un",
-                    "{C:dark_edition}Joker d'aluminium"
+                    "Le prochain Joker sans Édition",
+                    "dans la boutique devient {C:dark_edition}Brillant"
                 }
             },
             tag_holo = {
-                name = "Étiquette holographique",
+                name = "Badge Holographique",
                 text = {
-                    "La boutique possède un",
-                    "{C:dark_edition}Joker holographique"
+                    "Le prochain Joker sans Édition",
+                    "dans la boutique devient {C:dark_edition}Holographique"
                 }
             },
             tag_polychrome = {
-                name = "Étiquette polychrome",
+                name = "Badge Polychrome",
                 text = {
-                    "La boutique possède un",
-                    "{C:dark_edition}Joker polychrome"
+                    "Le prochain Joker sans Édition",
+                    "dans la boutique devient {C:dark_edition}Polychrome"
                 }
             },
             tag_investment = {
-                name = "Étiquette d'investissement",
+                name = "Badge investissement",
                 text = {
                     "Après avoir battu",
-                    "la Boss Blinde,",
-                    "gagnez {C:money}#1# $"
+                    "la Blinde de Boss,",
+                    "octroie {C:money}#1# $"
                 }
             },
             tag_voucher = {
-                name = "Étiquette de bon d'achat",
+                name = "Badge Coupon",
                 text = {
-                    "Ajoute un {C:voucher}Bon d'achat",
-                    "à la prochaine boutique"
+                    "La prochaine boutique a un",
+                    "{C:voucher}Coupon{} supplémentaire"
                 }
             },
             tag_boss = {
-                name = "Étiquette de boss",
+                name = "Badge de Boss",
                 text = {
-                    "Effectue un nouveau lancer de la",
-                    "{C:attention}Boss Blinde"
+                    "Change la {C:attention}Blinde de Boss"
                 }
             },
             tag_standard = {
-                name = "Étiquette standard",
+                name = "Badge Standard",
                 text = {
                     "Octroie un",
-                    "{C:attention}Paquet Méga-Standard"
+                    "{C:attention}Méga Paquet Standard"
                 }
             },
             tag_charm = {
-                name = "Étiquette de charme",
+                name = "Badge Breloque",
                 text = {
                     "Octroie un",
-                    "{C:tarot}Paquet Méga-Arcana"
+                    "{C:tarot}Méga Paquet Arcanes"
                 }
             },
             tag_meteor = {
-                name = "Étiquette de météore",
+                name = "Badge Météore",
                 text = {
                     "Octroie un",
-                    "{C:planet}Paquet Méga-Céleste"
+                    "{C:planet}Méga Paquet Céleste"
                 }
             },
             tag_buffoon = {
-                name = "Étiquette de bouffon",
+                name = "Badge Bouffon",
                 text = {
                     "Octroie un",
-                    "{C:attention}Paquet Bouffon"
+                    "{C:attention}Méga Paquet Bouffon"
                 }
             },
             tag_handy = {
-                name = "Étiquette pratique",
+                name = "Badge manuel",
                 text = {
-                    "Octroie {C:money}#1# ${} par",
-                    "{C:blue}main{} jouée dans cette partie",
-                    "{C:inactive}(Octroiera {C:money}#2# ${C:inactive})"
+                    "Octroie {C:money}#1# ${} par {C:blue}main{}",
+                    "jouée cette partie",
+                    "{C:inactive}(Octroie {C:money}#2# ${C:inactive})"
                 }
             },
             tag_garbage = {
-                name = "Étiquette moisie",
+                name = "Badge déchets",
                 text = {
-                    "Octroie {C:money}#1# ${} par",
-                    "{C:red}défausse{} dans cette partie",
-                    "{C:inactive}(Octroiera {C:money}#2# ${C:inactive})"
+                    "Octroie {C:money}#1# ${} par {C:red}défausse{}",
+                    "inutilisée cette partie",
+                    "{C:inactive}(Octroie {C:money}#2# ${C:inactive})"
                 }
             },
             tag_coupon = {
-                name = "Étiquette de coupon",
+                name = "Badge bon d'achat",
                 text = {
-                    "Les cartes initiales et",
-                    "les Paquets Booster de la",
-                    "prochaine boutique sont gratuits"
+                    "Les cartes et Paquets",
+                    "initiaux de la prochaine",
+                    "boutique sont gratuits"
                 }
             },
             tag_double = {
-                name = "Étiquette double",
+                name = "Badge double",
                 text = {
-                    "Octroie une copie de la",
-                    "prochaine {C:attention}Étiquette{} sélectionnée",
-                    "{s:0.8}en excluant {s:0.8,C:attention}l'Étiquette double"
+                    "Octroiera une copie du",
+                    "prochain {C:attention}Badge{} sélectionné",
+                    "{s:0.8,C:inactive}(sauf {s:0.8,C:attention}Badge double{s:0.8,C:inactive})"
                 }
             },
             tag_juggle = {
-                name = "Étiquette de jongleur",
+                name = "Badge jonglage",
                 text = {
                     "{C:attention}+#1#{} à la taille de la main",
-                    "à la prochaine manche"
+                    "pour la prochaine manche"
                 }
             },
             tag_d_six = {
-                name = "Étiquette D6",
+                name = "Badge 1D6",
                 text = {
-                    "Les nouveaux lancers de la prochaine boutique",
-                    "commencent à {C:money}0 $"
+                    "Le coût de réapprovisionnement de la",
+                    "prochaine boutique commence à {C:money}0 $"
                 }
             },
             tag_top_up = {
-                name = "Étiquette d'appoint",
+                name = "Badge de remplissage",
                 text = {
                     "Crée jusqu'à {C:attention}#1#",
                     "Jokers {C:blue}Communs{}",
@@ -2532,32 +2531,32 @@ return {
                 }
             },
             tag_skip = {
-                name = "Étiquette de rapidité",
+                name = "Badge rapidité",
                 text = {
-                    "Gagnez {C:money}#1# ${} par blinde",
-                    "passée lors de cette partie",
-                    "{C:inactive}(Peut octroyer {C:money}#2# ${C:inactive})"
+                    "Octroie {C:money}#1# ${} par blinde",
+                    "passée cette partie",
+                    "{C:inactive}(Octroie {C:money}#2# ${C:inactive})"
                 }
             },
             tag_orbital = {
-                name = "Étiquette orbitale",
+                name = "Badge orbital",
                 text = {
-                    "Augmentez {C:attention}#1#",
+                    "Améliore {C:attention}#1#",
                     "de {C:attention}#2# niveaux"
                 }
             },
             tag_economy = {
-                name = "Étiquette économique",
+                name = "Badge économie",
                 text = {
-                    "Double votre argent",
-                    "{C:inactive}({C:money}#1# ${C:inactive} au maximum)"
+                    "Double l'argent",
+                    "{C:inactive}({C:money}+#1# ${C:inactive} maximum)"
                 }
             },
             tag_ethereal = {
-                name = "Étiquette éthérée",
+                name = "Badge Éther",
                 text = {
                     "Octroie un",
-                    "{C:planet}Paquet Spectral"
+                    "{C:spectral}Paquet Spectral"
                 }
             }
         },
