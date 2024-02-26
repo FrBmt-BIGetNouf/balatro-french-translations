@@ -73,10 +73,10 @@ return {
                 }
             },
             ["b_red"] = {
-                ["name"] = "Jeu rouge",
+                ["name"] = "Jeu Rouge",
                 ["text"] = {
                     [1] = "{C:red}+#1#{} défausse",
-                    [2] = "à chaque manche"
+                    [2] = "par manche"
                 }
             },
             ["b_painted"] = {
@@ -87,10 +87,10 @@ return {
                 }
             },
             ["b_blue"] = {
-                ["name"] = "Jeu bleu",
+                ["name"] = "Jeu Bleu",
                 ["text"] = {
                     [1] = "{C:blue}+#1#{} main",
-                    [2] = "à chaque manche"
+                    [2] = "par manche"
                 }
             },
             ["b_checkered"] = {
