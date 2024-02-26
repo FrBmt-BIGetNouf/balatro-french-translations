@@ -129,11 +129,11 @@ return {
         },
         ["Tag"] = {
             ["tag_handy"] = {
-                ["name"] = "Étiquette pratique",
+                ["name"] = "Badge manuel",
                 ["text"] = {
-                    [1] = "Octroie {C:money}#1# ${} par",
-                    [2] = "{C:blue}main{} jouée dans cette partie",
-                    [3] = "{C:inactive}(Octroiera {C:money}#2# ${C:inactive})"
+                    [1] = "Octroie {C:money}#1# ${} par {C:blue}main{}",
+                    [2] = "jouée cette partie",
+                    [3] = "{C:inactive}(Octroie {C:money}#2# ${C:inactive})"
                 }
             },
             ["tag_standard"] = {
