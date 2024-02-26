@@ -26,11 +26,11 @@ return {
                 }
             },
             ["b_anaglyph"] = {
-                ["name"] = "Jeu anaglyphe",
+                ["name"] = "Jeu Anaglyphe",
                 ["text"] = {
-                    [1] = "Après avoir battu chaque",
-                    [2] = "{C:attention}Boss Blinde{}, gagnez",
-                    [3] = "{C:attention,T:tag_double}#1#"
+                    [1] = "Après chaque victoire",
+                    [2] = "contre une {C:attention}Blinde de Boss{},",
+                    [3] = "crée un {C:attention,T:tag_double}#1#"
                 }
             },
             ["b_black"] = {
