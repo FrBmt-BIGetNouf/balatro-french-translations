@@ -166,10 +166,10 @@ return {
                 }
             },
             ["tag_holo"] = {
-                ["name"] = "Étiquette holographique",
+                ["name"] = "Badge Holographique",
                 ["text"] = {
-                    [1] = "Le magasin possède un",
-                    [2] = "{C:dark_edition}Joker holographique"
+                    [1] = "Le prochain Joker sans Édition",
+                    [2] = "dans la boutique devient {C:dark_edition}Holographique"
                 }
             },
             ["tag_rare"] = {
