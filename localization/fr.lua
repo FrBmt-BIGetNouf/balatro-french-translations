@@ -1883,7 +1883,7 @@ return {
                     "Sélectionnez {C:attention}#1#{} cartes,",
                     "la carte de {C:attention}gauche{}",
                     "devient la carte de {C:attention}droite{}",
-                    "{C:inactive}(Faites glisser les cartes pour les réorganiser)"
+                    "{C:inactive}(Faire glisser pour réorganiser)"
                 }
             },
             c_temperance = {
