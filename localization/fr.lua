@@ -158,11 +158,11 @@ return {
                 }
             },
             ["tag_investment"] = {
-                ["name"] = "Étiquette d'investissement",
+                ["name"] = "Badge investissement",
                 ["text"] = {
                     [1] = "Après avoir battu",
-                    [2] = "la Boss Blinde,",
-                    [3] = "gagnez {C:money}#1# $"
+                    [2] = "la Blinde de Boss,",
+                    [3] = "octroie {C:money}#1# $"
                 }
             },
             ["tag_holo"] = {
