@@ -289,10 +289,10 @@ return {
                 }
             },
             ["tag_uncommon"] = {
-                ["name"] = "Étiquette peu commune",
+                ["name"] = "Badge Peu commun",
                 ["text"] = {
-                    [1] = "Le magasin possède un",
-                    [2] = "{C:green}Joker peu commun"
+                    [1] = "La boutique a un",
+                    [2] = "{C:green}Joker Peu commun"
                 }
             },
             ["tag_voucher"] = {
