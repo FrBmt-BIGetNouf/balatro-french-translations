@@ -18,12 +18,11 @@ return {
                 }
             },
             ["b_nebula"] = {
-                ["name"] = "Jeu nébuleux",
+                ["name"] = "Jeu Nébuleuse",
                 ["text"] = {
-                    [1] = "Commencez la partie avec le",
-                    [2] = "bon d'achat {C:planet}#1#{}",
-                    [3] = "",
-                    [4] = "{C:red}#2#{} emplacement de consommable"
+                    [1] = "Commence la partie avec",
+                    [2] = "le Coupon {C:planet}#1#{},",
+                    [3] = "{C:red}#2#{} emplacement de Consommable"
                 }
             },
             ["b_anaglyph"] = {
