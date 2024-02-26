@@ -94,11 +94,11 @@ return {
                 }
             },
             ["b_checkered"] = {
-                ["name"] = "Jeu en damier",
+                ["name"] = "Jeu en Damier",
                 ["text"] = {
-                    [1] = "Commencez la partie avec",
-                    [2] = "{C:attention}26 cartes de{C:spades} Pique{} et",
-                    [3] = "{C:attention}26 cartes de{C:hearts} Cœur{} dans votre jeu"
+                    [1] = "Commence la partie avec",
+                    [2] = "{C:attention}26 cartes {C:spades} Pique{} et",
+                    [3] = "{C:attention}26 cartes {C:hearts} Cœur{}"
                 }
             },
             ["b_green"] = {
