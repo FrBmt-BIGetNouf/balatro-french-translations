@@ -336,10 +336,10 @@ return {
                 }
             },
             ["bl_wheel"] = {
-                ["name"] = "La roue",
+                ["name"] = "La Roue",
                 ["text"] = {
-                    [1] = " carte sur 7 est",
-                    [2] = "tirée face cachée"
+                    [1] = "1 carte sur 7 est",
+                    [2] = "piochée face cachée"
                 }
             },
             ["bl_mouth"] = {
