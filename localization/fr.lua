@@ -196,10 +196,10 @@ return {
                 }
             },
             ["tag_foil"] = {
-                ["name"] = "Étiquette d'aluminium",
+                ["name"] = "Badge Brillant",
                 ["text"] = {
-                    [1] = "Le magasin possède un",
-                    [2] = "{C:dark_edition}Joker d'aluminium"
+                    [1] = "Le prochain Joker sans Édition",
+                    [2] = "dans la boutique devient Brillant"
                 }
             },
             ["tag_buffoon"] = {
