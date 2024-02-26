@@ -3307,11 +3307,11 @@ return {
         },
         blind_states = {
             Select = "Sélectionner",
-            Skipped = "Passé",
-            Current = "Actuel",
-            Defeated = "Battu",
+            Skipped = "Passée",
+            Current = "Actuelle",
+            Defeated = "Battue",
             Upcoming = "À venir",
-            Selected = "Sélectionné"
+            Selected = "Sélectionnée"
         },
         ranks = {
             Ace = "As",
@@ -3330,8 +3330,8 @@ return {
         },
         high_scores = {
             hand = "Meilleure main",
-            furthest_round = "Plus grosse manche",
-            furthest_ante = "Plus grosse mise initiale",
+            furthest_round = "Plus haute manche",
+            furthest_ante = "Plus haute Mise initiale",
             most_money = "Le plus d'argent",
             boss_streak = "Le plus de Boss d'affilée",
             collection = "Collection",
@@ -3340,19 +3340,19 @@ return {
             poker_hand = "Main la plus jouée"
         },
         poker_hands = {
-            ['Flush House'] = "Flush House",
-            ['Five of a Kind'] = "Cinq cartes identiques",
+            ['Flush House'] = "Full flush",
+            ['Five of a Kind'] = "Pentacle",
             ['Royal Flush'] = "Quinte flush royale",
             ['Straight Flush'] = "Quinte flush",
             ['Four of a Kind'] = "Carré",
-            ['Full House'] = "Full House",
+            ['Full House'] = "Full",
             ['Flush'] = "Couleur",
             ['Straight'] = "Suite",
             ['Three of a Kind'] = "Brelan",
-            ['Two Pair'] = "Deux paires",
+            ['Two Pair'] = "Double paire",
             ['Pair'] = "Paire",
-            ['High Card'] = "Carte Haute",
-            ['Flush Five'] = "Flush Five"
+            ['High Card'] = "Carte haute",
+            ['Flush Five'] = "Pentacle flush"
         },
         poker_hand_descriptions = {
             ['Flush House'] = {
@@ -3363,16 +3363,16 @@ return {
                 "5 cartes de même valeur"
             },
             ['Royal Flush'] = {
-                "5 cartes à la suite {valeurs consécutifs} avec",
-                "partageant la même couleur"
+                "5 cartes de valeurs consécutives",
+                "avec des cartes de même couleur"
             },
             ['Straight Flush'] = {
-                "5 cartes à la suite {valeurs consécutifs} avec",
-                "partageant la même couleur"
+                "5 cartes de valeurs consécutives",
+                "avec des cartes de même couleur"
             },
             ['Four of a Kind'] = {
                 "4 cartes de même valeur. Elles peuvent",
-                "être jouées avec une autre carte non marquée"
+                "être jouées avec une autre carte non comptée"
             },
             ['Full House'] = {
                 "Un brelan et une paire"
@@ -3385,19 +3385,19 @@ return {
             },
             ['Three of a Kind'] = {
                 "3 cartes de même valeur. Elles peuvent",
-                "être jouées avec deux autres cartes non marquées"
+                "être jouées avec deux autres cartes non comptées"
             },
             ['Two Pair'] = {
                 "2 paires de cartes de valeurs différentes. Elles peuvent",
-                "être jouées avec une autre carte non marquée"
+                "être jouées avec une autre carte non comptée"
             },
             ['Pair'] = {
                 "2 cartes de même valeur. Elles peuvent",
-                "être jouées avec trois autres cartes non marquées"
+                "être jouées avec trois autres cartes non comptées"
             },
             ['High Card'] = {
                 "Si la main jouée n'est pas l'une des mains ci-dessus,",
-                "seule la carte à la valeur la plus élevée est prise en compte"
+                "seule la carte à la valeur la plus élevée est comptée"
             },
             ['Flush Five'] = {
                 "5 cartes de même valeur et de même couleur"
@@ -3411,12 +3411,12 @@ return {
             tarot = "Tarot",
             planet = "Planète",
             pluto_planet = "Planète naine",
-            voucher = "Bon d'achat",
-            foil = "Aluminium",
+            voucher = "Coupon",
+            foil = "Brillant",
             holographic = "Holographique",
             polychrome = "Polychrome",
             negative = "Négatif",
-            gold_seal = "Sceau d'or",
+            gold_seal = "Sceau doré",
             locked = "Bloqué",
             blue_seal = "Sceau bleu",
             red_seal = "Sceau rouge",
@@ -3437,10 +3437,10 @@ return {
             b_play_hand = "Jouer la main",
             b_discard = "Défausser",
             b_sort_hand = "Trier la main",
-            b_run_info_1 = "Partie",
-            b_run_info_2 = "Infos",
+            b_run_info_1 = "Infos de",
+            b_run_info_2 = "la partie",
             b_options = "Options",
-            b_reroll_boss = "Nouveau lancer de Boss",
+            b_reroll_boss = "Changer le Boss",
             b_skip_blind = "Passer la Blinde",
             b_skip_reward = "Passer la Récompense",
             b_skip = "Passer",
@@ -3465,9 +3465,9 @@ return {
             b_set_apply = "Appliquer",
             b_set_master_vol = "Volume principal",
             b_set_music_vol = "Volume de la musique",
-            b_set_game_vol = "Volume du jeu",
+            b_set_game_vol = "Volume des effets",
             b_set_shadows = "Ombres",
-            b_set_pixel_smoothing = "Lissage du Pixel Art",
+            b_set_pixel_smoothing = "Lissage du pixel art",
             b_set_CRT = "CRT",
             b_set_CRT_bloom = "Flou CRT",
             b_stat_jokers = "Jokers",
@@ -3475,38 +3475,38 @@ return {
             b_stat_tarots = "Tarots",
             b_stat_planets = "Planètes",
             b_stat_spectrals = "Spectrales",
-            b_stat_vouchers = "Bons d'achat",
+            b_stat_vouchers = "Coupons",
             b_next = "Suivant",
             b_endless = "Mode Interminable",
-            b_wishlist = "Mettre dans la liste de souhaits Steam",
+            b_wishlist = "Ajouter à la liste de souhaits Steam",
             b_playbalatro = "Visiter playbalatro.com",
             b_remaining = "Restant",
             b_full_deck = "Jeu complet",
             b_poker_hands = "Mains de poker",
             b_blinds = "Blindes",
-            b_vouchers = "Bons d'achat",
+            b_vouchers = "Coupons",
             b_stake = "Mise",
             b_jokers = "Jokers",
             b_tarot_cards = "Cartes de Tarot",
-            b_planet_cards = "Cartes Planète",
+            b_planet_cards = "Cartes de Planète",
             b_spectral_cards = "Cartes Spectrales",
-            b_enhanced_cards = "Cartes améliorées",
+            b_enhanced_cards = "Améliorations",
             b_editions = "Éditions",
-            b_booster_packs = "Paquets Booster",
-            b_tags = "Étiquettes",
+            b_booster_packs = "Paquets additionnels",
+            b_tags = "Badges",
             b_decks = "Jeux",
             b_continue = "Continuer",
             b_back = "Retour",
             b_music = "Musique",
             b_sounds = "Sons",
-            b_imagery = "Imagerie",
+            b_imagery = "Images",
             b_new_run = "Nouvelle partie",
             b_challenges = "Défis",
             b_current_profile = "Profil actuel",
-            b_load_profile = "Charger un profil",
+            b_load_profile = "Charger le profil",
             b_create_profile = "Créer un profil",
-            b_delete_profile = "Supprimer un profil",
-            b_reset_profile = "Réinitialiser un profil",
+            b_delete_profile = "Supprimer le profil",
+            b_reset_profile = "Réinitialiser le profil",
             b_rules = "Règles",
             b_restrictions = "Restrictions",
             b_deck = "Jeu",
@@ -3514,15 +3514,15 @@ return {
             b_options_cap = "OPTIONS",
             b_collection_cap = "COLLECTION",
             b_quit_cap = "QUITTER",
-            b_cash_out = "Convertir",
+            b_cash_out = "Encaisser",
             k_unknown = "?????",
             k_compatible = "compatible",
             k_incompatible = "incompatible",
             k_round = "Manche",
             k_ante = "Mise initiale",
             k_seed = "La seed",
-            k_reroll = "Nouveau lancer",
-            k_mult = "Multi.",
+            k_reroll = "Réapprovisionner",
+            k_mult = "Multi",
             k_rank = "Valeur",
             k_suit = "Couleur",
             k_stake = "Mise",
@@ -3534,18 +3534,18 @@ return {
             k_locked = "Bloqué",
             k_undisovered = "Non découvert",
             k_joker = "Joker",
-            k_voucher = "Bon d'achat",
+            k_voucher = "Coupon",
             k_tarot = "Tarot",
             k_planet = "Planète",
             k_dwarf_planet = "Planète naine",
             k_planet_q = "Planète ?",
-            k_spectral = "Spectral",
-            k_booster = "Booster",
+            k_spectral = "Spectrale",
+            k_booster = "Paquet",
             k_edition = "Édition",
             k_hud_hands = "Mains",
             k_hud_discards = "Défausses",
             k_lower_score = "score",
-            k_arcana_pack = "Paquet Arcana",
+            k_arcana_pack = "Paquet Arcanes",
             k_celestial_pack = "Paquet Céleste",
             k_spectral_pack = "Paquet Spectral",
             k_standard_pack = "Paquet Standard",
@@ -3564,7 +3564,7 @@ return {
             k_ante_cap = "MISE INITIALE",
             k_base_cap = "BASE",
             k_jokers_cap = "JOKERS",
-            k_vouchers_cap = "BONS D'ACHAT",
+            k_vouchers_cap = "COUPONS",
             k_x_base = "X la base",
             k_not_discovered = "Non découvert",
             k_unlocked_ex = "Débloqué !",
@@ -3574,12 +3574,12 @@ return {
             k_wins = "Victoires",
             k_empty_caps = "VIDE",
             k_collection = "Collection",
-            k_stake_level = "Niveau de mise",
+            k_stake_level = "Niveau de Mise",
             k_none = "Aucun",
             k_game_modifiers = "Modificateurs de jeu",
             k_custom_rules = "Règles personnalisées",
             k_banned_cards = "Cartes bannies",
-            k_banned_tags = "Étiquettes bannies",
+            k_banned_tags = "Badges bannies",
             k_other = "Autre",
             k_money = "Argent",
             k_best_hand = "Meilleure main",
@@ -3589,36 +3589,36 @@ return {
             k_skipped_cap = "PASSÉ",
             k_no_reward = "Pas de récompense",
             k_reward = "Récompense",
-            k_nope_ex = "Non !",
+            k_nope_ex = "Nope!",
             k_or = "ou",
             k_balanced = "Équilibré",
             ph_improve_run = "Améliorez votre partie !",
             ph_sneak_peek = "Coup d'œil furtif",
             ph_deck_preview_stones = "Pierres",
-            ph_deck_preview_effective = "Total effectif grâce aux Jokers, aux Blindes et aux améliorations de cartes",
-            ph_blind_score_at_least = "Faire un score d'au moins",
+            ph_deck_preview_effective = "Total effectif grâce aux Jokers, Blindes et Améliorations de cartes",
+            ph_blind_score_at_least = "Atteindre un score d'au moins",
             ph_blind_reward = "Récompense : ",
-            ph_up_ante_1 = "Atteindre la mise initiale",
+            ph_up_ante_1 = "Atteindre la Mise initiale",
             ph_up_ante_2 = "Augmenter toutes les Blindes",
             ph_up_ante_3 = "Actualiser les Blindes",
             ph_stat_joker = "Nombre total de manches effectuées avec cette carte",
             ph_stat_consumable = "Nombre de fois où cette carte a été utilisée",
-            ph_stat_voucher = "Nombre de fois où ce bon d'achat a été utilisé",
+            ph_stat_voucher = "Nombre de fois où ce coupon a été utilisé",
             ph_demo_thanks_1 = "Merci d'avoir joué à la",
-            ph_demo_thanks_2 = "DÉMO DE BALATRO",
+            ph_demo_thanks_2 = "Démo De BALATRO",
             ph_game_over = "PARTIE TERMINÉE",
-            ph_vouchers_redeemed = "Bons utilisés pendant cette partie",
-            ph_no_vouchers = "Pas de bons utilisés pendant cette partie",
+            ph_vouchers_redeemed = "Coupons échangés",
+            ph_no_vouchers = "Pas de Coupons utilisés cette partie",
             ph_defeat_this_blind_1 = "Battez cette Blinde",
             ph_defeat_this_blind_2 = "pour la découvrir",
             ph_click_confirm = "Cliquez à nouveau pour confirmer",
             ph_choose_blind_1 = "Choisissez votre",
             ph_choose_blind_2 = "prochaine Blinde",
             ph_mr_bones = "Sauvé par M. Bones",
-            ph_score_at_least = "Faire un score d'au moins",
+            ph_score_at_least = "Atteindre un score d'au moins",
             ph_all_poker_hand = "Toutes les mains de poker",
             ph_1_level = "+1 Niveau",
-            ph_boss_disabled = "Bosse désactivé !",
+            ph_boss_disabled = "Boss désactivé !",
             ph_most_played = "(main la plus jouée)",
             ml_demo_thanks_message = {
                 "Pensez à ajouter Balatro",
@@ -3631,12 +3631,12 @@ return {
                 "ni détruit"
             },
             ml_gold_seal_desc = {
-                "Le sceau d'or",
+                "Le sceau doré",
                 "retourne en main",
                 "s'il est joué"
             },
             ml_crash_report_info = {
-                "Les rapports de plantage seront envoyés aux développeurs",
+                "Les rapports de plantage seront envoyés au développeur",
                 "afin de limiter les problèmes à l'avenir.",
                 "Aucune information personnelle ou d'identification ne sera envoyée."
             },
@@ -3650,8 +3650,8 @@ return {
                 "Sans bordures"
             },
             ml_vsync_opt = {
-                "Synchro V. Activée",
-                "Synchro V. Désact."
+                "Synchro V. activée",
+                "Synchro V. désact."
             },
             ml_shadow_opt = {
                 "Activées",
@@ -3674,20 +3674,20 @@ return {
                 "La seed"
             },
             ml_disabled_seed = {
-                "Tous les déblocages et les",
+                "Tous les déblocages et",
                 "découvertes désactivés"
             },
             ['$'] = "$",
             k_redeemed_ex = "Échangé !",
             k_duplicated_ex = "Dupliqué !",
             k_no_room_ex = "Pas de place !",
-            k_no_space_ex = "Pas de place !",
+            k_no_space_ex = "Pas la place !",
             k_no_other_jokers = "Pas d'autres Jokers !",
             k_plus_tarot = "+1 Tarot",
-            k_plus_stone = "+1 Pierres",
+            k_plus_stone = "+1 Pierre",
             k_plus_planet = "+1 Planète",
-            k_plus_spectral = "+1 Spectral",
-            k_active_ex = "Actif !",
+            k_plus_spectral = "+1 Spectrale",
+            k_active_ex = "Active !",
             k_level_up_ex = "Niveau supérieur !",
             k_upgrade_ex = "Améliorer !",
             k_again_ex = "Encore !",
@@ -3695,7 +3695,7 @@ return {
             k_reset = "Réinitialiser",
             k_extinct_ex = "Détruit !",
             k_safe_ex = "Sûr !",
-            k_saved_ex = "Sauvegardé !",
+            k_saved_ex = "Sauvé !",
             k_swapped_ex = "Échangé !",
             k_copied_ex = "Copié !",
             k_melted_ex = "Fondu !",
@@ -3709,7 +3709,7 @@ return {
             k_deck = "Jeu",
             k_progress = "Progression",
             k_challenges = "Défis",
-            k_joker_stickers = "Autocollants Joker",
+            k_joker_stickers = "Autocollants de Joker",
             k_deck_stake_wins = "Victoires de mise de jeu",
             k_enter_name = "Saisissez votre nom",
             k_gold = "Or",
@@ -3724,7 +3724,7 @@ return {
             ph_no_boss_active = "aucun boss actif",
             ph_you_win = "VOUS AVEZ GAGNÉ !",
             ph_you_win_demo = "VOUS AVEZ TERMINÉ LA DÉMO !",
-            ph_defeat_the_boss = "Battez la Boss Blinde",
+            ph_defeat_the_boss = "Battre la Blinde de Boss",
             ph_score_furthest_ante = "Mise initiale",
             ph_score_furthest_round = "Manche",
             ph_score_hand = "Meilleure main",
@@ -3732,11 +3732,11 @@ return {
             ph_score_new_collection = "Nouvelles découvertes",
             ph_score_cards_played = "Cartes jouées",
             ph_score_cards_discarded = "Cartes défaussées",
-            ph_score_times_rerolled = "Nombre de nouveaux lancers",
+            ph_score_times_rerolled = "Réapprovisionnements",
             ph_score_cards_purchased = "Cartes achetées",
             ml_edition_seal_enhancement_explanation = {
-                "Les cartes à jouer peuvent toutes recevoir une",
-                "Amélioration, une Édition et un Sceau"
+                "Chaque carte à jouer peut recevoir",
+                "une Amélioration, une Édition et un Sceau"
             },
             ml_unlock_all_explanation = {
                 "ATTENTION ! Si vous débloquez la collection complète,",
@@ -3746,65 +3746,65 @@ return {
             k_eaten_ex = "Mangé !",
             k_eroded_ex = "Érodé !",
             k_achievement = "Succès",
-            ph_unscored_hand = "La main ne marquera pas de points",
+            ph_unscored_hand = "La main ne comptera aucun point",
             ph_alert_debuff_confirm = "Appuyez à nouveau sur « Jouer » pour confirmer",
             k_drank_ex = "Belle descente !",
             k_trophy = "Trophée",
             k_trophies_disabled = "Trophées désactivés",
             ml_unlock_all_trophies = {
                 "ATTENTION ! Si vous débloquez la collection complète,",
-                "désactivera les trophées sur ce profil !"
+                "tous les trophées seront désactivés sur ce profil !"
             },
             k_poker_hand = "main de poker",
-            ph_4_7_of_clubs = "quatre 7 de trèfles"
+            ph_4_7_of_clubs = "quatre 7 de trèfle"
         },
         v_dictionary = {
-            a_xmult = "Multi. x#1#",
+            a_xmult = "x#1# Multi",
             a_mult = "+#1# Multi",
             a_chips = "+#1#",
             a_chips_minus = "-#1#",
-            a_handsize = "+#1# Taille de la main",
-            a_hands = "+#1# Mains",
-            a_sold_tally = "#1#/#2# Vendu",
-            a_remaining = "#1# Restant",
-            ante_x_voucher = "MISE INITIALE #1# BON D'ACHAT",
-            loyalty_active = "Actif !",
+            a_handsize = "+#1# à la taille de la main",
+            a_hands = "+#1# mains",
+            a_sold_tally = "#1#/#2# vendu",
+            a_remaining = "#1# restant",
+            ante_x_voucher = "COUPON DE MISE INITIALE #1#",
+            loyalty_active = "Active !",
             loyalty_inactive = "#1# restant",
-            deck_preview_wheel_singular = "Les nombres peuvent être inférieurs en raison de la carte #1# tirée face cachée",
-            deck_preview_wheel_plural = "Les nombres peuvent être inférieurs en raison des cartes #1# tirées faces cachées",
+            deck_preview_wheel_singular = "Les nombres peuvent être inférieurs en raison de la carte #1# piochée face cachée",
+            deck_preview_wheel_plural = "Les nombres peuvent être inférieurs en raison des cartes #1# piochées faces cachées",
             challenges_completed = "#1#/#2# Défis terminés",
             interest = "#1# d'intérêt tous les #2# $ (#3# max.)",
             remaining_hand_money = "Mains restantes (#1# $ chacune)",
             remaining_discard_money = "Défausses restantes (#1# $ chacune)",
             ml_foil_desc = {
-                "Aluminium",
-                "+#1# Chips"
+                "Brillant",
+                "+#1# Jetons"
             },
             ml_holo_desc = {
                 "Holographique",
-                "+#1# Multi."
+                "+#1# Multi"
             },
             ml_polychrome_desc = {
                 "Polychrome",
-                "Multi. x#1#"
+                "x#1# Multi"
             },
             ml_negative_desc = {
                 "Négatif",
-                "+#1# Emplacement Joker"
+                "+#1# Joker max"
             },
-            a_mult_minus = "Multi. -#1#",
-            a_handsize_minus = "Taille de la main -#1#",
+            a_mult_minus = "-#1# Multi",
+            a_handsize_minus = "-#1# à la taille de la main",
             ml_negative_consumable_desc = {
                 "Négatif",
-                "+#1# emplacement de consommable"
+                "+#1# emplacement de Consommable"
             },
-            a_xmult_minus = "-Multi. x#1#",
+            a_xmult_minus = "-x#1# Multi",
             unlocked = "#1#/#2# débloqués",
             completed = "#1#/#2# complétés"
         },
         v_text = {
             ch_m_dollars = {
-                "Commencez avec {C:money}#1# $"
+                "Commence la partie avec {C:money}#1# $"
             },
             ch_m_hands = {
                 "{C:blue}#1#{} mains par manche"
@@ -3813,13 +3813,13 @@ return {
                 "{C:red}#1#{} défausses par manche"
             },
             ch_m_reroll_cost = {
-                "Coût de base de nouveau lancer égal à {C:money}#1# ${}"
+                "Coût de base de réapprovisionnement de {C:money}#1# ${}"
             },
             ch_m_joker_slots = {
-                "{C:attention}#1#{} emplacements Joker"
+                "{C:attention}#1#{} emplacements de Joker"
             },
             ch_m_consumable_slots = {
-                "{C:attention}#1#{} Emplacements Consommable"
+                "{C:attention}#1#{} emplacements de Consommable"
             },
             ch_m_hand_size = {
                 "Taille de la main : {C:attention}#1#{}"
@@ -3828,13 +3828,13 @@ return {
                 "{C:inactive}Aucun"
             },
             ch_c_no_reward = {
-                "Toutes les {C:attention}Blindes{} ne donnent pas d'argent en récompense"
+                "Aucune {C:attention}Blinde{} ne donne d'argent en récompense"
             },
             ch_c_no_reward_specific = {
                 "Les {C:attention}#1#Blindes{} ne donnent pas d'argent en récompense"
             },
             ch_c_no_extra_hand_money = {
-                "Les {C:blue}Mains{} supplémentaires ne rapportent plus d'argent"
+                "Les {C:blue}mains{} restantes ne rapportent plus d'argent"
             },
             ch_c_no_interest = {
                 "Vous ne percevez pas d'{C:attention}intérêts{} à la fin de la manche"
@@ -3852,7 +3852,7 @@ return {
                 "{C:inactive}Aucun"
             },
             ch_c_inflation = {
-                "Augmente de manière permanente les prix de {C:money}1 ${} à chaque achat"
+                "Les prix augmentent de manière permanente de {C:money}1 ${} à chaque achat"
             },
             ch_c_discard_cost = {
                 "Chaque défausse coûte {C:money}#1# ${}"
@@ -3861,22 +3861,22 @@ return {
                 "Tous les Jokers de la boutique sont {C:eternal}Éternels{}"
             },
             ch_c_flipped_cards = {
-                "{C:green}1 carte sur #1#{} est tirée face cachée"
+                "{C:green}1 carte sur #1#{} est piochée face cachée"
             },
             ch_c_minus_hand_size_per_X_dollar = {
-                "Vous pouvez tenir {C:red}-1{} cartes en main par tranche de {C:money}#1# ${} en votre possession"
+                "{C:red}-1{} à la taille d la main par tranche de {C:money}#1# ${} en votre possession"
             },
             ch_c_no_shop_jokers = {
                 "Les Jokers n'apparaissent plus dans la {C:attention}boutique"
             },
             ch_c_debuff_played_cards = {
-                "Toutes les cartes {C:attention}jouées{} deviennent {C:attention}Affaiblies{} après avoir marqué des points"
+                "Toutes les cartes {C:attention}jouées{} deviennent {C:attention}Affaiblies{} après avoir été comptées"
             },
             ch_c_set_eternal_ante = {
-                "Lorsque le boss de la mise initiale {C:attention}#1#{} est vaincu, tous les Jokers deviennent {C:attention}éternels"
+                "Lorsque le Boss de la Mise initiale {C:attention}#1#{} est vaincu, tous les Jokers deviennent {C:attention}Éternels"
             },
             ch_c_set_joker_slots_ante = {
-                "Lorsque le boss de la mise initiale {C:attention}#1#{} est vaincu, les emplacements Joker passent à {C:attention}0"
+                "Lorsque le Boss de la Mise initiale {C:attention}#1#{} est vaincu, les emplacements de Joker passent à {C:attention}0"
             }
         },
         tutorial = {
@@ -4077,37 +4077,37 @@ return {
             completionist_plus_plus = "Jusqu'au-boutiste++"
         },
         achievement_descriptions = {
-            ante_up = "Atteignez la mise initiale 4",
-            ante_upper = "Atteignez la mise initiale 8",
-            heads_up = "Gagnez une partie",
-            low_stakes = "Gagnez une partie en difficulté Mise rouge au minimum",
-            mid_stakes = "Gagnez une partie en difficulté Mise noire au minimum",
-            high_stakes = "Gagnez une partie en difficulté Mise d'or au minimum",
-            card_player = "Jouez au moins 2 500 cartes",
-            card_discarder = "Défaussez au moins 2 500 cartes",
-            nest_egg = "Vous devez accumuler 400 $ ou plus en une seule partie",
-            flushed = "Jouez une couleur avec 5 cartes Libres",
-            speedrunner = "Gagnez une partie en 12 manches ou moins",
-            roi = "Achetez 5 bons d'achat avant la mise initiale 4",
-            shattered = "Cassez 2 cartes de verre en une seule main",
-            royale = "Jouez une Quinte flush royale",
-            retrograde = "Faites passer une main de poker au niveau 10",
-            _10k = "Gagnez 10 000 Jetons en une seule main",
-            _1000k = "Gagnez 1 000 000 de Jetons en une seule main",
-            _100000k = "Gagnez 100 000 000 de Jetons en une seule main",
-            tiny_hands = "Réduisez votre jeu à 20 cartes ou moins",
-            big_hands = "Vous devez avoir 80 cartes ou plus dans votre jeu",
-            you_get_what_you_get = "Gagnez une partie sans effectuer aucun nouveau lancer dans la boutique",
-            rule_bender = "Terminez n'importe quelle partie de Défi",
-            rule_breaker = "Terminez toutes les parties de Défi",
-            legendary = "Découvrez un Joker Légendaire",
-            astronomy = "Découvrez toutes les cartes Planète",
-            cartomancy = "Découvrez toutes les cartes de Tarot",
-            clairvoyance = "Découvrez toutes les cartes Spectrales",
-            extreme_couponer = "Découvrez tous les bons d'achat",
-            completionist = "Découvrez 100 % de votre collection",
-            completionist_plus = "Gagnez avec tous les jeux en difficulté Mise d'or",
-            completionist_plus_plus = "Gagnez un Autocollant d'or sur chaque Joker"
+            ante_up = "Atteindre la Mise initiale 4",
+            ante_upper = "Atteindre la Mise initiale 8",
+            heads_up = "Gagner une partie",
+            low_stakes = "Gagner une partie en difficulté Mise rouge au minimum",
+            mid_stakes = "Gagner une partie en difficulté Mise noire au minimum",
+            high_stakes = "Gagner une partie en difficulté Mise d'or au minimum",
+            card_player = "Jouer au moins 2 500 cartes",
+            card_discarder = "Défausser au moins 2 500 cartes",
+            nest_egg = "Accumuler 400 $ ou plus en une seule partie",
+            flushed = "Jouer une couleur avec 5 cartes Libres",
+            speedrunner = "Gagner une partie en 12 manches ou moins",
+            roi = "Échanger 5 Coupons avant la Mise initiale 4",
+            shattered = "Casser 2 cartes Verre en une seule main",
+            royale = "Jouer une Quinte flush royale",
+            retrograde = "Faire passer une main de poker au niveau 10",
+            _10k = "Gagner 10 000 Jetons en une seule main",
+            _1000k = "Gagner 1 000 000 de Jetons en une seule main",
+            _100000k = "Gagner 100 000 000 de Jetons en une seule main",
+            tiny_hands = "Avoir 20 cartes ou moins dans votre jeu",
+            big_hands = "Avoir 80 cartes ou plus dans votre jeu",
+            you_get_what_you_get = "Gagner une partie sans effectuer de réapprovisionnement",
+            rule_bender = "Terminer n'importe quel Défi",
+            rule_breaker = "Terminer tous les Défis",
+            legendary = "Découvrir un Joker Légendaire",
+            astronomy = "Découvrir toutes les cartes de Planète",
+            cartomancy = "Découvrir toutes les cartes de Tarot",
+            clairvoyance = "Découvrir toutes les cartes Spectrales",
+            extreme_couponer = "Découvrir tous les Coupons",
+            completionist = "Découvrir 100 % de la collection",
+            completionist_plus = "Gagner avec tous les Jeux en difficulté Mise dorée",
+            completionist_plus_plus = "Gagner un Autocollant doré sur chaque Joker"
         },
         quips = {
             wq_1 = {
