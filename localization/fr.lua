@@ -488,14 +488,14 @@ return {
                 }
             },
             ["bl_final_heart"] = {
-                ["name"] = "Cœur écarlate",
+                ["name"] = "Cœur Écarlate",
                 ["text"] = {
                     [1] = "Un Joker aléatoire",
                     [2] = "annulé à chaque main"
                 }
             },
             ["bl_final_bell"] = {
-                ["name"] = "Cloche céruléenne",
+                ["name"] = "Cloche Céruléenne",
                 ["text"] = {
                     [1] = "Force la sélection",
                     [2] = "systématique d'une carte"
