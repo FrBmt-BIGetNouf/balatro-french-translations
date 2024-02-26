@@ -1957,108 +1957,108 @@ return {
             c_mercury = {
                 name = "Mercure",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Niveau supérieur",
+                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Améliore",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} au Multi. et",
+                    "{C:mult}+#3#{} Multi et",
                     "{C:chips}+#4#{} Jetons"
                 }
             },
             c_venus = {
                 name = "Vénus",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Niveau supérieur",
+                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Améliore",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} au Multi. et",
+                    "{C:mult}+#3#{} Multi et",
                     "{C:chips}+#4#{} Jetons"
                 }
             },
             c_earth = {
                 name = "Terre",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Niveau supérieur",
+                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Améliore",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} au Multi. et",
+                    "{C:mult}+#3#{} Multi et",
                     "{C:chips}+#4#{} Jetons"
                 }
             },
             c_mars = {
                 name = "Mars",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Niveau supérieur",
+                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Améliore",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} au Multi. et",
+                    "{C:mult}+#3#{} Multi et",
                     "{C:chips}+#4#{} Jetons"
                 }
             },
             c_jupiter = {
                 name = "Jupiter",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Niveau supérieur",
+                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Améliore",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} au Multi. et",
+                    "{C:mult}+#3#{} Multi et",
                     "{C:chips}+#4#{} Jetons"
                 }
             },
             c_saturn = {
                 name = "Saturne",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Niveau supérieur",
+                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Améliore",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} au Multi. et",
+                    "{C:mult}+#3#{} Multi et",
                     "{C:chips}+#4#{} Jetons"
                 }
             },
             c_uranus = {
                 name = "Uranus",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Niveau supérieur",
+                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Améliore",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} au Multi. et",
+                    "{C:mult}+#3#{} Multi et",
                     "{C:chips}+#4#{} Jetons"
                 }
             },
             c_neptune = {
                 name = "Neptune",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Niveau supérieur",
+                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Améliore",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} au Multi. et",
+                    "{C:mult}+#3#{} Multi et",
                     "{C:chips}+#4#{} Jetons"
                 }
             },
             c_pluto = {
                 name = "Pluton",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Niveau supérieur",
+                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Améliore",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} au Multi. et",
+                    "{C:mult}+#3#{} Multi et",
                     "{C:chips}+#4#{} Jetons"
                 }
             },
             c_ceres = {
                 name = "Cérès",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Niveau supérieur",
+                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Améliore",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} au Multi. et",
+                    "{C:mult}+#3#{} Multi et",
                     "{C:chips}+#4#{} Jetons"
                 }
             },
             c_planet_x = {
                 name = "Planète X",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Niveau supérieur",
+                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Améliore",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} au Multi. et",
+                    "{C:mult}+#3#{} Multi et",
                     "{C:chips}+#4#{} Jetons"
                 }
             },
             c_eris = {
                 name = "Eris",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Niveau supérieur",
+                    "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Améliore",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} au Multi. et",
+                    "{C:mult}+#3#{} Multi et",
                     "{C:chips}+#4#{} Jetons"
                 }
             }
@@ -2067,58 +2067,58 @@ return {
             c_familiar = {
                 name = "Familier",
                 text = {
-                    "Détruisez {C:attention}1{} carte",
+                    "Détruit {C:attention}1{} carte",
                     "aléatoire de votre main,",
-                    "ajoutez {C:attention}#1#{} cartes {C:attention}Figure Améliorées{}",
-                    "aléatoires à votre main"
+                    "crée {C:attention}#1#{} cartes {C:attention}Figure Améliorées{}",
+                    "aléatoires dans votre main"
                 }
             },
             c_grim = {
                 name = "Grinçant",
                 text = {
-                    "Détruisez {C:attention}1{} carte",
+                    "Détruit {C:attention}1{} carte",
                     "aléatoire de votre main,",
-                    "ajoutez {C:attention}#1#{}",
-                    "aléatoires à votre main"
+                    "crée {C:attention}#1#{} cartes {C:attention}As Améliorées{}",
+                    "aléatoires dans votre main"
                 }
             },
             c_incantation = {
                 name = "Incantation",
                 text = {
-                    "Détruisez {C:attention}1{} carte",
-                    "aléatoire de votre main, ajoutez {C:attention}#1#",
-                    "{C:attention}cartes{} {C:attention}numérotées Améliorées",
-                    "aléatoires à votre main"
+                    "Détruit {C:attention}1{} carte",
+                    "aléatoire de votre main, crée",
+                    "{C:attention}#1#{} cartes {C:attention}numérotées Améliorées",
+                    "aléatoires dans votre main"
                 }
             },
             c_talisman = {
                 name = "Talisman",
                 text = {
-                    "Ajoutez un {C:attention}Sceau d'or{}",
+                    "Ajoute un {C:attention}Sceau doré{}",
                     "à {C:attention}1{} carte",
-                    "aléatoire de votre main"
+                    "sélectionnée"
                 }
             },
             c_aura = {
                 name = "Aura",
                 text = {
-                    "Ajoutez un effet {C:dark_edition}Aluminium{}, {C:dark_edition}Holographique{}",
-                    "ou {C:dark_edition}Polychrome{} à",
-                    "{C:attention}1{} carte choisie dans votre main"
+                    "{C:attention}1{} carte sélectionnée devient",
+                    "{C:dark_edition}Brillante{}, {C:dark_edition}Holographique{}",
+                    "ou {C:dark_edition}Polychrome{}"
                 }
             },
             c_wraith = {
                 name = "Apparition",
                 text = {
-                    "Crée une carte",
-                    "Joker {C:red}Rare{C:attention}{},",
-                    "fixe l'argent à {C:money}0 $"
+                    "Crée une carte de",
+                    "Joker {C:red}Rare{},",
+                    "ramène l'argent à {C:money}0 $"
                 }
             },
             c_sigil = {
                 name = "Sceau",
                 text = {
-                    "Convertit toutes les cartes",
+                    "Transforme toutes les cartes",
                     "en main en une unique",
                     "{C:attention}Couleur{} aléatoire"
                 }
@@ -2126,18 +2126,18 @@ return {
             c_ouija = {
                 name = "Ouija",
                 text = {
-                    "Convertit toutes les cartes",
+                    "Transforme toutes les cartes",
                     "en main en une unique",
-                    "{C:attention}Valeur{} aléatoire",
-                    "Taille de la main {C:red}-1{}"
+                    "{C:attention}Valeur{} aléatoire,",
+                    "{C:red}-1{} à la taille de la main"
                 }
             },
             c_ectoplasm = {
                 name = "Ectoplasme",
                 text = {
-                    "Ajoutez un {C:dark_edition}Négatif{} à",
-                    "à un {C:attention}Joker{} aléatoire,",
-                    "Taille de la main {C:red}-1{}"
+                    "Un {C:attention}Joker{} aléatoire",
+                    "devient {C:dark_edition}Négatif{},",
+                    "{C:red}-1{} à la taille de la main"
                 }
             },
             c_immolate = {
@@ -2145,21 +2145,21 @@ return {
                 text = {
                     "Détruit {C:attention}#1#{} cartes",
                     "aléatoires en main,",
-                    "gagnez {C:money}#2# $"
+                    "octroie {C:money}#2# $"
                 }
             },
             c_soul = {
-                name = "L'âme",
+                name = "L'Âme",
                 text = {
-                    "Crée un",
-                    "Joker {C:legendary,E:1}Légendaire{}",
+                    "Crée un Joker",
+                    "{C:legendary,E:1}Légendaire{}",
                     "{C:inactive}(Selon la place disponible)"
                 }
             },
             c_black_hole = {
                 name = "Trou noir",
                 text = {
-                    "Augmentez chaque",
+                    "Améliore chaque",
                     "{C:legendary,E:1}main de poker",
                     "d'{C:attention}1{} niveau"
                 }
@@ -2167,49 +2167,51 @@ return {
             c_ankh = {
                 name = "Ankh",
                 text = {
-                    "Créez une copie d'un",
-                    "{C:attention}Joker{} aléatoire, détruisez",
-                    "tous les autres Jokers"
+                    "Crée une copie d'un",
+                    "{C:attention}Joker{} aléatoire,",
+                    "détruisez tous les",
+                    "autres Jokers"
                 }
             },
             c_deja_vu = {
-                name = "Déjà vu",
+                name = "Déjà-vu",
                 text = {
-                    "Ajoutez un {C:red}Sceau rouge{}",
-                    "à {C:attention}1{} carte sélectionnée",
-                    "dans votre main"
+                    "Ajoute un {C:red}Sceau rouge{}",
+                    "à {C:attention}1{} carte",
+                    "sélectionnée"
                 }
             },
             c_hex = {
                 name = "Maléfice",
                 text = {
-                    "Ajoutez {C:dark_edition}Polychrome{} à un",
-                    "{C:attention}Joker{} aléatoire, détruisez",
-                    "tous les autres Jokers"
+                    "Un {C:attention}Joker{} aléatoire",
+                    "devient {C:dark_edition}Polychrome{},",
+                    "détruisez tous les",
+                    "autres Jokers"
                 }
             },
             c_trance = {
-                name = "Trance",
+                name = "Transe",
                 text = {
-                    "Ajoutez un {C:blue}Sceau bleu{}",
-                    "à {C:attention}1{} carte sélectionnée",
-                    "dans votre main"
+                    "Ajoute un {C:blue}Sceau bleu{}",
+                    "à {C:attention}1{} carte",
+                    "sélectionnée"
                 }
             },
             c_medium = {
                 name = "Médium",
                 text = {
-                    "Ajoutez un {C:purple}Sceau violet{}",
-                    "à {C:attention}1{} carte sélectionnée",
-                    "dans votre main"
+                    "Ajoute un {C:purple}Sceau violet{}",
+                    "à {C:attention}1{} carte",
+                    "sélectionnée"
                 }
             },
             c_cryptid = {
                 name = "Cryptide",
                 text = {
-                    "Créez {C:attention}#1#{} copies",
-                    "d'{C:attention}une{} carte sélectionnée",
-                    "dans votre main"
+                    "Crée {C:attention}#1#{} copies",
+                    "d'{C:attention}une{} carte",
+                    "sélectionnée"
                 }
             }
         },
@@ -2253,26 +2255,26 @@ return {
         },
         Enhanced = {
             m_bonus = {
-                name = "Carte bonus",
+                name = "Carte Bonus",
                 text = {}
             },
             m_mult = {
-                name = "Carte Multi.",
+                name = "Carte Multi",
                 text = {
-                    "Multi. {C:mult}+#1#{}"
+                    "{C:mult}+#1#{} Multi"
                 }
             },
             m_wild = {
                 name = "Carte Libre",
                 text = {
-                    "Peut être utilisée",
-                    "comme n'importe quelle couleur"
+                    "Peut être utilisée comme",
+                    "n'importe quelle couleur"
                 }
             },
             m_glass = {
                 name = "Carte Verre",
                 text = {
-                    "Multi. {X:mult,C:white}x#1#{}",
+                    "{X:mult,C:white}x#1#{} Multi",
                     "{C:green}#2# chance(s) sur #3#{} de",
                     "détruire la carte"
                 }
@@ -2280,7 +2282,7 @@ return {
             m_steel = {
                 name = "Carte Acier",
                 text = {
-                    "Multi. {X:mult,C:white} x#1# {}",
+                    "{X:mult,C:white} x#1# {} Multi",
                     "tant que cette carte",
                     "reste en main"
                 }
@@ -2289,7 +2291,7 @@ return {
                 name = "Carte Pierre",
                 text = {
                     "{C:chips}+#1#{} Jetons",
-                    "sans valeur ni couleur"
+                    "ni valeur ni couleur"
                 }
             },
             m_gold = {
@@ -2304,7 +2306,7 @@ return {
                 name = "Carte Chance",
                 text = {
                     "{C:green}#1# chance(s) sur #3#{}",
-                    "d'obtenir {C:mult}+#2#{} au Multi.",
+                    "d'obtenir {C:mult}+#2#{} Multi",
                     "{C:green}#1# chance(s) sur #5#{}",
                     "de gagner {C:money}#4# $"
                 }
@@ -2320,8 +2322,8 @@ return {
             stake_red = {
                 name = "Mise rouge",
                 text = {
-                    "Une {C:attention}Petite Blinde{} n'octroie pas",
-                    "de récompense en argent",
+                    "Les {C:attention}Petites Blindes{} n'octroient",
+                    "pas de récompense en argent",
                     "{s:0.8}Applique toutes les mises précédentes"
                 }
             },
@@ -2329,14 +2331,14 @@ return {
                 name = "Mise verte",
                 text = {
                     "Le score requis augmente",
-                    "plus rapidement pour chaque {C:attention}mise initiale",
+                    "plus rapidement pour chaque {C:attention}Mise initiale",
                     "{s:0.8}Applique toutes les mises précédentes"
                 }
             },
             stake_blue = {
                 name = "Mise bleue",
                 text = {
-                    "{C:red}-1{} défausse",
+                    "{C:red}-1{} défausse par manche",
                     "{s:0.8}Applique toutes les mises précédentes"
                 }
             },
@@ -2359,13 +2361,13 @@ return {
             stake_orange = {
                 name = "Mise orange",
                 text = {
-                    "Les {C:attention}Paquets Booster{} coûtent",
-                    "{C:money}1 ${} de plus par mise initiale",
+                    "Les {C:attention}Paquets additionnels{} coûtent",
+                    "{C:money}1 ${} de plus par Mise initiale",
                     "{s:0.8}Applique toutes les mises précédentes"
                 }
             },
             stake_gold = {
-                name = "Mise d'or",
+                name = "Mise dorée",
                 text = {
                     "{C:attention}-1{} à la taille de la main",
                     "{s:0.8}Applique toutes les mises précédentes"
