@@ -57,10 +57,10 @@ return {
                 }
             },
             ["b_erratic"] = {
-                ["name"] = "Jeu erratique",
+                ["name"] = "Jeu Erratique",
                 ["text"] = {
-                    [1] = "Toutes les {C:attention}Valeurs{} et",
-                    [2] = "les {C:attention}Couleurs{} du jeu",
+                    [1] = "Toutes les {C:attention}Valeurs{}",
+                    [2] = "et {C:attention}Couleurs{} du jeu",
                     [3] = "sont aléatoires"
                 }
             },
