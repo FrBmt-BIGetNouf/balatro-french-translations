@@ -419,10 +419,9 @@ return {
                 }
             },
             ["bl_tooth"] = {
-                ["name"] = "La dent",
+                ["name"] = "La Dent",
                 ["text"] = {
-                    [1] = "Perdez 1 $ par",
-                    [2] = "carte jouée"
+                    [1] = "{C:money}-1 ${} par carte jouée"
                 }
             },
             ["bl_fish"] = {
