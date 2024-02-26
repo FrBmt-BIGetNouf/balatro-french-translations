@@ -105,8 +105,8 @@ return {
                 ["name"] = "Jeu Vert",
                 ["text"] = {
                     [1] = "À la fin de la manche :",
-                    [2] = "{C:money}#1# ${s:0.85} par {C:blue}main restante",
-                    [3] = "{C:money}#2# ${s:0.85} par {C:red}défausse restante",
+                    [2] = "{C:money}#1# ${s:0.85} par {C:blue}main restante,",
+                    [3] = "{C:money}#2# ${s:0.85} par {C:red}défausse restante,",
                     [4] = "Pas d'{C:attention}intérêts{} perçus"
                 }
             },
@@ -443,23 +443,23 @@ return {
                 }
             },
             ["bl_flint"] = {
-                ["name"] = "Le silex",
+                ["name"] = "Le Silex",
                 ["text"] = {
                     [1] = "Les Jetons et le Multi de base",
                     [2] = "sont réduits de moitié"
                 }
             },
             ["bl_psychic"] = {
-                ["name"] = "Le médium",
+                ["name"] = "Le Voyant",
                 ["text"] = {
                     [1] = "5 cartes doivent être jouées"
                 }
             },
             ["bl_window"] = {
-                ["name"] = "La fenêtre",
+                ["name"] = "La Fenêtre",
                 ["text"] = {
-                    [1] = "Toutes les cartes Carreau",
-                    [2] = "voient leurs bonus disparaître"
+                    [1] = "Toutes les cartes {C:diamonds}Carreau",
+                    [2] = "sont affaiblies"
                 }
             },
             ["bl_serpent"] = {
