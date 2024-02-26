@@ -275,10 +275,10 @@ return {
                 }
             },
             ["tag_juggle"] = {
-                ["name"] = "Étiquette de jongleur",
+                ["name"] = "Badge jonglage",
                 ["text"] = {
                     [1] = "{C:attention}+#1#{} à la taille de la main",
-                    [2] = "à la prochaine manche"
+                    [2] = "pour la prochaine manche"
                 }
             },
             ["tag_economy"] = {
