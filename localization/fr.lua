@@ -102,12 +102,12 @@ return {
                 }
             },
             ["b_green"] = {
-                ["name"] = "Jeu vert",
+                ["name"] = "Jeu Vert",
                 ["text"] = {
                     [1] = "À la fin de la manche :",
                     [2] = "{C:money}#1# ${s:0.85} par {C:blue}main restante",
                     [3] = "{C:money}#2# ${s:0.85} par {C:red}défausse restante",
-                    [4] = "Vous ne percevez pas d'{C:attention}intérêts"
+                    [4] = "Pas d'{C:attention}intérêts{} perçus"
                 }
             },
             ["b_yellow"] = {
