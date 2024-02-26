@@ -392,9 +392,9 @@ return {
                 }
             },
             ["bl_final_leaf"] = {
-                ["name"] = "Feuille verte",
+                ["name"] = "Feuille Verdoyante",
                 ["text"] = {
-                    [1] = "Toutes les cartes voient leurs bonus disparaître",
+                    [1] = "Toutes les cartes sont affaiblies",
                     [2] = "jusqu'à ce qu'un Joker soit vendu"
                 }
             },
