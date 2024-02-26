@@ -203,10 +203,10 @@ return {
                 }
             },
             ["tag_buffoon"] = {
-                ["name"] = "Étiquette de bouffon",
+                ["name"] = "Badge Bouffon",
                 ["text"] = {
                     [1] = "Octroie un",
-                    [2] = "{C:attention}Paquet Bouffon"
+                    [2] = "{C:attention}Méga Paquet Bouffon"
                 }
             },
             ["tag_charm"] = {
