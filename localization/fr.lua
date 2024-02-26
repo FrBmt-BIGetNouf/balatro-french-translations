@@ -37,15 +37,16 @@ return {
                 ["name"] = "Jeu Noir",
                 ["text"] = {
                     [1] = "{C:attention}+#1#{} Joker max,",
-                    [2] = "{C:blue}-#2#{} main par manche",
+                    [2] = "{C:blue}-#2#{} main par manche"
                 }
             },
             ["b_ghost"] = {
-                ["name"] = "Jeu fantôme",
+                ["name"] = "Jeu Fantôme",
                 ["text"] = {
-                    [1] = "Les cartes {C:spectral}Spectrales{} peuvent",
-                    [2] = "apparaître dans le magasin,",
-                    [3] = "et commencez avec une carte {C:spectral,T:c_hex}Maléfice{}"
+                    [1] = "Commence la partie avec",
+                    [2] = "une carte {C:spectral,T:c_hex}Maléfice{},",
+                    [3] = "Les cartes {C:spectral}Spectrales{} peuvent",
+                    [4] = "apparaître dans le magasin"
                 }
             },
             ["b_abandoned"] = {
