@@ -188,11 +188,11 @@ return {
                 }
             },
             ["tag_garbage"] = {
-                ["name"] = "Étiquette moisie",
+                ["name"] = "Badge Déchets",
                 ["text"] = {
-                    [1] = "Octroie {C:money}#1# ${} par",
-                    [2] = "{C:red}défausse{} dans cette partie",
-                    [3] = "{C:inactive}(Octroiera {C:money}#2# ${C:inactive})"
+                    [1] = "Octroie {C:money}#1# ${} par {C:red}défausse{}",
+                    [2] = "inutilisée cette partie",
+                    [3] = "{C:inactive}(Octroie {C:money}#2# ${C:inactive})"
                 }
             },
             ["tag_foil"] = {
