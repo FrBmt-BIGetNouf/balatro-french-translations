@@ -220,7 +220,7 @@ return {
                 ["name"] = "Badge Éther",
                 ["text"] = {
                     [1] = "Octroie un",
-                    [2] = "{C:planet}Paquet Spectral"
+                    [2] = "{C:spectral}Paquet Spectral"
                 }
             },
             ["tag_orbital"] = {
