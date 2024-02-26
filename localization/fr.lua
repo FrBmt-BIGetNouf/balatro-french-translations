@@ -406,10 +406,10 @@ return {
                 }
             },
             ["bl_mark"] = {
-                ["name"] = "La marque",
+                ["name"] = "La Marque",
                 ["text"] = {
-                    [1] = "Toutes les cartes Figure sont",
-                    [2] = "tirées face cachée"
+                    [1] = "Toutes les cartes {C:attention}Figure ",
+                    [2] = "sont piochées face cachée"
                 }
             },
             ["bl_final_vessel"] = {
