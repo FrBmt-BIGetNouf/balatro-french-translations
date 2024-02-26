@@ -357,10 +357,10 @@ return {
                 }
             },
             ["bl_pillar"] = {
-                ["name"] = "Le pilier",
+                ["name"] = "Le Pilier",
                 ["text"] = {
-                    [1] = "Les cartes jouées avant cette",
-                    [2] = "mise initiale voient leurs bonus disparaître"
+                    [1] = "Les cartes jouées durant",
+                    [2] = "cette Mise initiale sont affaiblies"
                 }
             },
             ["bl_house"] = {
