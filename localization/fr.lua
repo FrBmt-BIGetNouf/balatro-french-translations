@@ -173,10 +173,10 @@ return {
                 }
             },
             ["tag_rare"] = {
-                ["name"] = "Étiquette rare",
+                ["name"] = "Badge Rare",
                 ["text"] = {
-                    [1] = "Le magasin possède un",
-                    [2] = "{C:red}Joker rare"
+                    [1] = "La boutique a un",
+                    [2] = "{C:red}Joker Rare"
                 }
             },
             ["tag_skip"] = {
