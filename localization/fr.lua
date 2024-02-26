@@ -34,12 +34,10 @@ return {
                 }
             },
             ["b_black"] = {
-                ["name"] = "Jeu noir",
+                ["name"] = "Jeu Noir",
                 ["text"] = {
-                    [1] = "{C:attention}+#1#{} emplacement Joker",
-                    [2] = "",
-                    [3] = "{C:blue}-#2#{} main",
-                    [4] = "à chaque manche"
+                    [1] = "{C:attention}+#1#{} Joker max,",
+                    [2] = "{C:blue}-#2#{} main par manche",
                 }
             },
             ["b_ghost"] = {
