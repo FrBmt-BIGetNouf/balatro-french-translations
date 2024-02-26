@@ -282,10 +282,10 @@ return {
                 }
             },
             ["tag_economy"] = {
-                ["name"] = "Étiquette économique",
+                ["name"] = "Badge économie",
                 ["text"] = {
-                    [1] = "Double votre argent",
-                    [2] = "{C:inactive}({C:money}#1# ${C:inactive} au maximum)"
+                    [1] = "Double l'argent",
+                    [2] = "{C:inactive}({C:money}+#1# ${C:inactive} maximum)"
                 }
             },
             ["tag_uncommon"] = {
