@@ -2570,191 +2570,189 @@ return {
                 text = {}
             },
             bl_hook = {
-                name = "L'hameçon",
+                name = "Le Crochet",
                 text = {
-                    "Défaussez 2 cartes aléatoires",
-                    "par main jouée"
+                    "Défausse 2 cartes aléatoires",
+                    "chaque main jouée"
                 }
             },
             bl_wall = {
-                name = "Le mur",
+                name = "Le Mur",
                 text = {
-                    "Super grosse Blinde"
+                    "Très grosse Blinde"
                 }
             },
             bl_wheel = {
-                name = "La roue",
+                name = "La Roue",
                 text = {
                     " carte sur 7 est",
-                    "tirée face cachée"
+                    "piochée face cachée"
                 }
             },
             bl_arm = {
-                name = "Le bras",
+                name = "Le Bras",
                 text = {
-                    "Diminuez le niveau de",
-                    "la main de poker jouée"
+                    "La main de poker jouée",
+                    "perd un niveau"
                 }
             },
             bl_psychic = {
-                name = "Le médium",
+                name = "Le Voyant",
                 text = {
                     "5 cartes doivent être jouées"
                 }
             },
             bl_goad = {
-                name = "L'aiguillon",
+                name = "L'Aiguillon",
                 text = {
                     "Toutes les cartes Pique",
-                    "voient leurs bonus disparaître"
+                    "sont affaiblies"
                 }
             },
             bl_water = {
-                name = "L'eau",
+                name = "L'Eau",
                 text = {
-                    "Commencez sans",
-                    "aucune défausse"
+                    "0 défausses cette manche"
                 }
             },
             bl_eye = {
-                name = "L'œil",
+                name = "L'Œil",
                 text = {
-                    "Pas de types de main",
-                    "répétés cette manche-ci"
+                    "Une seule main de chaque type",
+                    "sera comptée cette manche"
                 }
             },
             bl_mouth = {
-                name = "La bouche",
+                name = "La Bouche",
                 text = {
-                    "Ne jouez qu'un seul type",
-                    "de main cette manche-ci"
+                    "Seul le premier type de main",
+                    "joué cette manche sera compté"
                 }
             },
             bl_plant = {
-                name = "La plante",
+                name = "La Plante",
                 text = {
                     "Toutes les cartes Figure",
-                    "voient leurs bonus disparaître"
+                    "sont affaiblies"
                 }
             },
             bl_needle = {
-                name = "L'aiguille",
+                name = "L'Aiguille",
                 text = {
-                    "Ne jouez qu'une main"
+                    "1 seule main cette manche"
                 }
             },
             bl_head = {
-                name = "La tête",
+                name = "La Tête",
                 text = {
                     "Toutes les cartes Cœur",
-                    "voient leurs bonus disparaître"
+                    "sont affaiblies"
                 }
             },
             bl_tooth = {
-                name = "La dent",
+                name = "La Dent",
                 text = {
-                    "Perdez 1 $ par",
-                    "carte jouée"
+                    "-1 $ par carte jouée"
                 }
             },
             bl_final_leaf = {
-                name = "Feuille verte",
+                name = "Feuille Verdoyante",
                 text = {
-                    "Toutes les cartes voient leurs bonus disparaître",
+                    "Toutes les cartes sont affaiblies",
                     "jusqu'à ce qu'un Joker soit vendu"
                 }
             },
             bl_final_vessel = {
-                name = "Vase violet",
+                name = "Calice Mauve",
                 text = {
-                    "Très grosse Blinde"
+                    "Très TRÈS grosse Blinde"
                 }
             },
             bl_ox = {
-                name = "Le bœuf",
+                name = "Le Bœuf",
                 text = {
                     "Jouer #1#",
-                    "fixe l'argent à 0 $"
+                    "ramène l'argent à 0 $"
                 }
             },
             bl_house = {
-                name = "La maison",
+                name = "La Maison",
                 text = {
                     "La première main est",
-                    "tirée face cachée"
+                    "piochée face cachée"
                 }
             },
             bl_club = {
-                name = "Le club",
+                name = "Le Bâton",
                 text = {
                     "Toutes les cartes Trèfle",
-                    "voient leurs bonus disparaître"
+                    "sont affaiblies"
                 }
             },
             bl_fish = {
-                name = "Le poisson",
+                name = "Le Poisson",
                 text = {
-                    "Les cartes sont tirées face cachée",
+                    "Les cartes sont piochées face cachée",
                     "après chaque main jouée"
                 }
             },
             bl_window = {
-                name = "La fenêtre",
+                name = "La Fenêtre",
                 text = {
                     "Toutes les cartes Carreau",
-                    "voient leurs bonus disparaître"
+                    "sont affaiblies"
                 }
             },
             bl_manacle = {
-                name = "Les menottes",
+                name = "Les Menottes",
                 text = {
-                    "Taille de la main -1"
+                    "-1 à la taille de la main"
                 }
             },
             bl_serpent = {
-                name = "Le serpent",
+                name = "Le Serpent",
                 text = {
                     "Après avoir joué ou défaussé,",
-                    "tirez toujours 3 cartes"
+                    "3 cartes sont toujours piochées"
                 }
             },
             bl_pillar = {
-                name = "Le pilier",
+                name = "Le Pilier",
                 text = {
-                    "Les cartes jouées avant cette",
-                    "mise initiale voient leurs bonus disparaître"
+                    "Les cartes jouées durant",
+                    "cette Mise initiale sont affaiblies"
                 }
             },
             bl_flint = {
-                name = "Le silex",
+                name = "Le Silex",
                 text = {
-                    "Les Jetons de base et le",
-                    "Multi. sont réduits de moitié"
+                    "Les Jetons et le Multi de base",
+                    "sont réduits de moitié"
                 }
             },
             bl_mark = {
-                name = "La marque",
+                name = "La Marque",
                 text = {
-                    "Toutes les cartes Figure sont",
-                    "tirées face cachée"
+                    "Toutes les cartes Figure",
+                    "sont piochées face cachée"
                 }
             },
             bl_final_acorn = {
-                name = "Gland ambre",
+                name = "Gland Ambré",
                 text = {
                     "Retourne et mélange",
                     "toutes les cartes Joker"
                 }
             },
             bl_final_heart = {
-                name = "Cœur écarlate",
+                name = "Cœur Écarlate",
                 text = {
                     "Un Joker aléatoire",
                     "annulé à chaque main"
                 }
             },
             bl_final_bell = {
-                name = "Cloche céruléenne",
+                name = "Cloche Céruléenne",
                 text = {
                     "Force la sélection",
                     "systématique d'une carte"
