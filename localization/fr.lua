@@ -210,10 +210,10 @@ return {
                 }
             },
             ["tag_charm"] = {
-                ["name"] = "Étiquette de charme",
+                ["name"] = "Badge Breloque",
                 ["text"] = {
                     [1] = "Octroie un",
-                    [2] = "{C:tarot}Paquet Méga-Arcana"
+                    [2] = "{C:tarot}Méga Paquet Arcana"
                 }
             },
             ["tag_ethereal"] = {
