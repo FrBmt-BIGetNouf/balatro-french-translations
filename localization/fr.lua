@@ -269,7 +269,7 @@ return {
             ["tag_double"] = {
                 ["name"] = "Badge double",
                 ["text"] = {
-                    [1] = "Octroie une copie du",
+                    [1] = "Octroiera une copie du",
                     [2] = "prochain {C:attention}Badge{} sélectionné",
                     [3] = "{s:0.8,C:inactive}(sauf {s:0.8,C:attention}Badge double{s:0.8,C:inactive})"
                 }
