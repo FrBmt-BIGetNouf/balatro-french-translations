@@ -436,7 +436,7 @@ return {
                 ["text"] = {}
             },
             ["bl_final_acorn"] = {
-                ["name"] = "Gland ambre",
+                ["name"] = "Gland Ambré",
                 ["text"] = {
                     [1] = "Retourne et mélange",
                     [2] = "toutes les cartes Joker"
@@ -445,8 +445,8 @@ return {
             ["bl_flint"] = {
                 ["name"] = "Le silex",
                 ["text"] = {
-                    [1] = "Les Jetons de base et le",
-                    [2] = "Multi. sont réduits de moitié"
+                    [1] = "Les Jetons et le Multi de base",
+                    [2] = "sont réduits de moitié"
                 }
             },
             ["bl_psychic"] = {
