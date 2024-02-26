@@ -2761,153 +2761,148 @@ return {
         },
         Back = {
             b_red = {
-                name = "Jeu rouge",
+                name = "Jeu Rouge",
                 text = {
                     "{C:red}+#1#{} défausse",
-                    "à chaque manche"
+                    "par manche"
                 }
             },
             b_blue = {
-                name = "Jeu bleu",
+                name = "Jeu Bleu",
                 text = {
                     "{C:blue}+#1#{} main",
-                    "à chaque manche"
+                    "par manche"
                 }
             },
             b_yellow = {
-                name = "Jeu jaune",
+                name = "Jeu Jaune",
                 text = {
-                    "Commencez avec",
-                    "{C:money}#1# $ supplémentaires"
+                    "Commence la partie avec",
+                    "{C:money}#1# ${} supplémentaires"
                 }
             },
             b_green = {
-                name = "Jeu vert",
+                name = "Jeu Vert",
                 text = {
                     "À la fin de la manche :",
-                    "{C:money}#1# ${s:0.85} par {C:blue}main restante",
-                    "{C:money}#2# ${s:0.85} par {C:red}défausse restante",
-                    "Vous ne percevez pas d'{C:attention}intérêts"
+                    "{C:money}#1# ${s:0.85} par {C:blue}main restante,",
+                    "{C:money}#2# ${s:0.85} par {C:red}défausse restante,",
+                    "Pas d'{C:attention}intérêts{} perçus"
                 }
             },
             b_black = {
-                name = "Jeu noir",
+                name = "Jeu Noir",
                 text = {
-                    "{C:attention}+#1#{} emplacement Joker",
-                    "",
-                    "{C:blue}-#2#{} main",
-                    "à chaque manche"
+                    "{C:attention}+#1#{} Joker max,",
+                    "{C:blue}-#2#{} main par manche"
                 }
             },
             b_magic = {
-                name = "Jeu magique",
+                name = "Jeu Magique",
                 text = {
-                    "Commencez la partie avec le",
-                    "bon d'achat {C:tarot,T:v_crystal_ball}#1#{}",
-                    "et {C:attention}2{} copies",
-                    "de {C:tarot,T:c_fool}#2#"
+                    "Commence la partie avec",
+                    "le Coupon {C:tarot,T:v_crystal_ball}#1#{}",
+                    "et {C:attention}2{} cartes {C:tarot,T:c_fool}#2#"
                 }
             },
             b_nebula = {
-                name = "Jeu nébuleux",
+                name = "Jeu Nébuleuse",
                 text = {
-                    "Commencez la partie avec le",
-                    "bon d'achat {C:planet}#1#{}",
-                    "",
-                    "{C:red}#2#{} emplacement de consommable"
+                    "Commence la partie avec",
+                    "le Coupon {C:planet,T:v_telescope}#1#{},",
+                    "{C:red}#2#{} emplacement de Consommable"
                 }
             },
             b_metal = {
-                name = "Jeu en métal",
+                name = "Jeu d'Acier",
                 text = {
-                    "Commencez la partie avec {C:attention}#1#",
-                    "cartes à jouer améliorées",
-                    "en {C:attention}cartes Acier"
+                    "Commence la partie avec",
+                    "{C:attention}#1# cartes Acier"
                 }
             },
             b_abandoned = {
-                name = "Jeu abandonné",
+                name = "Jeu Abandonné",
                 text = {
-                    "Commencez la partie",
-                    "sans {C:attention}cartes Figure",
-                    "dans votre jeu"
+                    "Commence la partie avec",
+                    "un jeu sans {C:attention}cartes Figure"
                 }
             },
             b_checkered = {
-                name = "Jeu en damier",
+                name = "Jeu en Damier",
                 text = {
-                    "Commencez la partie avec",
-                    "{C:attention}26 cartes de{C:spades} Pique{} et",
-                    "{C:attention}26 cartes de{C:hearts} Cœur{} dans votre jeu"
+                    "Commence la partie avec",
+                    "{C:attention}26 cartes {C:spades}Pique{} et",
+                    "{C:attention}26 cartes {C:hearts}Cœur{}"
                 }
             },
             b_rocky = {
-                name = "Jeu rocheux",
+                name = "Jeu de Pierre",
                 text = {
-                    "Commencez la partie avec {C:attention}#1#",
-                    "{C:attention}cartes Pierre supplémentaires"
+                    "Commence la partie avec",
+                    "{C:attention}#1# cartes Pierre{} supplémentaires"
                 }
             },
             b_braided = {
-                name = "Jeu tressé",
+                name = "Jeu Tressé",
                 text = {
                     "La première main jouée",
-                    "est augmentée au {C:attention}niv. 3"
+                    "est améliorée au {C:attention}niv.3"
                 }
             },
             b_anaglyph = {
-                name = "Jeu anaglyphe",
+                name = "Jeu Anaglyphe",
                 text = {
-                    "Après avoir battu chaque",
-                    "{C:attention}Boss Blinde{}, gagnez",
-                    "{C:attention,T:tag_double}#1#"
+                    "Après chaque victoire",
+                    "contre une {C:attention}Blinde de Boss{},",
+                    "crée un {C:attention,T:tag_double}#1#"
                 }
             },
             b_plasma = {
-                name = "Jeu plasmique",
+                name = "Jeu Plasma",
                 text = {
-                    "Équilibrez les {C:blue}Jetons{} et le",
-                    "{C:red}Multi.{} lors du calcul du",
+                    "Moyenne {C:blue}Jetons{} et {C:red}Multi{}",
+                    "lors du comptage du",
                     "score de la main jouée",
-                    "Taille de la Blinde de base {C:attention}x#1#{}"
+                    "Taille des Blindes {C:attention}x#1#{}"
                 }
             },
             b_erratic = {
-                name = "Jeu erratique",
+                name = "Jeu Erratique",
                 text = {
-                    "Toutes les {C:attention}Valeurs{} et",
-                    "les {C:attention}Couleurs{} du jeu",
+                    "Toutes les {C:attention}Valeurs{}",
+                    "et {C:attention}Couleurs{} du jeu",
                     "sont aléatoires"
                 }
             },
             b_challenge = {
-                name = "Jeu du défi",
+                name = "Jeu du Défi",
                 text = {
                     ""
                 }
             },
             b_ghost = {
-                name = "Jeu fantôme",
+                name = "Jeu Fantôme",
                 text = {
-                    "Les cartes {C:spectral}Spectrales{} peuvent",
-                    "apparaître dans la boutique,",
-                    "et commencez avec une carte {C:spectral,T:c_hex}Maléfice{}"
+                    "Commence la partie avec",
+                    "une carte {C:spectral,T:c_hex}Maléfice{},",
+                    "les cartes {C:spectral}Spectrales{} peuvent",
+                    "apparaître dans le magasin"
                 }
             },
             b_zodiac = {
-                name = "Jeu Zodiac",
+                name = "Jeu Zodiaque",
                 text = {
-                    "Commencez la partie avec",
+                    "Commence la partie avec",
                     "{C:tarot,T:v_tarot_merchant}#1#{},",
                     "{C:planet,T:v_planet_merchant}#2#{},",
                     "et {C:attention,T:v_overstock_norm}#3#"
                 }
             },
             b_painted = {
-                name = "Jeu peint",
+                name = "Jeu Peinturluré",
                 text = {
-                    "{C:attention}+#1#{} à la taille de la main",
-                    "{C:red}#2#{} emplacement Joker"
+                    "{C:attention}+#1#{} à la taille de la main,",
+                    "{C:red}#2#{} Joker max"
                 }
             }
         },
