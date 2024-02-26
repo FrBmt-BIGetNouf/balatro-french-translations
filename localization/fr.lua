@@ -80,10 +80,10 @@ return {
                 }
             },
             ["b_painted"] = {
-                ["name"] = "Jeu peint",
+                ["name"] = "Jeu Peinturluré",
                 ["text"] = {
-                    [1] = "{C:attention}+#1#{} à la taille de la main",
-                    [2] = "{C:red}#2#{} emplacement Joker"
+                    [1] = "{C:attention}+#1#{} à la taille de la main,",
+                    [2] = "{C:red}#2#{} Joker max"
                 }
             },
             ["b_blue"] = {
