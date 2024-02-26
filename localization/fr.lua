@@ -329,10 +329,10 @@ return {
                 }
             },
             ["bl_plant"] = {
-                ["name"] = "La plante",
+                ["name"] = "La Plante",
                 ["text"] = {
-                    [1] = "Toutes les cartes Figure",
-                    [2] = "voient leurs bonus disparaître"
+                    [1] = "Toutes les cartes {C:attention}Figure",
+                    [2] = "sont affaiblies"
                 }
             },
             ["bl_wheel"] = {
