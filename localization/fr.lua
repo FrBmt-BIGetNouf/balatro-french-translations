@@ -65,12 +65,11 @@ return {
                 }
             },
             ["b_magic"] = {
-                ["name"] = "Jeu magique",
+                ["name"] = "Jeu Magique",
                 ["text"] = {
-                    [1] = "Commencez la partie avec le",
-                    [2] = "bon d'achat {C:tarot,T:v_crystal_ball}#1#{}",
-                    [3] = "et {C:attention}2{} copies",
-                    [4] = "de {C:tarot,T:c_fool}#2#"
+                    [1] = "Commence la partie avec",
+                    [2] = "le Coupon {C:tarot,T:v_crystal_ball}#1#{}",
+                    [3] = "et {C:attention}2{} cartes {C:tarot,T:c_fool}#2#"
                 }
             },
             ["b_red"] = {
