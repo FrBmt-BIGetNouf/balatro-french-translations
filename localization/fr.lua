@@ -180,11 +180,11 @@ return {
                 }
             },
             ["tag_skip"] = {
-                ["name"] = "Étiquette de rapidité",
+                ["name"] = "Badge rapidité",
                 ["text"] = {
-                    [1] = "Gagnez {C:money}#1# ${} par blinde",
-                    [2] = "passée lors de cette partie",
-                    [3] = "{C:inactive}(Peut octroyer {C:money}#2# ${C:inactive})"
+                    [1] = "Octroie {C:money}#1# ${} par blinde",
+                    [2] = "passée cette partie",
+                    [3] = "{C:inactive}(Octroie {C:money}#2# ${C:inactive})"
                 }
             },
             ["tag_garbage"] = {
