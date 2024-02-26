@@ -45,16 +45,15 @@ return {
                 ["text"] = {
                     [1] = "Commence la partie avec",
                     [2] = "une carte {C:spectral,T:c_hex}Maléfice{},",
-                    [3] = "Les cartes {C:spectral}Spectrales{} peuvent",
+                    [3] = "les cartes {C:spectral}Spectrales{} peuvent",
                     [4] = "apparaître dans le magasin"
                 }
             },
             ["b_abandoned"] = {
-                ["name"] = "Jeu abandonné",
+                ["name"] = "Jeu Abandonné",
                 ["text"] = {
-                    [1] = "Commencez la partie",
-                    [2] = "sans {C:attention}cartes Figure",
-                    [3] = "dans votre jeu"
+                    [1] = "Commence la partie avec",
+                    [2] = "un jeu sans {C:attention}cartes Figure"
                 }
             },
             ["b_erratic"] = {
