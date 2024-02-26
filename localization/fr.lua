@@ -239,10 +239,9 @@ return {
                 }
             },
             ["tag_boss"] = {
-                ["name"] = "Étiquette de boss",
+                ["name"] = "Badge de Boss",
                 ["text"] = {
-                    [1] = "Effectue un nouveau lancer de la",
-                    [2] = "{C:attention}Boss Blinde"
+                    [1] = "Change la {C:attention}Blinde de Boss"
                 }
             },
             ["tag_top_up"] = {
