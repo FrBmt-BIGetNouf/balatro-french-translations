@@ -188,7 +188,7 @@ return {
                 }
             },
             ["tag_garbage"] = {
-                ["name"] = "Badge Déchets",
+                ["name"] = "Badge déchets",
                 ["text"] = {
                     [1] = "Octroie {C:money}#1# ${} par {C:red}défausse{}",
                     [2] = "inutilisée cette partie",
@@ -305,7 +305,7 @@ return {
         },
         ["Blind"] = {
             ["bl_club"] = {
-                ["name"] = "Le Bâton",
+                ["name"] = "Le Bâton",
                 ["text"] = {
                     [1] = "Toutes les cartes {C:clubs}Trèfle",
                     [2] = "sont affaiblies"
@@ -338,7 +338,7 @@ return {
             ["bl_wheel"] = {
                 ["name"] = "La Roue",
                 ["text"] = {
-                    [1] = "1 carte sur 7 est",
+                    [1] = " carte sur 7 est",
                     [2] = "piochée face cachée"
                 }
             },
