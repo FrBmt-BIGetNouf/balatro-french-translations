@@ -137,10 +137,10 @@ return {
                 }
             },
             ["tag_standard"] = {
-                ["name"] = "Étiquette standard",
+                ["name"] = "Badge Standard",
                 ["text"] = {
                     [1] = "Octroie un",
-                    [2] = "{C:attention}Paquet Méga-Standard"
+                    [2] = "{C:attention}Méga Paquet Standard"
                 }
             },
             ["tag_d_six"] = {
