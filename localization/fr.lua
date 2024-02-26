@@ -111,9 +111,9 @@ return {
                 }
             },
             ["b_yellow"] = {
-                ["name"] = "Jeu jaune",
+                ["name"] = "Jeu Jaune",
                 ["text"] = {
-                    [1] = "Commencez avec",
+                    [1] = "Commence la partie avec",
                     [2] = "{C:money}#1# $ supplémentaires"
                 }
             },
