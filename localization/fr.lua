@@ -482,9 +482,9 @@ return {
                 }
             },
             ["bl_wall"] = {
-                ["name"] = "Le mur",
+                ["name"] = "Le Mur",
                 ["text"] = {
-                    [1] = "Super grosse Blinde"
+                    [1] = "Très grosse Blinde"
                 }
             },
             ["bl_final_heart"] = {
