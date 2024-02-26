@@ -2898,75 +2898,74 @@ return {
         },
         Other = {
             gold_seal = {
-                name = "Sceau d'or",
+                name = "Sceau doré",
                 text = {
-                    "Gagnez {C:money}3 ${} lorsque cette",
-                    "carte est jouée",
-                    "et marque"
+                    "Octroie {C:money}3 ${} lorsque cette",
+                    "carte est jouée et comptée"
                 }
             },
             white_sticker = {
                 name = "Autocollant blanc",
                 text = {
-                    "Joker utilisé",
-                    "pour gagner en difficulté",
-                    "{C:attention}Mise {C:attention}blanche{}"
+                    "Vous avez remporté",
+                    "la {C:attention}Mise blanche{}",
+                    "avec ce Joker"
                 }
             },
             red_sticker = {
                 name = "Autocollant rouge",
                 text = {
-                    "Joker utilisé",
-                    "pour gagner en difficulté",
-                    "{C:attention}Mise{C:attention}rouge{}"
+                    "Vous avez remporté",
+                    "la {C:attention}Mise rouge{}",
+                    "avec ce Joker"
                 }
             },
             green_sticker = {
                 name = "Autocollant vert",
                 text = {
-                    "Joker utilisé",
-                    "pour gagner en difficulté",
-                    "{C:attention}Mise{C:attention}verte{}"
+                    "Vous avez remporté",
+                    "la {C:attention}Mise verte{}",
+                    "avec ce Joker"
                 }
             },
             blue_sticker = {
                 name = "Autocollant bleu",
                 text = {
-                    "Joker utilisé",
-                    "pour gagner en difficulté",
-                    "{C:attention}Mise{C:attention}bleue{}"
+                    "Vous avez remporté",
+                    "la {C:attention}Mise bleue{}",
+                    "avec ce Joker"
                 }
             },
             black_sticker = {
                 name = "Autocollant noir",
                 text = {
-                    "Joker utilisé",
-                    "pour gagner en difficulté",
-                    "{C:attention}Mise{C:attention}noire{}"
+                    "Vous avez remporté",
+                    "la {C:attention}Mise noire{}",
+                    "avec ce Joker"
                 }
             },
             purple_sticker = {
                 name = "Autocollant violet",
                 text = {
-                    "Joker utilisé",
-                    "pour gagner en difficulté",
-                    "{C:attention}Mise{C:attention}violette{}"
+                    "Vous avez remporté",
+                    "la {C:attention}Mise violette{}",
+                    "avec ce Joker"
                 }
             },
             orange_sticker = {
                 name = "Autocollant orange",
                 text = {
-                    "Joker utilisé",
-                    "pour gagner en difficulté",
-                    "{C:attention}Mise{C:attention}orange{}"
+                    "Vous avez remporté",
+                    "la {C:attention}Mise orange{}",
+                    "avec ce Joker"
                 }
             },
             gold_sticker = {
-                name = "Autocollant d'or",
+                name = "Autocollant doré",
                 text = {
-                    "Joker utilisé",
-                    "pour gagner en difficulté",
-                    "{C:attention}Mise{C:attention}d'or{}"
+                    "Vous avez remporté",
+                    "la {C:attention}Mise dorée{}",
+                    "avec ce Joker"
                 }
             },
             playing_card = {
@@ -2996,10 +2995,10 @@ return {
                 }
             },
             debuffed_playing_card = {
-                name = "Affaibli",
+                name = "Affaiblie",
                 text = {
-                    "N'octroie aucun jeton",
-                    "et toutes les capacités",
+                    "Aucun Jeton et",
+                    "toutes les capacités",
                     "sont désactivées"
                 }
             },
@@ -3013,8 +3012,7 @@ return {
             demo_shop_locked = {
                 name = "Bloqué",
                 text = {
-                    "Carte provenant de la collection personnelle de {C:attention}Jimbo",
-                    "personnelle de {C:attention}Jimbo",
+                    "Carte provenant de la collection personnelle de {C:attention}Jimbo,",
                     "disponible dans la version",
                     "complète de {E:1,C:red}Balatro"
                 }
@@ -3039,229 +3037,229 @@ return {
                 text = {
                     "Découvrez au moins",
                     "{C:attention}#1#{} objets de",
-                    "votre collection"
+                    "la collection"
                 }
             },
             deck_locked_stake = {
                 name = "Bloqué",
                 text = {
-                    "Gagnez une partie avec n'importe quel",
-                    "jeu de difficulté",
-                    "{V:1}#1#{} au minimum"
+                    "Gagnez une partie en difficulté",
+                    "{V:1}#1#{} minimum",
+                    "avec n'importe quel jeu"
                 }
             },
             joker_locked_legendary = {
                 name = "Bloqué",
                 text = {
-                    "Trouvez ce Joker",
-                    "par la carte {C:spectral}Ame{}"
+                    "Créer ce Joker avec",
+                    "la carte {C:spectral}L'Âme{}"
                 }
             },
             undiscovered_joker = {
                 name = "Non découvert",
                 text = {
-                    "Achetez ou utilisez",
-                    "cette carte dans une partie",
-                    "sans seed pour",
-                    "connaître son effet"
+                    "Acheter ou utiliser",
+                    "cette carte dans une",
+                    "partie sans seed pour",
+                    "révéler son effet"
                 }
             },
             undiscovered_tarot = {
                 name = "Non découvert",
                 text = {
-                    "Achetez ou utilisez",
-                    "cette carte dans une partie",
-                    "sans seed pour",
-                    "connaître son effet"
+                    "Acheter ou utiliser",
+                    "cette carte dans une",
+                    "partie sans seed pour",
+                    "révéler son effet"
                 }
             },
             undiscovered_planet = {
                 name = "Non découvert",
                 text = {
-                    "Achetez ou utilisez",
-                    "cette carte dans une partie",
-                    "sans seed pour",
-                    "connaître son effet"
+                    "Acheter ou utiliser",
+                    "cette carte dans une",
+                    "partie sans seed pour",
+                    "révéler son effet"
                 }
             },
             undiscovered_spectral = {
                 name = "Non découvert",
                 text = {
-                    "Achetez ou utilisez",
-                    "cette carte dans une partie",
-                    "sans seed pour",
-                    "connaître son effet"
+                    "Acheter ou utiliser",
+                    "cette carte dans une",
+                    "partie sans seed pour",
+                    "révéler son effet"
                 }
             },
             undiscovered_voucher = {
                 name = "Non découvert",
                 text = {
-                    "Échangez ce",
-                    "bon d'achat dans une partie",
+                    "Échangez ce Coupon",
+                    "dans une partie",
                     "sans seed pour",
-                    "connaître son effet"
+                    "révéler son effet"
                 }
             },
             undiscovered_booster = {
                 name = "Non découvert",
                 text = {
-                    "Ouvrez ce paquet",
+                    "Ouvrir ce Paquet",
                     "dans une partie sans seed",
-                    "pour connaître son effet"
+                    "pour révéler son effet"
                 }
             },
             undiscovered_edition = {
                 name = "Non découvert",
                 text = {
-                    "Trouvez cette édition",
-                    "dans une partie sans seed pour",
-                    "pour connaître son effet"
+                    "Trouver cette édition",
+                    "dans une partie sans seed",
+                    "pour révéler son effet"
                 }
             },
             undiscovered_tag = {
                 name = "Non découvert",
                 text = {
-                    "Utilisez cette étiquette dans",
+                    "Utiliser ce Badge dans",
                     "une partie sans seed pour",
-                    "connaître son effet"
+                    "révéler son effet"
                 }
             },
             p_arcana_normal = {
-                name = "Paquet Arcana",
+                name = "Paquet Arcanes",
                 text = {
-                    "Choisissez de {C:attention}#1#{} à",
-                    "{C:attention}#2# cartes de{C:tarot} Tarot{} à",
+                    "Jusqu'à {C:attention}#1#{} carte de",
+                    "{C:tarot}Tarot{} parmi {C:attention}#2#{} à",
                     "utiliser immédiatement"
                 }
             },
             p_arcana_jumbo = {
-                name = "Paquet Jumbo Arcana",
+                name = "Jumbo Paquet Arcanes",
                 text = {
-                    "Choisissez de {C:attention}#1#{} à",
-                    "{C:attention}#2# cartes de{C:tarot} Tarot{} à",
+                    "Jusqu'à {C:attention}#1#{} carte de",
+                    "{C:tarot}Tarot{} parmi {C:attention}#2#{} à",
                     "utiliser immédiatement"
                 }
             },
             p_arcana_mega = {
-                name = "Paquet Méga-Arcana",
+                name = "Méga Paquet Arcanes",
                 text = {
-                    "Choisissez de {C:attention}#1#{} à",
-                    "{C:attention}#2# cartes de{C:tarot} Tarot{} à",
+                    "Jusqu'à {C:attention}#1#{} cartes de",
+                    "{C:tarot}Tarot{} parmi {C:attention}#2#{} à",
                     "utiliser immédiatement"
                 }
             },
             p_celestial_normal = {
                 name = "Paquet Céleste",
                 text = {
-                    "Choisissez de {C:attention}#1#{} à",
-                    "{C:attention}#2# cartes {C:planet} Planète{} à",
+                    "Jusqu'à {C:attention}#1#{} carte de",
+                    "{C:planet}Planète{} parmi {C:attention}#2#{} à",
                     "utiliser immédiatement"
                 }
             },
             p_celestial_jumbo = {
-                name = "Paquet Jumbo Céleste",
+                name = "Jumbo Paquet Céleste",
                 text = {
-                    "Choisissez de {C:attention}#1#{} à",
-                    "{C:attention}#2# cartes {C:planet} Planète{} à",
+                    "Jusqu'à {C:attention}#1#{} carte de",
+                    "{C:planet}Planète{} parmi {C:attention}#2#{} à",
                     "utiliser immédiatement"
                 }
             },
             p_celestial_mega = {
-                name = "Paquet Méga-Céleste",
+                name = "Méga Paquet Céleste",
                 text = {
-                    "Choisissez de {C:attention}#1#{} à",
-                    "{C:attention}#2# cartes {C:planet} Planète{} à",
+                    "Jusqu'à {C:attention}#1#{} cartes de",
+                    "{C:planet}Planète{} parmi {C:attention}#2#{} à",
                     "utiliser immédiatement"
                 }
             },
             p_spectral_normal = {
                 name = "Paquet Spectral",
                 text = {
-                    "Choisissez de {C:attention}#1#{} à",
-                    "{C:attention}#2# cartes {C:spectral}Spectrales{} à",
+                    "Jusqu'à {C:attention}#1#{} carte",
+                    "{C:spectral}Spectrale{} parmi {C:attention}#2#{} à",
                     "utiliser immédiatement"
                 }
             },
             p_spectral_jumbo = {
-                name = "Paquet Jumbo Spectral",
+                name = "Jumbo Paquet Spectral",
                 text = {
-                    "Choisissez de {C:attention}#1#{} à",
-                    "{C:attention}#2# cartes {C:spectral}Spectrales{} à",
+                    "Jusqu'à {C:attention}#1#{} carte",
+                    "{C:spectral}Spectrale{} parmi {C:attention}#2#{} à",
                     "utiliser immédiatement"
                 }
             },
             p_spectral_mega = {
-                name = "Paquet Méga-Spectral",
+                name = "Méga Paquet Spectral",
                 text = {
-                    "Choisissez de {C:attention}#1#{} à",
-                    "{C:attention}#2# cartes {C:spectral}Spectrales{} à",
+                    "Jusqu'à {C:attention}#1#{} cartes",
+                    "{C:spectral}Spectrale{} parmi {C:attention}#2#{} à",
                     "utiliser immédiatement"
                 }
             },
             p_standard_normal = {
                 name = "Paquet Standard",
                 text = {
-                    "Choisissez de {C:attention}#1#{} à",
-                    "{C:attention}#2# cartes{C:attention} à jouer{} à",
-                    "ajouter à votre jeu"
+                    "Jusqu'à {C:attention}#1#{} carte",
+                    "{C:attention}à jouer{} parmi {C:attention}#2#{} à",
+                    "ajouter au Jeu"
                 }
             },
             p_standard_jumbo = {
-                name = "Paquet Jumbo Standard",
+                name = "Jumbo Paquet Standard",
                 text = {
-                    "Choisissez de {C:attention}#1#{} à",
-                    "{C:attention}#2# cartes{C:attention} à jouer{} à",
-                    "ajouter à votre jeu"
+                    "Jusqu'à {C:attention}#1#{} carte",
+                    "{C:attention}à jouer{} parmi {C:attention}#2#{} à",
+                    "ajouter au Jeu"
                 }
             },
             p_standard_mega = {
-                name = "Paquet Méga-Standard",
+                name = "Méga Paquet Standard",
                 text = {
-                    "Choisissez de {C:attention}#1#{} à",
-                    "{C:attention}#2# cartes{C:attention} à jouer{} à",
-                    "ajouter à votre jeu"
+                    "Jusqu'à {C:attention}#1#{} cartes",
+                    "{C:attention}à jouer{} parmi {C:attention}#2#{} à",
+                    "ajouter au Jeu"
                 }
             },
             p_buffoon_normal = {
                 name = "Paquet Bouffon",
                 text = {
-                    "Choisissez de {C:attention}#1#{} à",
-                    "{C:attention}#2# cartes {C:joker}Joker{}"
+                    "Jusqu'à {C:attention}#1#{} carte",
+                    "{C:joker}Joker{} parmi {C:attention}#2#{}"
                 }
             },
             p_buffoon_jumbo = {
-                name = "Paquet Jumbo Bouffon",
+                name = "Jumbo Paquet Bouffon",
                 text = {
-                    "Choisissez de {C:attention}#1#{} à",
-                    "{C:attention}#2# cartes {C:joker}Joker{}"
+                    "Jusqu'à {C:attention}#1#{} carte",
+                    "{C:joker}Joker{} parmi {C:attention}#2#{}"
                 }
             },
             p_buffoon_mega = {
-                name = "Paquet Méga-Bouffon",
+                name = "Méga Paquet Bouffon",
                 text = {
-                    "Choisissez de {C:attention}#1#{} à",
-                    "{C:attention}#2# cartes {C:joker}Joker{}"
+                    "Jusqu'à {C:attention}#1#{} cartes",
+                    "{C:joker}Joker{} parmi {C:attention}#2#{}"
                 }
             },
             pinned_left = {
                 name = "Épinglé",
                 text = {
                     "Ce Joker reste",
-                    "épinglé à la",
-                    "position la plus à gauche"
+                    "épinglé à la position",
+                    "la plus à gauche"
                 }
             },
             red_seal = {
                 name = "Sceau rouge",
                 text = {
-                    "Déclenchez à nouveau cette",
+                    "Déclenche à nouveau cette",
                     "carte {C:attention}1{} fois"
                 }
             },
             blue_seal = {
                 name = "Sceau bleu",
                 text = {
-                    "Crée une carte {C:planet}Planète{}",
+                    "Crée une carte de {C:planet}Planète{}",
                     "si cette carte est {C:attention}tenue{} en",
                     "main à la fin de la manche"
                 }
@@ -3285,8 +3283,8 @@ return {
                 name = "(Verrouillé)",
                 text = {
                     "Gagnez une partie avec au moins",
-                    "#1# jeux différents pour débloquer le",
-                    "Mode Défi",
+                    "#1# jeux différents pour débloquer",
+                    "le Mode Défi",
                     "{C:attention,s:2}#2#/#1#"
                 }
             }
