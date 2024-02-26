@@ -476,9 +476,9 @@ return {
                 }
             },
             ["bl_manacle"] = {
-                ["name"] = "Les menottes",
+                ["name"] = "Les Menottes",
                 ["text"] = {
-                    [1] = "Taille de la main -1"
+                    [1] = "-1 à la taille de la main"
                 }
             },
             ["bl_wall"] = {
