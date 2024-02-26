@@ -470,10 +470,9 @@ return {
                 }
             },
             ["bl_water"] = {
-                ["name"] = "L'eau",
+                ["name"] = "L'Eau",
                 ["text"] = {
-                    [1] = "Commencez sans",
-                    [2] = "aucune défausse"
+                    [1] = "0 défausses cette manche"
                 }
             },
             ["bl_manacle"] = {
