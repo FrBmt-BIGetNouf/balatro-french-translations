@@ -144,10 +144,10 @@ return {
                 }
             },
             ["tag_d_six"] = {
-                ["name"] = "Étiquette D6",
+                ["name"] = "Badge 1D6",
                 ["text"] = {
-                    [1] = "Les nouveaux lancers du prochain magasin",
-                    [2] = "commencent à {C:money}0 $"
+                    [1] = "Le coût de réapprovisionnement de la",
+                    [2] = "prochaine boutique commence à {C:money}0 $"
                 }
             },
             ["tag_negative"] = {
