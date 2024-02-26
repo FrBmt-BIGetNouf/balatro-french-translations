@@ -245,7 +245,7 @@ return {
                 }
             },
             ["tag_top_up"] = {
-                ["name"] = "Étiquette d'appoint",
+                ["name"] = "Badge de remplissage",
                 ["text"] = {
                     [1] = "Crée jusqu'à {C:attention}#1#",
                     [2] = "Jokers {C:blue}Communs{}",
