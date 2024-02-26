@@ -260,10 +260,10 @@ return {
                 }
             },
             ["tag_meteor"] = {
-                ["name"] = "Étiquette de météore",
+                ["name"] = "Badge Météore",
                 ["text"] = {
                     [1] = "Octroie un",
-                    [2] = "{C:planet}Paquet Méga-Céleste"
+                    [2] = "{C:planet}Méga Paquet Céleste"
                 }
             },
             ["tag_double"] = {
