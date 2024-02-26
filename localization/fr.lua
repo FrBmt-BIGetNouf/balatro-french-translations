@@ -312,9 +312,9 @@ return {
                 }
             },
             ["bl_needle"] = {
-                ["name"] = "L'aiguille",
+                ["name"] = "L'Aiguille",
                 ["text"] = {
-                    [1] = "Ne jouez qu'une main"
+                    [1] = "1 seule main cette manche"
                 }
             },
             ["bl_small"] = {
