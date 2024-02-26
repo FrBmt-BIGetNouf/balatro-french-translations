@@ -343,10 +343,10 @@ return {
                 }
             },
             ["bl_mouth"] = {
-                ["name"] = "La bouche",
+                ["name"] = "La Bouche",
                 ["text"] = {
-                    [1] = "Ne jouez qu'un seul type",
-                    [2] = "de main cette manche-ci"
+                    [1] = "Seul le premier type de main",
+                    [2] = "joué cette manche sera compté"
                 }
             },
             ["bl_eye"] = {
