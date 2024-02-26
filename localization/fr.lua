@@ -21,7 +21,7 @@ return {
                 ["name"] = "Jeu Nébuleuse",
                 ["text"] = {
                     [1] = "Commence la partie avec",
-                    [2] = "le Coupon {C:planet}#1#{},",
+                    [2] = "le Coupon {C:planet,T:v_telescope}#1#{},",
                     [3] = "{C:red}#2#{} emplacement de Consommable"
                 }
             },
