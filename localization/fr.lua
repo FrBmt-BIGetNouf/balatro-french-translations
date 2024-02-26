@@ -1418,87 +1418,84 @@ return {
         },
         Voucher = {
             v_overstock_norm = {
-                name = "Excédent",
+                name = "Provisions",
                 text = {
-                    "{C:attention}+1{} emplacement de carte",
-                    "disponible dans la boutique"
+                    "{C:attention}+1{} emplacement de",
+                    "carte dans la boutique"
                 }
             },
             v_clearance_sale = {
                 name = "Déstockage",
                 text = {
-                    "Toutes les cartes et tous les paquets de la",
-                    "boutique sont vendus avec un rabais de {C:attention}#1# %{}"
+                    "Toutes les cartes et Paquets de la boutique",
+                    "coûtent {C:attention}#1#%{} moins cher"
                 }
             },
             v_tarot_merchant = {
-                name = "Marchand de cartes de Tarot",
+                name = "Marchand de Tarot",
                 text = {
-                    "Les cartes de {C:tarot}Tarot{} apparaissent",
-                    "{C:attention}#1#X{} plus fréquemment",
-                    "dans la boutique"
+                    "Les cartes de {C:tarot}Tarot{}",
+                    "apparaissent {C:attention}#1#x{} plus",
+                    "fréquemment dans la boutique"
                 }
             },
             v_planet_merchant = {
-                name = "Marchand de cartes Planète",
+                name = "Marchand de Planètes",
                 text = {
-                    "Les cartes {C:planet}Planète{} apparaissent",
-                    "{C:attention}#1#X{} plus fréquemment",
-                    "dans la boutique"
+                    "Les cartes de {C:planet}Planète{}",
+                    "apparaissent {C:attention}#1#x{} plus",
+                    "fréquemment dans la boutique"
                 }
             },
             v_hone = {
                 name = "Aiguisage",
                 text = {
-                    "Les cartes {C:dark_edition}Aluminium{}, {C:dark_edition}Holographiques{} et",
-                    "{C:dark_edition}Polychromes{}",
+                    "Les cartes {C:dark_edition}Brillantes{},",
+                    "{C:dark_edition}Holographiques{} et {C:dark_edition}Polychromes{}",
                     "apparaissent {C:attention}#1#x{} plus souvent"
                 }
             },
             v_reroll_surplus = {
-                name = "Lancers en pagaille",
+                name = "Réappro. déraisonnable",
                 text = {
-                    "Les nouveaux lancers coûtent",
-                    "{C:money}#1# ${} moins cher"
+                    "Réapprovisionner la boutique",
+                    "coûte {C:money}#1# ${} moins cher"
                 }
             },
             v_crystal_ball = {
                 name = "Boule de cristal",
                 text = {
-                    "{C:attention}+1{} emplacement de consommable"
+                    "{C:attention}+1{} emplacement de Consommable"
                 }
             },
             v_telescope = {
                 name = "Télescope",
                 text = {
                     "Les {C:attention}Paquets Célestes{} contiennent",
-                    "toujours la carte {C:planet}Planète{}",
-                    "pour votre",
-                    "{C:attention}main de poker la plus jouée"
+                    "toujours la carte de {C:planet}Planète{}",
+                    "pour la {C:attention}main de poker la plus jouée"
                 }
             },
             v_grabber = {
-                name = "Grappin",
+                name = "Coup de pouce",
                 text = {
-                    "Gagnez de manière permanente",
-                    "{C:blue}+#1#{} main",
-                    "par manche"
+                    "{C:blue}+#1#{} main par manche",
+                    "de façon permanente"
                 }
             },
             v_wasteful = {
                 name = "Gaspillage",
                 text = {
-                    "Gagnez de manière permanente",
-                    "{C:red}+#1#{} défausse",
-                    "par manche"
+                    "{C:red}+#1#{} défausse par manche",
+                    "de façon permanente"
                 }
             },
             v_seed_money = {
                 name = "Capital de départ",
                 text = {
-                    "Augmentez le plafond des",
-                    "intérêts perçus",
-                    "par manche de {C:money}#1# ${}"
+                    "Augmente le plafond",
+                    "des intérêts perçus",
+                    "par manche à {C:money}#1# ${}"
                 }
             },
             v_blank = {
@@ -1510,7 +1507,7 @@ return {
             v_magic_trick = {
                 name = "Tour de magie",
                 text = {
-                    "Les {C:attention}Cartes à jouer{} peuvent",
+                    "Les {C:attention}cartes à jouer{} peuvent",
                     "être achetées",
                     "dans la {C:attention}boutique"
                 }
@@ -1518,37 +1515,34 @@ return {
             v_hieroglyph = {
                 name = "Hiéroglyphe",
                 text = {
-                    "{C:attention}-#1#{} à la mise initiale",
-                    "{C:blue}-#1#{} main",
-                    "par manche",
-                    "{C:attention}-#1#{} à la mise initiale"
+                    "{C:attention}-#1#{} à l'Ante,",
+                    "{C:blue}-#1#{} main par manche"
                 }
             },
             v_directors_cut = {
                 name = "Director's Cut",
                 text = {
-                    "Relancez la Boss Blinde",
-                    "{C:attention}1{} fois par mise initiale,",
-                    "{C:money}#1# ${} par lancer"
+                    "La Blinde de Boss peut être changée",
+                    "{C:attention}1{} fois par Ante pour {C:money}#1# ${}"
                 }
             },
             v_pattern = {
                 name = "Motif",
                 text = {
-                    "Fait apparaître la carte",
-                    "{C:attention}Consommable{} que vous utilisez le plus",
+                    "Crée la carte de {C:attention}Consommable{}",
+                    "que vous utilisez le plus",
                     "{E:1,V:1}#1#",
                     "{C:inactive}(Selon la place disponible)"
                 }
             },
             v_overstock_plus = {
-                name = "Excédent plus",
+                name = "Surapprovisionnement",
                 text = {
-                    "{C:attention}+1{} emplacement de carte",
-                    "disponible dans la boutique"
+                    "(Encore) {C:attention}+1{} emplacement",
+                    "de carte dans la boutique"
                 },
                 unlock = {
-                    "Dépensez un total de",
+                    "Dépenser un total de",
                     "{C:money}#1# ${} dans la boutique",
                     "{C:inactive}(#2# $)"
                 }
@@ -1556,66 +1550,66 @@ return {
             v_liquidation = {
                 name = "Liquidation",
                 text = {
-                    "Toutes les cartes et tous les paquets de la",
-                    "boutique sont vendus avec un rabais de {C:attention}#1# %{}"
+                    "Toutes les cartes et Paquets de la boutique",
+                    "coûtent {C:attention}#1#%{} moins cher"
                 },
                 unlock = {
-                    "Utilisez au moins",
-                    "{C:attention}#1# cartes {C:voucher}Bon d'achat{}",
+                    "Échanger au moins",
+                    "{C:attention}#1# {C:voucher}Coupons{}",
                     "en une partie"
                 }
             },
             v_tarot_tycoon = {
-                name = "Magnat des cartes de Tarot",
+                name = "Magnat du Tarot",
                 text = {
-                    "Les cartes de {C:tarot}Tarot{} apparaissent",
-                    "{C:attention}#1#X{} plus fréquemment",
-                    "dans la boutique"
+                    "Les cartes de {C:tarot}Tarot{}",
+                    "apparaissent {C:attention}#1#x{} plus",
+                    "fréquemment dans la boutique"
                 },
                 unlock = {
-                    "Achetez un total de",
-                    "{C:attention}#1# cartes de {C:tarot}Tarot{}",
+                    "Acheter un total de",
+                    "{C:attention}#1#{} cartes de {C:tarot}Tarot{}",
                     "dans la boutique",
                     "{C:inactive}(#2#)"
                 }
             },
             v_planet_tycoon = {
-                name = "Magnat des cartes Planète",
+                name = "Magnat des Planètes",
                 text = {
-                    "Les cartes {C:planet}Planète{} apparaissent",
-                    "{C:attention}#1#X{} plus fréquemment",
-                    "dans la boutique"
+                    "Les cartes de {C:planet}Planète{}",
+                    "apparaissent {C:attention}#1#x{} plus",
+                    "fréquemment dans la boutique"
                 },
                 unlock = {
-                    "Achetez un total de",
-                    "{C:attention}#1# cartes {C:planet}Planète{}",
+                    "Acheter un total de",
+                    "{C:attention}#1#{} cartes de {C:planet}Planète{}",
                     "dans la boutique",
                     "{C:inactive}(#2#)"
                 }
             },
             v_glow_up = {
-                name = "Bonne mine",
+                name = "Perfectionnement",
                 text = {
-                    "Les cartes {C:dark_edition}Aluminium{}, {C:dark_edition}Holographiques{} et",
-                    "{C:dark_edition}Polychromes{}",
+                    "Les cartes {C:dark_edition}Brillantes{},",
+                    "{C:dark_edition}Holographiques{} et {C:dark_edition}Polychromes{}",
                     "apparaissent {C:attention}#1#x{} plus souvent"
                 },
                 unlock = {
-                    "Vous devez avoir au moins {C:attention}#1#",
+                    "Avoir au moins {C:attention}#1#",
                     "cartes {C:attention}Joker{} en édition",
-                    "{C:dark_edition}Aluminium{}, {C:dark_edition}Holographique{} ou",
+                    "{C:dark_edition}Brillante{}, {C:dark_edition}Holographique{} ou",
                     "{C:dark_edition}Polychrome{}"
                 }
             },
             v_reroll_glut = {
-                name = "Comme s'il en pleuvait",
+                name = "Réappro. effrénés",
                 text = {
-                    "Les nouveaux lancers coûtent",
-                    "{C:money}#1# ${} moins cher"
+                    "Réapprovisionner la boutique",
+                    "coûte (encore) {C:money}#1# ${} moins cher"
                 },
                 unlock = {
-                    "Effectuez un total de",
-                    "{C:attention}#1#{} nouveaux lancers dans la boutique",
+                    "Réapprovisionner la boutique",
+                    "un total de {C:attention}#1#{} fois",
                     "{C:inactive}(#2#)"
                 }
             },
@@ -1624,39 +1618,38 @@ return {
                 text = {
                     "Les cartes {C:spectral}Spectrales{} peuvent",
                     "apparaître dans n'importe quel",
-                    "{C:attention}Paquet Arcana"
+                    "{C:attention}Paquet Arcanes"
                 },
                 unlock = {
-                    "Utilisez un total de {C:attention}#1#",
-                    "cartes de {C:tarot}Tarot{} dans n'importe quel",
-                    "{C:tarot}Paquet Arcana",
+                    "Utiliser un total de {C:attention}#1#",
+                    "cartes de {C:tarot}Tarot{} provenant",
+                    "de {C:tarot}Paquets Arcanes",
                     "{C:inactive}(#2#)"
                 }
             },
             v_observatory = {
                 name = "Observatoire",
                 text = {
-                    "Les cartes {C:planet}Planète{} de votre",
-                    "zone {C:attention}Consommable{} octroient",
-                    "{X:red,C:white}x#1#{} au multi. pour",
+                    "Les cartes de {C:planet}Planète{} de",
+                    "votre zone de {C:attention}Consommables{}",
+                    "octroient {X:red,C:white}x#1#{} Multi pour",
                     "leur {C:attention}main de poker spécifique"
                 },
                 unlock = {
-                    "Utilisez un total de {C:attention}#1#",
-                    "cartes {C:planet}Planète{} dans n'importe quel",
-                    "{C:planet}Paquet Céleste",
+                    "Utiliser un total de {C:attention}#1#",
+                    "cartes de {C:planet}Planète{} provenant",
+                    "de {C:planet}Paquets Célestes",
                     "{C:inactive}(#2#)"
                 }
             },
             v_nacho_tong = {
-                name = "Tong Nacho",
+                name = "Coup de main",
                 text = {
-                    "Gagnez de manière permanente",
-                    "{C:blue}+#1#{} main",
-                    "par manche"
+                    "(Encore) {C:blue}+#1#{} main par manche",
+                    "de façon permanente"
                 },
                 unlock = {
-                    "Jouez un total",
+                    "Jouer un total",
                     "de {C:attention}#1#{} cartes",
                     "{C:inactive}(#2#)"
                 }
@@ -1664,12 +1657,11 @@ return {
             v_recyclomancy = {
                 name = "Recyclomancie",
                 text = {
-                    "Gagnez de manière permanente",
-                    "{C:red}+#1#{} défausse",
-                    "par manche"
+                    "(Encore) {C:red}+#1#{} défausse par manche",
+                    "de façon permanente"
                 },
                 unlock = {
-                    "Défaussez un total",
+                    "Défausser un total",
                     "de {C:attention}#1#{} cartes",
                     "{C:inactive}(#2#)"
                 }
@@ -1677,12 +1669,12 @@ return {
             v_money_tree = {
                 name = "Arbre à monnaie",
                 text = {
-                    "Augmentez le plafond des",
-                    "intérêts perçus",
-                    "par manche de {C:money}#1# ${}"
+                    "Augmente le plafond",
+                    "des intérêts perçus",
+                    "par manche à {C:money}#1# ${}"
                 },
                 unlock = {
-                    "Maximisez les intérêts",
+                    "Maximiser les intérêts",
                     "perçus par manche pendant",
                     "{C:attention}#1#{} manches consécutives",
                     "{C:inactive}(#2#)"
@@ -1691,10 +1683,10 @@ return {
             v_antimatter = {
                 name = "Antimatière",
                 text = {
-                    "{C:dark_edition}+1{} emplacement de Joker"
+                    "{C:dark_edition}+1{} Joker max"
                 },
                 unlock = {
-                    "Utilisez {C:voucher}À blanc{}",
+                    "Échanger {C:voucher}À blanc{}",
                     "{C:attention}#1#{} fois au total",
                     "{C:inactive}(#2#)"
                 }
@@ -1702,12 +1694,12 @@ return {
             v_illusion = {
                 name = "Illusion",
                 text = {
-                    "Les {C:attention}Cartes à jouer{} de la boutique",
-                    "peuvent être {C:enhanced}Améliorées{},",
-                    "{C:dark_edition}Édition{} et/ou {C:dark_edition}Sceau{}"
+                    "Les {C:attention}cartes à jouer{} de la boutique",
+                    "peuvent être {C:enhanced}Améliorées{}, avoir une",
+                    "{C:dark_edition}Édition{} et/ou un {C:dark_edition}Sceau{}"
                 },
                 unlock = {
-                    "Achetez un total de",
+                    "Acheter un total de",
                     "{C:attention}#1#{} cartes à jouer",
                     "dans la boutique",
                     "{C:inactive}(#2#)"
@@ -1716,51 +1708,46 @@ return {
             v_petroglyph = {
                 name = "Pétroglyphe",
                 unlock = {
-                    "Atteignez la mise initiale",
-                    "niveau {E:1,C:attention}#1#"
+                    "Atteindre l'Ante {E:1,C:attention}#1#"
                 },
                 text = {
-                    "{C:attention}-#1#{} à la mise initiale",
-                    "{C:red}-#1#{} défausse",
-                    "par manche"
+                    "{C:attention}-#1#{} à l'Ante,",
+                    "{C:red}-#1#{} défausse par manche"
                 }
             },
             v_retcon = {
                 name = "Retcon",
                 text = {
-                    "Relancez la Boss Blinde",
-                    "un nombre {C:attention}illimité{} de fois,",
-                    "{C:money}#1# ${} par nouveau lancer"
+                    "La Blinde de Boss peut être changée",
+                    "à volonté pour {C:money}#1# ${}"
                 },
                 unlock = {
-                    "Découvrez",
+                    "Découvrir",
                     "{C:attention}#1#{} Blindes"
                 }
             },
             v_tesselation = {
                 name = "Tessellation",
                 text = {
-                    "Fait apparaître la carte",
-                    "{C:attention}Joker{} la plus utilisée",
+                    "Crée la carte {C:attention}Joker{}",
+                    " la plus utilisée",
                     "{E:1,V:1}#1#",
                     "{C:inactive}(Selon la place disponible)"
                 },
                 unlock = {
-                    "Achetez l'édition {C:dark_edition}Polychrome",
-                    "de votre",
-                    "carte {C:attention}Joker la plus utilisée",
+                    "Acheter l'édition {C:dark_edition}Polychrome",
+                    "de la carte {C:attention}Joker",
+                    " la plus utilisée",
                     "dans la boutique"
                 }
             },
             v_palette = {
                 name = "Palette",
                 text = {
-                    "Vous pouvez tenir {C:attention}+#1#{} carte",
-                    "dans votre main",
-                    "{C:attention}+#1#{} à la taille de la main"
+                    "(Encore) {C:attention}+#1#{} à la taille de la main"
                 },
                 unlock = {
-                    "Réduisez la taille de la main",
+                    "Réduire la taille de la main",
                     "jusqu'à {C:attention}#1#{} cartes"
                 }
             },
