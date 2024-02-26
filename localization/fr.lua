@@ -199,7 +199,7 @@ return {
                 ["name"] = "Badge Brillant",
                 ["text"] = {
                     [1] = "Le prochain Joker sans Édition",
-                    [2] = "dans la boutique devient Brillant"
+                    [2] = "dans la boutique devient {C:dark_edition}Brillant"
                 }
             },
             ["tag_buffoon"] = {
@@ -213,11 +213,11 @@ return {
                 ["name"] = "Badge Breloque",
                 ["text"] = {
                     [1] = "Octroie un",
-                    [2] = "{C:tarot}Méga Paquet Arcana"
+                    [2] = "{C:tarot}Méga Paquet Arcanes"
                 }
             },
             ["tag_ethereal"] = {
-                ["name"] = "Étiquette éthérée",
+                ["name"] = "Badge Éther",
                 ["text"] = {
                     [1] = "Octroie un",
                     [2] = "{C:planet}Paquet Spectral"
