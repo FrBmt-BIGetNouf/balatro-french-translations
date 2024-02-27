@@ -3,124 +3,128 @@ return {
     ["descriptions"] = {
         ["Back"] = {
             ["b_challenge"] = {
-                ["name"] = "Jeu du Défi",
+                ["name"] = "Jeu du défi",
                 ["text"] = {
                     [1] = ""
                 }
             },
             ["b_plasma"] = {
-                ["name"] = "Jeu Plasma",
+                ["name"] = "Jeu plasmique",
                 ["text"] = {
-                    [1] = "Moyenne {C:blue}Jetons{} et {C:red}Multi{}",
-                    [2] = " lors du comptage du",
+                    [1] = "Équilibrez les {C:blue}Jetons{} et le",
+                    [2] = "{C:red}Multi.{} lors du calcul du",
                     [3] = "score de la main jouée",
-                    [4] = "Taille des Blindes {C:attention}x#1#{}"
+                    [4] = "Taille de la Blinde de base {C:attention}x#1#{}"
                 }
             },
             ["b_nebula"] = {
-                ["name"] = "Jeu Nébuleuse",
+                ["name"] = "Jeu nébuleux",
                 ["text"] = {
-                    [1] = "Commence la partie avec",
-                    [2] = "le Coupon {C:planet,T:v_telescope}#1#{},",
-                    [3] = "{C:red}#2#{} emplacement de Consommable"
+                    [1] = "Commencez la partie avec le",
+                    [2] = "bon d'achat {C:planet}#1#{}",
+                    [3] = "",
+                    [4] = "{C:red}#2#{} emplacement de consommable"
                 }
             },
             ["b_anaglyph"] = {
-                ["name"] = "Jeu Anaglyphe",
+                ["name"] = "Jeu anaglyphe",
                 ["text"] = {
-                    [1] = "Après chaque victoire",
-                    [2] = "contre une {C:attention}Blinde de Boss{},",
-                    [3] = "crée un {C:attention,T:tag_double}#1#"
+                    [1] = "Après avoir battu chaque",
+                    [2] = "{C:attention}Boss Blinde{}, gagnez",
+                    [3] = "{C:attention,T:tag_double}#1#"
                 }
             },
             ["b_black"] = {
-                ["name"] = "Jeu Noir",
+                ["name"] = "Jeu noir",
                 ["text"] = {
-                    [1] = "{C:attention}+#1#{} Joker max,",
-                    [2] = "{C:blue}-#2#{} main par manche"
+                    [1] = "{C:attention}+#1#{} emplacement Joker",
+                    [2] = "",
+                    [3] = "{C:blue}-#2#{} main",
+                    [4] = "à chaque manche"
                 }
             },
             ["b_ghost"] = {
-                ["name"] = "Jeu Fantôme",
+                ["name"] = "Jeu fantôme",
                 ["text"] = {
-                    [1] = "Commence la partie avec",
-                    [2] = "une carte {C:spectral,T:c_hex}Maléfice{},",
-                    [3] = "les cartes {C:spectral}Spectrales{} peuvent",
-                    [4] = "apparaître dans le magasin"
+                    [1] = "Les cartes {C:spectral}Spectrales{} peuvent",
+                    [2] = "apparaître dans le magasin,",
+                    [3] = "et commencez avec une carte {C:spectral,T:c_hex}Maléfice{}"
                 }
             },
             ["b_abandoned"] = {
-                ["name"] = "Jeu Abandonné",
+                ["name"] = "Jeu abandonné",
                 ["text"] = {
-                    [1] = "Commence la partie avec",
-                    [2] = "un jeu sans {C:attention}cartes Figure"
+                    [1] = "Commencez la partie",
+                    [2] = "sans {C:attention}cartes Figure",
+                    [3] = "dans votre jeu"
                 }
             },
             ["b_erratic"] = {
-                ["name"] = "Jeu Erratique",
+                ["name"] = "Jeu erratique",
                 ["text"] = {
-                    [1] = "Toutes les {C:attention}Valeurs{}",
-                    [2] = "et {C:attention}Couleurs{} du jeu",
+                    [1] = "Toutes les {C:attention}Valeurs{} et",
+                    [2] = "les {C:attention}Couleurs{} du jeu",
                     [3] = "sont aléatoires"
                 }
             },
             ["b_magic"] = {
-                ["name"] = "Jeu Magique",
+                ["name"] = "Jeu magique",
                 ["text"] = {
-                    [1] = "Commence la partie avec",
-                    [2] = "le Coupon {C:tarot,T:v_crystal_ball}#1#{}",
-                    [3] = "et {C:attention}2{} cartes {C:tarot,T:c_fool}#2#"
+                    [1] = "Commencez la partie avec le",
+                    [2] = "bon d'achat {C:tarot,T:v_crystal_ball}#1#{}",
+                    [3] = "et {C:attention}2{} copies",
+                    [4] = "de {C:tarot,T:c_fool}#2#"
                 }
             },
             ["b_red"] = {
-                ["name"] = "Jeu Rouge",
+                ["name"] = "Jeu rouge",
                 ["text"] = {
                     [1] = "{C:red}+#1#{} défausse",
-                    [2] = "par manche"
+                    [2] = "à chaque manche"
                 }
             },
             ["b_painted"] = {
-                ["name"] = "Jeu Peinturluré",
+                ["name"] = "Jeu peint",
                 ["text"] = {
-                    [1] = "{C:attention}+#1#{} à la taille de la main,",
-                    [2] = "{C:red}#2#{} Joker max"
+                    [1] = "{C:attention}+#1#{} à la taille de la main",
+                    [2] = "{C:red}#2#{} emplacement Joker"
                 }
             },
             ["b_blue"] = {
-                ["name"] = "Jeu Bleu",
+                ["name"] = "Jeu bleu",
                 ["text"] = {
                     [1] = "{C:blue}+#1#{} main",
-                    [2] = "par manche"
+                    [2] = "à chaque manche"
                 }
             },
             ["b_checkered"] = {
-                ["name"] = "Jeu en Damier",
+                ["name"] = "Jeu en damier",
                 ["text"] = {
-                    [1] = "Commence la partie avec",
-                    [2] = "{C:attention}26 cartes {C:spades}Pique{} et",
-                    [3] = "{C:attention}26 cartes {C:hearts}Cœur{}"
+                    [1] = "Commencez la partie avec",
+                    [2] = "{C:attention}26 cartes de{C:spades} Pique{} et",
+                    [3] = "{C:attention}26 cartes de{C:hearts} Cœur{} dans votre jeu"
                 }
             },
             ["b_green"] = {
-                ["name"] = "Jeu Vert",
+                ["name"] = "Jeu vert",
                 ["text"] = {
                     [1] = "À la fin de la manche :",
-                    [2] = "{C:money}#1# ${s:0.85} par {C:blue}main restante,",
-                    [3] = "{C:money}#2# ${s:0.85} par {C:red}défausse restante,",
-                    [4] = "Pas d'{C:attention}intérêts{} perçus"
+                    [2] = "{C:money}#1# ${s:0.85} par {C:blue}main restante",
+                    [3] = "{C:money}#2# ${s:0.85} par {C:red}défausse restante",
+                    [4] = "Vous ne percevez pas d'{C:attention}intérêts"
                 }
             },
             ["b_yellow"] = {
-                ["name"] = "Jeu Jaune",
+                ["name"] = "Jeu jaune",
                 ["text"] = {
-                    [1] = "Commence la partie avec",
-                    [2] = "{C:money}#1# ${} supplémentaires"
+                    [1] = "Commencez avec",
+                    [2] = "{C:money}#1# $ supplémentaires"
                 }
             },
             ["b_zodiac"] = {
-                ["name"] = "Jeu Zodiaque",
+                ["name"] = "Jeu Zodiac",
                 ["text"] = {
-                    [1] = "Commence la partie avec",
+                    [1] = "Commencez la partie avec",
                     [2] = "{C:tarot,T:v_tarot_merchant}#1#{},",
                     [3] = "{C:planet,T:v_planet_merchant}#2#{},",
                     [4] = "et {C:attention,T:v_overstock_norm}#3#"
@@ -129,123 +133,124 @@ return {
         },
         ["Tag"] = {
             ["tag_handy"] = {
-                ["name"] = "Badge manuel",
+                ["name"] = "Étiquette pratique",
                 ["text"] = {
-                    [1] = "Octroie {C:money}#1# ${} par {C:blue}main{}",
-                    [2] = "jouée cette partie",
-                    [3] = "{C:inactive}(Octroie {C:money}#2# ${C:inactive})"
+                    [1] = "Octroie {C:money}#1# ${} par",
+                    [2] = "{C:blue}main{} jouée dans cette partie",
+                    [3] = "{C:inactive}(Octroiera {C:money}#2# ${C:inactive})"
                 }
             },
             ["tag_standard"] = {
-                ["name"] = "Badge Standard",
+                ["name"] = "Étiquette standard",
                 ["text"] = {
                     [1] = "Octroie un",
-                    [2] = "{C:attention}Méga Paquet Standard"
+                    [2] = "{C:attention}Paquet Méga-Standard"
                 }
             },
             ["tag_d_six"] = {
-                ["name"] = "Badge 1D6",
+                ["name"] = "Étiquette D6",
                 ["text"] = {
-                    [1] = "Le coût de réapprovisionnement de la",
-                    [2] = "prochaine boutique commence à {C:money}0 $"
+                    [1] = "Les nouveaux lancers du prochain magasin",
+                    [2] = "commencent à {C:money}0 $"
                 }
             },
             ["tag_negative"] = {
-                ["name"] = "Badge Négatif",
+                ["name"] = "Étiquette négative",
                 ["text"] = {
-                    [1] = "Le prochain Joker sans Édition",
-                    [2] = "dans la boutique devient {C:dark_edition}Négatif"
+                    [1] = "Le magasin possède un",
+                    [2] = "{C:dark_edition}Joker négatif"
                 }
             },
             ["tag_investment"] = {
-                ["name"] = "Badge investissement",
+                ["name"] = "Étiquette d'investissement",
                 ["text"] = {
                     [1] = "Après avoir battu",
-                    [2] = "la Blinde de Boss,",
-                    [3] = "octroie {C:money}#1# $"
+                    [2] = "la Boss Blinde,",
+                    [3] = "gagnez {C:money}#1# $"
                 }
             },
             ["tag_holo"] = {
-                ["name"] = "Badge Holographique",
+                ["name"] = "Étiquette holographique",
                 ["text"] = {
-                    [1] = "Le prochain Joker sans Édition",
-                    [2] = "dans la boutique devient {C:dark_edition}Holographique"
+                    [1] = "Le magasin possède un",
+                    [2] = "{C:dark_edition}Joker holographique"
                 }
             },
             ["tag_rare"] = {
-                ["name"] = "Badge Rare",
+                ["name"] = "Étiquette rare",
                 ["text"] = {
-                    [1] = "La boutique a un",
-                    [2] = "{C:red}Joker Rare"
+                    [1] = "Le magasin possède un",
+                    [2] = "{C:red}Joker rare"
                 }
             },
             ["tag_skip"] = {
-                ["name"] = "Badge rapidité",
+                ["name"] = "Étiquette de rapidité",
                 ["text"] = {
-                    [1] = "Octroie {C:money}#1# ${} par blinde",
-                    [2] = "passée cette partie",
-                    [3] = "{C:inactive}(Octroie {C:money}#2# ${C:inactive})"
+                    [1] = "Gagnez {C:money}#1# ${} par blinde",
+                    [2] = "passée lors de cette partie",
+                    [3] = "{C:inactive}(Peut octroyer {C:money}#2# ${C:inactive})"
                 }
             },
             ["tag_garbage"] = {
-                ["name"] = "Badge déchets",
+                ["name"] = "Étiquette moisie",
                 ["text"] = {
-                    [1] = "Octroie {C:money}#1# ${} par {C:red}défausse{}",
-                    [2] = "inutilisée cette partie",
-                    [3] = "{C:inactive}(Octroie {C:money}#2# ${C:inactive})"
+                    [1] = "Octroie {C:money}#1# ${} par",
+                    [2] = "{C:red}défausse{} dans cette partie",
+                    [3] = "{C:inactive}(Octroiera {C:money}#2# ${C:inactive})"
                 }
             },
             ["tag_foil"] = {
-                ["name"] = "Badge Brillant",
+                ["name"] = "Étiquette d'aluminium",
                 ["text"] = {
-                    [1] = "Le prochain Joker sans Édition",
-                    [2] = "dans la boutique devient {C:dark_edition}Brillant"
+                    [1] = "Le magasin possède un",
+                    [2] = "{C:dark_edition}Joker d'aluminium"
                 }
             },
             ["tag_buffoon"] = {
-                ["name"] = "Badge Bouffon",
+                ["name"] = "Étiquette de bouffon",
                 ["text"] = {
                     [1] = "Octroie un",
-                    [2] = "{C:attention}Méga Paquet Bouffon"
+                    [2] = "{C:attention}Paquet Bouffon"
                 }
             },
             ["tag_charm"] = {
-                ["name"] = "Badge Breloque",
+                ["name"] = "Étiquette de charme",
                 ["text"] = {
                     [1] = "Octroie un",
-                    [2] = "{C:tarot}Méga Paquet Arcanes"
+                    [2] = "{C:tarot}Paquet Méga-Arcana"
                 }
             },
             ["tag_ethereal"] = {
-                ["name"] = "Badge Éther",
+                ["name"] = "Étiquette éthérée",
                 ["text"] = {
                     [1] = "Octroie un",
-                    [2] = "{C:spectral}Paquet Spectral"
+                    [2] = "{C:planet}Paquet Spectral"
                 }
             },
             ["tag_orbital"] = {
-                ["name"] = "Badge orbital",
+                ["name"] = "Étiquette orbitale",
                 ["text"] = {
-                    [1] = "Améliore {C:attention}#1#",
+                    [1] = "Augmentez {C:attention}#1#",
                     [2] = "de {C:attention}#2# niveaux"
                 }
             },
             ["tag_coupon"] = {
-                ["name"] = "Badge bon d'achat",
+                ["name"] = "Étiquette de coupon",
                 ["text"] = {
-                    [1] = "Les cartes et Paquets",
-                    [2] = "initiaux de la prochaine",
-                    [3] = "boutique sont gratuits"
+                    [1] = "Les cartes initiales et",
+                    [2] = "les Paquets Booster du",
+                    [3] = "prochain magasin sont gratuits"
                 }
             },
             ["tag_boss"] = {
-                ["name"] = "Badge de Boss",
+                ["name"] = "Étiquette de boss",
                 ["text"] = {
-                    [1] = "Change la {C:attention}Blinde de Boss"
+                    [1] = "Effectue un nouveau lancer de la",
+                    [2] = "{C:attention}Boss Blinde"
                 }
             },
             ["tag_top_up"] = {
-                ["name"] = "Badge de remplissage",
+                ["name"] = "Étiquette d'appoint",
                 ["text"] = {
                     [1] = "Crée jusqu'à {C:attention}#1#",
                     [2] = "Jokers {C:blue}Communs{}",
@@ -253,68 +258,68 @@ return {
                 }
             },
             ["tag_polychrome"] = {
-                ["name"] = "Badge Polychrome",
+                ["name"] = "Étiquette polychrome",
                 ["text"] = {
-                    [1] = "Le prochain Joker sans Édition",
-                    [2] = "dans la boutique devient {C:dark_edition}Polychrome"
+                    [1] = "Le magasin possède un",
+                    [2] = "{C:dark_edition}Joker polychrome"
                 }
             },
             ["tag_meteor"] = {
-                ["name"] = "Badge Météore",
+                ["name"] = "Étiquette de météore",
                 ["text"] = {
                     [1] = "Octroie un",
-                    [2] = "{C:planet}Méga Paquet Céleste"
+                    [2] = "{C:planet}Paquet Méga-Céleste"
                 }
             },
             ["tag_double"] = {
-                ["name"] = "Badge double",
+                ["name"] = "Étiquette double",
                 ["text"] = {
-                    [1] = "Octroiera une copie du",
-                    [2] = "prochain {C:attention}Badge{} sélectionné",
-                    [3] = "{s:0.8,C:inactive}(sauf {s:0.8,C:attention}Badge double{s:0.8,C:inactive})"
+                    [1] = "Octroie une copie de la",
+                    [2] = "prochaine {C:attention}Étiquette{} sélectionnée",
+                    [3] = "{s:0.8}en excluant {s:0.8,C:attention}l'Étiquette double"
                 }
             },
             ["tag_juggle"] = {
-                ["name"] = "Badge jonglage",
+                ["name"] = "Étiquette de jongleur",
                 ["text"] = {
                     [1] = "{C:attention}+#1#{} à la taille de la main",
-                    [2] = "pour la prochaine manche"
+                    [2] = "à la prochaine manche"
                 }
             },
             ["tag_economy"] = {
-                ["name"] = "Badge économie",
+                ["name"] = "Étiquette économique",
                 ["text"] = {
-                    [1] = "Double l'argent",
-                    [2] = "{C:inactive}({C:money}+#1# ${C:inactive} maximum)"
+                    [1] = "Double votre argent",
+                    [2] = "{C:inactive}({C:money}#1# ${C:inactive} au maximum)"
                 }
             },
             ["tag_uncommon"] = {
-                ["name"] = "Badge Peu commun",
+                ["name"] = "Étiquette peu commune",
                 ["text"] = {
-                    [1] = "La boutique a un",
-                    [2] = "{C:green}Joker Peu commun"
+                    [1] = "Le magasin possède un",
+                    [2] = "{C:green}Joker peu commun"
                 }
             },
             ["tag_voucher"] = {
-                ["name"] = "Badge Coupon",
+                ["name"] = "Étiquette de bon d'achat",
                 ["text"] = {
-                    [1] = "La prochaine boutique a un",
-                    [2] = "{C:voucher}Coupon{} supplémentaire"
+                    [1] = "Ajoute un {C:voucher}Bon d'achat",
+                    [2] = "au prochain magasin"
                 }
             }
         },
         ["Blind"] = {
             ["bl_club"] = {
-                ["name"] = "Le Bâton",
+                ["name"] = "Le club",
                 ["text"] = {
-                    [1] = "Toutes les cartes {C:clubs}Trèfle",
-                    [2] = "sont affaiblies"
+                    [1] = "Toutes les cartes Trèfle",
+                    [2] = "voient leurs bonus disparaître"
                 }
             },
             ["bl_needle"] = {
-                ["name"] = "L'Aiguille",
+                ["name"] = "L'aiguille",
                 ["text"] = {
-                    [1] = "1 seule main cette manche"
+                    [1] = "Ne jouez qu'une main"
                 }
             },
             ["bl_small"] = {
@@ -322,112 +327,113 @@ return {
                 ["text"] = {}
             },
             ["bl_arm"] = {
-                ["name"] = "Le Bras",
+                ["name"] = "Le bras",
                 ["text"] = {
-                    [1] = "La main de poker jouée",
-                    [2] = "perd un niveau"
+                    [1] = "Diminuez le niveau de",
+                    [2] = "la main de poker jouée"
                 }
             },
             ["bl_plant"] = {
-                ["name"] = "La Plante",
+                ["name"] = "La plante",
                 ["text"] = {
-                    [1] = "Toutes les cartes {C:attention}Figure",
-                    [2] = "sont affaiblies"
+                    [1] = "Toutes les cartes Figure",
+                    [2] = "voient leurs bonus disparaître"
                 }
             },
             ["bl_wheel"] = {
-                ["name"] = "La Roue",
+                ["name"] = "La roue",
                 ["text"] = {
                     [1] = " carte sur 7 est",
-                    [2] = "piochée face cachée"
+                    [2] = "tirée face cachée"
                 }
             },
             ["bl_mouth"] = {
-                ["name"] = "La Bouche",
+                ["name"] = "La bouche",
                 ["text"] = {
-                    [1] = "Seul le premier type de main",
-                    [2] = "joué cette manche sera compté"
+                    [1] = "Ne jouez qu'un seul type",
+                    [2] = "de main cette manche-ci"
                 }
             },
             ["bl_eye"] = {
-                ["name"] = "L'Œil",
+                ["name"] = "L'œil",
                 ["text"] = {
-                    [1] = "Une seule main de chaque type",
-                    [2] = "sera comptée cette manche"
+                    [1] = "Pas de types de main",
+                    [2] = "répétés cette manche-ci"
                 }
             },
             ["bl_pillar"] = {
-                ["name"] = "Le Pilier",
+                ["name"] = "Le pilier",
                 ["text"] = {
-                    [1] = "Les cartes jouées durant",
-                    [2] = "cette Mise initiale sont affaiblies"
+                    [1] = "Les cartes jouées avant cette",
+                    [2] = "mise initiale voient leurs bonus disparaître"
                 }
             },
             ["bl_house"] = {
-                ["name"] = "La Maison",
+                ["name"] = "La maison",
                 ["text"] = {
                     [1] = "La première main est",
-                    [2] = "piochée face cachée"
+                    [2] = "tirée face cachée"
                 }
             },
             ["bl_hook"] = {
-                ["name"] = "Le Crochet",
+                ["name"] = "L'hameçon",
                 ["text"] = {
-                    [1] = "Défausse 2 cartes aléatoires",
-                    [2] = "chaque main jouée"
+                    [1] = "Défaussez 2 cartes aléatoires",
+                    [2] = "par main jouée"
                 }
             },
             ["bl_head"] = {
-                ["name"] = "La Tête",
+                ["name"] = "La tête",
                 ["text"] = {
-                    [1] = "Toutes les cartes {C:hearts}Cœur",
-                    [2] = "sont affaiblies"
+                    [1] = "Toutes les cartes Cœur",
+                    [2] = "voient leurs bonus disparaître"
                 }
             },
             ["bl_goad"] = {
-                ["name"] = "L'Aiguillon",
+                ["name"] = "L'aiguillon",
                 ["text"] = {
-                    [1] = "Toutes les cartes {C:spades}Pique",
-                    [2] = "sont affaiblies"
+                    [1] = "Toutes les cartes Pique",
+                    [2] = "voient leurs bonus disparaître"
                 }
             },
             ["bl_final_leaf"] = {
-                ["name"] = "Feuille Verdoyante",
+                ["name"] = "Feuille verte",
                 ["text"] = {
-                    [1] = "Toutes les cartes sont affaiblies",
+                    [1] = "Toutes les cartes voient leurs bonus disparaître",
                     [2] = "jusqu'à ce qu'un Joker soit vendu"
                 }
             },
             ["bl_ox"] = {
-                ["name"] = "Le Bœuf",
+                ["name"] = "Le bœuf",
                 ["text"] = {
                     [1] = "Jouer #1#",
-                    [2] = "ramène l'argent à {C:money}0 $"
+                    [2] = "fixe l'argent à 0 $"
                 }
             },
             ["bl_mark"] = {
-                ["name"] = "La Marque",
+                ["name"] = "La marque",
                 ["text"] = {
-                    [1] = "Toutes les cartes {C:attention}Figure ",
-                    [2] = "sont piochées face cachée"
+                    [1] = "Toutes les cartes Figure sont",
+                    [2] = "tirées face cachée"
                 }
             },
             ["bl_final_vessel"] = {
-                ["name"] = "Calice Mauve",
+                ["name"] = "Vase violet",
                 ["text"] = {
-                    [1] = "Très TRÈS grosse Blinde"
+                    [1] = "Très grosse Blinde"
                 }
             },
             ["bl_tooth"] = {
-                ["name"] = "La Dent",
+                ["name"] = "La dent",
                 ["text"] = {
-                    [1] = "{C:money}-1 ${} par carte jouée"
+                    [1] = "Perdez 1 $ par",
+                    [2] = "carte jouée"
                 }
             },
             ["bl_fish"] = {
-                ["name"] = "Le Poisson",
+                ["name"] = "Le poisson",
                 ["text"] = {
-                    [1] = "Les cartes sont piochées face cachée",
+                    [1] = "Les cartes sont tirées face cachée",
                     [2] = "après chaque main jouée"
                 }
             },
@@ -436,66 +442,67 @@ return {
                 ["text"] = {}
             },
             ["bl_final_acorn"] = {
-                ["name"] = "Gland Ambré",
+                ["name"] = "Gland ambre",
                 ["text"] = {
                     [1] = "Retourne et mélange",
                     [2] = "toutes les cartes Joker"
                 }
             },
             ["bl_flint"] = {
-                ["name"] = "Le Silex",
+                ["name"] = "Le silex",
                 ["text"] = {
-                    [1] = "Les Jetons et le Multi de base",
-                    [2] = "sont réduits de moitié"
+                    [1] = "Les Jetons de base et le",
+                    [2] = "Multi. sont réduits de moitié"
                 }
             },
             ["bl_psychic"] = {
-                ["name"] = "Le Voyant",
+                ["name"] = "Le médium",
                 ["text"] = {
                     [1] = "5 cartes doivent être jouées"
                 }
             },
             ["bl_window"] = {
-                ["name"] = "La Fenêtre",
+                ["name"] = "La fenêtre",
                 ["text"] = {
-                    [1] = "Toutes les cartes {C:diamonds}Carreau",
-                    [2] = "sont affaiblies"
+                    [1] = "Toutes les cartes Carreau",
+                    [2] = "voient leurs bonus disparaître"
                 }
             },
             ["bl_serpent"] = {
-                ["name"] = "Le Serpent",
+                ["name"] = "Le serpent",
                 ["text"] = {
                     [1] = "Après avoir joué ou défaussé,",
-                    [2] = "3 cartes sont toujours piochées"
+                    [2] = "tirez toujours 3 cartes"
                 }
             },
             ["bl_water"] = {
-                ["name"] = "L'Eau",
+                ["name"] = "L'eau",
                 ["text"] = {
-                    [1] = "0 défausses cette manche"
+                    [1] = "Commencez sans",
+                    [2] = "aucune défausse"
                 }
             },
             ["bl_manacle"] = {
-                ["name"] = "Les Menottes",
+                ["name"] = "Les menottes",
                 ["text"] = {
-                    [1] = "-1 à la taille de la main"
+                    [1] = "Taille de la main -1"
                 }
             },
             ["bl_wall"] = {
-                ["name"] = "Le Mur",
+                ["name"] = "Le mur",
                 ["text"] = {
-                    [1] = "Très grosse Blinde"
+                    [1] = "Super grosse Blinde"
                 }
             },
             ["bl_final_heart"] = {
-                ["name"] = "Cœur Écarlate",
+                ["name"] = "Cœur écarlate",
                 ["text"] = {
                     [1] = "Un Joker aléatoire",
                     [2] = "annulé à chaque main"
                 }
             },
             ["bl_final_bell"] = {
-                ["name"] = "Cloche Céruléenne",
+                ["name"] = "Cloche céruléenne",
                 ["text"] = {
                     [1] = "Force la sélection",
                     [2] = "systématique d'une carte"
@@ -3510,7 +3517,7 @@ return {
             ["k_lower_score"] = "score",
             ["b_stat_jokers"] = "Jokers",
             ["k_x_base"] = "X la base",
-            ["b_run_info_1"] = "Infos de",
+            ["b_run_info_1"] = "Partie",
             ["k_rare"] = "Rare",
             ["ph_click_confirm"] = "Cliquez à nouveau pour confirmer",
             ["b_options"] = "Options",
@@ -3624,7 +3631,7 @@ return {
             ["b_booster_packs"] = "Paquets Booster",
             ["ph_choose_blind_1"] = "Choisissez votre",
             ["k_card_stats"] = "Stats des cartes",
-            ["k_nope_ex"] = "Nope !",
+            ["k_nope_ex"] = "Non !",
             ["k_unknown"] = "?????",
             ["k_seeded_run"] = "Partie avec seed",
             ["k_hud_discards"] = "Défausses",
@@ -3646,7 +3653,7 @@ return {
             ["b_enhanced_cards"] = "Cartes améliorées",
             ["k_redeemed_ex"] = "Échangé !",
             ["k_round"] = "Manche",
-            ["b_run_info_2"] = "La partie",
+            ["b_run_info_2"] = "Infos",
             ["k_mult"] = "Multi.",
             ["k_challenge_mode"] = "Mode Défi",
             ["k_face_cards"] = "Cartes Figure",

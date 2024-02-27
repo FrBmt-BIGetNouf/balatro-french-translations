@@ -9,35 +9,43 @@ More informations about Balatro on [https://www.playbalatro.com/](https://www.pl
 
 ## The up-to-date translation file
 
-The file can be found here : https://github.com/FrBmt-BIGetNouf/balatro-french-translations/blob/main/localization/fr.lua
+#### [Download the latest version of the modded French translations](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/blob/main/localization/fr.lua)
 
-For references, you can also find :
-- [The english version of the file](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/blob/main/localization/en-us.lua)
-- [The default french version of the file](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/blob/main/localization/fr_original.lua)
+For references, you can also find [The official english and french versions of the files](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/blob/main/localization/official) (By patch)
 
 ## Current state of translations
 
-| Category             | Status |
-| -------------------- | ------ |
-| General              | 🛠️    |
-| User interface       | 🛠️    |
-| Jokers               | ❌    |
-| Decks                | ❌    |
-| Voucher              | ❌    |
-| Consummables         | ❌    |
-| Boosters             | ❌    |
-| Tags                 | ❌    |
-| (missing categories) | ❌    |
+| Category             | Status | Comment |
+| -------------------- | ------ | ------- |
+| General              | 🛠️    | The most critical part is already done |
+| User interface       | 🛠️    | Double check needed |
+| Jokers               | 🛠️    | Some names to confirm |
+| Decks                | ✔️     | |
+| Voucher              | 🛠️    | Some names to confirm |
+| Consummables         | 🛠️    | The most critical part is already done 
+| Boosters             | 🛠️    | 1 name to fonfirm before release |
+| Tags                 | ✔️    | |
+| Jimbo's texts        | ⏳    | |
+| Tutorial             | ⏳    | |
+| Challenges           | ⏳    | |
 
-✔️ : Done
+## (FR) Comment installer le fichier de traduction ?
 
-🛠️ : Work in progress
+[7zip](https://7-zip.org/) doit être installé sur votre ordinateur.
 
-❌ : Not started yet
+1. **Fermez Balatro**
+2. Téléchargez le [fichier fr.lua](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/blob/main/localization/fr.lua) (`Ctrl`+`Shift`+`S`)
+3. Allez dans le répertoire de Balatro (Ex: `SteamLibrary\steamapps\common\Balatro\`)
+4. Faites un click droit sur `Balatro.exe`
+5. Dans le menu `7-Zip`, cliquez sur `Ouvrir archive` (Ou `Open archive`, le premier lien)
+6. Dans 7zip, ouvrez le dossier `localization`
+7. Glissez et déposez le fichier téléchargé précedemment
+8. Confirmer la copie du fichier et fermez 7zip
+9. Vous pouvez maitenant relancer Balatro, sélectionner la langue Française et profiter !
 
+> **Important :** La mise à jour du fichier doit se faire à chaque nouvelle mise à jour du jeu.
 
-## How to install the new file?
-
+## (EN) How to install the new file?
 [7zip](https://7-zip.org/) must be installed on your computer.
 
 1. **Close Balatro**
@@ -50,10 +58,12 @@ For references, you can also find :
 8. Confirm the file copying and close 7zip
 9. You can now launch Balatro, select the French language and enjoy!
 
+> **Important:** The file update must be done every new game update.
+
 
 ## Contributors
 
-Arkana Ravneik, SweZ, Bleh!, (... You ? See Contributing)
+Arkana Ravneik, SweZ, Aure, Behel, Lwizhart, Leyr, Neko, SallyExponetial, Samleco, Signez, Wok, Bleh!, (... You ? See Contributing)
     
 ## Contributing
 
