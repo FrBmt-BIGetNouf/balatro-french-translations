@@ -570,7 +570,7 @@ return {
                 text = {
                     "Les cartes {C:hearts}Cœur{} et {C:diamonds}Carreau{} comptent",
                     "comme des cartes de même couleur,",
-                    "les cartes {C:spades}Pique{} et {C:spades}Trèfle{} comptent",
+                    "les cartes {C:spades}Pique{} et {C:clubs}Trèfle{} comptent",
                     "comme des cartes de même couleur"
                 },
                 unlock = {
