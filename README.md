@@ -3,7 +3,7 @@
 
 # Balatro French Translations (Work in progress)
 
-An humble version of the french translations for Balatro, made by the community.
+A humble community-made version of the French localization of Balatro.
 
 More informations about Balatro on [https://www.playbalatro.com/](https://www.playbalatro.com/), buy it!
 
@@ -23,7 +23,7 @@ For references, you can also find [The official english and french versions of t
 | Decks                | ✔️     | |
 | Voucher              | 🛠️    | Some names to confirm |
 | Consummables         | 🛠️    | The most critical part is already done 
-| Boosters             | 🛠️    | 1 name to fonfirm before release |
+| Boosters             | 🛠️    | 1 name to confirm before release |
 | Tags                 | ✔️    | |
 | Jimbo's texts        | ⏳    | |
 | Tutorial             | ⏳    | |
@@ -63,7 +63,7 @@ For references, you can also find [The official english and french versions of t
 
 ## Contributors
 
-Arkana Ravneik, SweZ, Aure, Behel, Lwizhart, Leyr, Neko, SallyExponetial, Samleco, Signez, Wok, Bleh!, (... You ? See Contributing)
+Arkana Ravneik, Bleh!, SweZ, Behel, Pipomantis, Signez, Wok, (... You ? See Contributing)
     
 ## Contributing
 
