@@ -228,7 +228,7 @@ return {
             j_chaos = {
                 name = "Chaos le clown",
                 text = {
-                    "{C:attention}#1#{} {C:green}réapprovisionnement",
+                    "{C:attention}#1#{} {C:green}réassort",
                     "gratuit par boutique"
                 }
             },
@@ -1331,7 +1331,7 @@ return {
                 name = "Carte mémoire",
                 text = {
                     "Augmente de {C:mult}+#1#{} Multi par",
-                    "{C:green}réapprovisionnement{} dans la boutique",
+                    "{C:green}réassort{} dans la boutique",
                     "{C:inactive}(Actuellement {C:mult}+#2#{C:inactive} Multi)"
                 }
             },
@@ -1414,7 +1414,7 @@ return {
         },
         Voucher = {
             v_overstock_norm = {
-                name = "Provisions",
+                name = "Réassortiment",
                 text = {
                     "{C:attention}+1{} emplacement de",
                     "carte dans la boutique"
@@ -1452,9 +1452,9 @@ return {
                 }
             },
             v_reroll_surplus = {
-                name = "Réappro. déraisonnable",
+                name = "Réassorts déraisonnables",
                 text = {
-                    "{C:green}Réapprovisionner{} la boutique",
+                    "{C:green}Réassortir{} la boutique",
                     "coûte {C:money}#1# ${} moins cher"
                 }
             },
@@ -1532,7 +1532,7 @@ return {
                 }
             },
             v_overstock_plus = {
-                name = "Surapprovisionnement",
+                name = "L'embarras du choix",
                 text = {
                     "(Encore) {C:attention}+1{} emplacement",
                     "de carte dans la boutique"
@@ -1598,13 +1598,13 @@ return {
                 }
             },
             v_reroll_glut = {
-                name = "Réappro. effrénés",
+                name = "Réassorts effrénés",
                 text = {
-                    "{C:green}Réapprovisionner{} la boutique",
+                    "{C:green}Réassortir{} la boutique",
                     "coûte (encore) {C:money}#1# ${} moins cher"
                 },
                 unlock = {
-                    "{C:green}Réapprovisionner{} la boutique",
+                    "{C:green}Réassortir{} la boutique",
                     "un total de {C:attention}#1#{} fois",
                     "{C:inactive}(#2#)"
                 }
@@ -2488,7 +2488,7 @@ return {
             tag_d_six = {
                 name = "Badge 1D6",
                 text = {
-                    "Le coût de {C:green}réapprovisionnement{} de la",
+                    "Le coût de {C:green}réassort{} de la",
                     "prochaine boutique commence à {C:money}0 $"
                 }
             },
@@ -3501,7 +3501,7 @@ return {
             k_round = "Manche",
             k_ante = "Ante",
             k_seed = "La seed",
-            k_reroll = "Réapprovisionner",
+            k_reroll = "Réassortir",
             k_mult = "Multi",
             k_rank = "Valeur",
             k_suit = "Couleur",
@@ -3712,7 +3712,7 @@ return {
             ph_score_new_collection = "Nouvelles découvertes",
             ph_score_cards_played = "Cartes jouées",
             ph_score_cards_discarded = "Cartes défaussées",
-            ph_score_times_rerolled = "Réapprovisionnements",
+            ph_score_times_rerolled = "Réassorts",
             ph_score_cards_purchased = "Cartes achetées",
             ml_edition_seal_enhancement_explanation = {
                 "Chaque carte à jouer peut recevoir",
@@ -3793,7 +3793,7 @@ return {
                 "{C:red}#1#{} défausses par manche"
             },
             ch_m_reroll_cost = {
-                "Coût de base de réapprovisionnement de {C:money}#1# ${}"
+                "Coût de base de réassort de {C:money}#1# ${}"
             },
             ch_m_joker_slots = {
                 "{C:attention}#1#{} emplacements de Joker"
@@ -4005,12 +4005,12 @@ return {
             },
             s_9 = {
                 "Si vous économisez assez,",
-                "vous pouvez acheter un {C:attention}Bon d'achat{}.",
-                "Les {C:attention}Bons d'achat{} améliorent",
+                "vous pouvez acheter un {C:attention}Coupon{}.",
+                "Les {C:attention}Coupons{} améliorent",
                 "votre partie de manière passive !"
             },
             s_10 = {
-                "Les {C:attention}Bons d'achat{} sont réapprovisionnés",
+                "Les {C:attention}Coupons{} sont réassortis",
                 "lorsque vous battez la",
                 "{C:attention}Boss Blinde{}."
             },
@@ -4079,7 +4079,7 @@ return {
             _100000k = "Gagner 100 000 000 de Jetons en une seule main",
             tiny_hands = "Avoir 20 cartes ou moins dans votre jeu",
             big_hands = "Avoir 80 cartes ou plus dans votre jeu",
-            you_get_what_you_get = "Gagner une partie sans effectuer de réapprovisionnement",
+            you_get_what_you_get = "Gagner une partie sans effectuer de réassort",
             rule_bender = "Terminer n'importe quel Défi",
             rule_breaker = "Terminer tous les Défis",
             legendary = "Découvrir un Joker Légendaire",
