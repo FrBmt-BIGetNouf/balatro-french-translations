@@ -2129,7 +2129,7 @@ return {
                 }
             },
             c_soul = {
-                name = "L'Âme",
+                name = "L'Ame",
                 text = {
                     "Crée un Joker",
                     "{C:legendary,E:1}Légendaire{}",
