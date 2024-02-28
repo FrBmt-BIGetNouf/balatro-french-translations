@@ -195,7 +195,7 @@ return {
                 }
             },
             j_8_ball = {
-                name = "N° 8",
+                name = "Boule magique",
                 text = {
                     "Crée une carte de {C:planet}Planète{}",
                     "si la main jouée contient",
@@ -274,7 +274,7 @@ return {
                 }
             },
             j_hack = {
-                name = "Imposteur",
+                name = "Plagieur",
                 text = {
                     "Déclenche à nouveau",
                     "chaque carte",
@@ -299,12 +299,12 @@ return {
                 }
             },
             j_even_steven = {
-                name = "Pair gagnant",
+                name = "Pair prospère",
                 text = {
                     "Les cartes de valeur {C:attention}paire{}",
                     "jouées octroient {C:mult}+#1#{} Multi",
                     "lorsqu'elles sont comptées",
-                    "{C:inactive}(10, 8, 6, 4, 2)"
+                    "{C:inactive}(2, 4, 6, 8, 10)"
                 }
             },
             j_odd_todd = {
@@ -313,7 +313,7 @@ return {
                     "Les cartes de valeur {C:attention}impaire{}",
                     "jouées octroient {C:chips}+#1#{} Jetons",
                     "lorsqu'elles sont comptées",
-                    "{C:inactive}(A, 9, 7, 5, 3)"
+                    "{C:inactive}(A, 3, 5, 7, 9)"
                 }
             },
             j_scholar = {
@@ -531,7 +531,7 @@ return {
                 }
             },
             j_swashbuckler = {
-                name = "Cape et épée",
+                name = "Corsaire",
                 text = {
                     "Ajoute au {C:mult}Multi{} la valeur",
                     "de vente de tous les {C:attention}Jokers{}",
@@ -596,7 +596,7 @@ return {
                 }
             },
             j_hanging_chad = {
-                name = "Carte de vote",
+                name = "Bulletin de vote",
                 text = {
                     "Déclenche à nouveau la {C:attention}première{}",
                     "carte comptée chaque main jouée"
@@ -3524,7 +3524,7 @@ return {
             k_edition = "Édition",
             k_hud_hands = "Mains",
             k_hud_discards = "Défausses",
-            k_lower_score = "score",
+            k_lower_score = "(score)",
             k_arcana_pack = "Paquet Arcanes",
             k_celestial_pack = "Paquet Céleste",
             k_spectral_pack = "Paquet Spectral",
