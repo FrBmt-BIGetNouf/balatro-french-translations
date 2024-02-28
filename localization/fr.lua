@@ -126,28 +126,32 @@ return {
                 name = "Joker avide",
                 text = {
                     "Les cartes {C:diamonds}#2#{} jouées",
-                    "octroient {C:mult}+#1#{} Multi lorsqu'elles sont comptées"
+                    "octroient {C:mult}+#1#{} Multi",
+                    "lorsqu'elles sont comptées"
                 }
             },
             j_lusty_joker = {
                 name = "Joker lubrique",
                 text = {
                     "Les cartes {C:hearts}#2#{} jouées",
-                    "octroient {C:mult}+#1#{} Multi lorsqu'elles sont comptées"
+                    "octroient {C:mult}+#1#{} Multi",
+                    "lorsqu'elles sont comptées"
                 }
             },
             j_wrathful_joker = {
-                name = "Joker furieux",
+                name = "Joker colérique",
                 text = {
                     "Les cartes {C:spades}#2#{} jouées",
-                    "octroient {C:mult}+#1#{} Multi lorsqu'elles sont comptées"
+                    "octroient {C:mult}+#1#{} Multi",
+                    "lorsqu'elles sont comptées"
                 }
             },
             j_gluttenous_joker = {
-                name = "Joker glouton",
+                name = "Joker gourmand",
                 text = {
                     "Les cartes {C:clubs}#2#{} jouées ",
-                    "octroient {C:mult}+#1#{} Multi lorsqu'elles sont comptées"
+                    "octroient {C:mult}+#1#{} Multi",
+                    "lorsqu'elles sont comptées"
                 }
             },
             j_ceremonial = {
@@ -218,7 +222,7 @@ return {
                 text = {
                     "Ajoute au {C:mult}Multi{} le {C:attention}double{}",
                     "de la valeur de la carte",
-                    "{C:attention}la plus faible{}en main"
+                    "{C:attention}la plus faible{} en main"
                 }
             },
             j_chaos = {
@@ -256,8 +260,8 @@ return {
             j_abstract = {
                 name = "Joker abstrait",
                 text = {
-                    "{C:mult}+#1#{} Multi par",
-                    "carte {C:attention}Joker{}",
+                    "{C:mult}+#1#{} Multi par carte",
+                    "{C:attention}Joker{} possédée",
                     "{C:inactive}(Actuellement {C:red}+#2#{C:inactive} Multi)"
                 }
             },
@@ -334,7 +338,7 @@ return {
                 text = {
                     "Ajoute le nombre de fois",
                     "que la {C:attention}main de poker{} a",
-                    "été jouée au Multi"
+                    "été jouée au {C:mult}Multi{}"
                 }
             },
             j_ride_the_bus = {
@@ -404,7 +408,7 @@ return {
                 }
             },
             j_splash = {
-                name = "Plouf",
+                name = "Éclaboussure",
                 text = {
                     "Chaque {C:attention}carte jouée",
                     "est comptée"
@@ -1374,7 +1378,7 @@ return {
                 }
             },
             j_selzer = {
-                name = "Seltz",
+                name = "Eau de Seltz",
                 text = {
                     "Déclenche à nouveau toutes",
                     "les cartes jouées pour",
@@ -2030,7 +2034,7 @@ return {
                 }
             },
             c_eris = {
-                name = "Eris",
+                name = "Éris",
                 text = {
                     "{S:0.8}({S:0.8,V:1}niv.#1#{S:0.8}){} Améliore",
                     "{C:attention}#2#",
@@ -2050,7 +2054,7 @@ return {
                 }
             },
             c_grim = {
-                name = "Grinçant",
+                name = "Sinistre",
                 text = {
                     "Détruit {C:attention}1{} carte",
                     "aléatoire de votre main,",
@@ -2092,7 +2096,7 @@ return {
                 }
             },
             c_sigil = {
-                name = "Sceau",
+                name = "Sigil",
                 text = {
                     "Transforme toutes les cartes",
                     "en main en une unique",
@@ -3494,7 +3498,7 @@ return {
             k_unknown = "?????",
             k_compatible = "compatible",
             k_incompatible = "incompatible",
-            k_round = "Score de",
+            k_round = "Manche",
             k_ante = "Ante",
             k_seed = "La seed",
             k_reroll = "Réapprovisionner",
@@ -3520,7 +3524,7 @@ return {
             k_edition = "Édition",
             k_hud_hands = "Mains",
             k_hud_discards = "Défausses",
-            k_lower_score = "la manche",
+            k_lower_score = "score",
             k_arcana_pack = "Paquet Arcanes",
             k_celestial_pack = "Paquet Céleste",
             k_spectral_pack = "Paquet Spectral",
@@ -3574,9 +3578,9 @@ return {
             ph_deck_preview_effective = "Total effectif grâce aux Jokers, Blindes et Améliorations de cartes",
             ph_blind_score_at_least = "Atteindre un score d'au moins",
             ph_blind_reward = "Récompense : ",
-            ph_up_ante_1 = "Atteindre l'Ante",
-            ph_up_ante_2 = "Augmenter toutes les Blindes",
-            ph_up_ante_3 = "Actualiser les Blindes",
+            ph_up_ante_1 = "Ante suivante :",
+            ph_up_ante_2 = "Augmente toutes les Blindes",
+            ph_up_ante_3 = "Actualise les Blindes",
             ph_stat_joker = "Nombre total de manches effectuées avec cette carte",
             ph_stat_consumable = "Nombre de fois où cette carte a été utilisée",
             ph_stat_voucher = "Nombre de fois où ce Coupon a été utilisé",
