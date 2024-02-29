@@ -579,7 +579,7 @@ return {
                 },
                 unlock = {
                     "Avoir au moins {C:attention}#1#",
-                    "{E:1,C:attention}#2#{} au minimum dans",
+                    "{E:1,C:attention}#2#{} dans",
                     "le Jeu"
                 }
             },
@@ -668,7 +668,7 @@ return {
                 },
                 unlock = {
                     "Avoir au moins {E:1,C:attention}#1#",
-                    "{E:1,C:attention}#2#{} au minimum dans",
+                    "{E:1,C:attention}#2#{} dans",
                     "votre jeu"
                 }
             },
@@ -1592,9 +1592,9 @@ return {
                 },
                 unlock = {
                     "Avoir au moins {C:attention}#1#",
-                    "cartes {C:attention}Joker{} en édition",
-                    "{C:dark_edition}Brillante{}, {C:dark_edition}Holographique{} ou",
-                    "{C:dark_edition}Polychrome{}"
+                    "cartes {C:attention}Joker{} en Édition",
+                    "{C:dark_edition}Brillante{}, {C:dark_edition}Holographique{}",
+                    "ou {C:dark_edition}Polychrome{}"
                 }
             },
             v_reroll_glut = {
@@ -3007,8 +3007,8 @@ return {
             deck_locked_win = {
                 name = "Bloqué",
                 text = {
-                    "Gagnez une partie avec",
-                    "{C:attention}#1#{}",
+                    "Gagnez une partie",
+                    "avec le {C:attention}#1#{}",
                     "dans n'importe quelle difficulté"
                 }
             },
