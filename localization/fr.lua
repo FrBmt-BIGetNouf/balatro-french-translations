@@ -86,7 +86,7 @@ return {
             j_golden = {
                 name = "Joker d'or",
                 text = {
-                    "Octroie {C:money}#1# ${} à",
+                    "Octroie {C:money}#1#${} à",
                     "la fin de la manche"
                 }
             },
@@ -119,7 +119,7 @@ return {
                 name = "Carte de crédit",
                 text = {
                     "Vous pouvez accumuler",
-                    "{C:red}-#1# ${} de dettes"
+                    "{C:red}-#1#${} de dettes"
                 }
             },
             j_greedy_joker = {
@@ -268,7 +268,7 @@ return {
             j_delayed_grat = {
                 name = "Récompense différée",
                 text = {
-                    "Octroie {C:money}#1# ${} par {C:attention}défausse{}",
+                    "Octroie {C:money}#1#${} par {C:attention}défausse{}",
                     "si aucune défausse n'est",
                     "utilisée pendant la manche"
                 }
@@ -330,7 +330,7 @@ return {
                 text = {
                     "Les cartes {C:attention}Figure{} jouées ont",
                     "{C:green}#1# chance(s) sur #2#{} d'octroyer",
-                    "{C:money}2 ${} lorsqu'elles sont comptées"
+                    "{C:money}2${} lorsqu'elles sont comptées"
                 }
             },
             j_supernova = {
@@ -361,7 +361,7 @@ return {
             j_egg = {
                 name = "Œuf",
                 text = {
-                    "Augmente de {C:money}#1# ${}",
+                    "Augmente de {C:money}#1#${}",
                     "sa {C:attention}valeur de vente{} à",
                     "la fin de la manche"
                 }
@@ -450,7 +450,7 @@ return {
             j_faceless = {
                 name = "Joker sans visage",
                 text = {
-                    "Octroie {C:money}#1# ${} si",
+                    "Octroie {C:money}#1#${} si",
                     "{C:attention}#2#{} cartes {C:attention}Figure{} ou",
                     "plus sont défaussées",
                     "en même temps"
@@ -476,7 +476,7 @@ return {
             j_todo_list = {
                 name = "Liste des tâches",
                 text = {
-                    "Octroie {C:money}#1# ${} si la {C:attention}main de poker{}",
+                    "Octroie {C:money}#1#${} si la {C:attention}main de poker{}",
                     "jouée est un(e) {C:attention}#2#{},",
                     "la main change à chaque gain"
                 }
@@ -485,7 +485,7 @@ return {
                 name = "Ticket d'or",
                 text = {
                     "Les cartes {C:attention}Or{} jouées octroient",
-                    "{C:money}#1# ${} lorsqu'elles sont comptées"
+                    "{C:money}#1#${} lorsqu'elles sont comptées"
                 },
                 unlock = {
                     "Jouer une main de 5 cartes",
@@ -610,7 +610,7 @@ return {
                 name = "Gemme brute",
                 text = {
                     "Les cartes {C:diamonds}Carreau{}",
-                    "jouées octroient {C:money}#1# ${}",
+                    "jouées octroient {C:money}#1#${}",
                     "lorsqu'elles sont comptées"
                 },
                 unlock = {
@@ -772,7 +772,7 @@ return {
             j_matador = {
                 name = "Matador",
                 text = {
-                    "Octroie {C:money}#1# ${} si la main jouée",
+                    "Octroie {C:money}#1#${} si la main jouée",
                     "déclenche la capacité",
                     "de la {C:attention}Blinde de Boss{}"
                 },
@@ -960,13 +960,13 @@ return {
             j_satellite = {
                 name = "Satellite",
                 text = {
-                    "Octroie {C:money}#1# ${} à la fin de la manche",
+                    "Octroie {C:money}#1#${} à la fin de la manche",
                     "par carte de {C:planet}Planète unique",
                     "utilisée dans cette partie",
-                    "{C:inactive}(Actuellement {C:money}#2# ${C:inactive})"
+                    "{C:inactive}(Actuellement {C:money}#2#${C:inactive})"
                 },
                 unlock = {
-                    "Posséder {E:1,C:money}#1# $",
+                    "Posséder {E:1,C:money}#1#$",
                     "ou plus"
                 }
             },
@@ -1036,7 +1036,7 @@ return {
                 name = "Débrouillardise",
                 text = {
                     "{C:mult}+#1#{} Multi par",
-                    "{C:money}#2# ${} possédés"
+                    "{C:money}#2#${} possédés"
                 },
                 unlock = {
                     "Avoir au moins {E:1,C:attention}#1#",
@@ -1170,7 +1170,7 @@ return {
                 text = {
                     "Crée une carte de {C:purple}Tarot{}",
                     "si la main est jouée avec",
-                    "{C:money}#1# ${} ou moins en poche"
+                    "{C:money}#1#${} ou moins en poche"
                 }
             },
             j_baron = {
@@ -1183,17 +1183,17 @@ return {
             j_cloud_9 = {
                 name = "Neuvième ciel",
                 text = {
-                    "Octroie {C:money}#1# ${} par carte {C:attention}9{}",
+                    "Octroie {C:money}#1#${} par carte {C:attention}9{}",
                     "dans le {C:attention}Jeu complet",
                     "à la fin de la manche",
-                    "{C:inactive}(Actuellement {C:money}#2# ${}{C:inactive})"
+                    "{C:inactive}(Actuellement {C:money}#2#${}{C:inactive})"
                 }
             },
             j_rocket = {
                 name = "Fusée",
                 text = {
-                    "Octroie {C:money}#1# ${} à la fin de la",
-                    "de la manche. Augmente de {C:money}#2# ${} lorsque",
+                    "Octroie {C:money}#1#${} à la fin de la",
+                    "de la manche. Augmente de {C:money}#2#${} lorsque",
                     "la {C:attention}Blinde de Boss{} est battue"
                 }
             },
@@ -1232,7 +1232,7 @@ return {
             j_gift = {
                 name = "Carte cadeau",
                 text = {
-                    "Augmente de {C:money}#1# ${} la {C:attention}valeur de vente",
+                    "Augmente de {C:money}#1#${} la {C:attention}valeur de vente",
                     "de chaque carte {C:attention}Joker{} et",
                     "chaque carte de {C:attention}Consommable{}",
                     "à la fin de la manche"
@@ -1260,13 +1260,13 @@ return {
                     "Chaque carte {C:attention}Figure{}",
                     "gardée en main a",
                     "{C:green}#2# chance(s) sur #3#{}",
-                    "d'octroyer {C:money}#1# ${}"
+                    "d'octroyer {C:money}#1#${}"
                 }
             },
             j_mail = {
                 name = "Remise par courrier",
                 text = {
-                    "Octroie {C:money}#1# ${} par",
+                    "Octroie {C:money}#1#${} par",
                     "carte {C:attention}#2#{} défaussée, la valeur",
                     "change à chaque manche"
                 }
@@ -1274,8 +1274,8 @@ return {
             j_to_the_moon = {
                 name = "Vers les étoiles",
                 text = {
-                    "Octroie {C:money}#1# ${} d'{C:attention}intérêts{}",
-                    "supplémentaire par tranche de {C:money}5 ${}",
+                    "Octroie {C:money}#1#${} d'{C:attention}intérêts{}",
+                    "supplémentaire par tranche de {C:money}5${}",
                     "possédés à la fin de la manche"
                 }
             },
@@ -1324,7 +1324,7 @@ return {
                 text = {
                     "Si la {C:attention}première défausse{} de la manche",
                     "ne contient qu'{C:attention}une{} carte,",
-                    "la détruit et octroie {C:money}#1# $"
+                    "la détruit et octroie {C:money}#1#$"
                 }
             },
             j_flash = {
@@ -1455,7 +1455,7 @@ return {
                 name = "Réassorts déraisonnables",
                 text = {
                     "{C:green}Réassortir{} la boutique",
-                    "coûte {C:money}#1# ${} moins cher"
+                    "coûte {C:money}#1#${} moins cher"
                 }
             },
             v_crystal_ball = {
@@ -1491,7 +1491,7 @@ return {
                 text = {
                     "Augmente le plafond",
                     "des intérêts perçus",
-                    "par manche à {C:money}#1# ${}"
+                    "par manche à {C:money}#1#${}"
                 }
             },
             v_blank = {
@@ -1519,7 +1519,7 @@ return {
                 name = "Director's Cut",
                 text = {
                     "La Blinde de Boss peut être changée",
-                    "{C:attention}1{} fois par Ante pour {C:money}#1# ${}"
+                    "{C:attention}1{} fois par Ante pour {C:money}#1#${}"
                 }
             },
             v_pattern = {
@@ -1539,8 +1539,8 @@ return {
                 },
                 unlock = {
                     "Dépenser un total de",
-                    "{C:money}#1# ${} dans la boutique",
-                    "{C:inactive}(#2# $)"
+                    "{C:money}#1#${} dans la boutique",
+                    "{C:inactive}(#2#$)"
                 }
             },
             v_liquidation = {
@@ -1601,7 +1601,7 @@ return {
                 name = "Réassorts effrénés",
                 text = {
                     "{C:green}Réassortir{} la boutique",
-                    "coûte (encore) {C:money}#1# ${} moins cher"
+                    "coûte (encore) {C:money}#1#${} moins cher"
                 },
                 unlock = {
                     "{C:green}Réassortir{} la boutique",
@@ -1667,7 +1667,7 @@ return {
                 text = {
                     "Augmente le plafond",
                     "des intérêts perçus",
-                    "par manche à {C:money}#1# ${}"
+                    "par manche à {C:money}#1#${}"
                 },
                 unlock = {
                     "Maximiser les intérêts",
@@ -1715,7 +1715,7 @@ return {
                 name = "Retcon",
                 text = {
                     "La Blinde de Boss peut être changée",
-                    "à volonté pour {C:money}#1# ${}"
+                    "à volonté pour {C:money}#1#${}"
                 },
                 unlock = {
                     "Découvrir",
@@ -1832,7 +1832,7 @@ return {
                 name = "l'Ermite",
                 text = {
                     "Double l'argent",
-                    "{C:inactive}({C:money}+#1# ${C:inactive} maximum)"
+                    "{C:inactive}({C:money}+#1#${C:inactive} maximum)"
                 }
             },
             c_wheel_of_fortune = {
@@ -1872,8 +1872,8 @@ return {
                 text = {
                     "Octroie la valeur de vente",
                     "totale de tous les Jokers",
-                    "actuels {C:inactive}({C:money}+#1# ${C:inactive} maximum)",
-                    "{C:inactive}(Actuellement {C:money}+#2# ${C:inactive})"
+                    "actuels {C:inactive}({C:money}+#1#${C:inactive} maximum)",
+                    "{C:inactive}(Actuellement {C:money}+#2#${C:inactive})"
                 }
             },
             c_devil = {
@@ -2092,7 +2092,7 @@ return {
                 text = {
                     "Crée une carte de",
                     "Joker {C:red}Rare{},",
-                    "ramène l'argent à {C:money}0 $"
+                    "ramène l'argent à {C:money}0$"
                 }
             },
             c_sigil = {
@@ -2117,7 +2117,7 @@ return {
                 text = {
                     "Un {C:attention}Joker{} aléatoire",
                     "devient {C:dark_edition}Négatif{},",
-                    "{C:red}-1{} à la taille de la main"
+                    "{C:red}-#1#{} à la taille de la main"
                 }
             },
             c_immolate = {
@@ -2125,7 +2125,7 @@ return {
                 text = {
                     "Détruit {C:attention}#1#{} cartes",
                     "aléatoires en main,",
-                    "octroie {C:money}#2# $"
+                    "octroie {C:money}#2#$"
                 }
             },
             c_soul = {
@@ -2277,7 +2277,7 @@ return {
             m_gold = {
                 name = "Carte Or",
                 text = {
-                    "{C:money}#1# ${} si cette",
+                    "{C:money}#1#${} si cette",
                     "carte est en main",
                     "à la fin de la manche"
                 }
@@ -2288,7 +2288,7 @@ return {
                     "{C:green}#1# chance(s) sur #3#{}",
                     "d'obtenir {C:mult}+#2#{} Multi",
                     "{C:green}#1# chance(s) sur #5#{}",
-                    "de gagner {C:money}#4# $"
+                    "de gagner {C:money}#4#$"
                 }
             }
         },
@@ -2342,7 +2342,7 @@ return {
                 name = "Mise orange",
                 text = {
                     "Les {C:attention}Paquets additionnels{} coûtent",
-                    "{C:money}1 ${} de plus par Ante",
+                    "{C:money}1${} de plus par Ante",
                     "{s:0.8}Applique toutes les mises précédentes"
                 }
             },
@@ -2402,7 +2402,7 @@ return {
                 text = {
                     "Après avoir battu",
                     "la Blinde de Boss,",
-                    "octroie {C:money}#1# $"
+                    "octroie {C:money}#1#$"
                 }
             },
             tag_voucher = {
@@ -2449,17 +2449,17 @@ return {
             tag_handy = {
                 name = "Badge manuel",
                 text = {
-                    "Octroie {C:money}#1# ${} par {C:blue}main{}",
+                    "Octroie {C:money}#1#${} par {C:blue}main{}",
                     "jouée cette partie",
-                    "{C:inactive}(Octroie {C:money}#2# ${C:inactive})"
+                    "{C:inactive}(Octroie {C:money}#2#${C:inactive})"
                 }
             },
             tag_garbage = {
                 name = "Badge déchets",
                 text = {
-                    "Octroie {C:money}#1# ${} par {C:red}défausse{}",
+                    "Octroie {C:money}#1#${} par {C:red}défausse{}",
                     "inutilisée cette partie",
-                    "{C:inactive}(Octroie {C:money}#2# ${C:inactive})"
+                    "{C:inactive}(Octroie {C:money}#2#${C:inactive})"
                 }
             },
             tag_coupon = {
@@ -2489,7 +2489,7 @@ return {
                 name = "Badge 1D6",
                 text = {
                     "Le coût de {C:green}réassort{} de la",
-                    "prochaine boutique commence à {C:money}0 $"
+                    "prochaine boutique commence à {C:money}0$"
                 }
             },
             tag_top_up = {
@@ -2503,9 +2503,9 @@ return {
             tag_skip = {
                 name = "Badge rapidité",
                 text = {
-                    "Octroie {C:money}#1# ${} par blinde",
+                    "Octroie {C:money}#1#${} par blinde",
                     "passée cette partie",
-                    "{C:inactive}(Octroie {C:money}#2# ${C:inactive})"
+                    "{C:inactive}(Octroie {C:money}#2#${C:inactive})"
                 }
             },
             tag_orbital = {
@@ -2519,7 +2519,7 @@ return {
                 name = "Badge économie",
                 text = {
                     "Double l'argent",
-                    "{C:inactive}({C:money}+#1# ${C:inactive} maximum)"
+                    "{C:inactive}({C:money}+#1#${C:inactive} maximum)"
                 }
             },
             tag_ethereal = {
@@ -2622,7 +2622,7 @@ return {
             bl_tooth = {
                 name = "La Dent",
                 text = {
-                    "-1 $ par carte jouée"
+                    "-1$ par carte jouée"
                 }
             },
             bl_final_leaf = {
@@ -2642,7 +2642,7 @@ return {
                 name = "Le Bœuf",
                 text = {
                     "Jouer #1#",
-                    "ramène l'argent à 0 $"
+                    "ramène l'argent à 0$"
                 }
             },
             bl_house = {
@@ -2748,15 +2748,15 @@ return {
                 name = "Jeu Jaune",
                 text = {
                     "Commence la partie avec",
-                    "{C:money}#1# ${} supplémentaires"
+                    "{C:money}#1#${} supplémentaires"
                 }
             },
             b_green = {
                 name = "Jeu Vert",
                 text = {
                     "À la fin de la manche :",
-                    "{C:money}#1# ${s:0.85} par {C:blue}main restante,",
-                    "{C:money}#2# ${s:0.85} par {C:red}défausse restante,",
+                    "{C:money}#1#${s:0.85} par {C:blue}main restante,",
+                    "{C:money}#2#${s:0.85} par {C:red}défausse restante,",
                     "Pas d'{C:attention}intérêts{} perçus"
                 }
             },
@@ -2880,7 +2880,7 @@ return {
             gold_seal = {
                 name = "Sceau doré",
                 text = {
-                    "Octroie {C:money}3 ${} lorsque cette",
+                    "Octroie {C:money}3${} lorsque cette",
                     "carte est jouée et comptée"
                 }
             },
@@ -3753,9 +3753,9 @@ return {
             deck_preview_wheel_singular = "Les nombres peuvent être inférieurs en raison de la carte #1# piochée face cachée",
             deck_preview_wheel_plural = "Les nombres peuvent être inférieurs en raison des cartes #1# piochées faces cachées",
             challenges_completed = "#1#/#2# Défis terminés",
-            interest = "#1# d'intérêt tous les #2# $ (#3# max.)",
-            remaining_hand_money = "Mains restantes (#1# $ chacune)",
-            remaining_discard_money = "Défausses restantes (#1# $ chacune)",
+            interest = "#1# d'intérêt tous les #2#$ (#3# max.)",
+            remaining_hand_money = "Mains restantes (#1#$ chacune)",
+            remaining_discard_money = "Défausses restantes (#1#$ chacune)",
             ml_foil_desc = {
                 "Brillant",
                 "+#1# Jetons"
@@ -3784,7 +3784,7 @@ return {
         },
         v_text = {
             ch_m_dollars = {
-                "Commence la partie avec {C:money}#1# $"
+                "Commence la partie avec {C:money}#1#$"
             },
             ch_m_hands = {
                 "{C:blue}#1#{} mains par manche"
@@ -3793,7 +3793,7 @@ return {
                 "{C:red}#1#{} défausses par manche"
             },
             ch_m_reroll_cost = {
-                "Coût de base de réassort de {C:money}#1# ${}"
+                "Coût de base de réassort de {C:money}#1#${}"
             },
             ch_m_joker_slots = {
                 "{C:attention}#1#{} emplacements de Joker"
@@ -3832,10 +3832,10 @@ return {
                 "{C:inactive}Aucun"
             },
             ch_c_inflation = {
-                "Les prix augmentent de manière permanente de {C:money}1 ${} à chaque achat"
+                "Les prix augmentent de manière permanente de {C:money}1${} à chaque achat"
             },
             ch_c_discard_cost = {
-                "Chaque défausse coûte {C:money}#1# ${}"
+                "Chaque défausse coûte {C:money}#1#${}"
             },
             ch_c_all_eternal = {
                 "Tous les Jokers de la boutique sont {C:eternal}Éternels{}"
@@ -3844,7 +3844,7 @@ return {
                 "{C:green}1 carte sur #1#{} est piochée face cachée"
             },
             ch_c_minus_hand_size_per_X_dollar = {
-                "{C:red}-1{} à la taille de la main par tranche de {C:money}#1# ${} en votre possession"
+                "{C:red}-1{} à la taille de la main par tranche de {C:money}#1#${} en votre possession"
             },
             ch_c_no_shop_jokers = {
                 "Les Jokers n'apparaissent plus dans la {C:attention}boutique"
@@ -4067,7 +4067,7 @@ return {
             high_stakes = "Gagner une partie en difficulté Mise d'or au minimum",
             card_player = "Jouer au moins 2 500 cartes",
             card_discarder = "Défausser au moins 2 500 cartes",
-            nest_egg = "Accumuler 400 $ ou plus en une seule partie",
+            nest_egg = "Accumuler 400$ ou plus en une seule partie",
             flushed = "Jouer une couleur avec 5 cartes Libres",
             speedrunner = "Gagner une partie en 12 manches ou moins",
             roi = "Échanger 5 Coupons avant l'Ante 4",
