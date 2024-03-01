@@ -110,9 +110,8 @@ return {
             j_mime = {
                 name = "Mime",
                 text = {
-                    "Déclenche à nouveau",
-                    "toutes les capacités",
-                    "des{C:attention} cartes {C:attention}en main{}"
+                    "Recompte les cartes",
+                    "{C:attention}gardées en main{}"
                 }
             },
             j_credit_card = {
@@ -212,9 +211,8 @@ return {
             j_dusk = {
                 name = "Crépuscule",
                 text = {
-                    "Déclenche à nouveau toutes les",
-                    "cartes comptées dans la {C:attention}dernière{}",
-                    "main de la manche"
+                    "Recompte les cartes dans la",
+                    "{C:attention}dernière{} main de la manche"
                 }
             },
             j_raised_fist = {
@@ -276,8 +274,7 @@ return {
             j_hack = {
                 name = "Plagieur",
                 text = {
-                    "Déclenche à nouveau",
-                    "chaque carte",
+                    "Recompte chaque carte",
                     "{C:attention}2{}, {C:attention}3{}, {C:attention}4{} ou {C:attention}5{} jouée"
                 }
             },
@@ -352,7 +349,7 @@ return {
                 }
             },
             j_space = {
-                name = "Joker de l'espace",
+                name = "Astronaute",
                 text = {
                     "{C:green}#1# chance(s) sur #2#{} d'améliorer",
                     "la {C:attention}main de poker{} jouée"
@@ -521,8 +518,8 @@ return {
             j_sock_and_buskin = {
                 name = "Tragicomédie",
                 text = {
-                    "Déclenche à nouveau toutes",
-                    "les cartes {C:attention}Figure{} jouées"
+                    "Recompte les cartes",
+                    "{C:attention}Figure{} jouées"
                 },
                 unlock = {
                     "Jouer un total de",
@@ -598,8 +595,8 @@ return {
             j_hanging_chad = {
                 name = "Bulletin de vote",
                 text = {
-                    "Déclenche à nouveau la {C:attention}première{}",
-                    "carte comptée chaque main jouée"
+                    "Recompte la {C:attention}première{}",
+                    "carte chaque main jouée"
                 },
                 unlock = {
                     "Battre une Boss Blinde",
@@ -766,7 +763,7 @@ return {
                 unlock = {
                     "Jouer une main",
                     "contenant",
-                    "{E:1,C:attention}#1#"
+                    "{E:1,C:attention}quatre {E:1,C:clubs}7 de Trèfle"
                 }
             },
             j_matador = {
@@ -1380,9 +1377,8 @@ return {
             j_selzer = {
                 name = "Eau de Seltz",
                 text = {
-                    "Déclenche à nouveau toutes",
-                    "les cartes jouées pour",
-                    "les {C:attention}#1#{} prochaines mains"
+                    "Recompte les cartes jouées",
+                    "dans les {C:attention}#1#{} prochaines mains"
                 }
             },
             j_castle = {
@@ -3232,7 +3228,7 @@ return {
             red_seal = {
                 name = "Sceau rouge",
                 text = {
-                    "Déclenche à nouveau cette",
+                    "Recompte cette",
                     "carte {C:attention}1{} fois"
                 }
             },
