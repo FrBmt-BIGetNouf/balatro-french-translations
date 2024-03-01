@@ -575,7 +575,7 @@ return {
                     "comme des cartes de même couleur"
                 },
                 unlock = {
-                    "Avoir au moins,
+                    "Avoir au moins",
                     "{E:1,C:attention}#1#{} cartes {E:1,C:attention}Libre{}",
                     "dans le Jeu"
                 }
