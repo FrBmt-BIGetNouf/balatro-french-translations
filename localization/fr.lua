@@ -2888,7 +2888,7 @@ return {
                 name = "Autocollant blanc",
                 text = {
                     "Vous avez remporté",
-                    "la {C:attention}Mise blanche{}",
+                    "la {C:inactive}Mise blanche{}",
                     "avec ce Joker"
                 }
             },
@@ -2896,7 +2896,7 @@ return {
                 name = "Autocollant rouge",
                 text = {
                     "Vous avez remporté",
-                    "la {C:attention}Mise rouge{}",
+                    "la {C:red}Mise rouge{}",
                     "avec ce Joker"
                 }
             },
@@ -2904,7 +2904,7 @@ return {
                 name = "Autocollant vert",
                 text = {
                     "Vous avez remporté",
-                    "la {C:attention}Mise verte{}",
+                    "la {C:green}Mise verte{}",
                     "avec ce Joker"
                 }
             },
@@ -2912,7 +2912,7 @@ return {
                 name = "Autocollant bleu",
                 text = {
                     "Vous avez remporté",
-                    "la {C:attention}Mise bleue{}",
+                    "la {C:blue}Mise bleue{}",
                     "avec ce Joker"
                 }
             },
@@ -2920,7 +2920,7 @@ return {
                 name = "Autocollant noir",
                 text = {
                     "Vous avez remporté",
-                    "la {C:attention}Mise noire{}",
+                    "la {C:black}Mise noire{}",
                     "avec ce Joker"
                 }
             },
@@ -2928,7 +2928,7 @@ return {
                 name = "Autocollant violet",
                 text = {
                     "Vous avez remporté",
-                    "la {C:attention}Mise violette{}",
+                    "la {C:purple}Mise violette{}",
                     "avec ce Joker"
                 }
             },
@@ -2944,7 +2944,7 @@ return {
                 name = "Autocollant doré",
                 text = {
                     "Vous avez remporté",
-                    "la {C:attention}Mise dorée{}",
+                    "la {C:gold}Mise dorée{}",
                     "avec ce Joker"
                 }
             },
