@@ -578,9 +578,9 @@ return {
                     "comme des cartes de même couleur"
                 },
                 unlock = {
-                    "Avoir au moins {C:attention}#1#",
-                    "{E:1,C:attention}#2#{} dans",
-                    "le Jeu"
+                    "Avoir au moins,
+                    "{E:1,C:attention}#1#{} cartes {E:1,C:attention}Libre{}",
+                    "dans le Jeu"
                 }
             },
             j_throwback = {
@@ -614,9 +614,9 @@ return {
                     "lorsqu'elles sont comptées"
                 },
                 unlock = {
-                    "Avoir au moins {E:1,C:attention}#1#",
-                    "cartes {E:1,C:attention}#2#",
-                    "dans votre jeu"
+                    "Avoir au moins",
+                    "{E:1,C:attention}#1#{} cartes {E:1,C:diamonds}#2#",
+                    "dans le Jeu"
                 }
             },
             j_bloodstone = {
@@ -628,9 +628,9 @@ return {
                     "lorsqu'elles sont comptées"
                 },
                 unlock = {
-                    "Avoir au moins {E:1,C:attention}#1#",
-                    "cartes {E:1,C:attention}#2#",
-                    "dans votre jeu"
+                    "Avoir au moins",
+                    "{E:1,C:attention}#1#{} cartes {E:1,C:hearts}#2#",
+                    "dans le Jeu"
                 }
             },
             j_arrowhead = {
@@ -641,9 +641,9 @@ return {
                     "lorsqu'elles sont comptées"
                 },
                 unlock = {
-                    "Avoir au moins {E:1,C:attention}#1#",
-                    "cartes {E:1,C:attention}#2#",
-                    "dans votre jeu"
+                    "Avoir au moins",
+                    "{E:1,C:attention}#1#{} cartes {E:1,C:spades}#2#",
+                    "dans le Jeu"
                 }
             },
             j_onyx_agate = {
@@ -654,9 +654,9 @@ return {
                     "lorsqu'elles sont comptées"
                 },
                 unlock = {
-                    "Avoir au moins {E:1,C:attention}#1#",
-                    "cartes {E:1,C:attention}#2#",
-                    "dans votre jeu"
+                    "Avoir au moins",
+                    "{E:1,C:attention}#1#{} cartes {E:1,C:clubs}#2#",
+                    "dans le Jeu"
                 }
             },
             j_glass = {
@@ -667,9 +667,9 @@ return {
                     "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
                 },
                 unlock = {
-                    "Avoir au moins {E:1,C:attention}#1#",
-                    "{E:1,C:attention}#2#{} dans",
-                    "votre jeu"
+                    "Avoir au moins",
+                    "{E:1,C:attention}#1#{} cartes {E:1,C:attention}Verre{}",
+                    "dans le Jeu"
                 }
             },
             j_ring_master = {
