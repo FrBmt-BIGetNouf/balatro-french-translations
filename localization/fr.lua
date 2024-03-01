@@ -3849,12 +3849,10 @@ return {
                 "Toutes les cartes {C:attention}jouées{} deviennent {C:attention}affaiblies{} après le comptage"
             },
             ch_c_set_eternal_ante = {
-                "Lorsque le Boss de l'Ante {C:attention}#1#{} est battu,",
-                "tous les Jokers deviennent {C:attention}Éternels"
+                "Lorsque le Boss de l'Ante {C:attention}#1#{} est battu, tous les Jokers deviennent {C:attention}Éternels"
             },
             ch_c_set_joker_slots_ante = {
-                "Lorsque le Boss de l'Ante {C:attention}#1#{} est battu,",
-                "les emplacements de Joker passent à {C:attention}0"
+                "Lorsque le Boss de l'Ante {C:attention}#1#{} est battu, les emplacements de Joker passent à {C:attention}0"
             }
         },
         tutorial = {
