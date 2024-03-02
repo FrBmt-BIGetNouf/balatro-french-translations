@@ -1,6 +1,6 @@
 # https://github.com/marketplace/actions/easy-zip-files
 
-name: Zip file for ModLoaders
+name: 🗂️ Zip file for ModLoaders
 on: workflow_dispatch
 jobs:
   zip:
@@ -11,7 +11,7 @@ jobs:
       with:
         files: localization/fr.lua localization/Better_FR.lua
         dest: BetterFR.zip
-    - uses: actions/upload-artifact@v1.1
+    - uses: actions/upload-artifact@v4
       with:
-        name: my-artifact
+        name: BetterFR
         path: ${{ github.workspace }}/BetterFR.zip
