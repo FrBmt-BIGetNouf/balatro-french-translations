@@ -1,0 +1,17 @@
+# https://github.com/marketplace/actions/easy-zip-files
+
+name: Zip file for ModLoaders
+on: workflow_dispatch
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: vimtor/action-zip@v1.1
+      with:
+        files: localization/fr.lua localization/Better_FR.lua
+        dest: BetterFR.zip
+    - uses: actions/upload-artifact@v1.1
+      with:
+        name: my-artifact
+        path: ${{ github.workspace }}/BetterFR.zip
