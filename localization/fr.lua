@@ -971,7 +971,7 @@ return {
                 name = "Objectif Lune",
                 text = {
                     "{C:mult}+#1#{} Multi par",
-                    "carte {C:attention}Reine{}",
+                    "carte {C:attention}Dame{}",
                     "gardée en main"
                 },
                 unlock = {
@@ -1055,7 +1055,7 @@ return {
             j_triboulet = {
                 name = "Triboulet",
                 text = {
-                    "Les cartes {C:attention}Roi{} et {C:attention}Reine{}",
+                    "Les cartes {C:attention}Roi{} et {C:attention}Dame{}",
                     "jouées octroient chacune {X:mult,C:white}x#1#{} Multi",
                     "lorsqu'elles sont comptées"
                 },
@@ -3292,7 +3292,7 @@ return {
         ranks = {
             Ace = "As",
             King = "Roi",
-            Queen = "Reine",
+            Queen = "Dame",
             Jack = "Valet",
             ['10'] = "10",
             ['9'] = "9",
