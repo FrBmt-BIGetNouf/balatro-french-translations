@@ -16,4 +16,4 @@ jobs:
         username: ${{ secrets.FTP_LOGIN }}
         password: ${{ secrets.FTP_PASSWORD }}
         secure: true
-        remote-path: /www/
+        remote-path: /
