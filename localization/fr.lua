@@ -3944,7 +3944,7 @@ return {
             sh_1 = {
                 "Quand vous obtiendrez d'autres cartes,",
                 "pensez à les réorganiser.",
-                "Les{C:attention} Jokers{} se déclenchent",
+                "Les {C:attention}Jokers{} se déclenchent",
                 "de gauche à droite"
             },
             sh_2 = {
@@ -3974,7 +3974,7 @@ return {
                 "a un effet différent"
             },
             s_4 = {
-                "Celui-ci ajoute un {C:red}Multi. +4{} à",
+                "Celui-ci ajoute un {C:red}+4 Multi{} à",
                 "chaque main que vous jouez !"
             },
             s_5 = {
