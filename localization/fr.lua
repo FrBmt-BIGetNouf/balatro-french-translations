@@ -4006,7 +4006,7 @@ return {
             s_10 = {
                 "Les {C:attention}Coupons{} sont réassortis",
                 "lorsque vous battez la",
-                "{C:attention}Boss Blinde{}."
+                "{C:attention}Blinde de Boss{}."
             },
             s_11 = {
                 "Pensez à regarder les deux",
