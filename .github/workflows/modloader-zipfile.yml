@@ -10,9 +10,7 @@ jobs:
     - uses: sokuhatiku/ftp-upload-artifact@v1.0.0
       with:
         name: BetterFR
-        path: |
-          localization/fr.lua
-          localization/Better_FR.lua
+        path: localization/
         host: ${{ secrets.FTP_HOST }}
         port: 22
         username: ${{ secrets.FTP_LOGIN }}
