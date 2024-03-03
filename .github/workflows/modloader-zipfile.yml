@@ -11,9 +11,13 @@ jobs:
       with:
         files: localization/fr.lua localization/Better_FR.lua
         dest: BetterFR.zip
+    - uses: actions/upload-artifact@v4
+      with:
+        name: BetterFR
+        path: ${{ github.workspace }}/BetterFR.zip
     - uses: sokuhatiku/ftp-upload-artifact@v1.0.0
       with:
-        name: BetterFR.zip
+        name: BetterFR
         path: BetterFR.zip
         host: ${{ secrets.FTP_HOST }}
         port: 22
