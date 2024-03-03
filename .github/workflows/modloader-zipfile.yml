@@ -7,16 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/upload-artifact@v4
+    - uses: sokuhatiku/ftp-upload-artifact@v1.0.0
       with:
         name: BetterFR
         path: |
           localization/fr.lua
           localization/Better_FR.lua
-    - uses: sokuhatiku/ftp-upload-artifact@v1.0.0
-      with:
-        name: BetterFR
-        path: BetterFR
         host: ${{ secrets.FTP_HOST }}
         port: 22
         username: ${{ secrets.FTP_LOGIN }}
