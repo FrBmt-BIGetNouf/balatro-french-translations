@@ -7,14 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: vimtor/action-zip@v1.1
-      with:
-        files: localization/fr.lua localization/Better_FR.lua
-        dest: BetterFR.zip
     - uses: actions/upload-artifact@v4
       with:
         name: BetterFR
-        path: ${{ github.workspace }}/BetterFR.zip
+        path: |
+          localization/fr.lua
+          localization/Better_FR.lua
     - uses: sokuhatiku/ftp-upload-artifact@v1.0.0
       with:
         name: BetterFR
@@ -24,4 +22,4 @@ jobs:
         username: ${{ secrets.FTP_LOGIN }}
         password: ${{ secrets.FTP_PASSWORD }}
         secure: true
-        remote-path: /www
+        remote-path: /www/
