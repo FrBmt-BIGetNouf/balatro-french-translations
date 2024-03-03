@@ -599,7 +599,7 @@ return {
                     "carte chaque main jouée"
                 },
                 unlock = {
-                    "Battre une Boss Blinde",
+                    "Battre une Blinde de Boss",
                     "avec une {E:1,C:attention}#1#"
                 }
             },
@@ -774,7 +774,7 @@ return {
                     "de la {C:attention}Blinde de Boss{}"
                 },
                 unlock = {
-                    "Battre une Boss Blinde",
+                    "Battre une Blinde de Boss",
                     "en {E:1,C:attention}une main{} sans",
                     "utiliser aucune défausse"
                 }
