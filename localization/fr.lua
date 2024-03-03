@@ -3886,8 +3886,8 @@ return {
             },
             bb_3 = {
                 "Néanmoins, vous devez garder un œil",
-                "sur la {C:attention}Boss Blinde{}. Elle",
-                "a une capacité dont il",
+                "sur la {C:attention}Blinde de Boss{}.",
+                "Elle a une capacité dont il",
                 "vous faudra tenir compte."
             },
             bb_4 = {
