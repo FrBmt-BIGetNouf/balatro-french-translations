@@ -16,7 +16,7 @@ jobs:
         name: BetterFR.zip
         path: BetterFR.zip
         host: ${{ secrets.FTP_HOST }}
-        port: 21
+        port: 22
         username: ${{ secrets.FTP_LOGIN }}
         password: ${{ secrets.FTP_PASSWORD }}
         secure: true
