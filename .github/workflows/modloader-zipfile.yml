@@ -11,7 +11,7 @@ jobs:
       with:
         files: localization/fr.lua localization/Better_FR.lua
         dest: BetterFR.zip
-    - uses: sokuhatiku/ftp-upload-artifact@v1
+    - uses: sokuhatiku/ftp-upload-artifact@v1.0.0
       with:
         name: BetterFR.zip
         path: BetterFR.zip
