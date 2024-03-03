@@ -3910,7 +3910,7 @@ return {
             },
             fh_3 = {
                 "Regardez vos {C:attention}mains de Poker",
-                "dans la zone {C:attention}Infos sur la partie{},",
+                "dans la zone {C:attention}Infos de la partie{},",
                 "ainsi que d'autres informations",
                 "sur votre partie en cours"
             },
