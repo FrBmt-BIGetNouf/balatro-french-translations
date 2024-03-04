@@ -11,12 +11,13 @@ jobs:
     - name: Zip files
       run: |
         zip -r better_FR.zip localization/fr.lua localization/Better_FR.lua
-    - name: Upload to FTP
-      uses: pressidium/lftp-mirror-action@v1
-      with:
-        host: ${{ secrets.FTP_HOST }}
-        user: ${{ secrets.FTP_LOGIN }}
-        pass: ${{ secrets.FTP_PASSWORD }}
-        local-dir: better_FR.zip
-        remote-dir: /www/
-        upload: true
+    - name: Upload to SFTP
+        uses: wangyucode/sftp-upload-action@v2.0.2
+        with:
+          host: ${{ secrets.SFTP_HOST }}
+          username: ${{ secrets.FTP_LOGIN }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: 22
+          localDir: .
+          localFile: better_FR.zip
+          remoteDir: /www/
