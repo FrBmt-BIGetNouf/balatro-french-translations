@@ -11,27 +11,29 @@ More informations about Balatro on [https://www.playbalatro.com/](https://www.pl
 
 #### [Download the latest version of the modded French translations](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/blob/main/localization/fr.lua)
 
-For references, you can also find [The official english and french versions of the files](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/blob/main/localization/official) (By patch)
+> [!NOTE]
+> For references, you can also find [The official english and french versions of the files](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/blob/main/localization_official) (By patch)
 
 ## Current state of translations
 
 | Category             | Status | Comment |
 | -------------------- | ------ | ------- |
-| General              | 🛠️    | The most critical part is already done |
-| User interface       | 🛠️    | Double check needed |
+| General              | 🛠️    | Some translations to confirm |
+| User interface       | ✔️    | |
 | Jokers               | 🛠️    | Some names to confirm |
 | Decks                | ✔️     | |
-| Voucher              | 🛠️    | Some names to confirm |
-| Consummables         | 🛠️    | The most critical part is already done 
-| Boosters             | 🛠️    | 1 name to confirm before release |
+| Voucher              | ✔️    | |
+| Consummables         | ✔️    | |
+| Boosters             | ✔️    | |
 | Tags                 | ✔️    | |
-| Jimbo's texts        | ⏳    | |
-| Tutorial             | ⏳    | |
-| Challenges           | ⏳    | |
+| Jimbo's texts        | 🛠️    | 1 Issues in progress |
+| Tutorial             | 🛠️    | 4 Issues in progress |
+| Challenges           | 🛠️    | 3 Issues in progress |
 
 ## (FR) Comment installer le fichier de traduction ?
 
-[7zip](https://7-zip.org/) doit être installé sur votre ordinateur.
+> [!CAUTION]
+> [7zip](https://7-zip.org/) doit être installé sur votre ordinateur.
 
 1. **Fermez Balatro**
 2. Téléchargez le [fichier fr.lua](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/blob/main/localization/fr.lua) (`Ctrl`+`Shift`+`S`)
@@ -43,10 +45,13 @@ For references, you can also find [The official english and french versions of t
 8. Confirmer la copie du fichier et fermez 7zip
 9. Vous pouvez maitenant relancer Balatro, sélectionner la langue Française et profiter !
 
-> **Important :** La mise à jour du fichier doit se faire à chaque nouvelle mise à jour du jeu.
+> [!IMPORTANT]
+> La mise à jour du fichier doit se faire à chaque nouvelle mise à jour du jeu.
 
 ## (EN) How to install the new file?
-[7zip](https://7-zip.org/) must be installed on your computer.
+
+> [!CAUTION]
+> [7zip](https://7-zip.org/) must be installed on your computer.
 
 1. **Close Balatro**
 2. Download the [fr.lua file](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/blob/main/localization/fr.lua) (`Ctrl`+`Shift`+`S`)
@@ -58,7 +63,8 @@ For references, you can also find [The official english and french versions of t
 8. Confirm the file copying and close 7zip
 9. You can now launch Balatro, select the French language and enjoy!
 
-> **Important:** The file update must be done every new game update.
+> [!IMPORTANT]
+> The file update must be done every new game update.
 
 
 ## Contributors
