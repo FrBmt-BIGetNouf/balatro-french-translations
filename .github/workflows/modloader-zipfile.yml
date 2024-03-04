@@ -3,17 +3,20 @@
 name: 🗂️ Zip file for ModLoaders
 on: workflow_dispatch
 jobs:
-  zip:
+  zip-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: sokuhatiku/ftp-upload-artifact@v1.0.0
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Zip files
+      run: |
+        zip -r better_FR.zip localization/fr.lua localization/Better_FR.lua
+    - name: Upload to FTP
+      uses: pressidium/lftp-mirror-action@v1
       with:
-        name: BetterFR
-        path: localization/
         host: ${{ secrets.FTP_HOST }}
-        port: 22
-        username: ${{ secrets.FTP_LOGIN }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        secure: true
-        remote-path: /
+        user: ${{ secrets.FTP_LOGIN }}
+        pass: ${{ secrets.FTP_PASSWORD }}
+        local-dir: better_FR.zip
+        remote-dir: /www/
+        upload: true
