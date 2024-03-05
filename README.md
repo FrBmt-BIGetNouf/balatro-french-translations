@@ -32,6 +32,19 @@ More informations about Balatro on [https://www.playbalatro.com/](https://www.pl
 
 ## (FR) Comment installer le fichier de traduction ?
 
+> [!IMPORTANT]
+> Quelle que soit la méthode utilisée, la mise à jour du fichier doit se faire à chaque nouvelle mise à jour du jeu.
+
+### La méthode rapide
+
+> [!TIP]
+> [Balatro Localization Installer](https://github.com/Furtys/Balatro_Localization_Installer?tab=readme-ov-file#fr-comment-utiliser-le-script-) permet de télécharger et installer les traductions en un click.
+
+*[Balatro Localization Installer](https://github.com/Furtys/Balatro_Localization_Installer?tab=readme-ov-file#fr-comment-utiliser-le-script-) Par Furtys.
+[Balamod](https://github.com/UwUDev/balamod) par UwUDev.*
+
+### La méthode classique
+
 > [!CAUTION]
 > [7zip](https://7-zip.org/) doit être installé sur votre ordinateur.
 
@@ -45,10 +58,22 @@ More informations about Balatro on [https://www.playbalatro.com/](https://www.pl
 8. Confirmer la copie du fichier et fermez 7zip
 9. Vous pouvez maitenant relancer Balatro, sélectionner la langue Française et profiter !
 
-> [!IMPORTANT]
-> La mise à jour du fichier doit se faire à chaque nouvelle mise à jour du jeu.
+
 
 ## (EN) How to install the new file?
+
+> [!IMPORTANT]
+> Whatever method is used, the file must be updated with each new game update.
+
+### The quick method
+
+> [!TIP]
+> [Balatro Localization Installer](https://github.com/Furtys/Balatro_Localization_Installer?tab=readme-ov-file#fr-comment-utiliser-le-script-) allows you to download and install translations in one click.
+
+*[Balatro Localization Installer](https://github.com/Furtys/Balatro_Localization_Installer?tab=readme-ov-file#fr-comment-utiliser-le-script-) Par Furtys.
+[Balamod](https://github.com/UwUDev/balamod) par UwUDev.*
+
+### The classic method
 
 > [!CAUTION]
 > [7zip](https://7-zip.org/) must be installed on your computer.
@@ -62,9 +87,6 @@ More informations about Balatro on [https://www.playbalatro.com/](https://www.pl
 7. Drag'n'drop the downloaded file inside
 8. Confirm the file copying and close 7zip
 9. You can now launch Balatro, select the French language and enjoy!
-
-> [!IMPORTANT]
-> The file update must be done every new game update.
 
 
 ## Contributors
