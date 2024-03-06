@@ -3789,7 +3789,7 @@ return {
                 "{C:red}#1#{} défausses par manche"
             },
             ch_m_reroll_cost = {
-                "Coût de base de réassort de {C:money}#1#${}"
+                "Coût de base du réassort : {C:money}#1#${}"
             },
             ch_m_joker_slots = {
                 "{C:attention}#1#{} emplacements de Joker"
@@ -3825,7 +3825,7 @@ return {
                 "Les {C:blue}Jetons{} ne peuvent pas dépasser le montant actuel de {C:money}$"
             },
             ch_c_none = {
-                "{C:inactive}Aucun"
+                "{C:inactive}Non"
             },
             ch_c_inflation = {
                 "Les prix augmentent de manière permanente de {C:money}1${} à chaque achat"
@@ -3834,7 +3834,7 @@ return {
                 "Chaque défausse coûte {C:money}#1#${}"
             },
             ch_c_all_eternal = {
-                "Tous les Jokers de la boutique sont {C:eternal}Éternels{}"
+                "Tous les Jokers sont {C:eternal}Éternels{}"
             },
             ch_c_flipped_cards = {
                 "{C:green}1 carte sur #1#{} est piochée face cachée"
