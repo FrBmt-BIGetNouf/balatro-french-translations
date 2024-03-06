@@ -366,9 +366,9 @@ return {
             j_burglar = {
                 name = "Cambrioleur",
                 text = {
-                    "Lorsque la {C:attention}Blinde{} est choisie,",
-                    "gagnez {C:blue}+#1#{} mains et",
-                    "{C:attention}perdez toutes les défausses"
+                    "Lorsque la {C:attention}Blinde{} est sélectionnée,",
+                    "octroie {C:blue}+#1#{} mains et",
+                    "{C:attention}retire toutes les défausses"
                 }
             },
             j_blackboard = {
@@ -869,9 +869,9 @@ return {
             j_card_sharp = {
                 name = "Maître des cartes",
                 text = {
-                    "{X:mult,C:white}x#1#{} Multi si la",
-                    "{C:attention}main de poker{} jouée a déjà",
-                    "été jouée dans cette manche"
+                    "{X:mult,C:white}x#1#{} Multi si la {C:attention}main de poker{}",
+                    "jouée l'a déjà été",
+                    "durant cette manche"
                 }
             },
             j_red_card = {
@@ -959,7 +959,7 @@ return {
                 text = {
                     "Octroie {C:money}#1#${} à la fin de la manche",
                     "par carte de {C:planet}Planète unique",
-                    "utilisée dans cette partie",
+                    "utilisée durant cette partie",
                     "{C:inactive}(Actuellement {C:money}#2#${C:inactive})"
                 },
                 unlock = {
@@ -1261,7 +1261,7 @@ return {
                 }
             },
             j_mail = {
-                name = "Remise par courrier",
+                name = "Remise par correspondance",
                 text = {
                     "Octroie {C:money}#1#${} par",
                     "carte {C:attention}#2#{} défaussée, la valeur",
@@ -1499,8 +1499,8 @@ return {
             v_magic_trick = {
                 name = "Tour de magie",
                 text = {
-                    "Les {C:attention}cartes à jouer{} peuvent",
-                    "être achetées",
+                    "Les {C:attention}cartes à jouer{}",
+                    "peuvent être achetées",
                     "dans la {C:attention}boutique"
                 }
             },
@@ -3339,7 +3339,7 @@ return {
                 "5 cartes de même valeur"
             },
             ['Royal Flush'] = {
-                "5 cartes de valeurs consécutives",
+                "5 cartes de valeurs consécutives entre 10 et As",
                 "avec des cartes de même couleur"
             },
             ['Straight Flush'] = {
@@ -3744,8 +3744,8 @@ return {
             a_sold_tally = "#1#/#2# vendu",
             a_remaining = "#1# restant",
             ante_x_voucher = "COUPON DE L'ANTE #1#",
-            loyalty_active = "Active !",
-            loyalty_inactive = "#1# restant",
+            loyalty_active = "Actif cette main !",
+            loyalty_inactive = "S'activera après #1# main(s)",
             deck_preview_wheel_singular = "Les nombres peuvent être inférieurs en raison de la carte #1# piochée face cachée",
             deck_preview_wheel_plural = "Les nombres peuvent être inférieurs en raison des cartes #1# piochées faces cachées",
             challenges_completed = "#1#/#2# Défis terminés",
@@ -3863,29 +3863,29 @@ return {
             },
             sb_2 = {
                 "L'objectif est de gagner des",
-                "{C:blue}Jetons{} pour vaincre",
-                "la {C:attention}Blinde ennemie"
+                "{C:blue}Jetons{} pour battre",
+                "la {C:attention}Blinde{} ennemie"
             },
             sb_3 = {
                 "Ceci est une {C:blue}Petite Blinde{},",
-                "qui ne requerra qu'un score de",
-                "{C:attention}300 Jetons{} pour la battre."
+                "vous devez atteindre un score de",
+                "seulement {C:attention}300 Jetons{} pour la battre."
             },
             sb_4 = {
                 "Sélectionnez la {C:blue}Petite Blinde",
                 "pour commencer la manche !"
             },
             bb_1 = {
-                "La {C:attention}Grosse Blinde",
+                "Battre la {C:attention}Grosse Blinde",
                 "vous rapportera de l'argent"
             },
             bb_2 = {
                 "Mais vous pouvez choisir de {C:attention}la passer",
-                "pour obtenir une {C:attention}Étiquette{} ! Chaque",
-                "{C:attention}Étiquette{} possède un effet unique"
+                "pour obtenir un {C:attention}Badge{} ! Chaque",
+                "{C:attention}Badge{} possède un effet unique"
             },
             bb_3 = {
-                "Néanmoins, vous devez garder un œil",
+                "Néanmoins, gardez un œil",
                 "sur la {C:attention}Blinde de Boss{}.",
                 "Elle a une capacité dont il",
                 "vous faudra tenir compte."
@@ -3897,7 +3897,7 @@ return {
             },
             bb_5 = {
                 "Battez l'{C:attention}Ante{} #1# pour gagner.",
-                "Choisissez votre voie !"
+                "À vous de jouer !"
             },
             fh_1 = {
                 "Vous gagnez des Jetons en",
@@ -3906,11 +3906,11 @@ return {
             fh_2 = {
                 "Chaque {C:attention}main de Poker{} rapporte un",
                 "montant de base de {C:blue}Jetons",
-                "multiplié par le {C:red}Multi."
+                "multiplié par le {C:red}Multi"
             },
             fh_3 = {
-                "Regardez vos {C:attention}mains de Poker",
-                "dans la zone {C:attention}Infos de la partie{},",
+                "Retrouvez vos {C:attention}mains de Poker",
+                "dans {C:attention}Infos de la partie{},",
                 "ainsi que d'autres informations",
                 "sur votre partie en cours"
             },
@@ -3925,14 +3925,14 @@ return {
                 "et appuyez sur {C:blue}Jouer la main"
             },
             fh_6 = {
-                "Vous pouvez également {C:red}Défausser{} jusqu'à",
-                "{C:attention}5{} cartes sélectionnées",
+                "Vous pouvez également {C:red}Défausser{}",
+                "jusqu'à {C:attention}5{} cartes sélectionnées",
                 "pour essayer de créer des",
                 "mains encore plus fortes. Essayez !"
             },
             fh_7 = {
-                "Attention ! Vous ne disposez que d'un",
-                "nombre limité de {C:blue}Mains",
+                "Attention ! Vous ne disposez que",
+                "d'un nombre limité de {C:blue}Mains",
                 "et de {C:red}Défausses{} par manche"
             },
             fh_8 = {
@@ -3958,27 +3958,27 @@ return {
                 "pour les améliorer !"
             },
             s_1 = {
-                "Beau travail ! Maintenant",
-                "que vous {E:1}nagez{} dans l'{C:money}or{},",
+                "Beau travail ! Maintenant que",
+                "vous avez une {E:1}blinde{} {C:money}d'argent{},",
                 "vous pouvez acheter de nouvelles",
                 "cartes dans la {C:attention}boutique"
             },
             s_2 = {
-                "Essayez d'acheter cette",
-                "jolie carte de diable"
+                "Essayez, achetez donc",
+                "ce beau diable !"
             },
             s_3 = {
-                "C'est l'un des {C:attention}#1#",
-                "{C:attention}Jokers{} que vous pouvez ajouter à",
+                "C'est l'un des {C:attention}#1# Jokers",
+                "que vous pouvez ajouter à",
                 "votre partie. Chaque {C:attention}Joker",
                 "a un effet différent"
             },
             s_4 = {
-                "Celui-ci ajoute un {C:red}+4 Multi{} à",
+                "Celui-ci ajoute {C:red}+4 Multi{} à",
                 "chaque main que vous jouez !"
             },
             s_5 = {
-                "Soyez sélectif, car vous ne pourrez",
+                "Choisissez bien, vous ne pouvez",
                 "transporter que {C:attention}5 cartes Joker{}",
                 "à la fois"
             },
@@ -4132,7 +4132,7 @@ return {
             lq_4 = {
                 "Vous savez ce qu'on dit,",
                 "à la fin, c'est toujours",
-                "le casino qui gagne !"
+                "la maison qui gagne !"
             },
             lq_5 = {
                 "Eh bien, je crois que",
