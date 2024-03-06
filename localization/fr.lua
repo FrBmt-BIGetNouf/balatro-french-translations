@@ -3109,7 +3109,7 @@ return {
                 }
             },
             p_arcana_jumbo = {
-                name = "Jumbo Paquet Arcanes",
+                name = "Super Paquet Arcanes",
                 text = {
                     "Jusqu'à {C:attention}#1#{} carte de",
                     "{C:tarot}Tarot{} parmi {C:attention}#2#{} à",
@@ -3133,7 +3133,7 @@ return {
                 }
             },
             p_celestial_jumbo = {
-                name = "Jumbo Paquet Céleste",
+                name = "Super Paquet Céleste",
                 text = {
                     "Jusqu'à {C:attention}#1#{} carte de",
                     "{C:planet}Planète{} parmi {C:attention}#2#{} à",
@@ -3157,7 +3157,7 @@ return {
                 }
             },
             p_spectral_jumbo = {
-                name = "Jumbo Paquet Spectral",
+                name = "Super Paquet Spectral",
                 text = {
                     "Jusqu'à {C:attention}#1#{} carte",
                     "{C:spectral}Spectrale{} parmi {C:attention}#2#{} à",
@@ -3181,7 +3181,7 @@ return {
                 }
             },
             p_standard_jumbo = {
-                name = "Jumbo Paquet Standard",
+                name = "Super Paquet Standard",
                 text = {
                     "Jusqu'à {C:attention}#1#{} carte",
                     "{C:attention}à jouer{} parmi {C:attention}#2#{} à",
@@ -3204,7 +3204,7 @@ return {
                 }
             },
             p_buffoon_jumbo = {
-                name = "Jumbo Paquet Bouffon",
+                name = "Super Paquet Bouffon",
                 text = {
                     "Jusqu'à {C:attention}#1#{} carte",
                     "{C:joker}Joker{} parmi {C:attention}#2#{}"
