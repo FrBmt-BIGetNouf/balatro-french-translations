@@ -21,7 +21,7 @@ More informations about Balatro on [https://www.playbalatro.com/](https://www.pl
 | General              | 🛠️    | Some translations to confirm |
 | User interface       | ✔️    | |
 | Jokers               | 🛠️    | Some names to confirm |
-| Decks                | ✔️     | |
+| Decks                | ✔️    | |
 | Voucher              | ✔️    | |
 | Consummables         | ✔️    | |
 | Boosters             | ✔️    | |
@@ -29,6 +29,7 @@ More informations about Balatro on [https://www.playbalatro.com/](https://www.pl
 | Jimbo's texts        | 🛠️    | 1 Issues in progress |
 | Tutorial             | 🛠️    | 4 Issues in progress |
 | Challenges           | 🛠️    | 3 Issues in progress |
+| Sprites              | 🛠️    | Joker not translated yet |
 
 ## (FR) Comment installer le fichier de traduction ?
 
@@ -42,6 +43,12 @@ More informations about Balatro on [https://www.playbalatro.com/](https://www.pl
 
 *[Balatro Localization Installer](https://github.com/Furtys/Balatro_Localization_Installer?tab=readme-ov-file#fr-comment-utiliser-le-script-) Par Furtys.
 [Balamod](https://github.com/UwUDev/balamod) par UwUDev.*
+
+### La méthode moddée
+
+1. Moddez votre jeu avec Steammoded [(Procédure d'installation de Steammoded)](https://github.com/Steamopollys/Steamodded?tab=readme-ov-file#installation)
+2. Déposez le dossier `localization` (en entier) dans le dossier des mods [(Procédure d'installation des mods)](https://github.com/Steamopollys/Steamodded?tab=readme-ov-file#how-to-install-a-mod)
+
 
 ### La méthode classique
 
@@ -72,6 +79,12 @@ More informations about Balatro on [https://www.playbalatro.com/](https://www.pl
 
 *[Balatro Localization Installer](https://github.com/Furtys/Balatro_Localization_Installer?tab=readme-ov-file#fr-comment-utiliser-le-script-) Par Furtys.
 [Balamod](https://github.com/UwUDev/balamod) par UwUDev.*
+
+### The modded method
+
+1. Install Steamodded for your game [(Installation)](https://github.com/Steamopollys/Steamodded?tab=readme-ov-file#installation)
+2. Place the `localization` folder (entirely) into mods folder [(How to install a mod ?)](https://github.com/Steamopollys/Steamodded?tab=readme-ov-file#how-to-install-a-mod)
+
 
 ### The classic method
 
