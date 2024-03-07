@@ -12,10 +12,21 @@ function SMODS.INIT.Better_FR()
 
     local mod = SMODS.findModByID("Better_FR")
 	local lang_path = mod.path.."fr.lua"
+   
+    local function apply_sprites()
+        local sprite_bstr = SMODS.Sprite:new("Booster", mod.path, "boosters.png", 71, 95, "asset_atli")
+        local sprite_trts = SMODS.Sprite:new("Tarot", mod.path, "tarots.png", 71, 95, "asset_atli")
+        local sprite_vchr = SMODS.Sprite:new("Voucher", mod.path, "vouchers.png", 71, 95, "asset_atli")
+
+        sprite_bstr:register()
+        sprite_trts:register()
+        sprite_vchr:register()
+    end
 
     local function apply_patch()
         G.localization = assert(loadstring(love.filesystem.read(lang_path)))()
         init_localization()
+        apply_sprites()
 	end
 	
     if love.filesystem.exists(lang_path) and G.LANG.key == "fr" then
@@ -30,6 +41,7 @@ function SMODS.INIT.Better_FR()
             apply_patch()
         end
     end
+
 end
 
 ------------MOD CODE END----------------------
