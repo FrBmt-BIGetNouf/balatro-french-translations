@@ -15,8 +15,8 @@ function SMODS.INIT.Better_FR()
    
     local function apply_sprites()
         local sprite_bstr = SMODS.Sprite:new("Booster", mod.path, "boosters.png", 71, 95, "asset_atli")
-        local sprite_trts = SMODS.Sprite:new("Tarot", mod.path, "tarots.png", 71, 95, "asset_atli")
-        local sprite_vchr = SMODS.Sprite:new("Voucher", mod.path, "vouchers.png", 71, 95, "asset_atli")
+        local sprite_trts = SMODS.Sprite:new("Tarot", mod.path, "Tarots.png", 71, 95, "asset_atli")
+        local sprite_vchr = SMODS.Sprite:new("Voucher", mod.path, "Vouchers.png", 71, 95, "asset_atli")
         local sprite_icon = SMODS.Sprite:new("icons", mod.path, "icons.png", 66, 66, "asset_atli")
 
         sprite_bstr:register()
