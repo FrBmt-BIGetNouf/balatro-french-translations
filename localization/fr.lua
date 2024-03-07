@@ -782,7 +782,7 @@ return {
             j_hit_the_road = {
                 name = "Prendre la route",
                 text = {
-                    "Agmente de {X:mult,C:white}x#1#{} Multi par carte",
+                    "Augmente de {X:mult,C:white}x#1#{} Multi par carte",
                     "{C:attention}Valet{} défaussée pendant cette manche",
                     "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
                 },
@@ -894,7 +894,7 @@ return {
             j_square = {
                 name = "Joker carré",
                 text = {
-                    "Agmente de {C:chips}+#2#{} Jetons si",
+                    "Augmente de {C:chips}+#2#{} Jetons si",
                     "la main jouée contient",
                     "exactement {C:attention}4{} cartes",
                     "{C:inactive}(Actuellement {C:chips}#1#{} Jetons)"
