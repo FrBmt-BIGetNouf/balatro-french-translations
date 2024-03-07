@@ -1761,7 +1761,7 @@ return {
                 }
             },
             c_magician = {
-                name = "le Magicien",
+                name = "le Bateleur",
                 text = {
                     "Transforme {C:attention}#1#{} carte",
                     "sélectionnée en",
