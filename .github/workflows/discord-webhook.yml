@@ -1,7 +1,10 @@
 # https://github.com/johnnyhuy/actions-discord-git-webhook
 
 name: 📡 Discord Webhook
-on: [push]
+on:
+  push:
+    branches:
+      - main
 jobs:
   git:
     runs-on: ubuntu-latest
