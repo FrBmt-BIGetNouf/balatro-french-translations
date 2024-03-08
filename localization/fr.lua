@@ -1041,7 +1041,7 @@ return {
                 }
             },
             j_caino = {
-                name = "Caino",
+                name = "Canio",
                 text = {
                     "Augmente de {X:mult,C:white}x#1#{} Multi",
                     "lorsqu'une carte {C:attention}Figure{}",
