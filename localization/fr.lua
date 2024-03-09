@@ -877,8 +877,8 @@ return {
             j_red_card = {
                 name = "Carton rouge",
                 text = {
-                    "Augmente de {C:red}+#1#{} Multi lorsque n'importe",
-                    "quel {C:attention}Paquet additionnel{} est passé",
+                    "Augmente de {C:red}+#1#{} Multi lorsque",
+                    "n'importe quel {C:attention}Paquet{} est passé",
                     "{C:inactive}(Actuellement {C:red}+#2#{C:inactive} Multi)"
                 }
             },
@@ -1279,9 +1279,9 @@ return {
             j_hallucination = {
                 name = "Hallucination",
                 text = {
-                    "{C:green}#1# chance sur #2#{} de créer une",
-                    "carte de {C:tarot}Tarot{} lorsque n'importe quel",
-                    "{C:attention}Paquet additionnel{} est ouvert",
+                    "{C:green}#1# chance sur #2#{} de créer",
+                    "une carte de {C:tarot}Tarot{} lorsque",
+                    "n'importe quel{C:attention}Paquet{} est ouvert",
                     "{C:inactive}(Selon la place disponible)"
                 }
             },
@@ -2337,7 +2337,7 @@ return {
             stake_orange = {
                 name = "Mise orange",
                 text = {
-                    "Les {C:attention}Paquets additionnels{} coûtent",
+                    "Les {C:attention}Paquets{} coûtent",
                     "{C:money}1${} de plus par Ante",
                     "{s:0.8}Applique toutes les mises précédentes"
                 }
@@ -3028,7 +3028,7 @@ return {
                 name = "Bloqué",
                 text = {
                     "Créer ce Joker avec",
-                    "la carte {C:spectral}L'Âme{}"
+                    "la carte {C:spectral}L'Ame{}"
                 }
             },
             undiscovered_joker = {
