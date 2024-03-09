@@ -4090,8 +4090,8 @@ return {
                 "Vous êtes un As !"
             },
             wq_2 = {
-                "Vous avez bien géré",
-                "la situation !"
+                "Vous vous êtes",
+                "vraiment donné !"
             },
             wq_3 = {
                 "Vous ne bluffiez pas,",
@@ -4107,8 +4107,8 @@ return {
                 "porté leurs fruits !"
             },
             wq_6 = {
-                "Vous avez pris",
-                "de judicieuses décisions !"
+                "Vous avez su garder",
+                "la tête froide !"
             },
             wq_7 = {
                 "Heureusement",
@@ -4116,18 +4116,18 @@ return {
                 "contre vous !"
             },
             lq_1 = {
-                "On ferait peut-être",
-                "mieux de jouer à",
-                "la pêche..."
+                "Le jeu des 7 familles",
+                "est peut être plus",
+                "de notre niveau..."
             },
             lq_2 = {
                 "On se couche",
                 "comme des dégonflés !"
             },
             lq_3 = {
-                "Il va falloir",
-                "reprendre nos esprits",
-                "avant de reprendre la main !"
+                "C'est le jeu qui",
+                "nous a battu,",
+                "cette fois !"
             },
             lq_4 = {
                 "Vous savez ce qu'on dit,",
@@ -4135,17 +4135,17 @@ return {
                 "la maison qui gagne !"
             },
             lq_5 = {
-                "Eh bien, je crois que",
-                "le vrai Joker,",
-                "c'est vous !"
+                "On dirait que vous",
+                "n'avez pas vraiment",
+                "été un atout !"
             },
             lq_6 = {
-                "Oh non, vous bluffiez",
-                "aussi ?"
+                "Nous avons",
+                "perdu la bataille..."
             },
             lq_7 = {
-                "On n'a pas l'air",
-                "fins !"
+                "On passe pour",
+                "des clowns !"
             },
             lq_8 = {
                 "Si j'avais des mains,",
@@ -4161,8 +4161,8 @@ return {
                 "Quel flop !"
             },
             dq_1 = {
-                "Aïe ! J'espère que vous",
-                "avez caché quelques cartes",
+                "Houlà ! J'espère que",
+                "vous avez gardé un atout",
                 "dans votre manche pour",
                 "relever ce dernier défi !"
             }
