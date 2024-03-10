@@ -432,7 +432,7 @@ return {
                 name = "Constellation",
                 text = {
                     "Augmente de {X:mult,C:white} x#1# {} Multi",
-                    "par carte {C:planet}Planète{} utilisée",
+                    "par carte de {C:planet}Planète{} utilisée",
                     "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
                 }
             },
