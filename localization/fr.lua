@@ -1465,7 +1465,7 @@ return {
                 text = {
                     "Les {C:attention}Paquets Célestes{} contiennent",
                     "toujours la carte de {C:planet}Planète{}",
-                    "pour la {C:attention}main de poker la plus jouée"
+                    "pour la {C:attention}main de poker{} la plus jouée"
                 }
             },
             v_grabber = {
