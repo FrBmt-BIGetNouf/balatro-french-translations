@@ -644,7 +644,7 @@ return {
                 }
             },
             j_onyx_agate = {
-                name = "Pierre Onyx",
+                name = "Agate onyx",
                 text = {
                     "Les cartes {C:clubs}Trèfle{}",
                     "jouées octroient {C:mult}+#1#{} Multi",
