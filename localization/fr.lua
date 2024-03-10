@@ -333,9 +333,9 @@ return {
             j_supernova = {
                 name = "Supernova",
                 text = {
-                    "Ajoute le nombre de fois",
-                    "que la {C:attention}main de poker{} a",
-                    "été jouée au {C:mult}Multi{}"
+                    "Ajoute au {C:mult}Multi{} le",
+                    "nombre de fois que la",
+                    "{C:attention}main de poker{} a été jouée"
                 }
             },
             j_ride_the_bus = {
