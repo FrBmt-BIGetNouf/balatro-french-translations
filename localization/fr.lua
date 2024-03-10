@@ -1264,8 +1264,8 @@ return {
                 name = "Remise par correspondance",
                 text = {
                     "Octroie {C:money}#1#${} par",
-                    "carte {C:attention}#2#{} défaussée, la valeur",
-                    "change à chaque manche"
+                    "carte {C:attention}#2#{} défaussée,",
+                    "la valeur change à chaque manche"
                 }
             },
             j_to_the_moon = {
