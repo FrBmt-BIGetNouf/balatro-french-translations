@@ -234,7 +234,7 @@ return {
                 name = "Fibonacci",
                 text = {
                     "Chaque carte {C:attention}As{},",
-                    "{C:attention}2{}, {C:attention}3{}, {C:attention}5{}, ou {C:attention}8{} jouée octroie",
+                    "{C:attention}2{}, {C:attention}3{}, {C:attention}5{} ou {C:attention}8{} jouée octroie",
                     "{C:mult}+#1#{} Multi lorsqu'elle est comptée"
                 }
             },
