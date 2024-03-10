@@ -1750,8 +1750,8 @@ return {
             c_fool = {
                 name = "le Mat",
                 text = {
-                    "Crée la carte de {C:tarot}Tarot{}",
-                    "ou de {C:planet}Planète{} utilisée en dernier",
+                    "Crée la carte de {C:tarot}Tarot{} ou",
+                    "de {C:planet}Planète{} utilisée en dernier",
                     "pendant cette partie",
                     "{s:0.8,C:inactive}(sauf {s:0.8,C:tarot}le Mat{s:0.8}{s:0.8,C:inactive})"
                 }
