@@ -1623,7 +1623,7 @@ return {
                     "Les cartes de {C:planet}Planète{} de",
                     "votre zone de {C:attention}Consommables{}",
                     "octroient {X:red,C:white}x#1#{} Multi pour",
-                    "leur {C:attention}main de poker spécifique"
+                    "leur {C:attention}main de poker{} spécifique"
                 },
                 unlock = {
                     "Utiliser un total de {C:attention}#1#",
