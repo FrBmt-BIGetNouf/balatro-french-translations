@@ -887,7 +887,7 @@ return {
                 text = {
                     "Lorsque la {C:attention}Blinde{} est sélectionnée,",
                     "augmente de {X:mult,C:white}x#1#{} Multi et",
-                    "{C:attention}détruit{} un Joker au hasard",
+                    "{C:attention}détruit{} un autre Joker au hasard",
                     "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
                 }
             },
