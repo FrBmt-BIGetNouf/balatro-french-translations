@@ -374,8 +374,8 @@ return {
             j_blackboard = {
                 name = "Tableau noir",
                 text = {
-                    "{X:red,C:white}x#1#{} Multi si toutes",
-                    "les cartes en main sont des",
+                    "{X:red,C:white}x#1#{} Multi si toutes les",
+                    "cartes gardées en main sont des",
                     "cartes {C:spades}Pique{} ou {C:clubs}Trèfle{}"
                 }
             },
