@@ -621,7 +621,7 @@ return {
                 text = {
                     "Les cartes {C:hearts}Cœur{} jouées",
                     "ont {C:green}#1# chance(s) sur #2#{}",
-                    "d'octroyer {X:mult,C:white}x#3#{} Multi ",
+                    "d'octroyer {X:mult,C:white}x#3#{} Multi",
                     "lorsqu'elles sont comptées"
                 },
                 unlock = {
