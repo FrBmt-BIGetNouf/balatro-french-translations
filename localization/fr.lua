@@ -1718,14 +1718,14 @@ return {
                 name = "Tessellation",
                 text = {
                     "Crée la carte {C:attention}Joker{}",
-                    " la plus utilisée",
+                    "la plus utilisée",
                     "{E:1,V:1}#1#",
                     "{C:inactive}(Selon la place disponible)"
                 },
                 unlock = {
                     "Acheter l'édition {C:dark_edition}Polychrome",
                     "de la carte {C:attention}Joker",
-                    " la plus utilisée",
+                    "la plus utilisée",
                     "dans la boutique"
                 }
             },
