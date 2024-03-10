@@ -958,7 +958,7 @@ return {
                 name = "Satellite",
                 text = {
                     "Octroie {C:money}#1#${} à la fin de la manche",
-                    "par carte de {C:planet}Planète unique",
+                    "par carte de {C:planet}Planète{} unique",
                     "utilisée durant cette partie",
                     "{C:inactive}(Actuellement {C:money}#2#${C:inactive})"
                 },
