@@ -495,7 +495,7 @@ return {
                 text = {
                     "Empêche la défaite",
                     "si le score marqué",
-                    "constitue au moins {C:attention}25 %",
+                    "constitue au moins {C:attention}25%",
                     "du score à atteindre,",
                     "{S:1.1,C:red,E:2}s'autodétruit{}"
                 },
@@ -1420,7 +1420,7 @@ return {
                 name = "Déstockage",
                 text = {
                     "Toutes les cartes et Paquets de la boutique",
-                    "coûtent {C:attention}#1#%{} moins cher"
+                    "coûtent{C:attention}#1#%{} moins cher"
                 }
             },
             v_tarot_merchant = {
@@ -1543,7 +1543,7 @@ return {
                 name = "Liquidation",
                 text = {
                     "Toutes les cartes et Paquets de la boutique",
-                    "coûtent {C:attention}#1#%{} moins cher"
+                    "coûtent{C:attention}#1#%{} moins cher"
                 },
                 unlock = {
                     "Échanger au moins",
@@ -4081,7 +4081,7 @@ return {
             cartomancy = "Découvrir toutes les cartes de Tarot",
             clairvoyance = "Découvrir toutes les cartes Spectrales",
             extreme_couponer = "Découvrir tous les Coupons",
-            completionist = "Découvrir 100 % de la collection",
+            completionist = "Découvrir 100% de la collection",
             completionist_plus = "Gagner avec tous les Jeux en difficulté Mise dorée",
             completionist_plus_plus = "Gagner un Autocollant doré sur chaque Joker"
         },
