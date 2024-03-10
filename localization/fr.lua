@@ -633,8 +633,8 @@ return {
             j_arrowhead = {
                 name = "Pointe de flèche",
                 text = {
-                    "Les cartes {C:spades}Pique{}",
-                    "jouées octroient {C:chips}+#1#{} Jetons ",
+                    "Les cartes {C:spades}Pique{} jouées",
+                    "octroient {C:chips}+#1#{} Jetons",
                     "lorsqu'elles sont comptées"
                 },
                 unlock = {
