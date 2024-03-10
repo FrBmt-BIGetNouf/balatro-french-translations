@@ -1140,7 +1140,7 @@ return {
                 name = "Vampire",
                 text = {
                     "Augmente de {X:mult,C:white}x#1#{} Multi",
-                    "par {C:attention}Carte améliorée{} jouée,",
+                    "par carte {C:attention}Améliorée{} jouée,",
                     "supprime l'{C:attention}Amélioration{} de la carte",
                     "{C:inactive}(Actuellement {X:mult,C:white} x#2# {C:inactive} Multi)"
                 }
