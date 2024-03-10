@@ -1915,7 +1915,7 @@ return {
             c_judgement = {
                 name = "le Jugement",
                 text = {
-                    "Crée une carte de",
+                    "Crée une carte",
                     "{C:attention}Joker{} aléatoire",
                     "{C:inactive}(Selon la place disponible)"
                 }
