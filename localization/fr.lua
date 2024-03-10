@@ -897,7 +897,7 @@ return {
                     "Augmente de {C:chips}+#2#{} Jetons si",
                     "la main jouée contient",
                     "exactement {C:attention}4{} cartes",
-                    "{C:inactive}(Actuellement {C:chips}#1#{} Jetons)"
+                    "{C:inactive}(Actuellement {C:chips}+#1#{} Jetons)"
                 }
             },
             j_seance = {
