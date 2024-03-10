@@ -508,7 +508,7 @@ return {
                 name = "Acrobate",
                 text = {
                     "{X:red,C:white}x#1#{} Multi sur la",
-                    "{C:attention}dernière{} main de la manche"
+                    "{C:attention}dernière main{} de la manche"
                 },
                 unlock = {
                     "Jouer {C:attention,E:1}#1#{} mains",
