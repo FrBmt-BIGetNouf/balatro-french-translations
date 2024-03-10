@@ -793,7 +793,7 @@ return {
                 }
             },
             j_duo = {
-                name = "Le duo",
+                name = "Le Duo",
                 text = {
                     "{X:mult,C:white}x#1#{} Multi si",
                     "la main jouée",
@@ -806,7 +806,7 @@ return {
                 }
             },
             j_trio = {
-                name = "Le trio",
+                name = "Le Trio",
                 text = {
                     "{X:mult,C:white}x#1#{} Multi si",
                     "la main jouée",
@@ -819,7 +819,7 @@ return {
                 }
             },
             j_family = {
-                name = "La famille",
+                name = "La Famille",
                 text = {
                     "{X:mult,C:white}x#1#{} Multi si",
                     "la main jouée",
@@ -845,7 +845,7 @@ return {
                 }
             },
             j_tribe = {
-                name = "La tribu",
+                name = "La Tribu",
                 text = {
                     "{X:mult,C:white}x#1#{} Multi si",
                     "la main jouée",
