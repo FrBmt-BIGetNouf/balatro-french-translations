@@ -1335,7 +1335,7 @@ return {
             j_popcorn = {
                 name = "Popcorn",
                 text = {
-                    "{C:mult}+#1#{} Multi",
+                    "{C:mult}+#1#{} Multi,",
                     "{C:mult}-#2#{} Multi par",
                     "manche jouée"
                 }
