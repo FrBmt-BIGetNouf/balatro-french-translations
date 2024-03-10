@@ -1832,7 +1832,7 @@ return {
                 text = {
                     "{C:green}#1# chance(s) sur #2#{} qu'un Joker",
                     "aléatoire devienne {C:dark_edition}Brillant{},",
-                    " {C:dark_edition}Holographique{} ou {C:dark_edition}Polychrome{}"
+                    "{C:dark_edition}Holographique{} ou {C:dark_edition}Polychrome{}"
                 }
             },
             c_strength = {
@@ -2547,7 +2547,7 @@ return {
             bl_wheel = {
                 name = "La Roue",
                 text = {
-                    " carte sur 7 est",
+                    "carte sur 7 est",
                     "piochée face cachée"
                 }
             },
