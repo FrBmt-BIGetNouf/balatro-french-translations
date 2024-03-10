@@ -456,7 +456,7 @@ return {
             j_green_joker = {
                 name = "Joker vert",
                 text = {
-                    "{C:mult}+#1#{} Multi par main jouée",
+                    "{C:mult}+#1#{} Multi par main jouée,",
                     "{C:mult}-#2#{} Multi par défausse",
                     "{C:inactive}(Actuellement {C:mult}+#3#{C:inactive} Multi)"
                 }
