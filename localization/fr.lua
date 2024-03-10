@@ -1272,7 +1272,7 @@ return {
                 name = "Vers les étoiles",
                 text = {
                     "Octroie {C:money}#1#${} d'{C:attention}intérêts{}",
-                    "supplémentaires tout les {C:money}5${}",
+                    "supplémentaire tout les {C:money}5${}",
                     "possédés à la fin de la manche"
                 }
             },
