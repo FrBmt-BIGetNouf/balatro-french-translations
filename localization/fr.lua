@@ -1077,7 +1077,7 @@ return {
             j_chicot = {
                 name = "Chicot",
                 text = {
-                    "Annule l'effet de",
+                    "Désactive l'effet de",
                     "chaque {C:attention}Blinde de Boss"
                 },
                 unlock = {
