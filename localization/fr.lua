@@ -391,7 +391,7 @@ return {
             j_ice_cream = {
                 name = "Crème glacée",
                 text = {
-                    "{C:chips}+#1#{} Jetons",
+                    "{C:chips}+#1#{} Jetons,",
                     "{C:chips}-#2#{} Jetons par",
                     "main jouée"
                 }
