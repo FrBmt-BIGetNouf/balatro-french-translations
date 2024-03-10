@@ -660,7 +660,7 @@ return {
                 name = "Joker de verre",
                 text = {
                     "Augmente de {X:mult,C:white} x#1# {} Multi",
-                    "par {C:attention}carte Verre détruite",
+                    "par carte {C:attention}Verre détruite{}",
                     "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
                 },
                 unlock = {
