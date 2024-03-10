@@ -226,7 +226,7 @@ return {
             j_chaos = {
                 name = "Chaos le clown",
                 text = {
-                    "{C:attention}#1#{} {C:green}réassort"{} gratuit,
+                    "{C:attention}#1#{} {C:green}réassort{} gratuit",
                     "par boutique"
                 }
             },
