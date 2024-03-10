@@ -1355,7 +1355,7 @@ return {
                     "Chaque carte {V:1}#2#{} jouée",
                     "octroie {X:mult,C:white}x#1#{} Multi",
                     "lorsqu'elle est comptée,",
-                    "{s:0.8}la couleur change à la fin de la manche"
+                    "{s:0.8}la couleur change à chaque manche"
                 }
             },
             j_ramen = {
