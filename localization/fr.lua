@@ -595,8 +595,8 @@ return {
             j_hanging_chad = {
                 name = "Bulletin de vote",
                 text = {
-                    "Recompte la {C:attention}première{}",
-                    "carte chaque main jouée"
+                    "Recompte la {C:attention}première{} carte",
+                    "à chaque main jouée"
                 },
                 unlock = {
                     "Battre une Blinde de Boss",
