@@ -1189,8 +1189,8 @@ return {
             j_rocket = {
                 name = "Fusée",
                 text = {
-                    "Octroie {C:money}#1#${} à la fin de la",
-                    "de la manche. Augmente de {C:money}#2#${} lorsque",
+                    "Octroie {C:money}#1#${} à la fin de la manche,",
+                    "augmente de {C:money}#2#${} lorsque",
                     "la {C:attention}Blinde de Boss{} est battue"
                 }
             },
