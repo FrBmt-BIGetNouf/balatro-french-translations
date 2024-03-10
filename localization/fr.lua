@@ -1055,7 +1055,7 @@ return {
             j_triboulet = {
                 name = "Triboulet",
                 text = {
-                    "Les cartes {C:attention}Roi{} et {C:attention}Dame{}",
+                    "Les cartes {C:attention}Dame{} et {C:attention}Roi{}",
                     "jouées octroient chacune {X:mult,C:white}x#1#{} Multi",
                     "lorsqu'elles sont comptées"
                 },
