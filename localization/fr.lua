@@ -1150,7 +1150,7 @@ return {
                 text = {
                     "Permet de créer des {C:attention}Quintes{}",
                     "avec des {C:attention}écarts de valeur de 1",
-                    "{C:inactive}(ex. : {C:attention}2 3 5 7 8{C:inactive})"
+                    "{C:inactive}(ex. : {C:attention}As 3 5 6 8{C:inactive})"
                 }
             },
             j_hologram = {
