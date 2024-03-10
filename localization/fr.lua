@@ -1088,7 +1088,7 @@ return {
                 name = "Perkeo",
                 text = {
                     "Crée une copie {C:dark_edition}Négative{}",
-                    "d'{C:attention}1{} carte de {C:attention}Consommable{}",
+                    "d'{C:attention}une{} carte de {C:attention}Consommable{}",
                     "aléatoire en votre possession",
                     "à la fin de la {C:attention}boutique"
                 },
