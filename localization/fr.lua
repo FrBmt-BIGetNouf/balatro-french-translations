@@ -1281,7 +1281,7 @@ return {
                 text = {
                     "{C:green}#1# chance sur #2#{} de créer",
                     "une carte de {C:tarot}Tarot{} lorsque",
-                    "n'importe quel{C:attention}Paquet{} est ouvert",
+                    "n'importe quel {C:attention}Paquet{} est ouvert",
                     "{C:inactive}(Selon la place disponible)"
                 }
             },
