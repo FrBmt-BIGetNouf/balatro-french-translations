@@ -2040,27 +2040,27 @@ return {
                 name = "Familier",
                 text = {
                     "Détruit {C:attention}1{} carte",
-                    "aléatoire de votre main,",
+                    "aléatoire en main,",
                     "crée {C:attention}#1#{} cartes {C:attention}Figure Améliorées{}",
-                    "aléatoires dans votre main"
+                    "aléatoires dans la main"
                 }
             },
             c_grim = {
                 name = "Sinistre",
                 text = {
                     "Détruit {C:attention}1{} carte",
-                    "aléatoire de votre main,",
+                    "aléatoire en main,",
                     "crée {C:attention}#1#{} cartes {C:attention}As Améliorées{}",
-                    "aléatoires dans votre main"
+                    "aléatoires dans la main"
                 }
             },
             c_incantation = {
                 name = "Incantation",
                 text = {
                     "Détruit {C:attention}1{} carte",
-                    "aléatoire de votre main, crée",
+                    "aléatoire en main, crée",
                     "{C:attention}#1#{} cartes {C:attention}numérotées Améliorées",
-                    "aléatoires dans votre main"
+                    "aléatoires dans la main"
                 }
             },
             c_talisman = {
