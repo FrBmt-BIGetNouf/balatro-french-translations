@@ -1033,7 +1033,7 @@ return {
                 name = "Débrouillardise",
                 text = {
                     "{C:mult}+#1#{} Multi par",
-                    "tout les {C:money}#2#${} possédés"
+                    "tous les {C:money}#2#${} possédés"
                 },
                 unlock = {
                     "Avoir au moins {E:1,C:attention}#1#",
@@ -1272,7 +1272,7 @@ return {
                 name = "Vers les étoiles",
                 text = {
                     "Octroie {C:money}#1#${} d'{C:attention}intérêts{}",
-                    "supplémentaire tout les {C:money}5${}",
+                    "supplémentaire tous les {C:money}5${}",
                     "possédés à la fin de la manche"
                 }
             },
