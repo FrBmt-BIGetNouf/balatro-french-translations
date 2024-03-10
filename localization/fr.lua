@@ -375,8 +375,8 @@ return {
                 name = "Tableau noir",
                 text = {
                     "{X:red,C:white}x#1#{} Multi si toutes les",
-                    "cartes gardées en main sont des",
-                    "cartes {C:spades}Pique{} ou {C:clubs}Trèfle{}"
+                    "cartes gardées en main sont",
+                    "des cartes {C:spades}Pique{} ou {C:clubs}Trèfle{}"
                 }
             },
             j_runner = {
