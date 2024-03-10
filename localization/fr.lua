@@ -3744,7 +3744,7 @@ return {
             a_sold_tally = "#1#/#2# vendu",
             a_remaining = "#1# restant",
             ante_x_voucher = "COUPON DE L'ANTE #1#",
-            loyalty_active = "Actif cette main !",
+            loyalty_active = "Active cette main !",
             loyalty_inactive = "S'activera après #1# main(s)",
             deck_preview_wheel_singular = "Les nombres peuvent être inférieurs en raison de la carte #1# piochée face cachée",
             deck_preview_wheel_plural = "Les nombres peuvent être inférieurs en raison des cartes #1# piochées faces cachées",
