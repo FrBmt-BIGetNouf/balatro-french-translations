@@ -788,8 +788,8 @@ return {
                 },
                 unlock = {
                     "Défausser {E:1,C:attention}5",
-                    "{E:1,C:attention}Valets{} en",
-                    "même temps"
+                    "carte {E:1,C:attention}Valets{}",
+                    "en même temps"
                 }
             },
             j_duo = {
