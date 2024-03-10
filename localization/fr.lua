@@ -1472,14 +1472,12 @@ return {
                 name = "Coup de pouce",
                 text = {
                     "{C:blue}+#1#{} main par manche",
-                    "de façon permanente"
                 }
             },
             v_wasteful = {
                 name = "Gaspillage",
                 text = {
                     "{C:red}+#1#{} défausse par manche",
-                    "de façon permanente"
                 }
             },
             v_seed_money = {
@@ -1638,7 +1636,6 @@ return {
                 name = "Coup de main",
                 text = {
                     "(Encore) {C:blue}+#1#{} main par manche",
-                    "de façon permanente"
                 },
                 unlock = {
                     "Jouer un total",
@@ -1649,8 +1646,6 @@ return {
             v_recyclomancy = {
                 name = "Recyclomancie",
                 text = {
-                    "(Encore) {C:red}+#1#{} défausse par manche",
-                    "de façon permanente"
                 },
                 unlock = {
                     "Défausser un total",
