@@ -2141,7 +2141,7 @@ return {
                 text = {
                     "Crée une copie d'un",
                     "{C:attention}Joker{} aléatoire,",
-                    "détruisez tous les",
+                    "détruit tous les",
                     "autres Jokers"
                 }
             },
@@ -2158,7 +2158,7 @@ return {
                 text = {
                     "Un {C:attention}Joker{} aléatoire",
                     "devient {C:dark_edition}Polychrome{},",
-                    "détruisez tous les",
+                    "détruit tous les",
                     "autres Jokers"
                 }
             },
