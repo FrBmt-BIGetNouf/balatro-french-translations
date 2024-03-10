@@ -78,7 +78,7 @@ return {
             j_stone = {
                 name = "Joker de pierre",
                 text = {
-                    "{C:chips}+#1#{} Jetons par {C:attention}carte Pierre",
+                    "{C:chips}+#1#{} Jetons par carte {C:attention}Pierre",
                     "dans le Jeu complet",
                     "{C:inactive}(Actuellement {C:chips}+#2#{C:inactive} Jetons)"
                 }
