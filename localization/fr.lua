@@ -990,7 +990,7 @@ return {
                 },
                 unlock = {
                     "Améliorer {E:1,C:attention}#1#{} cartes",
-                    "dans votre jeu"
+                    "dans le Jeu"
                 }
             },
             j_cartomancer = {
