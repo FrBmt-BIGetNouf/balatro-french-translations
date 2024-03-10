@@ -1767,7 +1767,7 @@ return {
             c_high_priestess = {
                 name = "la Papesse",
                 text = {
-                    "Crée jusqu'à {C:attention}#1# cartes",
+                    "Crée jusqu'à {C:attention}#1#{} cartes",
                     "de {C:planet}Planète{} aléatoires",
                     "{C:inactive}(Selon la place disponible)"
                 }
@@ -1783,7 +1783,7 @@ return {
             c_emperor = {
                 name = "l'Empereur",
                 text = {
-                    "Crée jusqu'à {C:attention}#1# cartes",
+                    "Crée jusqu'à {C:attention}#1#{} cartes",
                     "de {C:tarot}Tarot{} aléatoires",
                     "{C:inactive}(Selon la place disponible)"
                 }
