@@ -212,7 +212,7 @@ return {
                 name = "Crépuscule",
                 text = {
                     "Recompte les cartes dans la",
-                    "{C:attention}dernière{} main de la manche"
+                    "{C:attention}dernière main{} de la manche"
                 }
             },
             j_raised_fist = {
