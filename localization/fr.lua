@@ -1066,8 +1066,8 @@ return {
             j_yorick = {
                 name = "Yorick",
                 text = {
-                    "{X:mult,C:white}x#1#{} Multi seulement après",
-                    "avoir utilisé {C:attention}#2#{} défausses",
+                    "{X:mult,C:white}x#1#{} Multi après",
+                    "{C:attention}#2#{} défausses",
                     "{C:inactive}(Défausses restantes : {C:attention}#3#{C:inactive})"
                 },
                 unlock = {
