@@ -148,7 +148,7 @@ return {
             j_gluttenous_joker = {
                 name = "Joker gourmand",
                 text = {
-                    "Les cartes {C:clubs}#2#{} jouées ",
+                    "Les cartes {C:clubs}#2#{} jouées",
                     "octroient {C:mult}+#1#{} Multi",
                     "lorsqu'elles sont comptées"
                 }
