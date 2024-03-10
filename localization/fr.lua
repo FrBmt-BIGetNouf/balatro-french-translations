@@ -2082,7 +2082,7 @@ return {
             c_wraith = {
                 name = "Apparition",
                 text = {
-                    "Crée une carte de",
+                    "Crée une carte",
                     "Joker {C:red}Rare{},",
                     "ramène l'argent à {C:money}0$"
                 }
