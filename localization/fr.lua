@@ -715,7 +715,7 @@ return {
                 }
             },
             j_merry_andy = {
-                name = "Andy le gentil",
+                name = "Andy le joyeux",
                 text = {
                     "{C:red}+#1#{} défausses,",
                     "{C:red}#2#{} à la taille de la main"
