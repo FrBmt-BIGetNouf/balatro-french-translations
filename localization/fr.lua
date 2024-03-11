@@ -3831,7 +3831,7 @@ return {
                 "Chaque défausse coûte {C:money}#1#${}"
             },
             ch_c_all_eternal = {
-                "Tous les Jokers sont {C:eternal}Éternels{}"
+                "Tous les Jokers sont {C:attention}Éternels{}"
             },
             ch_c_flipped_cards = {
                 "{C:green}1 carte sur #1#{} est piochée face cachée"
