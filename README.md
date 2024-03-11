@@ -102,9 +102,14 @@ More informations about Balatro on [https://www.playbalatro.com/](https://www.pl
 9. You can now launch Balatro, select the French language and enjoy!
 
 
+## License
+
+This project (**except all the artwork extracted or derivated from the Balatro game**) is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
 ## Contributors
 
-Arkana Ravneik, Bleh!, SweZ, Behel, Pipomantis, Signez, Wok, (... You ? See Contributing)
+Robin Lassire, Gabriel Rodrigues, Pierre-Alexandre Rouillon, Stanislas Signoud (Signez), Bastien Luneteau, Quentin Furtys, Nicolas Cordier, François Beaumont
     
 ## Contributing
 
