@@ -3254,7 +3254,7 @@ return {
             challenge_locked = {
                 name = "(Verrouillé)",
                 text = {
-                    "Gagnez une partie avec au moins",
+                    "Gagner une partie avec au moins",
                     "#1# jeux différents pour débloquer",
                     "le Mode Défi",
                     "{C:attention,s:2}#2#/#1#"
