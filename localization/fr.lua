@@ -2848,7 +2848,7 @@ return {
                     "Commence la partie avec",
                     "une carte {C:spectral,T:c_hex}Maléfice{},",
                     "les cartes {C:spectral}Spectrales{} peuvent",
-                    "apparaître dans le magasin"
+                    "apparaître dans la boutique"
                 }
             },
             b_zodiac = {
