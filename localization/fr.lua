@@ -2536,7 +2536,7 @@ return {
                 name = "Le Crochet",
                 text = {
                     "Défausse 2 cartes aléatoires",
-                    "chaque main jouée"
+                    "à chaque main jouée"
                 }
             },
             bl_wall = {
