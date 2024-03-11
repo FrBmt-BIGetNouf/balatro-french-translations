@@ -3816,7 +3816,7 @@ return {
                 "{E:1,s:1.2,C:red}Défi du jour !"
             },
             ch_c_set_seed = {
-                "1 tentative avec la seed défini : {C:inactive}{Hidden}"
+                "1 tentative avec la seed définie : {C:inactive}{Hidden}"
             },
             ch_c_chips_dollar_cap = {
                 "Les {C:chips}Jetons{} ne peuvent pas dépasser le montant actuel de {C:money}$"
