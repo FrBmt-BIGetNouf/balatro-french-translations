@@ -4019,7 +4019,7 @@ return {
         achievement_names = {
             ante_up = "Ante augmentée !",
             ante_upper = "Ante (encore) augmentée !",
-            heads_up = "Tête-à-tête",
+            heads_up = "Face-à-face",
             low_stakes = "Mises faibles",
             mid_stakes = "Mises moyennes",
             high_stakes = "Mises élevées",
