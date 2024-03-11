@@ -4,13 +4,13 @@ return {
             j_joker = {
                 name = "Joker",
                 text = {
-                    "{C:red,s:1.1}+#1#{} Multi"
+                    "{C:mult,s:1.1}+#1#{} Multi"
                 }
             },
             j_jolly = {
                 name = "Joker joyeux",
                 text = {
-                    "{C:red}+#1#{} Multi si",
+                    "{C:mult}+#1#{} Multi si",
                     "la main jouée",
                     "contient une {C:attention}#2#"
                 }
@@ -18,7 +18,7 @@ return {
             j_zany = {
                 name = "Joker blagueur",
                 text = {
-                    "{C:red}+#1#{} Multi si",
+                    "{C:mult}+#1#{} Multi si",
                     "la main jouée",
                     "contient un {C:attention}#2#"
                 }
@@ -26,7 +26,7 @@ return {
             j_mad = {
                 name = "Joker fêlé",
                 text = {
-                    "{C:red}+#1#{} Multi si",
+                    "{C:mult}+#1#{} Multi si",
                     "la main jouée",
                     "contient un {C:attention}#2#"
                 }
@@ -34,7 +34,7 @@ return {
             j_crazy = {
                 name = "Joker déjanté",
                 text = {
-                    "{C:red}+#1#{} Multi si",
+                    "{C:mult}+#1#{} Multi si",
                     "la main jouée",
                     "contient une {C:attention}#2#"
                 }
@@ -42,7 +42,7 @@ return {
             j_droll = {
                 name = "Joker plaisantin",
                 text = {
-                    "{C:red}+#1#{} Multi si",
+                    "{C:mult}+#1#{} Multi si",
                     "la main jouée",
                     "contient une {C:attention}#2#"
                 }
@@ -50,7 +50,7 @@ return {
             j_half = {
                 name = "Demi-joker",
                 text = {
-                    "{C:red}+#1#{} Multi si",
+                    "{C:mult}+#1#{} Multi si",
                     "la main jouée contient",
                     "{C:attention}#2#{} cartes ou moins"
                 }
@@ -58,9 +58,9 @@ return {
             j_fortune_teller = {
                 name = "Voyant",
                 text = {
-                    "{C:red}+#1#{} Multi par carte de {C:purple}Tarot{}",
+                    "{C:mult}+#1#{} Multi par carte de {C:purple}Tarot{}",
                     "utilisée cette partie",
-                    "{C:inactive}(Actuellement {C:red}+#2#{C:inactive} Multi)"
+                    "{C:inactive}(Actuellement {C:mult}+#2#{C:inactive} Multi)"
                 }
             },
             j_juggler = {
@@ -93,10 +93,10 @@ return {
             j_stencil = {
                 name = "Pochoir de Joker",
                 text = {
-                    "{X:red,C:white}x1{} Multi par",
+                    "{X:mult,C:white}x1{} Multi par",
                     "emplacement de {C:attention}Joker{} vide",
                     "{s:0.8}Pochoir de Joker inclus",
-                    "{C:inactive}(Actuellement {X:red,C:white}x#1#{C:inactive} Multi)"
+                    "{C:inactive}(Actuellement {X:mult,C:white}x#1#{C:inactive} Multi)"
                 }
             },
             j_four_fingers = {
@@ -188,7 +188,7 @@ return {
             j_loyalty_card = {
                 name = "Carte de fidélité",
                 text = {
-                    "{X:red,C:white}x#1#{} Multi toutes les",
+                    "{X:mult,C:white}x#1#{} Multi toutes les",
                     "{C:attention}#2#{} mains jouées",
                     "{C:inactive}#3#"
                 }
@@ -260,7 +260,7 @@ return {
                 text = {
                     "{C:mult}+#1#{} Multi par carte",
                     "{C:attention}Joker{} possédée",
-                    "{C:inactive}(Actuellement {C:red}+#2#{C:inactive} Multi)"
+                    "{C:inactive}(Actuellement {C:mult}+#2#{C:inactive} Multi)"
                 }
             },
             j_delayed_grat = {
@@ -374,7 +374,7 @@ return {
             j_blackboard = {
                 name = "Tableau noir",
                 text = {
-                    "{X:red,C:white}x#1#{} Multi si toutes les",
+                    "{X:mult,C:white}x#1#{} Multi si toutes les",
                     "cartes gardées en main sont",
                     "des cartes {C:spades}Pique{} ou {C:clubs}Trèfle{}"
                 }
@@ -507,7 +507,7 @@ return {
             j_acrobat = {
                 name = "Acrobate",
                 text = {
-                    "{X:red,C:white}x#1#{} Multi sur la",
+                    "{X:mult,C:white}x#1#{} Multi sur la",
                     "{C:attention}dernière main{} de la manche"
                 },
                 unlock = {
@@ -877,9 +877,9 @@ return {
             j_red_card = {
                 name = "Carton rouge",
                 text = {
-                    "Augmente de {C:red}+#1#{} Multi lorsque",
+                    "Augmente de {C:mult}+#1#{} Multi lorsque",
                     "n'importe quel {C:attention}Paquet{} est passé",
-                    "{C:inactive}(Actuellement {C:red}+#2#{C:inactive} Multi)"
+                    "{C:inactive}(Actuellement {C:mult}+#2#{C:inactive} Multi)"
                 }
             },
             j_madness = {
@@ -1245,10 +1245,10 @@ return {
             j_erosion = {
                 name = "Érosion",
                 text = {
-                    "{C:red}+#1#{} Multi par",
+                    "{C:mult}+#1#{} Multi par",
                     "carte en dessous de {C:attention}#3#{}",
                     "dans le Jeu complet",
-                    "{C:inactive}(Actuellement {C:red}+#2#{C:inactive} Multi)"
+                    "{C:inactive}(Actuellement {C:mult}+#2#{C:inactive} Multi)"
                 }
             },
             j_reserved_parking = {
@@ -1346,7 +1346,7 @@ return {
                     "Augmente de {C:mult}+#1#{} Multi si",
                     "la main jouée contient",
                     "une {C:attention}#2#",
-                    "{C:inactive}(Actuellement {C:red}+#3#{C:inactive} Multi)"
+                    "{C:inactive}(Actuellement {C:mult}+#3#{C:inactive} Multi)"
                 }
             },
             j_ancient = {
@@ -1622,7 +1622,7 @@ return {
                 text = {
                     "Les cartes de {C:planet}Planète{} de",
                     "votre zone de {C:attention}Consommables{}",
-                    "octroient {X:red,C:white}x#1#{} Multi pour",
+                    "octroient {X:mult,C:white}x#1#{} Multi pour",
                     "leur {C:attention}main de poker{} spécifique"
                 },
                 unlock = {
@@ -2822,7 +2822,7 @@ return {
             b_plasma = {
                 name = "Jeu Plasma",
                 text = {
-                    "Moyenne {C:blue}Jetons{} et {C:red}Multi{}",
+                    "Moyenne {C:chips}Jetons{} et {C:mult}Multi{}",
                     "lors du comptage du",
                     "score de la main jouée",
                     "Taille des Blindes {C:attention}x#1#{}"
@@ -3818,7 +3818,7 @@ return {
                 "1 tentative avec la seed défini : {C:inactive}{Hidden}"
             },
             ch_c_chips_dollar_cap = {
-                "Les {C:blue}Jetons{} ne peuvent pas dépasser le montant actuel de {C:money}$"
+                "Les {C:chips}Jetons{} ne peuvent pas dépasser le montant actuel de {C:money}$"
             },
             ch_c_none = {
                 "{C:inactive}Non"
@@ -3859,7 +3859,7 @@ return {
             },
             sb_2 = {
                 "L'objectif est de gagner des",
-                "{C:blue}Jetons{} pour battre",
+                "{C:chips}Jetons{} pour battre",
                 "la {C:attention}Blinde{} ennemie"
             },
             sb_3 = {
@@ -3901,8 +3901,8 @@ return {
             },
             fh_2 = {
                 "Chaque {C:attention}main de Poker{} rapporte un",
-                "montant de base de {C:blue}Jetons",
-                "multiplié par le {C:red}Multi"
+                "montant de base de {C:chips}Jetons",
+                "multiplié par le {C:mult}Multi"
             },
             fh_3 = {
                 "Retrouvez vos {C:attention}mains de Poker",
@@ -3912,7 +3912,7 @@ return {
             },
             fh_4 = {
                 "Les cartes vous rapportent",
-                "également des {C:blue}Jetons{},",
+                "également des {C:chips}Jetons{},",
                 "passez votre souris dessus pour savoir combien !"
             },
             fh_5 = {
@@ -3970,7 +3970,7 @@ return {
                 "a un effet différent"
             },
             s_4 = {
-                "Celui-ci ajoute {C:red}+4 Multi{} à",
+                "Celui-ci ajoute {C:mult}+4 Multi{} à",
                 "chaque main que vous jouez !"
             },
             s_5 = {
