@@ -77,6 +77,10 @@ set "fr_assetsIcons1x=%fr_repository%/assets/1x/icons.png"
 set "fr_assetsIcons2x=%fr_repository%/assets/2x/icons.png"
 set "fr_assetsBlindChips1x=%fr_repository%/assets/1x/BlindChips.png"
 set "fr_assetsBlindChips2x=%fr_repository%/assets/2x/BlindChips.png"
+set "fr_assetsJokers1x=%fr_repository%/assets/1x/Jokers.png"
+set "fr_assetsJokers2x=%fr_repository%/assets/2x/Jokers.png"
+set "fr_assetsShopSignAnimation1x=%fr_repository%/assets/1x/ShopSignAnimation.png"
+set "fr_assetsShopSignAnimation2x=%fr_repository%/assets/2x/ShopSignAnimation.png"
 
 :: Téléchargement de Balamod
 if not exist "%resourcesFolder%\%balamodFile%" (
@@ -106,6 +110,10 @@ if "%download_assets%"=="true" (
     curl -L -o "%resourcesFolder%\assets\2x\icons.png" %fr_assetsIcons2x%
     curl -L -o "%resourcesFolder%\assets\1x\BlindChips.png" %fr_assetsBlindChips1x%
     curl -L -o "%resourcesFolder%\assets\2x\BlindChips.png" %fr_assetsBlindChips2x%
+    curl -L -o "%resourcesFolder%\assets\1x\Jokers.png" %fr_assetsJokers1x%
+    curl -L -o "%resourcesFolder%\assets\2x\Jokers.png" %fr_assetsJokers2x%
+    curl -L -o "%resourcesFolder%\assets\1x\ShopSignAnimation.png" %fr_assetsShopSignAnimation1x%
+    curl -L -o "%resourcesFolder%\assets\2x\ShopSignAnimation.png" %fr_assetsShopSignAnimation2x%
 )
 
 echo.
@@ -132,6 +140,10 @@ if not defined balatroFile (
         "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\2x\icons.png -o resources/textures/2x/icons.png
         "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\1x\BlindChips.png -o resources/textures/1x/BlindChips.png
         "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\2x\BlindChips.png -o resources/textures/2x/BlindChips.png
+        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\1x\Jokers.png -o resources/textures/1x/Jokers.png
+        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\2x\Jokers.png -o resources/textures/2x/Jokers.png
+        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\1x\ShopSignAnimation.png -o resources/textures/1x/ShopSignAnimation.png
+        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\2x\ShopSignAnimation.png -o resources/textures/2x/ShopSignAnimation.png
     )
 ) else (
     :: Sinon on lui envoie le dossier du fichier Balatro.exe selectionné précédemment.
@@ -148,6 +160,10 @@ if not defined balatroFile (
         "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\2x\icons.png -o resources/textures/2x/icons.png
         "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\1x\BlindChips.png -o resources/textures/1x/BlindChips.png
         "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\2x\BlindChips.png -o resources/textures/2x/BlindChips.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\1x\Jokers.png -o resources/textures/1x/Jokers.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\2x\Jokers.png -o resources/textures/2x/Jokers.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\1x\ShopSignAnimation.png -o resources/textures/1x/ShopSignAnimation.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\2x\ShopSignAnimation.png -o resources/textures/2x/ShopSignAnimation.png
     )
 )
 
