@@ -3233,7 +3233,7 @@ return {
                 name = "Sceau bleu",
                 text = {
                     "Crée une carte de {C:planet}Planète{}",
-                    "si cette carte est {C:attention}tenue{} en",
+                    "si cette carte est {C:attention}gardée{} en",
                     "main à la fin de la manche"
                 }
             },
