@@ -3084,7 +3084,7 @@ return {
             undiscovered_edition = {
                 name = "Non découvert",
                 text = {
-                    "Trouver cette édition",
+                    "Trouver cette Édition",
                     "dans une partie sans seed",
                     "pour révéler son effet"
                 }
