@@ -910,7 +910,7 @@ return {
                 }
             },
             j_riff_raff = {
-                name = "Plébe",
+                name = "Plèbe",
                 text = {
                     "Lorsque la {C:attention}Blinde{} est sélectionnée,",
                     "crée {C:attention}#1# {C:blue}Jokers Communs",
