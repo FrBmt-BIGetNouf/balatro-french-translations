@@ -29,7 +29,7 @@ More informations about Balatro on [https://www.playbalatro.com/](https://www.pl
 | Jimbo's texts        | 🛠️    | 1 Issues in progress |
 | Tutorial             | 🛠️    | 4 Issues in progress |
 | Challenges           | 🛠️    | 3 Issues in progress |
-| Sprites              | 🛠️    | Joker not translated yet |
+| Sprites              | ✔️    | |
 
 ## (FR) Comment installer le fichier de traduction ?
 
@@ -49,7 +49,6 @@ More informations about Balatro on [https://www.playbalatro.com/](https://www.pl
 1. Moddez votre jeu avec Steammoded [(Procédure d'installation de Steammoded)](https://github.com/Steamopollys/Steamodded?tab=readme-ov-file#installation)
 2. Déposez le dossier `localization` (en entier) dans le dossier des mods [(Procédure d'installation des mods)](https://github.com/Steamopollys/Steamodded?tab=readme-ov-file#how-to-install-a-mod)
 
-
 ### La méthode classique
 
 > [!CAUTION]
@@ -64,8 +63,6 @@ More informations about Balatro on [https://www.playbalatro.com/](https://www.pl
 7. Glissez et déposez le fichier téléchargé précedemment
 8. Confirmer la copie du fichier et fermez 7zip
 9. Vous pouvez maitenant relancer Balatro, sélectionner la langue Française et profiter !
-
-
 
 ## (EN) How to install the new file?
 
@@ -85,7 +82,6 @@ More informations about Balatro on [https://www.playbalatro.com/](https://www.pl
 1. Install Steamodded for your game [(Installation)](https://github.com/Steamopollys/Steamodded?tab=readme-ov-file#installation)
 2. Place the `localization` folder (entirely) into mods folder [(How to install a mod ?)](https://github.com/Steamopollys/Steamodded?tab=readme-ov-file#how-to-install-a-mod)
 
-
 ### The classic method
 
 > [!CAUTION]
@@ -101,19 +97,16 @@ More informations about Balatro on [https://www.playbalatro.com/](https://www.pl
 8. Confirm the file copying and close 7zip
 9. You can now launch Balatro, select the French language and enjoy!
 
-
 ## License
 
 This project (**except all the artwork extracted or derivated from the Balatro game**) is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-
 ## Contributors
 
 Robin Lassire, Gabriel Rodrigues, Pierre-Alexandre Rouillon, Stanislas Signoud (Signez), Bastien Luneteau, Quentin Furtys, Nicolas Cordier, François Beaumont
-    
+
 ## Contributing
 
 Contributions are always welcome!
 
 Join us on [Discord (Balatro FR - loc mod)](https://discord.gg/kQMdHTXB3Z)
-

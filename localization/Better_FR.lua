@@ -12,19 +12,23 @@ function SMODS.INIT.Better_FR()
 
     local mod = SMODS.findModByID("Better_FR")
 	local lang_path = mod.path.."fr.lua"
-   
+
     local function apply_sprites()
         local sprite_bstr = SMODS.Sprite:new("Booster", mod.path, "boosters.png", 71, 95, "asset_atli")
         local sprite_trts = SMODS.Sprite:new("Tarot", mod.path, "Tarots.png", 71, 95, "asset_atli")
         local sprite_vchr = SMODS.Sprite:new("Voucher", mod.path, "Vouchers.png", 71, 95, "asset_atli")
         local sprite_icon = SMODS.Sprite:new("icons", mod.path, "icons.png", 66, 66, "asset_atli")
         local sprite_blch = SMODS.Sprite:new("blind_chips", mod.path, "BlindChips.png", 34, 34, "animation_atli", 21)
+        local sprite_jokr = SMODS.Sprite:new("Joker", mod.path, "Jokers.png", 71, 95, "asset_atli")
+        local sprite_shop = SMODS.Sprite:new("shop_sign", mod.path, "ShopSignAnimation.png", 113, 57, "animation_atli", 4)
 
         sprite_bstr:register()
         sprite_trts:register()
         sprite_vchr:register()
         sprite_icon:register()
         sprite_blch:register()
+        sprite_jokr:register()
+        sprite_shop:register()
     end
 
     local function apply_patch()
