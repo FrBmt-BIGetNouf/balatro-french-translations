@@ -2263,7 +2263,7 @@ return {
             m_stone = {
                 name = "Carte Pierre",
                 text = {
-                    "{C:chips}+#1#{} Jetons",
+                    "{C:chips}+#1#{} Jetons,",
                     "ni valeur ni couleur"
                 }
             },
