@@ -3798,7 +3798,7 @@ return {
                 "{C:attention}#1#{} à la taille de la main"
             },
             ch_m_none = {
-                "{C:inactive}Aucun"
+                "{C:inactive}Aucune"
             },
             ch_c_no_reward = {
                 "Aucune {C:attention}Blinde{} ne donne d'argent en récompense"
