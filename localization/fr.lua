@@ -1420,7 +1420,7 @@ return {
                 name = "Déstockage",
                 text = {
                     "Toutes les cartes et Paquets de la boutique",
-                    "coûtent{C:attention}#1#%{} moins cher"
+                    "coûtent {C:attention}#1#%{} moins cher"
                 }
             },
             v_tarot_merchant = {
@@ -1541,7 +1541,7 @@ return {
                 name = "Liquidation",
                 text = {
                     "Toutes les cartes et Paquets de la boutique",
-                    "coûtent{C:attention}#1#%{} moins cher"
+                    "coûtent {C:attention}#1#%{} moins cher"
                 },
                 unlock = {
                     "Échanger au moins",
