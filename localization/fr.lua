@@ -2547,7 +2547,7 @@ return {
             bl_wheel = {
                 name = "La Roue",
                 text = {
-                    "carte sur 7 est",
+                    " carte sur 7 est",
                     "piochée face cachée"
                 }
             },
