@@ -3067,7 +3067,7 @@ return {
             undiscovered_voucher = {
                 name = "Non découvert",
                 text = {
-                    "Échangez ce Coupon",
+                    "Échanger ce Coupon",
                     "dans une partie",
                     "sans seed pour",
                     "révéler son effet"
