@@ -1402,8 +1402,9 @@ return {
                 name = "Feu de camp",
                 text = {
                     "Augmente de {X:mult,C:white}x#1#{} Multi",
-                    "par carte {C:attention}vendue{}. Est réinitialisé",
-                    "lorsque la {C:attention}Blinde de Boss{} est battue",
+                    "par carte {C:attention}vendue{},",
+                    "est réinitialisé lorsque la",
+                    "{C:attention}Blinde de Boss{} est battue",
                     "{C:inactive}(Actuellement {X:mult,C:white} x#2# {C:inactive} Multi)"
                 }
             }
