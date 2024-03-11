@@ -2489,7 +2489,7 @@ return {
                 name = "Badge de remplissage",
                 text = {
                     "Crée jusqu'à {C:attention}#1#",
-                    "Jokers {C:blue}Communs{}",
+                    "{C:blue}Jokers Communs{}",
                     "{C:inactive}(Selon la place disponible)"
                 }
             },
