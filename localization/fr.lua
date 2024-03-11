@@ -3586,7 +3586,7 @@ return {
             ph_click_confirm = "Cliquez à nouveau pour confirmer",
             ph_choose_blind_1 = "Choisissez votre",
             ph_choose_blind_2 = "prochaine Blinde",
-            ph_mr_bones = "Sauvé par M. Bones",
+            ph_mr_bones = "Sauvé par la Défaucheuse",
             ph_score_at_least = "Atteindre un score d'au moins",
             ph_all_poker_hand = "Toutes les mains de poker",
             ph_1_level = "+1 Niveau",
