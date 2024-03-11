@@ -4056,9 +4056,9 @@ return {
             low_stakes = "Gagner une partie en difficulté Mise rouge",
             mid_stakes = "Gagner une partie en difficulté Mise noire",
             high_stakes = "Gagner une partie en difficulté Mise dorée",
-            card_player = "Jouer au moins 2 500 cartes",
-            card_discarder = "Défausser au moins 2 500 cartes",
-            nest_egg = "Accumuler 400$ ou plus en une seule partie",
+            card_player = "Jouer 2 500 cartes",
+            card_discarder = "Défausser 2 500 cartes",
+            nest_egg = "Accumuler 400$ en une seule partie",
             flushed = "Jouer une couleur avec 5 cartes Libres",
             speedrunner = "Gagner une partie en 12 manches ou moins",
             roi = "Échanger 5 Coupons avant l'Ante 4",
@@ -4068,8 +4068,8 @@ return {
             _10k = "Gagner 10 000 Jetons en une seule main",
             _1000k = "Gagner 1 000 000 de Jetons en une seule main",
             _100000k = "Gagner 100 000 000 de Jetons en une seule main",
-            tiny_hands = "Avoir 20 cartes ou moins dans votre jeu",
-            big_hands = "Avoir 80 cartes ou plus dans votre jeu",
+            tiny_hands = "Avoir 20 cartes ou moins dans votre Jeu",
+            big_hands = "Avoir 80 cartes ou plus dans votre Jeu",
             you_get_what_you_get = "Gagner une partie sans effectuer de réassort",
             rule_bender = "Terminer n'importe quel Défi",
             rule_breaker = "Terminer tous les Défis",
@@ -4087,7 +4087,7 @@ return {
                 "Vous êtes un As !"
             },
             wq_2 = {
-                "Vous vous êtes",
+                "Vous vous êtes",
                 "vraiment donné !"
             },
             wq_3 = {
@@ -4105,21 +4105,21 @@ return {
             },
             wq_6 = {
                 "Vous avez su garder",
-                "la tête froide !"
+                "la tête froide !"
             },
             wq_7 = {
-                "Heureusement",
-                "que je n'ai pas misé",
+                "Heureusement que",
+                "je n'ai pas misé",
                 "contre vous !"
             },
             lq_1 = {
                 "Le jeu des 7 familles",
-                "est peut être plus",
+                "est peut être plus",
                 "de notre niveau..."
             },
             lq_2 = {
-                "On se couche",
-                "comme des dégonflés !"
+                "Comme on fait son lit",
+                "on se couche !"
             },
             lq_3 = {
                 "C'est le jeu qui",
@@ -4150,9 +4150,9 @@ return {
                 "les yeux !"
             },
             lq_9 = {
-                "Je suis un bouffon,",
-                "au sens propre, et vous,",
-                "quelle est votre excuse ?"
+                "Je suis littéralement",
+                "un bouffon mais vous,",
+                "vous n'avez pas d'excuse !"
             },
             lq_10 = {
                 "Quel flop !"
