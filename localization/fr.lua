@@ -2496,7 +2496,7 @@ return {
             tag_skip = {
                 name = "Badge rapidité",
                 text = {
-                    "Octroie {C:money}#1#${} par blinde",
+                    "Octroie {C:money}#1#${} par Blinde",
                     "passée cette partie",
                     "{C:inactive}(Octroie {C:money}#2#${C:inactive})"
                 }
