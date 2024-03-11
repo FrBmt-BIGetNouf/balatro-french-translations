@@ -3529,7 +3529,7 @@ return {
             k_also_applied = "A également appliqué",
             k_base_cards = "Cartes de base",
             k_effective = "Effectives",
-            k_aces = "As",
+            k_aces = "Cartes As",
             k_face_cards = "Cartes Figure",
             k_numbered_cards = "Cartes numérotées",
             k_cap_consumables = "CONSOMMABLES",
