@@ -3354,7 +3354,7 @@ return {
                 "5 cartes de même couleur"
             },
             ['Straight'] = {
-                "5 cartes dont les valeurs se suivent"
+                "5 cartes de valeurs consécutives"
             },
             ['Three of a Kind'] = {
                 "3 cartes de même valeur. Elles peuvent",
