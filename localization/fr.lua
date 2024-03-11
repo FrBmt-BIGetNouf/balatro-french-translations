@@ -4044,7 +4044,7 @@ return {
             astronomy = "Astronomie",
             cartomancy = "Cartomancie",
             clairvoyance = "Clairvoyance",
-            extreme_couponer = "Chasseur de coupons",
+            extreme_couponer = "Chasseur de Coupons",
             completionist = "Jusqu'au-boutiste",
             completionist_plus = "Jusqu'au-boutiste+",
             completionist_plus_plus = "Jusqu'au-boutiste++"
