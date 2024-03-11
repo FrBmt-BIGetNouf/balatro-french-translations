@@ -2970,7 +2970,7 @@ return {
             debuffed_playing_card = {
                 name = "Affaiblie",
                 text = {
-                    "Aucun Jeton et",
+                    "Aucun Jeton,",
                     "toutes les capacités",
                     "sont désactivées"
                 }
