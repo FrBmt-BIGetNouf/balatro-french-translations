@@ -2190,7 +2190,7 @@ return {
         },
         Edition = {
             e_base = {
-                name = "de Base",
+                name = "sans Édition",
                 text = {
                     "Aucun effet supplémentaire"
                 }
