@@ -75,6 +75,8 @@ set "fr_assetsVouchers1x=%fr_repository%/assets/1x/Vouchers.png"
 set "fr_assetsVouchers2x=%fr_repository%/assets/2x/Vouchers.png"
 set "fr_assetsIcons1x=%fr_repository%/assets/1x/icons.png"
 set "fr_assetsIcons2x=%fr_repository%/assets/2x/icons.png"
+set "fr_assetsBlindChips1x=%fr_repository%/assets/1x/BlindChips.png"
+set "fr_assetsBlindChips2x=%fr_repository%/assets/2x/BlindChips.png"
 
 :: Téléchargement de Balamod
 if not exist "%resourcesFolder%\%balamodFile%" (
@@ -102,6 +104,8 @@ if "%download_assets%"=="true" (
     curl -L -o "%resourcesFolder%\assets\2x\Vouchers.png" %fr_assetsVouchers2x%
     curl -L -o "%resourcesFolder%\assets\1x\icons.png" %fr_assetsIcons1x%
     curl -L -o "%resourcesFolder%\assets\2x\icons.png" %fr_assetsIcons2x%
+    curl -L -o "%resourcesFolder%\assets\1x\BlindChips.png" %fr_assetsBlindChips1x%
+    curl -L -o "%resourcesFolder%\assets\2x\BlindChips.png" %fr_assetsBlindChips2x%
 )
 
 echo.
@@ -126,6 +130,8 @@ if not defined balatroFile (
         "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\2x\Vouchers.png -o resources/textures/2x/Vouchers.png
         "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\1x\icons.png -o resources/textures/1x/icons.png
         "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\2x\icons.png -o resources/textures/2x/icons.png
+        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\1x\BlindChips.png -o resources/textures/1x/BlindChips.png
+        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\2x\BlindChips.png -o resources/textures/2x/BlindChips.png
     )
 ) else (
     :: Sinon on lui envoie le dossier du fichier Balatro.exe selectionné précédemment.
@@ -140,6 +146,8 @@ if not defined balatroFile (
         "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\2x\Vouchers.png -o resources/textures/2x/Vouchers.png
         "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\1x\icons.png -o resources/textures/1x/icons.png
         "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\2x\icons.png -o resources/textures/2x/icons.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\1x\BlindChips.png -o resources/textures/1x/BlindChips.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\2x\BlindChips.png -o resources/textures/2x/BlindChips.png
     )
 )
 
