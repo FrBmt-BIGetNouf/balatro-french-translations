@@ -2318,7 +2318,7 @@ return {
             stake_black = {
                 name = "Mise noire",
                 text = {
-                    "Les boutique peuvent posséder des Jokers {C:attention}Éternels{}",
+                    "Les boutiques peuvent posséder des Jokers {C:attention}Éternels{}",
                     "{C:inactive,s:0.8}(Ne peut pas être vendu ou détruit)",
                     "{s:0.8}Applique toutes les mises précédentes"
                 }
