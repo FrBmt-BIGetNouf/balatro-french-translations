@@ -3441,8 +3441,8 @@ return {
             b_set_game_vol = "Volume des effets",
             b_set_shadows = "Ombres",
             b_set_pixel_smoothing = "Lissage du pixel art",
-            b_set_CRT = "CRT",
-            b_set_CRT_bloom = "Flou CRT",
+            b_set_CRT = "Effet cathodique",
+            b_set_CRT_bloom = "Flou cathodique",
             b_stat_jokers = "Jokers",
             b_stat_consumables = "Consommables",
             b_stat_tarots = "Tarots",
@@ -3493,7 +3493,7 @@ return {
             k_incompatible = "incompatible",
             k_round = "Manche",
             k_ante = "Ante",
-            k_seed = "La seed",
+            k_seed = "Seed",
             k_reroll = "Réassortir",
             k_mult = "Multi",
             k_rank = "Valeur",
@@ -3529,7 +3529,7 @@ return {
             k_also_applied = "A également appliqué",
             k_base_cards = "Cartes de base",
             k_effective = "Effectives",
-            k_aces = "As",
+            k_aces = "Cartes As",
             k_face_cards = "Cartes Figure",
             k_numbered_cards = "Cartes numérotées",
             k_cap_consumables = "CONSOMMABLES",
@@ -3672,7 +3672,7 @@ return {
             k_swapped_ex = "Échangé !",
             k_copied_ex = "Copié !",
             k_melted_ex = "Fondu !",
-            b_copy = "Copie",
+            b_copy = "Copier",
             b_high_contrast_cards = "Cartes à haut contraste",
             b_set_rumble = "Vibrations de la manette",
             b_seals = "Sceaux",
@@ -3798,7 +3798,7 @@ return {
                 "{C:attention}#1#{} à la taille de la main"
             },
             ch_m_none = {
-                "{C:inactive}Aucun"
+                "{C:inactive}Aucune"
             },
             ch_c_no_reward = {
                 "Aucune {C:attention}Blinde{} ne donne d'argent en récompense"
