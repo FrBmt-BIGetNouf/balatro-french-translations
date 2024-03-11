@@ -2802,7 +2802,7 @@ return {
                 name = "Jeu de Pierre",
                 text = {
                     "Commence la partie avec",
-                    "{C:attention}#1# cartes Pierre{} supplémentaires"
+                    "{C:attention}#1# cartes Pierre{}"
                 }
             },
             b_braided = {
