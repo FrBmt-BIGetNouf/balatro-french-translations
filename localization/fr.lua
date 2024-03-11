@@ -2279,9 +2279,9 @@ return {
                 name = "Carte Chance",
                 text = {
                     "{C:green}#1# chance(s) sur #3#{}",
-                    "d'obtenir {C:mult}+#2#{} Multi",
+                    "d'octroyer {C:mult}+#2#{} Multi,",
                     "{C:green}#1# chance(s) sur #5#{}",
-                    "de gagner {C:money}#4#$"
+                    "d'octoyer {C:money}#4#$"
                 }
             }
         },
