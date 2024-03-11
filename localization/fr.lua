@@ -2999,7 +2999,7 @@ return {
             deck_locked_win = {
                 name = "Bloqué",
                 text = {
-                    "Gagnez une partie",
+                    "Gagner une partie",
                     "avec le {C:attention}#1#{}",
                     "dans n'importe quelle difficulté"
                 }
@@ -3007,7 +3007,7 @@ return {
             deck_locked_discover = {
                 name = "Bloqué",
                 text = {
-                    "Découvrez au moins",
+                    "Découvrir au moins",
                     "{C:attention}#1#{} objets de",
                     "la collection"
                 }
@@ -3015,7 +3015,7 @@ return {
             deck_locked_stake = {
                 name = "Bloqué",
                 text = {
-                    "Gagnez une partie en difficulté",
+                    "Gagner une partie en difficulté",
                     "{V:1}#1#{} minimum",
                     "avec n'importe quel jeu"
                 }
