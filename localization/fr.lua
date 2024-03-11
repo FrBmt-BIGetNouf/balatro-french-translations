@@ -2093,7 +2093,7 @@ return {
                 text = {
                     "Transforme toutes les cartes",
                     "en main en une unique",
-                    "{C:attention}Couleur{} aléatoire"
+                    "{C:attention}couleur{} aléatoire"
                 }
             },
             c_ouija = {
@@ -2101,7 +2101,7 @@ return {
                 text = {
                     "Transforme toutes les cartes",
                     "en main en une unique",
-                    "{C:attention}Valeur{} aléatoire,",
+                    "{C:attention}valeur{} aléatoire,",
                     "{C:red}-1{} à la taille de la main"
                 }
             },
@@ -2832,8 +2832,8 @@ return {
             b_erratic = {
                 name = "Jeu Erratique",
                 text = {
-                    "Toutes les {C:attention}Valeurs{}",
-                    "et {C:attention}Couleurs{} du jeu",
+                    "Toutes les {C:attention}valeurs{}",
+                    "et {C:attention}couleurs{} du jeu",
                     "sont aléatoires"
                 }
             },
