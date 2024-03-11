@@ -2748,8 +2748,8 @@ return {
                 name = "Jeu Vert",
                 text = {
                     "À la fin de la manche :",
-                    "{C:money}#1#${s:0.85} par {C:blue}main restante,",
-                    "{C:money}#2#${s:0.85} par {C:red}défausse restante,",
+                    "{C:money}#1#${s:0.85} par {C:blue}main restante{},",
+                    "{C:money}#2#${s:0.85} par {C:red}défausse restante{},",
                     "Pas d'{C:attention}intérêts{} perçus"
                 }
             },
