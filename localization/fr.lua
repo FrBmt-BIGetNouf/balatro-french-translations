@@ -3256,8 +3256,8 @@ return {
                 name = "(Verrouillé)",
                 text = {
                     "Gagner une partie avec au moins",
-                    "#1# jeux différents pour débloquer",
-                    "le Mode Défi",
+                    "#1# Jeux différents pour débloquer",
+                    "le mode Défi",
                     "{C:attention,s:2}#2#/#1#"
                 }
             }
