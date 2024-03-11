@@ -3743,7 +3743,7 @@ return {
             loyalty_active = "Active cette main !",
             loyalty_inactive = "S'activera après #1# main(s)",
             deck_preview_wheel_singular = "Les nombres peuvent être inférieurs en raison de la carte #1# piochée face cachée",
-            deck_preview_wheel_plural = "Les nombres peuvent être inférieurs en raison des cartes #1# piochées faces cachées",
+            deck_preview_wheel_plural = "Les nombres peuvent être inférieurs en raison des cartes #1# piochées face cachée",
             challenges_completed = "#1#/#2# Défis terminés",
             interest = "#1# d'intérêt tous les #2#$ (#3# max.)",
             remaining_hand_money = "Mains restantes (#1#$ chacune)",
