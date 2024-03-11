@@ -3837,7 +3837,7 @@ return {
                 "{C:green}1 carte sur #1#{} est piochée face cachée"
             },
             ch_c_minus_hand_size_per_X_dollar = {
-                "{C:red}-1{} à la taille de la main par tranche de {C:money}#1#${} en votre possession"
+                "{C:red}-1{} à la taille de la main tout les {C:money}#1#${} possédés"
             },
             ch_c_no_shop_jokers = {
                 "Les Jokers n'apparaissent plus dans la {C:attention}boutique"
