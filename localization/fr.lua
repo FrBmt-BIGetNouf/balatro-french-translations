@@ -3644,7 +3644,7 @@ return {
             },
             ml_paste_seed = {
                 "Coller",
-                "La seed"
+                "la seed"
             },
             ml_disabled_seed = {
                 "Tous les déblocages et",
