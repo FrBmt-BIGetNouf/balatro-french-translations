@@ -4018,7 +4018,7 @@ return {
         },
         achievement_names = {
             ante_up = "Ante augmentée !",
-            ante_upper = "Ante encore augmentée !",
+            ante_upper = "Ante (encore) augmentée !",
             heads_up = "Tête-à-tête",
             low_stakes = "Mises faibles",
             mid_stakes = "Mises moyennes",
