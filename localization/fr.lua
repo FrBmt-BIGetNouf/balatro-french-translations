@@ -3493,7 +3493,7 @@ return {
             k_incompatible = "incompatible",
             k_round = "Manche",
             k_ante = "Ante",
-            k_seed = "La seed",
+            k_seed = "Seed",
             k_reroll = "Réassortir",
             k_mult = "Multi",
             k_rank = "Valeur",
