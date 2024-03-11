@@ -4026,7 +4026,7 @@ return {
             card_player = "Joueur de cartes",
             card_discarder = "Défausseur de cartes",
             nest_egg = "Bas de laine",
-            flushed = "Coloré",
+            flushed = "Bigarré",
             speedrunner = "Speedrunner",
             roi = "Investisseur",
             shattered = "En miettes",
