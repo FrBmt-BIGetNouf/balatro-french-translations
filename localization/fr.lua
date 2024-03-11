@@ -3558,7 +3558,7 @@ return {
             k_seeded_run = "Partie avec seed",
             k_enter_seed = "Entrer la seed",
             k_lvl = "niv.",
-            k_skipped_cap = "PASSÉ",
+            k_skipped_cap = "PASSÉE",
             k_no_reward = "Pas de récompense",
             k_reward = "Récompense",
             k_nope_ex = "Nope!",
