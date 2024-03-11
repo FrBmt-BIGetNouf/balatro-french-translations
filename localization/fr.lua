@@ -3599,9 +3599,9 @@ return {
                 "à la newsletter sur playbalatro.com"
             },
             ml_eternal = {
-                "Eternel",
-                "Ne peut être vendu",
-                "ni détruit"
+                "Éternel",
+                "Ne peut pas être",
+                "vendu ou détruit"
             },
             ml_gold_seal_desc = {
                 "Le sceau doré",
