@@ -2750,7 +2750,7 @@ return {
                     "À la fin de la manche :",
                     "{C:money}#1#${s:0.85} par {C:blue}main restante{},",
                     "{C:money}#2#${s:0.85} par {C:red}défausse restante{},",
-                    "Pas d'{C:attention}intérêts{} perçus"
+                    "pas d'{C:attention}intérêts{} perçus"
                 }
             },
             b_black = {
@@ -2825,8 +2825,8 @@ return {
                 text = {
                     "Moyenne {C:chips}Jetons{} et {C:mult}Multi{}",
                     "lors du comptage du",
-                    "score de la main jouée",
-                    "Taille des Blindes {C:attention}x#1#{}"
+                    "score de la main jouée,",
+                    "taille des Blindes {C:attention}x#1#{}"
                 }
             },
             b_erratic = {
