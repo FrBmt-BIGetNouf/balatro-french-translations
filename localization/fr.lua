@@ -2270,8 +2270,8 @@ return {
             m_gold = {
                 name = "Carte Or",
                 text = {
-                    "{C:money}#1#${} si cette",
-                    "carte est en main",
+                    "Octroye {C:money}#1#${} si cette",
+                    "carte est gardée en main",
                     "à la fin de la manche"
                 }
             },
