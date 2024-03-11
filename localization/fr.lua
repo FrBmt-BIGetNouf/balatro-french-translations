@@ -3576,7 +3576,7 @@ return {
             ph_up_ante_3 = "Actualise les Blindes",
             ph_stat_joker = "Nombre total de manches effectuées avec cette carte",
             ph_stat_consumable = "Nombre de fois où cette carte a été utilisée",
-            ph_stat_voucher = "Nombre de fois où ce Coupon a été utilisé",
+            ph_stat_voucher = "Nombre de fois où ce Coupon a été échangé",
             ph_demo_thanks_1 = "Merci d'avoir joué à la",
             ph_demo_thanks_2 = "Démo De BALATRO",
             ph_game_over = "PARTIE TERMINÉE",
