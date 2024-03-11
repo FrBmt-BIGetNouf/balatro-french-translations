@@ -3487,7 +3487,7 @@ return {
             b_options_cap = "OPTIONS",
             b_collection_cap = "COLLECTION",
             b_quit_cap = "QUITTER",
-            b_cash_out = "Encaisser",
+            b_cash_out = "Encaisser ",
             k_unknown = "?????",
             k_compatible = "compatible",
             k_incompatible = "incompatible",
