@@ -3672,7 +3672,7 @@ return {
             k_swapped_ex = "Échangé !",
             k_copied_ex = "Copié !",
             k_melted_ex = "Fondu !",
-            b_copy = "Copie",
+            b_copy = "Copier",
             b_high_contrast_cards = "Cartes à haut contraste",
             b_set_rumble = "Vibrations de la manette",
             b_seals = "Sceaux",
