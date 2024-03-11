@@ -3092,9 +3092,9 @@ return {
             undiscovered_tag = {
                 name = "Non découvert",
                 text = {
-                    "Utiliser ce Badge dans",
-                    "une partie sans seed pour",
-                    "révéler son effet"
+                    "Obtenir ce Badge",
+                    "dans une partie sans seed",
+                    "pour révéler son effet"
                 }
             },
             p_arcana_normal = {
