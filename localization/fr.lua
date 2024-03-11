@@ -3582,7 +3582,7 @@ return {
             ph_game_over = "PARTIE TERMINÉE",
             ph_vouchers_redeemed = "Coupons échangés",
             ph_no_vouchers = "Pas de Coupons échangés cette partie",
-            ph_defeat_this_blind_1 = "Battez cette Blinde",
+            ph_defeat_this_blind_1 = "Battre cette Blinde",
             ph_defeat_this_blind_2 = "pour la découvrir",
             ph_click_confirm = "Cliquez à nouveau pour confirmer",
             ph_choose_blind_1 = "Choisissez votre",
