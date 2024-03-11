@@ -3248,8 +3248,8 @@ return {
             eternal = {
                 name = "Éternel",
                 text = {
-                    "Ne peut être vendu",
-                    "ni détruit"
+                    "Ne peut être",
+                    "vendu ou détruit"
                 }
             },
             challenge_locked = {
