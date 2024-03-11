@@ -3581,7 +3581,7 @@ return {
             ph_demo_thanks_2 = "Démo De BALATRO",
             ph_game_over = "PARTIE TERMINÉE",
             ph_vouchers_redeemed = "Coupons échangés",
-            ph_no_vouchers = "Pas de Coupons utilisés cette partie",
+            ph_no_vouchers = "Pas de Coupons échangés cette partie",
             ph_defeat_this_blind_1 = "Battez cette Blinde",
             ph_defeat_this_blind_2 = "pour la découvrir",
             ph_click_confirm = "Cliquez à nouveau pour confirmer",
