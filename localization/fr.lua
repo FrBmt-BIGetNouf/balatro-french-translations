@@ -497,7 +497,7 @@ return {
                     "si le score marqué",
                     "constitue au moins {C:attention}25%",
                     "du score à atteindre,",
-                    "{S:1.1,C:red,E:2}s'autodétruit{}"
+                    "{S:1.1,E:2}puis {S:1.1,C:red,E:2}s'autodétruit{}"
                 },
                 unlock = {
                     "Perdre {C:attention,E:1}#1#{} parties",
