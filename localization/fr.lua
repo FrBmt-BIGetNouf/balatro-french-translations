@@ -2335,7 +2335,7 @@ return {
                 name = "Mise orange",
                 text = {
                     "Les {C:attention}Paquets{} coûtent",
-                    "{C:money}1${} de plus par Ante",
+                    "{C:money}1${} de plus pour chaque Ante",
                     "{s:0.8}Applique toutes les mises précédentes"
                 }
             },
