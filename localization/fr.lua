@@ -2257,7 +2257,7 @@ return {
                 text = {
                     "{X:mult,C:white} x#1# {} Multi tant",
                     "que cette carte",
-                    "reste en main"
+                    "est gardée en main"
                 }
             },
             m_stone = {
