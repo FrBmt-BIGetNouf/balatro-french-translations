@@ -3538,7 +3538,7 @@ return {
             k_base_cap = "BASE",
             k_jokers_cap = "JOKERS",
             k_vouchers_cap = "COUPONS",
-            k_x_base = "X la base",
+            k_x_base = "x la Base",
             k_not_discovered = "Non découvert",
             k_unlocked_ex = "Débloqué !",
             k_challenge_mode = "Mode Défi",
