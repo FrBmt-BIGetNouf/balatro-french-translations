@@ -18,18 +18,19 @@ More informations about Balatro on [https://www.playbalatro.com/](https://www.pl
 
 | Category             | Status | Comment |
 | -------------------- | ------ | ------- |
-| General              | 🛠️    | Some translations to confirm |
-| User interface       | ✔️    | |
-| Jokers               | 🛠️    | Some names to confirm |
-| Decks                | ✔️    | |
-| Voucher              | ✔️    | |
-| Consummables         | ✔️    | |
-| Boosters             | ✔️    | |
-| Tags                 | ✔️    | |
-| Jimbo's texts        | 🛠️    | 1 Issues in progress |
-| Tutorial             | 🛠️    | 4 Issues in progress |
-| Challenges           | 🛠️    | 3 Issues in progress |
-| Sprites              | ✔️    | |
+| General              | 🛠️ | Some translations to confirm |
+| User interface       | ✔️ | |
+| Jokers               | 🛠️ | 1 name to confirm |
+| Decks                | ✔️ | |
+| Voucher              | ✔️ | |
+| Consummables         | ✔️ | |
+| Boosters             | ✔️ | |
+| Tags                 | ✔️ | |
+| Jimbo's texts        | ✔️ | |
+| Tutorial             | 🛠️ | In-game testing required |
+| Challenges           | ✔️ | |
+| Sprites              | ✔️ | |
+| Mods & Installers    | 🛠️ | |
 
 ## (FR) Comment installer le fichier de traduction ?
 
