@@ -693,7 +693,7 @@ return {
                 }
             },
             j_blueprint = {
-                name = "Modèle",
+                name = "Cyanotype",
                 text = {
                     "Copie les capacités du",
                     "{C:attention}Joker{} à sa droite"
@@ -3666,8 +3666,8 @@ return {
             k_again_ex = "Encore !",
             k_val_up = "Valeur supérieure !",
             k_reset = "Réinitialisé",
-            k_extinct_ex = "Détruit !",
-            k_safe_ex = "Sûr !",
+            k_extinct_ex = "Disparu !",
+            k_safe_ex = "Sauf !",
             k_saved_ex = "Sauvé !",
             k_swapped_ex = "Échangé !",
             k_copied_ex = "Copié !",
