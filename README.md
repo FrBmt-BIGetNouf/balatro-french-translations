@@ -16,39 +16,39 @@ More informations about Balatro on [https://www.playbalatro.com/](https://www.pl
 
 ## Current state of translations
 
+✔️ v1.0.0 Ready
+
+## Current state of installers
+
 | Category             | Status | Comment |
 | -------------------- | ------ | ------- |
-| General              | 🛠️ | Some translations to confirm |
-| User interface       | ✔️ | |
-| Jokers               | 🛠️ | 1 name to confirm |
-| Decks                | ✔️ | |
-| Voucher              | ✔️ | |
-| Consummables         | ✔️ | |
-| Boosters             | ✔️ | |
-| Tags                 | ✔️ | |
-| Jimbo's texts        | ✔️ | |
-| Tutorial             | 🛠️ | In-game testing required |
-| Challenges           | ✔️ | |
-| Sprites              | ✔️ | |
-| Mods & Installers    | 🛠️ | |
+| Steamodded           | ✔️ | Ready for release |
+| Balamod              | 🛠️ | Work in progress |
+| One click cmd        | 🛠️ | Ready for release  |
+| Classical tutorial   | 🛠️ | Rewriting in progress |
 
-## (FR) Comment installer le fichier de traduction ?
 
-> [!IMPORTANT]
-> Quelle que soit la méthode utilisée, la mise à jour du fichier doit se faire à chaque nouvelle mise à jour du jeu.
+
+## Comment installer le fichier de traduction ?
 
 ### La méthode rapide
 
-> [!TIP]
-> [Balatro Localization Installer](https://github.com/Furtys/Balatro_Localization_Installer?tab=readme-ov-file#fr-comment-utiliser-le-script-) permet de télécharger et installer les traductions en un click.
+[Balatro Localization Installer](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/blob/main/Better_FR_Windows.cmd) permet de télécharger et installer les traductions en un click.
 
-*[Balatro Localization Installer](https://github.com/Furtys/Balatro_Localization_Installer?tab=readme-ov-file#fr-comment-utiliser-le-script-) Par Furtys.
-[Balamod](https://github.com/UwUDev/balamod) par UwUDev.*
+> [!IMPORTANT]
+> La mise à jour des fichiers doivent se faire à chaque nouvelle mise à jour du jeu.
 
-### La méthode moddée
+### La méthode moddée (Balamod)
+[Balamod](https://github.com/UwUDev/balamod) par UwUDev.
+
+
+### La méthode moddée (Steamodded)
 
 1. Moddez votre jeu avec Steammoded [(Procédure d'installation de Steammoded)](https://github.com/Steamopollys/Steamodded?tab=readme-ov-file#installation)
 2. Déposez le dossier `localization` (en entier) dans le dossier des mods [(Procédure d'installation des mods)](https://github.com/Steamopollys/Steamodded?tab=readme-ov-file#how-to-install-a-mod)
+
+> [!IMPORTANT]
+> La mise à jour des fichiers doivent se faire à chaque nouvelle mise à jour du jeu.
 
 ### La méthode classique
 
@@ -65,38 +65,10 @@ More informations about Balatro on [https://www.playbalatro.com/](https://www.pl
 8. Confirmer la copie du fichier et fermez 7zip
 9. Vous pouvez maitenant relancer Balatro, sélectionner la langue Française et profiter !
 
-## (EN) How to install the new file?
-
 > [!IMPORTANT]
-> Whatever method is used, the file must be updated with each new game update.
+> La mise à jour des fichiers doivent se faire à chaque nouvelle mise à jour du jeu.
 
-### The quick method
 
-> [!TIP]
-> [Balatro Localization Installer](https://github.com/Furtys/Balatro_Localization_Installer?tab=readme-ov-file#fr-comment-utiliser-le-script-) allows you to download and install translations in one click.
-
-*[Balatro Localization Installer](https://github.com/Furtys/Balatro_Localization_Installer?tab=readme-ov-file#fr-comment-utiliser-le-script-) Par Furtys.
-[Balamod](https://github.com/UwUDev/balamod) par UwUDev.*
-
-### The modded method
-
-1. Install Steamodded for your game [(Installation)](https://github.com/Steamopollys/Steamodded?tab=readme-ov-file#installation)
-2. Place the `localization` folder (entirely) into mods folder [(How to install a mod ?)](https://github.com/Steamopollys/Steamodded?tab=readme-ov-file#how-to-install-a-mod)
-
-### The classic method
-
-> [!CAUTION]
-> [7zip](https://7-zip.org/) must be installed on your computer.
-
-1. **Close Balatro**
-2. Download the [fr.lua file](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/blob/main/localization/fr.lua) (`Ctrl`+`Shift`+`S`)
-3. Go to the Balatro folder (Eg: `SteamLibrary\steamapps\common\Balatro\`)
-4. Right click on `Balatro.exe`
-5. In the `7-Zip` menu, click on `Open archive` (Or `Ouvrir archive`, the first entry)
-6. Inside 7zip, open the `localization` folder
-7. Drag'n'drop the downloaded file inside
-8. Confirm the file copying and close 7zip
-9. You can now launch Balatro, select the French language and enjoy!
 
 ## License
 
