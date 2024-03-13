@@ -5,6 +5,16 @@
 :: Toutes les sources à jour sont disponibles ici : https://github.com/FrBmt-BIGetNouf/balatro-french-translations/
 ::
 :: Ce script utilise Balamod pour injecter les ressources au jeu (https://github.com/UwUDev/balamod)
+::
+::
+::
+::    🔴 PERDU(E) ? NE PANIQUEZ PAS
+::       --------------------------
+::    👉 Revenez en arrière et CLIQUEZ-DROIT sur le lien qui vous a mené ici, puis "Enregistrer le lien sous...".
+::       Double-cliquez ensuite sur le fichier téléchargé pour lancer l'installation.
+::
+::
+::
 
 @echo off
 setlocal enabledelayedexpansion
@@ -43,7 +53,7 @@ if not exist "!steamLibraryFile!" (
     set "fileFilter=Balatro Executable (balatro.exe) | balatro.exe"
 
     for /f "delims=" %%I in ('powershell -Command "& { Add-Type -AssemblyName System.Windows.Forms; $dlg = New-Object System.Windows.Forms.OpenFileDialog; $dlg.Filter = '!fileFilter!'; $dlg.Title = '!dialogTitle!'; $dlg.ShowHelp = $true; $dlg.ShowDialog() | Out-Null; $dlg.FileName }"') do set "selectedFile=%%I"
-    
+
     if defined selectedFile (
         set "balatroFile=!selectedFile!"
         echo Balatro.exe : !balatroFile!
