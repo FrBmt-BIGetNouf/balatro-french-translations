@@ -1,7 +1,7 @@
 local mod_id = "balatro_fr_loc_mod"
 local mod_name = "Balatro FR Loc MOD"
 local mod_version = "v1.0.0"
-local mod_authors = "Arkana Ravneik, SweZ, Behel, Pipomantis, Signez, Wok, Furtys, Bleh!"
+local mod_authors = "Balatro FR Loc MOD's Team"
 
 if not loadImageDataFromPath then
     -- pour pas ecraser les updates du mod pour patcher les images
@@ -39,7 +39,10 @@ table.insert(mods,
             description = {
                 "Traduction Française revue et corrigée :",
                 "- Mise à jour des textes",
-                "- Mise à jour des images"
+                "- Mise à jour des images",
+                "",
+                "Par : Arkana Ravneik, SweZ, Behel, Pipomantis, Signez, Wok, Furtys, Bleh!",
+                "Un grand merci à UwU pour la réalisation de ce mod."
             },
             on_enable = function()
                 -- Customize translations

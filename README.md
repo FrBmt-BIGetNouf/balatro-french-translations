@@ -21,12 +21,12 @@ Si vous n’êtes pas sous Windows ou que vous voulez le faire manuellement, vou
 
 ### Installers
 
-| Category                                | Status | Comment            |
-| --------------------------------------- | ------ | ------------------ |
-| [Easy, 1-click script](QUICKSTART.md)   | ✔️      | Ready for release  |
-| [Steamodded](INSTALL.md#via-un-mod)     | ✔️      | Ready for release  |
-| Balamod                                 | 🛠️     | Work in progress   |
-| [Manual](INSTALL.md#à-la-main)          | ✔️      | Tutorial available |
+| Category                                     | Status | Comment            |
+| -------------------------------------------- | ------ | ------------------ |
+| [Easy, 1-click script](QUICKSTART.md)        | ✔️     | Ready for release  |
+| [Steamodded](INSTALL.md#via-un-mod)          | ✔️     | Ready for release  |
+| [Balamod](https://github.com/UwUDev/balamod) | ✔️     | Ready for release (Thanks UwU o/)   |
+| [Manual](INSTALL.md#à-la-main)               | ✔️     | Tutorial available |
 
 ## Contributing
 
