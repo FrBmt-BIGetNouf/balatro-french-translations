@@ -1032,8 +1032,8 @@ return {
             j_bootstraps = {
                 name = "Débrouillardise",
                 text = {
-                    "{C:mult}+#1#{} Multi par",
-                    "tous les {C:money}#2#${} possédés"
+                    "{C:mult}+#1#{} Multi tous",
+                    "les {C:money}#2#${} possédés"
                 },
                 unlock = {
                     "Avoir au moins {E:1,C:attention}#1#",
