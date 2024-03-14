@@ -9,9 +9,11 @@ A humble community-made version of the French localization of Balatro.
 
 ## Comment installer le mod ?
 
-Si vous êtes sous Windows, 👉 [vous pouvez **installer la traduction** en une minute chrono en utilisant notre script](QUICKSTART.md).
+### [Téléchargez le mod qui vous convient](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/releases/latest)
 
-Si vous n’êtes pas sous Windows ou que vous voulez le faire manuellement, vous pouvez consulter nos autres méthodes d’installation [dans le fichier INSTALL.md](INSTALL.md).
+- Si vous êtes sous Windows, [vous pouvez **installer la traduction** en une minute chrono en utilisant notre script](QUICKSTART.md).
+
+- Si vous n’êtes pas sous Windows ou que vous voulez le faire manuellement, vous pouvez consulter nos autres méthodes d’installation [dans le fichier INSTALL.md](INSTALL.md).
 
 ## Current state
 

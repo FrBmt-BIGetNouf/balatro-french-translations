@@ -17,8 +17,8 @@ Ne cherchez plus 👉 [**cliquez ici pour installer la traduction FR de Balatro 
 ### Avec Steamodded (marche aussi sur SteamDeck, Linux, et macOS)
 
 1. Moddez votre jeu avec **Steammoded** en suivant la [procédure d'installation de Steammoded (en anglais)](https://github.com/Steamopollys/Steamodded?tab=readme-ov-file#installation).
-2. Téléchargez [le contenu de ce dépôt comme archive zip](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/archive/refs/heads/main.zip).
-3. Extrayez le dossier `localization` (en entier) de cette archive dans le dossier des mods comme indiqué dans la [procédure d’installation des mods (en anglais)](https://github.com/Steamopollys/Steamodded?tab=readme-ov-file#how-to-install-a-mod). <br/> Vous ne devez pas en extraire que le contenu, mais aussi le dossier lui-même : une fois terminé, vous devriez donc avoir un dossier `localization` dans le dossier `mods`.
+2. Téléchargez l'archive [Better_FR_Steamodded.zip](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/releases/latest/download/Better_FR_Steamodded.zip)
+3. Extrayez le dossier `Better_FR_Steamodded` (en entier) de cette archive dans le dossier des mods comme indiqué dans la [procédure d’installation des mods (en anglais)](https://github.com/Steamopollys/Steamodded?tab=readme-ov-file#how-to-install-a-mod). <br/> Vous ne devez pas en extraire que le contenu, mais aussi le dossier lui-même : une fois terminé, vous devriez donc avoir un dossier `Better_FR_Steamodded` dans le dossier `mods`.
 4. **Lancez le jeu** et si ça n’est pas déjà fait, sélectionnez la langue française avec le bouton en bas à droite. Balatro est traduit en Français 🥳
 
 > [!IMPORTANT]
@@ -30,7 +30,7 @@ Ne cherchez plus 👉 [**cliquez ici pour installer la traduction FR de Balatro 
 
 1. Installez [7zip](https://7-zip.org/), vous en aurez besoin. Non, WinRAR ne suffit pas.
 2. **Fermez Balatro.**
-3. Téléchargez [le contenu de ce dépôt comme archive zip](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/archive/refs/heads/main.zip).
+3. Téléchargez l'archive [Better_FR_Manual_Install.zip](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/releases/latest/download/Better_FR_Manual_Install.zip)
 4. Allez dans le répertoire de Balatro (Ex: `SteamLibrary\steamapps\common\Balatro\`). <br/> Si vous ne savez pas où se trouve Balatro, vous pouvez cliquer-droit sur Balatro dans votre bibliothèque Steam, puis cliquer sur *Gérer* puis *Parcourir les fichiers locaux*.
 5. Faites un clic-droit sur `Balatro.exe`, puis dans le menu *7-Zip*, cliquez sur *Ouvrir archive* (ou *Open archive*).
 6. Dans 7zip, ouvrez le dossier `localization`.

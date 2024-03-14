@@ -10,10 +10,10 @@ Avant tout, vérifiez juste que :
 
 ## Installation
 
-- Cliquez-droit sur ce lien : [**Better_FR_Windows.cmd**](https://raw.githubusercontent.com/FrBmt-BIGetNouf/balatro-french-translations/main/Better_FR_Windows.cmd) et **enregistrez-le sur votre bureau** (`Enregistrer le lien sous…`).
+- Téléchargez le fichier [Better_FR_Windows.cmd](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/releases/latest/download/Better_FR_Windows.cmd)
 - **Double-cliquez** sur le script `Better_FR_Windows.cmd` que vous venez de télécharger. <br />
   Il est possible que Windows Defender bloque l’exécution du script. Cliquez sur *Informations complémentaires* puis *Exécuter quand même*.
-- Répondez *Oui* pour confirmer (ou non) que vous voulez bien traduire les images du jeu.
+- Répondez *O* pour confirmer (ou *N*) que vous voulez bien traduire les images du jeu.
 - **Lancez le jeu Balatro depuis Steam** et si ça n’est pas déjà fait, sélectionnez la langue française avec le bouton en bas à droite. Balatro est traduit en Français 🥳
 
 Si vous avez choisi de traduire les images, vous pouvez confirmer que les images traduites sont bien installées en vérifiant qu’il y a bien une baguette 🥖 sur le bouton de traduction.
