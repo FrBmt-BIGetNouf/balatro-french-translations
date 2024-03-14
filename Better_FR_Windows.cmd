@@ -7,11 +7,11 @@
 :: Ce script utilise Balamod pour injecter les ressources au jeu (https://github.com/UwUDev/balamod)
 ::
 ::
-::
-::    🔴 PERDU(E) ? NE PANIQUEZ PAS
-::       --------------------------
-::    👉 Revenez en arrière et CLIQUEZ-DROIT sur le lien qui vous a mené ici, puis "Enregistrer le lien sous...".
-::       Double-cliquez ensuite sur le fichier téléchargé pour lancer l'installation.
+::    ==================================
+::    ==  PERDU(E) ? NE PANIQUEZ PAS  ==
+::    ==================================
+::    Revenez en arrière et CLIQUEZ-DROIT sur le lien qui vous a mené ici, puis "Enregistrer le lien sous...".
+::    Double-cliquez ensuite sur le fichier téléchargé pour lancer l'installation.
 ::
 ::
 ::
