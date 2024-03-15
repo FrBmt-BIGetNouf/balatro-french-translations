@@ -97,7 +97,7 @@ if not exist "%resourcesFolder%\%balamodFile%" (
     echo.
     echo Telechargement de Balamod...
     echo.
-    curl -L -o "%resourcesFolder%\%balamodFile%" %balamodFileUrl%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%\%balamodFile%" %balamodFileUrl%
     echo.
     echo Telechargement de Balamod termine
     echo.
@@ -107,23 +107,23 @@ if not exist "%resourcesFolder%\%balamodFile%" (
 echo.
 echo Telechargement du mod FR...
 echo.
-curl -L -o "%resourcesFolder%\fr.lua" %fr_translation%
+curl --ssl-no-revoke -L -o "%resourcesFolder%\fr.lua" %fr_translation%
 
 if "%download_assets%"=="true" (
-    curl -L -o "%resourcesFolder%\assets\1x\boosters.png" %fr_assetsBoosters1x%
-    curl -L -o "%resourcesFolder%\assets\2x\boosters.png" %fr_assetsBoosters2x%
-    curl -L -o "%resourcesFolder%\assets\1x\Tarots.png" %fr_assetsTarots1x%
-    curl -L -o "%resourcesFolder%\assets\2x\Tarots.png" %fr_assetsTarots2x%
-    curl -L -o "%resourcesFolder%\assets\1x\Vouchers.png" %fr_assetsVouchers1x%
-    curl -L -o "%resourcesFolder%\assets\2x\Vouchers.png" %fr_assetsVouchers2x%
-    curl -L -o "%resourcesFolder%\assets\1x\icons.png" %fr_assetsIcons1x%
-    curl -L -o "%resourcesFolder%\assets\2x\icons.png" %fr_assetsIcons2x%
-    curl -L -o "%resourcesFolder%\assets\1x\BlindChips.png" %fr_assetsBlindChips1x%
-    curl -L -o "%resourcesFolder%\assets\2x\BlindChips.png" %fr_assetsBlindChips2x%
-    curl -L -o "%resourcesFolder%\assets\1x\Jokers.png" %fr_assetsJokers1x%
-    curl -L -o "%resourcesFolder%\assets\2x\Jokers.png" %fr_assetsJokers2x%
-    curl -L -o "%resourcesFolder%\assets\1x\ShopSignAnimation.png" %fr_assetsShopSignAnimation1x%
-    curl -L -o "%resourcesFolder%\assets\2x\ShopSignAnimation.png" %fr_assetsShopSignAnimation2x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\1x\boosters.png" %fr_assetsBoosters1x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\2x\boosters.png" %fr_assetsBoosters2x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\1x\Tarots.png" %fr_assetsTarots1x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\2x\Tarots.png" %fr_assetsTarots2x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\1x\Vouchers.png" %fr_assetsVouchers1x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\2x\Vouchers.png" %fr_assetsVouchers2x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\1x\icons.png" %fr_assetsIcons1x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\2x\icons.png" %fr_assetsIcons2x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\1x\BlindChips.png" %fr_assetsBlindChips1x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\2x\BlindChips.png" %fr_assetsBlindChips2x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\1x\Jokers.png" %fr_assetsJokers1x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\2x\Jokers.png" %fr_assetsJokers2x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\1x\ShopSignAnimation.png" %fr_assetsShopSignAnimation1x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\2x\ShopSignAnimation.png" %fr_assetsShopSignAnimation2x%
 )
 
 echo.
