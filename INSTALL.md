@@ -6,6 +6,10 @@ Il y a de nombreuses méthodes différentes pour installer la traduction frança
 
 Ne cherchez plus 👉 [**cliquez ici pour installer la traduction FR de Balatro sous Windows**](QUICKSTART.md).
 
+## Je n’y connais rien (et je suis sur SteamDeck/sous Linux)
+
+Ne cherchez plus 👉 [**cliquez ici pour installer la traduction FR de Balatro sur SteamDeck/Linux**](QUICKSTART_STEAMDECK.md).
+
 ## Via un mod
 
 ### Avec Balamod (marche aussi sur SteamDeck, Linux, et MacOS)
