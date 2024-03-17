@@ -10,6 +10,10 @@ Ne cherchez plus 👉 [**cliquez ici pour installer la traduction FR de Balatro 
 
 Ne cherchez plus 👉 [**cliquez ici pour installer la traduction FR de Balatro sur SteamDeck/Linux**](QUICKSTART_STEAMDECK.md).
 
+## Je n’y connais rien (et je suis sur Mac)
+
+Ne cherchez plus 👉 [**cliquez ici pour installer la traduction FR de Balatro sur Mac**](QUICKSTART_MAC.md).
+
 ## Via un mod
 
 ### Avec Balamod (marche aussi sur SteamDeck, Linux, et MacOS)
