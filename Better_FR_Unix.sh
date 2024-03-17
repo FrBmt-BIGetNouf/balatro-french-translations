@@ -2,7 +2,7 @@
 
 # Balatro French Translations
 #
-# Script d'installation du pack de langue FR pour Balatro (version SteamDeck/Linux)
+# Script d'installation du pack de langue FR pour Balatro (version SteamDeck/Linux/Mac)
 # Fichier de langue et assets créés par la communauté Discord (Balatro FR - loc mod) : https://discord.gg/kQMdHTXB3Z
 # Toutes les sources à jour sont disponibles ici : https://github.com/FrBmt-BIGetNouf/balatro-french-translations/
 #
@@ -17,6 +17,11 @@
 
 color_reset=$'\033[0m'
 ressources_folder=$'Balatro_Localization_Resources'
+plateforme=linux
+
+if [[ $OSTYPE == 'darwin'* ]]; then
+  plateforme=mac
+fi
 
 # Initialisation
 init() {
@@ -50,20 +55,23 @@ download_balamod() {
     # On obtient les données de la dernière release via l'API Github.
     json_latest_release=$(curl -s "https://api.github.com/repos/UwUDev/balamod/releases/latest")
 
-    # Recherche du nom de la dernière release.
-    latest_release=$( echo $json_latest_release | grep -oP 'tag/\K[^"]+')
-
-    # Recherche du nom du fichier linux dans la dernière release (valable tant que UwUDev laisse linux dans le nom du fichier).
-    balamod_linux_file=$( echo $json_latest_release | jq -r '.assets[] | select(.name | contains("linux")).name')
+    # Recherche du nom du fichier linux ou mac dans la dernière release (valable tant que UwUDev laisse la plateforme dans le nom du fichier).
+    balamod_file=$( echo $json_latest_release | perl -nle"print $& while m{\"name\": \"\K[^\"]+-$plateforme}g")
+    echo ${balamod_file}
 
     # URL de téléchargement du fichier.
-    linux_file_url="https://github.com/UwUDev/balamod/releases/download/${latest_release}/${balamod_linux_file}"
-
+    file_url=$( echo $json_latest_release | perl -nle"print $& while m{\"browser_download_url\": \"\K[^\"]+-$plateforme}g")
+    echo ${file_url}
     # Téléchargement si Balamod n'existe pas
-    if [ ! -e "${ressources_folder}/${balamod_linux_file}" ]; then
-        curl --create-dirs -o "${ressources_folder}/${balamod_linux_file}" -LJ "${linux_file_url}"
-        chmod +x "${ressources_folder}/${balamod_linux_file}"
-        echo ""
+    if [ ! -e "${ressources_folder}/${balamod_file}" ]; then
+        curl --create-dirs -o "${ressources_folder}/${balamod_file}" -LJ "${file_url}"
+        chmod +x "${ressources_folder}/${balamod_file}"
+        
+        # Désactive les vérifications de logiciel malveillant de macOS pour Balamod
+        if [ "${plateforme}" = "mac" ]; then
+            xattr -c "${ressources_folder}/${balamod_file}"
+        fi
+
         echo "Téléchargement de Balamod terminé."
         echo ""
     fi
@@ -122,23 +130,23 @@ mod_injection() {
     echo "Installation du pack de langue..."
     echo ""
 
-    ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/fr.lua -o localization/fr.lua
+    ./$ressources_folder/$balamod_file -x -i $ressources_folder/fr.lua -o localization/fr.lua
 
     if [[ "$download_assets" =~ ^[Oo]$ ]]; then
-        ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/1x/boosters.png -o resources/textures/1x/boosters.png
-        ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/2x/boosters.png -o resources/textures/2x/boosters.png
-        ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/1x/Tarots.png -o resources/textures/1x/Tarots.png
-        ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/2x/Tarots.png -o resources/textures/2x/Tarots.png
-        ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/1x/Vouchers.png -o resources/textures/1x/Vouchers.png
-        ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/2x/Vouchers.png -o resources/textures/2x/Vouchers.png
-        ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/1x/icons.png -o resources/textures/1x/icons.png
-        ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/2x/icons.png -o resources/textures/2x/icons.png
-        ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/1x/BlindChips.png -o resources/textures/1x/BlindChips.png
-        ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/2x/BlindChips.png -o resources/textures/2x/BlindChips.png
-        ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/1x/Jokers.png -o resources/textures/1x/Jokers.png
-        ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/2x/Jokers.png -o resources/textures/2x/Jokers.png
-        ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/1x/ShopSignAnimation.png -o resources/textures/1x/ShopSignAnimation.png
-        ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/2x/ShopSignAnimation.png -o resources/textures/2x/ShopSignAnimation.png
+        ./$ressources_folder/$balamod_file -x -i $ressources_folder/assets/1x/boosters.png -o resources/textures/1x/boosters.png
+        ./$ressources_folder/$balamod_file -x -i $ressources_folder/assets/2x/boosters.png -o resources/textures/2x/boosters.png
+        ./$ressources_folder/$balamod_file -x -i $ressources_folder/assets/1x/Tarots.png -o resources/textures/1x/Tarots.png
+        ./$ressources_folder/$balamod_file -x -i $ressources_folder/assets/2x/Tarots.png -o resources/textures/2x/Tarots.png
+        ./$ressources_folder/$balamod_file -x -i $ressources_folder/assets/1x/Vouchers.png -o resources/textures/1x/Vouchers.png
+        ./$ressources_folder/$balamod_file -x -i $ressources_folder/assets/2x/Vouchers.png -o resources/textures/2x/Vouchers.png
+        ./$ressources_folder/$balamod_file -x -i $ressources_folder/assets/1x/icons.png -o resources/textures/1x/icons.png
+        ./$ressources_folder/$balamod_file -x -i $ressources_folder/assets/2x/icons.png -o resources/textures/2x/icons.png
+        ./$ressources_folder/$balamod_file -x -i $ressources_folder/assets/1x/BlindChips.png -o resources/textures/1x/BlindChips.png
+        ./$ressources_folder/$balamod_file -x -i $ressources_folder/assets/2x/BlindChips.png -o resources/textures/2x/BlindChips.png
+        ./$ressources_folder/$balamod_file -x -i $ressources_folder/assets/1x/Jokers.png -o resources/textures/1x/Jokers.png
+        ./$ressources_folder/$balamod_file -x -i $ressources_folder/assets/2x/Jokers.png -o resources/textures/2x/Jokers.png
+        ./$ressources_folder/$balamod_file -x -i $ressources_folder/assets/1x/ShopSignAnimation.png -o resources/textures/1x/ShopSignAnimation.png
+        ./$ressources_folder/$balamod_file -x -i $ressources_folder/assets/2x/ShopSignAnimation.png -o resources/textures/2x/ShopSignAnimation.png
     fi
 
     echo "${color_reset}"

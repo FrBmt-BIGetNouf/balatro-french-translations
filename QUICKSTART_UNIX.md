@@ -4,7 +4,7 @@
 
 Avant tout, vérifiez juste que :
 
-- Vous êtes **sur SteamDeck/Linux**. (sinon, [utilisez une autre méthode](INSTALL.md))
+- Vous êtes **sur SteamDeck/Linux/Mac**. (sinon, [utilisez une autre méthode](INSTALL.md))
 - Vous avez installé Balatro **avec Steam**.
 - Votre jeu Balatro est **à jour**.
 
@@ -12,8 +12,9 @@ Avant tout, vérifiez juste que :
 
 - **Fermez Balatro**
 - Passez en mode bureau.
-- Téléchargez le fichier [Better_FR_Linux.sh](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/releases/latest/download/Better_FR_Linux.sh)
-- **Cliquez-droit** sur le script `Better_FR_Linux.sh` que vous venez de télécharger et choisir `Run In Konsole`.
+- Téléchargez le fichier [Better_FR_Linux.sh](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/releases/latest/download/Better_FR_Unix.sh)
+- Pour utilisateurs **sur SteamDeck/Linux**, **cliquez-droit** sur le script `Better_FR_Unix.sh` que vous venez de télécharger et choisir `Run In Konsole`.
+- Pour utilisateurs **sur Mac**, **cliquez-droit** sur le script `Better_FR_Unix.sh` que vous venez de télécharger et choisir `Ouvrir avec` puis `Terminal`. Si `Terminal` n'apparait pas dans la liste, choisissez `Autre` puis recherchez l’application `Terminal`
 - Répondez *O* pour confirmer (ou *N*) que vous voulez bien traduire les images du jeu.
 - **Lancez le jeu Balatro depuis Steam** et si ça n’est pas déjà fait, sélectionnez la langue française avec le bouton en bas à droite. Balatro est traduit en Français 🥳
 
