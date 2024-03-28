@@ -1215,8 +1215,8 @@ return {
             j_luchador = {
                 name = "Luchador",
                 text = {
-                    "Vendre cette carte désactive",
-                    "la {C:attention}Blinde de Boss{} actuelle"
+                    "Vendre cette carte durant",
+                    "la {C:attention}Blinde de Boss{} la désactive"
                 }
             },
             j_photograph = {
@@ -3581,7 +3581,7 @@ return {
             ph_demo_thanks_2 = "Démo De BALATRO",
             ph_game_over = "PARTIE TERMINÉE",
             ph_vouchers_redeemed = "Coupons échangés",
-            ph_no_vouchers = "Pas de Coupons échangés cette partie",
+            ph_no_vouchers = "Aucun Coupon échangé pendant cette partie",
             ph_defeat_this_blind_1 = "Battre cette Blinde",
             ph_defeat_this_blind_2 = "pour la découvrir",
             ph_click_confirm = "Cliquez à nouveau pour confirmer",
