@@ -3568,7 +3568,7 @@ return {
             ph_improve_run = "Améliorez votre partie !",
             ph_sneak_peek = "Coup d'œil furtif",
             ph_deck_preview_stones = "Pierres",
-            ph_deck_preview_effective = "Total effectif grâce aux Jokers, Blindes et Améliorations de cartes",
+            ph_deck_preview_effective = "Total effectif dû aux Jokers, Blindes et Améliorations de cartes",
             ph_blind_score_at_least = "Score à atteindre",
             ph_blind_reward = "Récompense : ",
             ph_up_ante_1 = "Ante suivante :",
