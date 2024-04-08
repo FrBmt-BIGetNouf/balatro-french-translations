@@ -1071,7 +1071,7 @@ return {
                     "Augmente de {X:mult,C:white}x#1#{} Multi",
                     "toutes les {C:attention}#2#{} cartes",
                     "défaussées {C:inactive}(encore #3#){}",
-                    "{C:inactive}(Actuellement {C:attention}#4#{C:inactive} Multi)"
+                    "{C:inactive}(Actuellement {X:mult,C:white}x#4#{C:inactive} Multi)"
                 },
                 unlock = {
                     "{E:1,s:1.3}?????"
