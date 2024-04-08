@@ -78,8 +78,8 @@ return {
             j_stone = {
                 name = "Joker de pierre",
                 text = {
-                    "{C:chips}+#1#{} Jetons par carte {C:attention}Pierre",
-                    "dans le Jeu complet",
+                    "{C:chips}+#1#{} Jetons par carte {C:attention}Pierre{}",
+                    "dans le {C:attention}Jeu complet{}",
                     "{C:inactive}(Actuellement {C:chips}+#2#{C:inactive} Jetons)"
                 }
             },
@@ -244,7 +244,7 @@ return {
                 text = {
                     "Augmente de {X:mult,C:white}x#1#{} Multi",
                     "par carte {C:attention}Acier",
-                    "dans le Jeu complet",
+                    "dans le {C:attention}Jeu complet{}",
                     "{C:inactive}(Actuellement {X:mult,C:white} x#2# {C:inactive} Multi)"
                 }
             },
@@ -718,7 +718,7 @@ return {
             j_merry_andy = {
                 name = "Andy le joyeux",
                 text = {
-                    "{C:red}+#1#{} défausses,",
+                    "{C:red}+#1#{} défausses par manche,",
                     "{C:red}#2#{} à la taille de la main"
                 },
                 unlock = {
@@ -984,7 +984,7 @@ return {
             j_drivers_license = {
                 name = "Permis de conduire",
                 text = {
-                    "{X:mult,C:white}x#1#{} Multi si le Jeu complet",
+                    "{X:mult,C:white}x#1#{} Multi si le {C:attention}Jeu complet{}",
                     "contient au moins",
                     "{C:attention}16{} cartes Améliorées",
                     "{C:inactive}(Actuellement {C:attention}#2#{C:inactive})"
@@ -1184,7 +1184,7 @@ return {
                 name = "Neuvième ciel",
                 text = {
                     "Octroie {C:money}#1#${} par carte {C:attention}9{}",
-                    "dans le {C:attention}Jeu complet",
+                    "dans le {C:attention}Jeu complet{}",
                     "à la fin de la manche",
                     "{C:inactive}(Actuellement {C:money}#2#${}{C:inactive})"
                 }
@@ -1250,7 +1250,7 @@ return {
                 text = {
                     "{C:mult}+#1#{} Multi par",
                     "carte en dessous de {C:attention}#3#{}",
-                    "dans le Jeu complet",
+                    "dans le {C:attention}Jeu complet{}",
                     "{C:inactive}(Actuellement {C:mult}+#2#{C:inactive} Multi)"
                 }
             },
