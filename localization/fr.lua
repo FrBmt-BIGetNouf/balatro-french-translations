@@ -245,7 +245,7 @@ return {
                     "Augmente de {X:mult,C:white}x#1#{} Multi",
                     "par carte {C:attention}Acier",
                     "dans le {C:attention}Jeu complet{}",
-                    "{C:inactive}(Actuellement {X:mult,C:white} x#2# {C:inactive} Multi)"
+                    "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
                 }
             },
             j_scary_face = {
@@ -432,7 +432,7 @@ return {
             j_constellation = {
                 name = "Constellation",
                 text = {
-                    "Augmente de {X:mult,C:white} x#1# {} Multi",
+                    "Augmente de {X:mult,C:white}x#1#{} Multi",
                     "par carte de {C:planet}Planète{} utilisée",
                     "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
                 }
@@ -660,7 +660,7 @@ return {
             j_glass = {
                 name = "Joker de verre",
                 text = {
-                    "Augmente de {X:mult,C:white} x#1# {} Multi",
+                    "Augmente de {X:mult,C:white}x#1#{} Multi",
                     "par carte {C:attention}Verre détruite{}",
                     "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
                 },
@@ -1145,7 +1145,7 @@ return {
                     "Augmente de {X:mult,C:white}x#1#{} Multi",
                     "par carte {C:attention}Améliorée{} jouée et comptée,",
                     "supprime l'{C:attention}Amélioration{} de la carte",
-                    "{C:inactive}(Actuellement {X:mult,C:white} x#2# {C:inactive} Multi)"
+                    "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
                 }
             },
             j_shortcut = {
@@ -1200,11 +1200,11 @@ return {
             j_obelisk = {
                 name = "Obélisque",
                 text = {
-                    "Augmente de {X:mult,C:white} x#1# {} Multi",
+                    "Augmente de {X:mult,C:white}x#1#{} Multi",
                     "par main consécutive",
                     "jouée sans jouer la",
                     "{C:attention}main de poker{} la plus jouée",
-                    "{C:inactive}(Actuellement {X:mult,C:white} x#2# {C:inactive} Multi)"
+                    "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
                 }
             },
             j_midas_mask = {
@@ -1294,7 +1294,7 @@ return {
                     "Augmente de {X:mult,C:white}x#1#{} Multi chaque",
                     "fois qu'une carte {C:attention}Chance{}",
                     "est déclenchée {C:green}avec succès{}",
-                    "{C:inactive}(Actuellement {X:mult,C:white} x#2# {C:inactive} Multi)"
+                    "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
                 }
             },
             j_baseball = {
@@ -1408,7 +1408,7 @@ return {
                     "par carte {C:attention}vendue{},",
                     "est réinitialisé lorsque la",
                     "{C:attention}Blinde de Boss{} est battue",
-                    "{C:inactive}(Actuellement {X:mult,C:white} x#2# {C:inactive} Multi)"
+                    "{C:inactive}(Actuellement {X:mult,C:white}x#2#{C:inactive} Multi)"
                 }
             }
         },
@@ -2213,7 +2213,7 @@ return {
             e_polychrome = {
                 name = "Polychrome",
                 text = {
-                    "{X:mult,C:white} x#1# {} Multi"
+                    "{X:mult,C:white}x#1#{} Multi"
                 }
             },
             e_negative = {
@@ -2258,7 +2258,7 @@ return {
             m_steel = {
                 name = "Carte Acier",
                 text = {
-                    "{X:mult,C:white} x#1# {} Multi tant",
+                    "{X:mult,C:white}x#1#{} Multi tant",
                     "que cette carte",
                     "est gardée en main"
                 }
