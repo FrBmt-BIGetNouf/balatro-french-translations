@@ -91,6 +91,10 @@ set "fr_assetsJokers1x=%fr_repository%/assets/1x/Jokers.png"
 set "fr_assetsJokers2x=%fr_repository%/assets/2x/Jokers.png"
 set "fr_assetsShopSignAnimation1x=%fr_repository%/assets/1x/ShopSignAnimation.png"
 set "fr_assetsShopSignAnimation2x=%fr_repository%/assets/2x/ShopSignAnimation.png"
+set "fr_assets8BitDeck1x=%fr_repository%/assets/1x/8BitDeck.png"
+set "fr_assets8BitDeck2x=%fr_repository%/assets/2x/8BitDeck.png"
+set "fr_assets8BitDeck_opt21x=%fr_repository%/assets/1x/8BitDeck_opt2.png"
+set "fr_assets8BitDeck_opt22x=%fr_repository%/assets/2x/8BitDeck_opt2.png"
 
 :: Téléchargement de Balamod
 if not exist "%resourcesFolder%\%balamodFile%" (
@@ -124,6 +128,10 @@ if "%download_assets%"=="true" (
     curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\2x\Jokers.png" %fr_assetsJokers2x%
     curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\1x\ShopSignAnimation.png" %fr_assetsShopSignAnimation1x%
     curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\2x\ShopSignAnimation.png" %fr_assetsShopSignAnimation2x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\1x\8BitDeck.png" %fr_assets8BitDeck1x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\2x\8BitDeck.png" %fr_assets8BitDeck2x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\1x\8BitDeck_opt2.png" %fr_assets8BitDeck_opt21x%
+    curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\2x\8BitDeck_opt2.png" %fr_assets8BitDeck_opt22x%
 )
 
 echo.
@@ -154,6 +162,10 @@ if not defined balatroFile (
         "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\2x\Jokers.png -o resources/textures/2x/Jokers.png
         "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\1x\ShopSignAnimation.png -o resources/textures/1x/ShopSignAnimation.png
         "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\2x\ShopSignAnimation.png -o resources/textures/2x/ShopSignAnimation.png
+        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\1x\8BitDeck.png -o resources/textures/1x/8BitDeck.png
+        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\2x\8BitDeck.png -o resources/textures/2x/8BitDeck.png
+        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\1x\8BitDeck_opt2.png -o resources/textures/1x/8BitDeck_opt2.png
+        "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\2x\8BitDeck_opt2.png -o resources/textures/2x/8BitDeck_opt2.png
     )
 ) else (
     :: Sinon on lui envoie le dossier du fichier Balatro.exe selectionné précédemment.
@@ -174,6 +186,10 @@ if not defined balatroFile (
         "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\2x\Jokers.png -o resources/textures/2x/Jokers.png
         "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\1x\ShopSignAnimation.png -o resources/textures/1x/ShopSignAnimation.png
         "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\2x\ShopSignAnimation.png -o resources/textures/2x/ShopSignAnimation.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\1x\8BitDeck.png -o resources/textures/1x/8BitDeck.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\2x\8BitDeck.png -o resources/textures/2x/8BitDeck.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\1x\8BitDeck_opt2.png -o resources/textures/1x/8BitDeck_opt2.png
+        "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\2x\8BitDeck_opt2.png -o resources/textures/2x/8BitDeck_opt2.png
     )
 )
 

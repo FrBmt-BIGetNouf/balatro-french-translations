@@ -91,6 +91,10 @@ download_mod_fr() {
     fr_assets_Jokers_2x="${fr_repository}/assets/2x/Jokers.png"
     fr_assets_ShopSignAnimation_1x="${fr_repository}/assets/1x/ShopSignAnimation.png"
     fr_assets_ShopSignAnimation_2x="${fr_repository}/assets/2x/ShopSignAnimation.png"
+    fr_assets_8BitDeck_1x="${fr_repository}/assets/1x/8BitDeck.png"
+    fr_assets_8BitDeck_2x="${fr_repository}/assets/2x/8BitDeck.png"
+    fr_assets_8BitDeck_opt2_1x="${fr_repository}/assets/1x/8BitDeck_opt2.png"
+    fr_assets_8BitDeck_opt2_2x="${fr_repository}/assets/2x/8BitDeck_opt2.png"
 
     curl --create-dirs -o "${ressources_folder}/fr.lua" -LJ "${fr_translation}"
 
@@ -109,6 +113,10 @@ download_mod_fr() {
         curl --create-dirs -o "${ressources_folder}/assets/2x/Jokers.png" -LJ "${fr_assets_Jokers_2x}"
         curl --create-dirs -o "${ressources_folder}/assets/1x/ShopSignAnimation.png" -LJ "${fr_assets_ShopSignAnimation_1x}"
         curl --create-dirs -o "${ressources_folder}/assets/2x/ShopSignAnimation.png" -LJ "${fr_assets_ShopSignAnimation_2x}"
+        curl --create-dirs -o "${ressources_folder}/assets/1x/8BitDeck.png" -LJ "${fr_assets_8BitDeck_1x}"
+        curl --create-dirs -o "${ressources_folder}/assets/2x/8BitDeck.png" -LJ "${fr_assets_8BitDeck_2x}"
+        curl --create-dirs -o "${ressources_folder}/assets/1x/8BitDeck_opt2.png" -LJ "${fr_assets_8BitDeck_opt2_1x}"
+        curl --create-dirs -o "${ressources_folder}/assets/2x/8BitDeck_opt2.png" -LJ "${fr_assets_8BitDeck_opt2_2x}"
     fi
 
     echo ""
@@ -139,6 +147,10 @@ mod_injection() {
         ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/2x/Jokers.png -o resources/textures/2x/Jokers.png
         ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/1x/ShopSignAnimation.png -o resources/textures/1x/ShopSignAnimation.png
         ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/2x/ShopSignAnimation.png -o resources/textures/2x/ShopSignAnimation.png
+        ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/1x/8BitDeck.png -o resources/textures/1x/8BitDeck.png
+        ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/2x/8BitDeck.png -o resources/textures/2x/8BitDeck.png
+        ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/1x/8BitDeck_opt2.png -o resources/textures/1x/8BitDeck_opt2.png
+        ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/2x/8BitDeck_opt2.png -o resources/textures/2x/8BitDeck_opt2.png
     fi
 
     echo "${color_reset}"
