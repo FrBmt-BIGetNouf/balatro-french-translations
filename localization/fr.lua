@@ -1308,8 +1308,8 @@ return {
             j_bull = {
                 name = "Taureau",
                 text = {
-                    "{C:chips}+#1#{} Jetons par",
-                    "{C:money}dollar{} possédé",
+                    "{C:chips}+#1#{} Jetons",
+                    "par {C:money}1${} possédé",
                     "{C:inactive}(Actuellement {C:chips}+#2#{C:inactive} Jetons)"
                 }
             },
@@ -2126,7 +2126,7 @@ return {
                 }
             },
             c_soul = {
-                name = "L'Ame",
+                name = "L'Âme",
                 text = {
                     "Crée un Joker",
                     "{C:legendary,E:1}Légendaire{}",
@@ -3030,7 +3030,7 @@ return {
                 name = "Bloqué",
                 text = {
                     "Créer ce Joker avec",
-                    "la carte {C:spectral}L'Ame{}"
+                    "la carte {C:spectral}L'Âme{}"
                 }
             },
             undiscovered_joker = {
