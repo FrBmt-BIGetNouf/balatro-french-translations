@@ -2347,7 +2347,7 @@ return {
                 name = "Mise dorée",
                 text = {
                     "Les boutiques peuvent posséder des Jokers en {C:attention}Location{}",
-                    "{C:inactive,s:0.8}(Coûte {C:money,s:0.8}3${C:inactive,s:0.8} par manche)",
+                    "{C:inactive,s:0.8}(Coûte {C:money,s:0.8}3${C:inactive,s:0.8} à la fin de la manche)",
                     "{s:0.8}Applique toutes les mises précédentes"
                 }
             }
@@ -3269,7 +3269,7 @@ return {
             rental = {
                 name = "Location",
                 text = {
-                    "Coûte {C:money}$#1#{} à",
+                    "Coûte {C:money}#1#${} à",
                     "la fin de la manche"
                 }
             },
