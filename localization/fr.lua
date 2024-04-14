@@ -3764,7 +3764,7 @@ return {
             a_handsize = "+#1# à la taille de la main",
             a_hands = "+#1# mains",
             a_sold_tally = "#1#/#2# vendu",
-            a_remaining = "#1# restant",
+            a_remaining = "#1# restante(s)",
             ante_x_voucher = "COUPON DE L'ANTE #1#",
             loyalty_active = "Active cette main !",
             loyalty_inactive = "S'activera après #1# main(s)",
