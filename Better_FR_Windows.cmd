@@ -95,6 +95,7 @@ set "fr_assets8BitDeck1x=%fr_repository%/assets/1x/8BitDeck.png"
 set "fr_assets8BitDeck2x=%fr_repository%/assets/2x/8BitDeck.png"
 set "fr_assets8BitDeck_opt21x=%fr_repository%/assets/1x/8BitDeck_opt2.png"
 set "fr_assets8BitDeck_opt22x=%fr_repository%/assets/2x/8BitDeck_opt2.png"
+set "font_m6x11plus=%fr_repository%/resources/fonts/m6x11plus.ttf"
 
 :: Téléchargement de Balamod
 if not exist "%resourcesFolder%\%balamodFile%" (
@@ -112,6 +113,7 @@ echo.
 echo Telechargement du mod FR...
 echo.
 curl --ssl-no-revoke -L -o "%resourcesFolder%\fr.lua" %fr_translation%
+curl --ssl-no-revoke -L -o "%resourcesFolder%\resources\fonts\m6x11plus.ttf" %font_m6x11plus%
 
 if "%download_assets%"=="true" (
     curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\1x\boosters.png" %fr_assetsBoosters1x%
@@ -147,6 +149,7 @@ echo.
 if not defined balatroFile (
     :: Si Steam installé par défaut, on laisse Balamod chercher le fichier Balatro.
     "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\fr.lua -o localization/fr.lua
+    "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\resources\fonts\m6x11plus.ttf -o resources/fonts/m6x11plus.ttf
     if "%download_assets%"=="true" (
         "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\1x\boosters.png -o resources/textures/1x/boosters.png
         "./%resourcesFolder%\%balamodFile%" -x -i .\%resourcesFolder%\assets\2x\boosters.png -o resources/textures/2x/boosters.png
@@ -171,6 +174,7 @@ if not defined balatroFile (
     :: Sinon on lui envoie le dossier du fichier Balatro.exe selectionné précédemment.
     for %%A in ("!balatroFile!") do set "balatroFolder=%%~dpA"
     "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\fr.lua -o localization/fr.lua
+    "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\resources\fonts\m6x11plus.ttf -o resources/fonts/m6x11plus.ttf
     if "%download_assets%"=="true" (
         "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\1x\boosters.png -o resources/textures/1x/boosters.png
         "./%resourcesFolder%\%balamodFile%" -b !balatroFolder! -x -i .\%resourcesFolder%\assets\2x\boosters.png -o resources/textures/2x/boosters.png
