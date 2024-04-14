@@ -1176,8 +1176,9 @@ return {
             j_baron = {
                 name = "Baron",
                 text = {
-                    "Chaque carte {C:attention}Roi{} gardée",
-                    "en main octroie {X:mult,C:white}x#1#{} Multi"
+                    "{X:mult,C:white}x#1#{} Multi par",
+                    "carte {C:attention}Roi{}",
+                    "gardée en main"
                 }
             },
             j_cloud_9 = {
