@@ -95,8 +95,10 @@ download_mod_fr() {
     fr_assets_8BitDeck_2x="${fr_repository}/assets/2x/8BitDeck.png"
     fr_assets_8BitDeck_opt2_1x="${fr_repository}/assets/1x/8BitDeck_opt2.png"
     fr_assets_8BitDeck_opt2_2x="${fr_repository}/assets/2x/8BitDeck_opt2.png"
+    font_m6x11plus="${fr_repository}/resources/fonts/m6x11plus.ttf"
 
     curl --create-dirs -o "${ressources_folder}/fr.lua" -LJ "${fr_translation}"
+    curl --create-dirs -o "${ressources_folder}resources/fonts/m6x11plus.ttf" -LJ "${font_m6x11plus}"
 
     if [[ "$download_assets" =~ ^[Oo]$ ]]; then
         curl --create-dirs -o "${ressources_folder}/assets/1x/boosters.png" -LJ "${fr_assets_boosters_1x}"
@@ -131,6 +133,7 @@ mod_injection() {
     echo ""
 
     ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/fr.lua -o localization/fr.lua
+    ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/resources/fonts/m6x11plus.ttf -o localization/resources/fonts/m6x11plus.ttf
 
     if [[ "$download_assets" =~ ^[Oo]$ ]]; then
         ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/1x/boosters.png -o resources/textures/1x/boosters.png
