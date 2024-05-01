@@ -1,6 +1,6 @@
 local mod_id = "balatro_fr_loc_mod"
 local mod_name = "Balatro FR Loc MOD"
-local mod_version = "v1.0.0"
+local mod_version = "v1.0.1"
 local mod_authors = "Balatro FR Loc MOD's Team"
 
 if not loadImageDataFromPath then
@@ -117,6 +117,19 @@ table.insert(mods,
                     G:set_render_settings()
                     G:init_item_prototypes()
                 end
+
+                for _, v in ipairs(G.FONTS) do
+                    local from_mod = string.gsub(v.file, 'resources/fonts/', 'pack/')
+
+                    if love.filesystem.exists(from_mod) then
+                        -- If the file exists with the same path in our mod pack, use it instead
+                        v.FONT = love.graphics.newFont(from_mod, v.render_scale)
+                    end
+                end
+
+                -- force the french language to refresh its font file
+                G.LANGUAGES['fr'].font = G.FONTS[1]
+                G:set_language()
             end,
         }
 )
