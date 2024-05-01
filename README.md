@@ -21,16 +21,16 @@ A humble community-made version of the French localization of Balatro.
 
 ### Translations
 
-✅ v1.0.0 — 100% of the game is translated in French.
+✅ v1.0.1 — 100% of the game is translated in French.
 
 ### Installers
 
 | Category                                     | Status | Comment            |
 | -------------------------------------------- | ------ | ------------------ |
-| [Easy, 1-click script](QUICKSTART.md)        | ✔️     | Ready for release  |
-| [Steamodded](INSTALL.md#via-un-mod)          | ✔️     | Ready for release  |
-| [Balamod](https://github.com/UwUDev/balamod) | ✔️     | Ready for release (Thanks UwU o/)   |
-| [Manual](INSTALL.md#à-la-main)               | ✔️     | Tutorial available |
+| [Easy, 1-click script](QUICKSTART.md)        | ✔️     | |
+| [Manual](INSTALL.md#à-la-main)               | ✔️     | |
+| [Steamodded](INSTALL.md#via-un-mod)          | ⌛    | Manque : Import de la font |
+| [Balamod](https://github.com/UwUDev/balamod) | ⌛    | Manque : Import de la font |
 
 ## Contributing
 
