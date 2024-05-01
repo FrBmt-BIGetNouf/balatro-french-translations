@@ -2961,6 +2961,12 @@ return {
                     "{C:chips}+#1#{} Jetons supplémentaires"
                 }
             },
+            remove_negative = {
+                name = "Négatif",
+                text = {
+                    "{C:inactive,s:0.9}(Supprime le {C:dark_edition,s:0.9}Negatif{C:inactive,s:0.9} de la copie)"
+                }
+            },
             locked = {
                 name = "Bloqué",
                 text = {}
@@ -3586,6 +3592,7 @@ return {
             k_no_reward = "Pas de récompense",
             k_reward = "Récompense",
             k_nope_ex = "Nope!",
+            k_not_allowed_ex = "Non autorisé !",
             k_or = "ou",
             k_balanced = "Moyennés",
             ph_improve_run = "Améliorez votre partie !",
@@ -3597,6 +3604,7 @@ return {
             ph_up_ante_1 = "Ante suivante :",
             ph_up_ante_2 = "Augmente toutes les Blindes",
             ph_up_ante_3 = "Actualise les Blindes",
+            ph_select_challenge = "Sélectionnez un défi",
             ph_stat_joker = "Nombre total de manches effectuées avec cette carte",
             ph_stat_consumable = "Nombre de fois où cette carte a été utilisée",
             ph_stat_voucher = "Nombre de fois où ce Coupon a été échangé",
