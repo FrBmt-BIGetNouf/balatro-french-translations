@@ -39,8 +39,9 @@ Ne cherchez plus 👉 [**cliquez ici pour installer la traduction FR de Balatro 
 5. Faites un clic-droit sur `Balatro.exe`, puis dans le menu *7-Zip*, cliquez sur *Ouvrir archive* (ou *Open archive*).
 6. Dans 7zip, ouvrez le dossier `localization`.
 7. Glissez et déposez le fichier `fr.lua` qui se trouve dans le dossier `localization` de l’archive que vous avez téléchargée à l’étape 3, et confirmez la copie du fichier.
-8. De la même manière, remplacez les images du jeu qui se trouvent dans le dossier `resources/textures` par celles qui se trouvent dans le dossier `localization/assets` de l’archive que vous avez téléchargée à l’étape 3. **Ne remplacez que les images existantes dans notre archive et ne supprimez pas les autres.**
-9. **Lancez le jeu** et si ça n’est pas déjà fait, sélectionnez la langue française avec le bouton en bas à droite. Balatro est traduit en Français 🥳
+8. Glissez et déposez le fichier `m6x11plus.ttf` qui se trouve dans le dossier `resources/fonts` de l’archive que vous avez téléchargée à l’étape 3, et confirmez la copie du fichier.
+9. De la même manière, remplacez les images du jeu qui se trouvent dans le dossier `resources/textures` par celles qui se trouvent dans le dossier `localization/assets` de l’archive que vous avez téléchargée à l’étape 3. **Ne remplacez que les images existantes dans notre archive et ne supprimez pas les autres.**
+10. **Lancez le jeu** et si ça n’est pas déjà fait, sélectionnez la langue française avec le bouton en bas à droite. Balatro est traduit en Français 🥳
 
 > [!IMPORTANT]
 > La mise à jour des fichiers doivent se faire à chaque nouvelle mise à jour du jeu.
