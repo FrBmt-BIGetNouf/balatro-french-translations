@@ -11,7 +11,7 @@ function SMODS.INIT.Better_FR()
     G.F_NO_ACHIEVEMENTS = false
 
     local mod = SMODS.findModByID("Better_FR")
-	local lang_path = mod.path.."fr.lua"
+    local lang_path = mod.path.."fr.lua"
 
     local function apply_sprites()
         local sprite_bstr = SMODS.Sprite:new("Booster", mod.path, "boosters.png", 71, 95, "asset_atli")
@@ -31,12 +31,22 @@ function SMODS.INIT.Better_FR()
         sprite_shop:register()
     end
 
+    local function apply_font()
+        for _, v in ipairs(G.FONTS) do
+            -- If the file exists with the same path in our mod pack, use it instead
+            if love.filesystem.getInfo(mod.path..v.file) then
+                v.FONT = love.graphics.newFont(mod.path..v.file, v.render_scale)
+            end
+        end
+    end
+
     local function apply_patch()
         G.localization = assert(loadstring(love.filesystem.read(lang_path)))()
         init_localization()
         apply_sprites()
-	end
-	
+        apply_font()
+    end
+
     if love.filesystem.exists(lang_path) and G.LANG.key == "fr" then
         apply_patch()
     end
