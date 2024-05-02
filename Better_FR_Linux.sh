@@ -133,7 +133,7 @@ mod_injection() {
     echo ""
 
     ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/fr.lua -o localization/fr.lua
-    ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/resources/fonts/m6x11plus.ttf -o localization/resources/fonts/m6x11plus.ttf
+    ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/resources/fonts/m6x11plus.ttf -o resources/fonts/m6x11plus.ttf
 
     if [[ "$download_assets" =~ ^[Oo]$ ]]; then
         ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/assets/1x/boosters.png -o resources/textures/1x/boosters.png
