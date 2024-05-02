@@ -4,7 +4,7 @@
 :: Fichier de langue et assets créés par la communauté Discord (Balatro FR - loc mod) : https://discord.gg/kQMdHTXB3Z
 :: Toutes les sources à jour sont disponibles ici : https://github.com/FrBmt-BIGetNouf/balatro-french-translations/
 ::
-:: Ce script utilise Balamod pour injecter les ressources au jeu (https://github.com/UwUDev/balamod)
+:: Ce script utilise Balamod pour injecter les ressources au jeu (https://github.com/balamod/balamod)
 ::
 ::
 ::    ==================================
@@ -70,11 +70,11 @@ if not exist "%resourcesFolder%\assets\1x" mkdir "%resourcesFolder%\assets\1x"
 if not exist "%resourcesFolder%\assets\2x" mkdir "%resourcesFolder%\assets\2x"
 
 :: Récupération de nom de la dernière release de Balamod
-for /f %%a in ('powershell -command "$tag = (Invoke-RestMethod -Uri 'https://api.github.com/repos/UwUDev/balamod/releases/latest').tag_name; $tag"') do set latestTag=%%a
+for /f %%a in ('powershell -command "$tag = (Invoke-RestMethod -Uri 'https://api.github.com/repos/balamod/balamod/releases/latest').tag_name; $tag"') do set latestTag=%%a
 
 :: Creation des noms et liens des fichiers. Valable uniquement tant que le fichier windows s'appelle bien balamod-v.y.z-windows.exe.
 set "balamodFile=balamod-%latestTag%-windows.exe"
-set "balamodFileUrl=https://github.com/UwUDev/balamod/releases/download/%latestTag%/%balamodFile%"
+set "balamodFileUrl=https://github.com/balamod/balamod/releases/download/%latestTag%/%balamodFile%"
 set "fr_repository=https://raw.githubusercontent.com/FrBmt-BIGetNouf/balatro-french-translations/main/localization"
 set "fr_translation=%fr_repository%/fr.lua"
 set "fr_assetsBoosters1x=%fr_repository%/assets/1x/boosters.png"
