@@ -27,10 +27,10 @@ A humble community-made version of the French localization of Balatro.
 
 | Category                                     | Status | Comment            |
 | -------------------------------------------- | ------ | ------------------ |
-| [Easy, 1-click script](QUICKSTART.md)        | ✔️     | |
-| [Manual](INSTALL.md#à-la-main)               | ✔️     | |
-| [Steamodded](INSTALL.md#via-un-mod)          | ⌛    | Manque : Import de la font |
-| [Balamod](https://github.com/UwUDev/balamod) | ⌛    | Manque : Import de la font |
+| [Easy, 1-click script](QUICKSTART.md)        | ✔️      | |
+| [Steamodded](INSTALL.md#via-un-mod)          | ✔️      | |
+| [Balamod](https://github.com/UwUDev/balamod) | ✔️      | |
+| [Manual](INSTALL.md#à-la-main)               | ✔️      | |
 
 ## Contributing
 
@@ -40,7 +40,7 @@ If you are interested in replicating the same work for another language, **feel 
 
 ## Contributors
 
-Robin Lassire, Gabriel Rodrigues, Pierre-Alexandre Rouillon, Stanislas Signoud (Signez), Bastien Luneteau, Quentin Furtys, Nicolas Cordier, François Beaumont.
+Robin Lassire, Gabriel Rodrigues, Pierre-Alexandre Rouillon, Stanislas Signoud (Signez), Bastien Luneteau, Quentin Furtys, Nicolas Cordier, David Lefebvre, François Beaumont.
 
 ## License
 
