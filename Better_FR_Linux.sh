@@ -98,7 +98,7 @@ download_mod_fr() {
     font_m6x11plus="${fr_repository}/resources/fonts/m6x11plus.ttf"
 
     curl --create-dirs -o "${ressources_folder}/fr.lua" -LJ "${fr_translation}"
-    curl --create-dirs -o "${ressources_folder}resources/fonts/m6x11plus.ttf" -LJ "${font_m6x11plus}"
+    curl --create-dirs -o "${ressources_folder}/resources/fonts/m6x11plus.ttf" -LJ "${font_m6x11plus}"
 
     if [[ "$download_assets" =~ ^[Oo]$ ]]; then
         curl --create-dirs -o "${ressources_folder}/assets/1x/boosters.png" -LJ "${fr_assets_boosters_1x}"

@@ -13,7 +13,9 @@ Avant tout, vérifiez juste que :
 - **Fermez Balatro**
 - Passez en mode bureau.
 - Téléchargez le fichier [Better_FR_Linux.sh](https://github.com/FrBmt-BIGetNouf/balatro-french-translations/releases/latest/download/Better_FR_Linux.sh)
-- **Cliquez-droit** sur le script `Better_FR_Linux.sh` que vous venez de télécharger et choisir `Run In Konsole`.
+- **Cliquez-droit** sur le script `Better_FR_Linux.sh` que vous venez de télécharger et choisir `Properties`.
+  - Dans l'onglet `Permissions` cochez la case `Is executable`. Validez avec le bouton Ok.
+- **Fermez** la fenêtre de propriétés, **Cliquez-droit** sur le script `Better_FR_Linux.sh` et choisir `Run In Konsole`.
 - Répondez *O* pour confirmer (ou *N*) que vous voulez bien traduire les images du jeu.
 - **Lancez le jeu Balatro depuis Steam** et si ça n’est pas déjà fait, sélectionnez la langue française avec le bouton en bas à droite. Balatro est traduit en Français 🥳
 
