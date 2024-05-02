@@ -113,7 +113,7 @@ echo.
 echo Telechargement du mod FR...
 echo.
 curl --ssl-no-revoke -L -o "%resourcesFolder%\fr.lua" %fr_translation%
-curl --ssl-no-revoke -L -o "%resourcesFolder%\resources\fonts\m6x11plus.ttf" %font_m6x11plus%
+curl --ssl-no-revoke --create-dirs -L -o "%resourcesFolder%\resources\fonts\m6x11plus.ttf" %font_m6x11plus%
 
 if "%download_assets%"=="true" (
     curl --ssl-no-revoke -L -o "%resourcesFolder%\assets\1x\boosters.png" %fr_assetsBoosters1x%

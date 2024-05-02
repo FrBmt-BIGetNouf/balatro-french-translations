@@ -13,7 +13,7 @@ Ne cherchez plus 👉 [**cliquez ici pour installer la traduction FR de Balatro 
 ## Via un mod
 
 ### Avec Balamod (marche aussi sur SteamDeck, Linux, et MacOS)
-1. Moddez votre jeu avec **Balamod** en suivant la [procédure d'installation de Balamod (en anglais)](https://github.com/UwUDev/balamod).
+1. Moddez votre jeu avec **Balamod** en suivant la [procédure d'installation de Balamod (en anglais)](https://github.com/balamod/balamod).
 2. **Lancez le jeu**, cliquez sur le bouton "MOD" et téléchargez `Balatro FR Loc MOD`
 3. Si ça n’est pas déjà fait, sélectionnez la langue française avec le bouton en bas à droite. Balatro est traduit en Français 🥳
 

@@ -25,12 +25,12 @@ A humble community-made version of the French localization of Balatro.
 
 ### Installers
 
-| Category                                     | Status | Comment            |
-| -------------------------------------------- | ------ | ------------------ |
-| [Easy, 1-click script](QUICKSTART.md)        | ✔️      | |
-| [Steamodded](INSTALL.md#via-un-mod)          | ✔️      | |
-| [Balamod](https://github.com/UwUDev/balamod) | ✔️      | |
-| [Manual](INSTALL.md#à-la-main)               | ✔️      | |
+| Category                                      | Status | Comment            |
+| --------------------------------------------- | ------ | ------------------ |
+| [Easy, 1-click script](QUICKSTART.md)         | ✔️      | |
+| [Steamodded](INSTALL.md#via-un-mod)           | ✔️      | |
+| [Balamod](https://github.com/balamod/balamod) | ✔️      | |
+| [Manual](INSTALL.md#à-la-main)                | ✔️      | |
 
 ## Contributing
 

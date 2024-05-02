@@ -6,7 +6,7 @@
 # Fichier de langue et assets créés par la communauté Discord (Balatro FR - loc mod) : https://discord.gg/kQMdHTXB3Z
 # Toutes les sources à jour sont disponibles ici : https://github.com/FrBmt-BIGetNouf/balatro-french-translations/
 #
-# Ce script utilise Balamod pour injecter les ressources au jeu (https://github.com/UwUDev/balamod)
+# Ce script utilise Balamod pour injecter les ressources au jeu (https://github.com/balamod/balamod)
 #
 #    ==================================
 #    ==  PERDU(E) ? NE PANIQUEZ PAS  ==
@@ -48,7 +48,7 @@ download_balamod() {
     echo "Téléchargement de Balamod..."
     echo ""
     # On obtient les données de la dernière release via l'API Github.
-    json_latest_release=$(curl -s "https://api.github.com/repos/UwUDev/balamod/releases/latest")
+    json_latest_release=$(curl -s "https://api.github.com/repos/balamod/balamod/releases/latest")
 
     # Recherche du nom de la dernière release.
     latest_release=$( echo $json_latest_release | grep -oP 'tag/\K[^"]+')
@@ -57,7 +57,7 @@ download_balamod() {
     balamod_linux_file=$( echo $json_latest_release | jq -r '.assets[] | select(.name | contains("linux")).name')
 
     # URL de téléchargement du fichier.
-    linux_file_url="https://github.com/UwUDev/balamod/releases/download/${latest_release}/${balamod_linux_file}"
+    linux_file_url="https://github.com/balamod/balamod/releases/download/${latest_release}/${balamod_linux_file}"
 
     # Téléchargement si Balamod n'existe pas
     if [ ! -e "${ressources_folder}/${balamod_linux_file}" ]; then
