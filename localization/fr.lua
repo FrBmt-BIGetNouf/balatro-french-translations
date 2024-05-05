@@ -2964,7 +2964,7 @@ return {
             remove_negative = {
                 name = "Négatif",
                 text = {
-                    "{C:inactive,s:0.9}(Supprime le {C:dark_edition,s:0.9}Negatif{C:inactive,s:0.9} de la copie)"
+                    "{C:inactive,s:0.9}(Supprime le {C:dark_edition,s:0.9}Négatif{C:inactive,s:0.9} de la copie)"
                 }
             },
             locked = {
@@ -4040,7 +4040,7 @@ return {
             },
             s_11 = {
                 "Pensez à regarder les deux",
-                "{C:booster}Paquets Booster{} dans",
+                "{C:booster}Paquets Additionnels{} dans",
                 "chaque boutique. Ils",
                 "renferment de belles surprises !"
             },
