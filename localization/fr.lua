@@ -3592,7 +3592,7 @@ return {
             k_no_reward = "Pas de récompense",
             k_reward = "Récompense",
             k_nope_ex = "Nope!",
-            k_not_allowed_ex = "Non autorisé !",
+            k_not_allowed_ex = "Non autorisé !",
             k_or = "ou",
             k_balanced = "Moyennés",
             ph_improve_run = "Améliorez votre partie !",
