@@ -3494,7 +3494,7 @@ return {
             b_spectral_cards = "Cartes Spectrales",
             b_enhanced_cards = "Améliorations",
             b_editions = "Éditions",
-            b_booster_packs = "Paquets additionnels",
+            b_booster_packs = "Paquets Additionnels",
             b_tags = "Badges",
             b_decks = "Jeux",
             b_continue = "Continuer",
