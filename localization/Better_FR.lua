@@ -15,13 +15,13 @@ local mod = SMODS.current_mod
 local function apply_sprites()
 	sendDebugMessage("Application des sprites...")
 
-	local sprite_bstr = SMODS.Atlas { key = "Booster", px = 71, py = 95, path = "boosters.png", prefix_config = { key = false } }
-	local sprite_trts = SMODS.Atlas { key = "Tarot", px = 71, py = 95, path = "Tarots.png", prefix_config = { key = false } }
-	local sprite_vchr = SMODS.Atlas { key = "Voucher", px = 71, py = 95, path = "Vouchers.png", prefix_config = { key = false } }
-	local sprite_icon = SMODS.Atlas { key = "icons", px = 66, py = 66, path = "icons.png", prefix_config = { key = false } }
-	local sprite_blch = SMODS.Atlas { key = "blind_chips", px = 34, py = 34, path = "BlindChips.png", atlas_table = "ANIMATION_ATLAS", frames = 21, prefix_config = { key = false } }
-	local sprite_jokr = SMODS.Atlas { key = "Joker", px = 71, py = 95, path = "Jokers.png", prefix_config = { key = false } }
-	local sprite_shop = SMODS.Atlas { key = "shop_sign", px = 71, py = 95, path = "ShopSignAnimation.png", atlas_table = "ANIMATION_ATLAS", frames = 4, prefix_config = { key = false } }
+	SMODS.Atlas { key = "Booster", path = { ['fr'] = 'boosters.png', }, px = 71, py = 95, prefix_config = { key = false } }
+	SMODS.Atlas { key = "Tarot", path = { ['fr'] = 'Tarots.png', }, px = 71, py = 95, prefix_config = { key = false } }
+	SMODS.Atlas { key = "Voucher", path = { ['fr'] = 'Vouchers.png', }, px = 71, py = 95, prefix_config = { key = false } }
+	SMODS.Atlas { key = "icons", path = { ['fr'] = 'icons.png', }, px = 66, py = 66, prefix_config = { key = false } }
+	SMODS.Atlas { key = "Joker", path = { ['fr'] = 'Jokers.png', }, px = 71, py = 95, prefix_config = { key = false } }
+	SMODS.Atlas { key = "blind_chips", path = { ['fr'] = "BlindChips.png", }, px = 34, py = 34, prefix_config = { key = false }, atlas_table = 'animation_atli', frames = 21 }
+	SMODS.Atlas { key = "shop_sign", path = { ['fr'] = "ShopSignAnimation.png", }, px = 113, py = 57, prefix_config = { key = false }, atlas_table = 'animation_atli', frames = 4 }
 end
 
 local function apply_font()
