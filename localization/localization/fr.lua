@@ -3328,6 +3328,24 @@ return {
             ['3'] = "3",
             ['2'] = "2"
         },
+        collabs = {
+            Spades = {
+                ['1'] = 'Par défaut', 
+                ['2'] = 'The Witcher',
+            },
+            Hearts = {
+                ['1'] = 'Par défaut', 
+                ['2'] = 'Among Us'
+            },
+            Clubs = {
+                ['1'] = 'Par défaut', 
+                ['2'] = 'Vampire Survivors'
+            },
+            Diamonds = {
+                ['1'] = 'Par défaut', 
+                ['2'] = 'DAVE THE DIVER'
+            },
+        },
         high_scores = {
             hand = "Meilleure main",
             furthest_round = "Plus haute manche",
@@ -3453,6 +3471,7 @@ return {
             b_copy_seed = "Copier la seed",
             b_credits = "Crédits",
             b_stats = "Stats",
+            b_customize_deck = "Personnaliser le Jeu",
             b_settings = "Paramètres",
             b_set_game = "Jeu",
             b_set_video = "Vidéo",
@@ -3595,6 +3614,7 @@ return {
             k_not_allowed_ex = "Non autorisé !",
             k_or = "ou",
             k_balanced = "Moyennés",
+            ph_display_stsickers = "Afficher les autocollants des Mises pendant la partie",
             ph_improve_run = "Améliorez votre partie !",
             ph_sneak_peek = "Coup d'œil furtif",
             ph_deck_preview_stones = "Pierres",
