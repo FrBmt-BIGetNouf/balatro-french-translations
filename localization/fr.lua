@@ -3614,7 +3614,7 @@ return {
             k_not_allowed_ex = "Non autorisé !",
             k_or = "ou",
             k_balanced = "Moyennés",
-            ph_display_stsickers = "Afficher les autocollants des Mises pendant la partie",
+            ph_display_stickers = "Afficher les autocollants des Mises pendant la partie",
             ph_improve_run = "Améliorez votre partie !",
             ph_sneak_peek = "Coup d'œil furtif",
             ph_deck_preview_stones = "Pierres",
