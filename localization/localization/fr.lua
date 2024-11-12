@@ -3347,7 +3347,7 @@ return {
             Diamonds = {
                 ['1'] = 'Par défaut', 
                 ['2'] = 'DAVE THE DIVER',
-                ['2'] = 'Stardew Valley',
+                ['3'] = 'Stardew Valley',
             },
         },
         high_scores = {
