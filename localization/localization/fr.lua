@@ -3332,18 +3332,22 @@ return {
             Spades = {
                 ['1'] = 'Par défaut', 
                 ['2'] = 'The Witcher',
+                ['3'] = 'Cyberpunk 2077',
             },
             Hearts = {
                 ['1'] = 'Par défaut', 
                 ['2'] = 'Among Us'
+                ['3'] = 'The Binding of Isaac',
             },
             Clubs = {
                 ['1'] = 'Par défaut', 
                 ['2'] = 'Vampire Survivors'
+                ['3'] = 'Slay the Spire',
             },
             Diamonds = {
                 ['1'] = 'Par défaut', 
                 ['2'] = 'DAVE THE DIVER'
+                ['2'] = 'Stardew Valley',
             },
         },
         high_scores = {
@@ -3536,6 +3540,10 @@ return {
             b_collection_cap = "COLLECTION",
             b_quit_cap = "QUITTER",
             b_cash_out = "Encaisser ",
+            b_FAQ = "FAQ",
+            b_how_to_play = "Comment jouer",
+            b_retry = "Réessayer",
+            b_set_vibration = "Vibrations",
             k_unknown = "?????",
             k_compatible = "compatible",
             k_incompatible = "incompatible",
@@ -3644,6 +3652,30 @@ return {
             ph_1_level = "+1 Niveau",
             ph_boss_disabled = "Boss désactivé !",
             ph_most_played = "(main la plus jouée)",
+            ml_buy_and_use_target = {
+                "ACHETER",
+                "ET UTILISER",
+            },
+            ml_buy_target = {
+                "ACHETER",
+            },
+            ml_controller_required = {
+                "Une manette de jeu est requise pour jouer",
+                "Veuillez connecter une manette pour continuer.",
+            },
+            ml_offline_message = {
+                "Cet apppareil est hors ligne.",
+                "La savegarde actuelle est peut être obsolète.",
+            },
+            ml_open_target = {
+                "OUVRIR",
+            },
+            ml_redeem_target = {
+                "ÉCHANGER",
+            },
+            ml_sell_target = {
+                "VENDRE",
+            },
             ml_demo_thanks_message = {
                 "Pensez à ajouter Balatro",
                 "à votre liste de souhaits sur Steam et à vous inscrire",
@@ -3969,8 +4001,18 @@ return {
                 "également des {C:chips}Jetons{},",
                 "passez votre souris dessus pour savoir combien !"
             },
+            fh_4_touch = {
+                "Les cartes vous rapportent",
+                "également des {C:chips}Jetons{},",
+                "appuyez et maintenez pour savoir combien !"
+            },
             fh_5 = {
                 "À présent, choisissez jusqu'à",
+                "{C:attention}5{} cartes à jouer",
+                "et appuyez sur {C:blue}Jouer la main"
+            },
+            fh_5_touch = {
+                "À présent, touchez jusqu'à",
                 "{C:attention}5{} cartes à jouer",
                 "et appuyez sur {C:blue}Jouer la main"
             },
@@ -4004,7 +4046,13 @@ return {
             sh_3 = {
                 "Sélectionnez jusqu'à {C:attention}2{} cartes",
                 "dans votre main et appuyez sur",
-                "{C:attention}UTILISER{} sur la carte {C:tarot}Tarot{}",
+                "{C:attention}UTILISER{} sur la carte de {C:tarot}Tarot{}",
+                "pour les améliorer !"
+            },
+            sh_3_touch = {
+                "Sélectionnez jusqu'à {C:attention}2{} cartes",
+                "dans votre main et faites glisser",
+                "la carte de {C:tarot}Tarot{} sur {C:attention}UTILISER{}",
                 "pour les améliorer !"
             },
             s_1 = {
@@ -4016,6 +4064,12 @@ return {
             s_2 = {
                 "Essayez, achetez donc",
                 "ce beau diable !"
+            },
+            s_2_touch = {
+                "Essayez, achetez donc",
+                "ce beau diable !",
+                "Faites-le glisser de la boutique",
+                "à la zone {C:attention}ACHETER{}"
             },
             s_3 = {
                 "C'est l'un des {C:attention}#1# Jokers",
