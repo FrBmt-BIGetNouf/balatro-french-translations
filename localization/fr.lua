@@ -3336,17 +3336,17 @@ return {
             },
             Hearts = {
                 ['1'] = 'Par défaut', 
-                ['2'] = 'Among Us'
+                ['2'] = 'Among Us',
                 ['3'] = 'The Binding of Isaac',
             },
             Clubs = {
                 ['1'] = 'Par défaut', 
-                ['2'] = 'Vampire Survivors'
+                ['2'] = 'Vampire Survivors',
                 ['3'] = 'Slay the Spire',
             },
             Diamonds = {
                 ['1'] = 'Par défaut', 
-                ['2'] = 'DAVE THE DIVER'
+                ['2'] = 'DAVE THE DIVER',
                 ['2'] = 'Stardew Valley',
             },
         },
