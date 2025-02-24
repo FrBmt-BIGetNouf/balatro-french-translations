@@ -3335,7 +3335,7 @@ return {
                 ['3'] = 'Cyberpunk 2077',
                 ['4'] = 'Shovel Knight',
                 ['5'] = 'Don\'t Starve',
-                ['6'] = 'Assassin's Creed',
+                ['6'] = 'Assassin\'s Creed',
                 ['7'] = 'Slay the Princess',
             },
             Hearts = {
